@@ -29,8 +29,8 @@ For the past [five years](./2024_mitiq_impact), Unitary Foundation has developed
 Mitiq provides a suite of error mitigation techniques, including:
 
 - **Zero-Noise Extrapolation (ZNE)**: Extrapolates results from noisy runs at different noise levels to estimate the ideal result, and the subject of our first demonstration.
-- **Probabilistic Error Cancellation (PEC)**: Uses probabilistic techniques to cancel out noise in the results.
-- **Clifford Data Regression (CDR)**: Leverages the properties of Clifford gates to improve the accuracy of results.
+- **Probabilistic Error Cancellation (PEC)**: Uses hardware calibration data to create modified circuits to selectively cancel out noise in resulting expectation values.
+- **Clifford Data Regression (CDR)**: Leverages the efficient simulability of Clifford circuits to train a primitive model to correct the impact of errors.
 
 ## UCC
 
