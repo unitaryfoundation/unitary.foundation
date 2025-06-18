@@ -1,7 +1,7 @@
 ---
 title: "Better Together: Mitiq meets UCC"
-author: nate stemen
-day: 13
+author: nate stemen and Jordan Sullivan
+day: 18
 month: 6
 year: 2025
 tags: 
@@ -18,23 +18,25 @@ tags:
 
 Error mitigation and circuit compilation are two critical components of an effective quantum computing stack.
 Error mitigation works to reduce the impact of unwanted physics on the results of quantum circuit runs, enabling [larger achievable volumes](https://arxiv.org/abs/2203.05489), and [more accurate expectation values](https://quantum-journal.org/papers/q-2022-08-11-774/).
-Circuit compilation reduces the overall circuit volume, which in turn lowers the susceptibility to noise during execution.
+Circuit compilation reduces the overall circuit volume, which in turn reduces the number of possible errors in circuit execution -- more gates means more chances of encountering an error.
 
-While these two components of the stack are often used, and studied, independently, we believe that allowing them to work in conjunction can lead to even better results.
+While these two components of the stack are often used and studied independently, we have found that using them in conjunction can lead to even better results.
+In this blog post, we will walk you through our first demonstration combining quantum error mitigation and quantum circuit compilation.
 
 ## mitiq
 
-For the past [five years](./2024_mitiq_impact), Unitary Foundation has developed a powerful open-source library for quantum error mitigation called [Mitiq](https://mitiq.readthedocs.io).
+For the past [five years](./2024_mitiq_impact), Unitary Foundation has developed a powerful open-source library for quantum error mitigation called [Mitiq](https://mitiq.readthedocs.io) which has amassed 248k downloads on PyPI to date.
 Mitiq provides a suite of error mitigation techniques, including:
 
-- **Zero-Noise Extrapolation (ZNE)**: Extrapolates results from noisy runs at different noise levels to estimate the ideal result.
+- **Zero-Noise Extrapolation (ZNE)**: Extrapolates results from noisy runs at different noise levels to estimate the ideal result, and the subject of our first demonstration.
 - **Probabilistic Error Cancellation (PEC)**: Uses probabilistic techniques to cancel out noise in the results.
 - **Clifford Data Regression (CDR)**: Leverages the properties of Clifford gates to improve the accuracy of results.
 
 ## UCC
 
+The Unitary Foundation team has a unique vantage point on the open-source quantum software landscape, and last year we decided to dive into what we see as one of the biggest missing pieces of an open-source quantum stack: a **modular, cross-platform quantum circuit compiler**.
 Last year the Unitary Foundation team decided one of the biggest missing pieces of an open-source quantum stack was a **modular, cross-platform quantum circuit compiler**.
-We set to work and [launched](./2025_ucc_launch_blog) the [Unitary Compiler Collection (UCC)](https://ucc.readthedocs.io) earlier this year.
+We set to work and [launched](./2025_ucc_launch_blog) the [Unitary Compiler Collection (UCC)](https://github.com/unitaryfoundation/ucc) earlier this year.
 
 
 ## Bringing Them Together
@@ -66,7 +68,13 @@ mitigated_result = mitiq.zne.execute(
 )
 ```
 
-A more fleshed-out and complete example can be found in our [Mitiq + UCC tutorial](https://mitiq.readthedocs.io/en/stable/examples/ucc.html).
+A more fleshed-out and complete example can be found in our [Mitiq + UCC tutorial](https://mitiq.readthedocs.io/en/stable/examples/ucc.html), but the plot below shows the important part: compiling before applying ZNE leads to the most significant reduction in error amount the four combinations of compilation and mitigation.
+
+<div style="display: flex; justify-content: center;">
+  <figure style="margin: 0;">
+    <img src="/images/2025-mitiq-ucc/compilation-impact.png" width=600 alt="Horizontal bar plot with two bars showing the performance of compiled and uncompiled expectation values under a depolarizing noise model. Mitigation is shown as a shaded bar on top of each bar."/>
+  </figure> 
+</div>
 
 ## What's Next?
 
