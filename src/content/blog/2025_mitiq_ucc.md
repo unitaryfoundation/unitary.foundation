@@ -70,11 +70,15 @@ mitigated_result = mitiq.zne.execute(
 
 A more fleshed-out and complete example can be found in our [Mitiq + UCC tutorial](https://mitiq.readthedocs.io/en/stable/examples/ucc.html), but the plot below shows the important part: compiling before applying ZNE leads to the most significant reduction in error amount the four combinations of compilation and mitigation.
 
-<div style="display: flex; justify-content: center;">
-  <figure style="margin: 0;">
-    <img src="/images/2025-mitiq-ucc/compilation-impact.png" width=600 alt="Horizontal bar plot with two bars showing the performance of compiled and uncompiled expectation values under a depolarizing noise model. Mitigation is shown as a shaded bar on top of each bar."/>
-  </figure> 
-</div>
+<figure style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/images/2025-mitiq-ucc/compilation-impact.png" width="600" alt="Horizontal bar plot with two bars showing the performance of compiled and uncompiled expectation values under a depolarizing noise model. Mitigation is shown as a shaded bar on top of each bar."/>
+  <figcaption style="text-align: center; font-style: italic; color: gray; max-width: 600px;">
+    The impact of ZNE on pre- and post-compiled circuits which simulate the Heisenberg model on a square lattice.
+    The circuit acts on 8 qubits, and contains 241 layers with 144 two-qubit gates.
+    The error model used is depolarizing noise impacting two-qubit gates with a noise rate of 1%.
+  </figcaption>
+</figure>
+
 
 ## What's Next?
 
