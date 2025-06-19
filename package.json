@@ -76,5 +76,8 @@
   },
   "peerDependencies": {
     "vite": "^4"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
