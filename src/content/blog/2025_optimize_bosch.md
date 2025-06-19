@@ -14,7 +14,7 @@ This is the work done [Quantum Open Source Foundation](qosf.org) mentorship prog
 # Introduction
 Catalytic processes are the workhorses of industry – for example, the Haber–Bosch synthesis of ammonia runs under extreme conditions and consumes roughly 1% of the world’s energy supply. 
 
-$$\text{N}_2 + 3\text{H}_2 \overset{\text{Fe}}{\longrightarrow} 2\text{NH}_3$$.
+$$\text{N}_2 + 3\text{H}_2 \overset{\text{Fe}}{\longrightarrow} 2\text{NH}_3$$
 
 Understanding the reaction pathway with catalyst hopes to gain insights into the process, enhancing its efficiency. [1] has simulated the reaction using VASP using Fe211 as a catalyst as shown in Fig. 1. However, classical simulation methods like VASP quickly become forbiddenly expensive as the system grows, whereas quantum algorithms have long been [predicted](https://news.harvard.edu/gazette/story/2008/11/quantum-computers-could-excel-in-modeling-chemical-reactions/#:~:text=Quantum%20computers%20would%20likely%20outperform,model%20and%20predict%20complex%20chemical) to outperform classical computers in modeling complex chemical processes. Indeed, hybrid quantum–classical approaches offer a natural way to handle the many-body quantum chemistry and the classical geometry search in tandem. By offloading the hardest electronic-structure parts to a quantum processor, we can efficiently evaluate energies for different molecular configurations, then use classical routines to adjust positions and orientations.
 <figure>
