@@ -2,7 +2,7 @@
 title: Optimizing the Molecular geometry of the Haber-Bosch Process with Pennylane
 author: Minh Triet Chau
 day: 27
-month: 4
+month: 6
 year: 2025
 tags: 
   - simulator
@@ -12,11 +12,11 @@ tags:
 This is the work done [Quantum Open Source Foundation](qosf.org) mentorship program, Cohort 9. I would like to express my gratitude to my mentor Danial Motlagh and to QOSF.
 
 # Introduction
+Catalytic processes are the workhorses of industry – for example, the Haber–Bosch synthesis of ammonia runs under extreme conditions and consumes roughly 1% of the world’s energy supply. 
 
-$$\text{NH}_3$$ production uses 1% of the world's energy. The most widely adopted synthesis method, the Haber-Bosch process, is $$\text{N}_2 + 3\text{H}_2 \overset{\text{Fe}}{\longrightarrow} 2\text{NH}_3$$.
+$$\text{N}_2 + 3\text{H}_2 \overset{\text{Fe}}{\longrightarrow} 2\text{NH}_3$$.
 
-However, it is energy-intensive and relies on catalysts. Understanding the reaction pathway with catalyst hopes to gain insights into the process, enhancing its efficiency. [1] has simulated the reaction using VASP using Fe211 as a catalyst as shown in Fig. 1.
-Catalytic processes are the workhorses of industry – for example, the Haber–Bosch synthesis of ammonia runs under extreme conditions and consumes roughly 1% of the world’s energy supply. Improving or redesigning such reactions with better catalysts could yield enormous energy and environmental benefits. However, accurately modeling these reactions is very challenging, since one must capture not only the electronic structure but also how reactant molecules move and align in three-dimensional space. Classical simulation methods like VASP quickly become forbiddenly expensive as the system grows, whereas quantum algorithms have long been [predicted](https://news.harvard.edu/gazette/story/2008/11/quantum-computers-could-excel-in-modeling-chemical-reactions/#:~:text=Quantum%20computers%20would%20likely%20outperform,model%20and%20predict%20complex%20chemical) to outperform classical computers in modeling complex chemical processes. Indeed, hybrid quantum–classical approaches offer a natural way to handle the many-body quantum chemistry and the classical geometry search in tandem. By offloading the hardest electronic-structure parts to a quantum processor, we can efficiently evaluate energies for different molecular configurations, then use classical routines to adjust positions and orientations.
+Understanding the reaction pathway with catalyst hopes to gain insights into the process, enhancing its efficiency. [1] has simulated the reaction using VASP using Fe211 as a catalyst as shown in Fig. 1. However, classical simulation methods like VASP quickly become forbiddenly expensive as the system grows, whereas quantum algorithms have long been [predicted](https://news.harvard.edu/gazette/story/2008/11/quantum-computers-could-excel-in-modeling-chemical-reactions/#:~:text=Quantum%20computers%20would%20likely%20outperform,model%20and%20predict%20complex%20chemical) to outperform classical computers in modeling complex chemical processes. Indeed, hybrid quantum–classical approaches offer a natural way to handle the many-body quantum chemistry and the classical geometry search in tandem. By offloading the hardest electronic-structure parts to a quantum processor, we can efficiently evaluate energies for different molecular configurations, then use classical routines to adjust positions and orientations.
 <figure>
   <img src="/images/c124-4041-9f75-2d0e40e0a42d.png">
   <figcaption>Fig 1. Reaction pathway of the Harber-Bosch process in [1] </figcaption>
