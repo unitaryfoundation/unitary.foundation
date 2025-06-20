@@ -77,8 +77,8 @@ export default function TagFilter({ filterKey, filterValues }: SelectFilterProps
           break;
 
         case useCombobox.stateChangeTypes.InputChange:
-          if (newInputValue !== inputValue) {
-            setInputValue(newInputValue ?? '');
+          if (newInputValue != null && newInputValue !== inputValue) {
+            setInputValue(newInputValue);
           }
           break;
       }
