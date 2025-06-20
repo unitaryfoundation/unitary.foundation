@@ -41,7 +41,7 @@ HACKday IMAGES WILL GO HERE
 ## Projects + Maintainers
 unitaryHACK thrives thanks to our incredible community of maintainers, who generously guide and support new contributors on their projects. We're delighted to share this year's cohort of projects championed by these marvelous maintainers!
 
-| First Header  | Second Header | Second Header |
+|               |               |               |
 | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
