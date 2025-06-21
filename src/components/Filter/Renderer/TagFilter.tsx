@@ -47,7 +47,7 @@ export default function TagFilter({ filterKey, filterValues }: SelectFilterProps
   });
 
   const items = filterValues
-    .filter((item) => !filterValue.includes(item))
+    .filter((item) => !filterValue.includes(item) && item.toLowerCase().startsWith(inputValue.toLowerCase()))
     .sort((a, b) => a.localeCompare(b, 'en-US'));
 
   const {
@@ -77,7 +77,7 @@ export default function TagFilter({ filterKey, filterValues }: SelectFilterProps
           break;
 
         case useCombobox.stateChangeTypes.InputChange:
-          if (newInputValue) {
+          if (newInputValue != null && newInputValue !== inputValue) {
             setInputValue(newInputValue);
           }
           break;
