@@ -65,11 +65,6 @@ Thank you once again to all who supported us this year!
 
 
 ### CHAMPION Level Sponsors
-- [Nvidia](https://www.nvidia.com/en-us/) 
-- [Error Corp](https://www.error-corp.com/)
-- [PsiQuantum](https://www.psiquantum.com/) 
-- [Haiqu](https://haiqu.ai/)
-
 
 | | | | |
 | --- | --- | --- | --- |
