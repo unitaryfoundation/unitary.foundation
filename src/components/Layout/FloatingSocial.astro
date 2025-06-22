@@ -1,12 +1,13 @@
 ---
-import { bluesky, twitter, twitch, youtube, discord } from '~/data/social.json';
+import { github, linkedin, bluesky, x, youtube, discord } from '~/data/social.json';
 
 const socials = [
+  ['linkedin', linkedin],
   ['bluesky', bluesky],
-  ['twitter', twitter],
-  ['twitch', twitch],
-  ['youtube', youtube],
   ['discord', discord],
+  ['x', x],
+  ['youtube', youtube],
+  ['github', github],
 ].filter((tuple) => !!tuple[1]);
 ---
 
@@ -25,7 +26,11 @@ const socials = [
               target="_blank"
               rel="noopener noreferrer">
               <span class="flex w-4 h-4">
-                <img class="h-full w-full" src={`/images/social-${name}.png`} alt={`${name} logo`} />
+                <img
+                  class="h-full w-full"
+                  src={`/images/social-${name}.png`}
+                  alt={`${name} logo`}
+                />
               </span>
             </a>
           </li>
