@@ -41,6 +41,8 @@ HACKday IMAGES WILL GO HERE
 ## Projects + Maintainers
 unitaryHACK thrives thanks to our incredible community of maintainers, who generously guide and support new contributors on their projects. We're delighted to share this year's cohort of projects championed by these marvelous maintainers!
 
+![2025uhack](/images/2025_uhack_projects.png)
+
 |               |               |               |
 | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
