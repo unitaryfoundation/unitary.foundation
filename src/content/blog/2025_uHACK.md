@@ -56,9 +56,10 @@ Thank you once again to all who supported us this year!
 
 ### ADVOCATE Level Sponsors
 <a href="https://mothquantum.com/" target="_blank">
-      <img src="/images/logo_moth_quantum.jpg" width="100" height="100">
+      <img src="/images/logo_moth_quantum.jpg" width="160" height="160">
     </a>
-__Moth Quantum__
+
+**Moth Quantum**
 
 
 
