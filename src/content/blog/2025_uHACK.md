@@ -1,6 +1,6 @@
 ---
 title: "unitaryHACK 2025: That's a Wrap!" 
-author: Veena Vijayakumar
+author: The unitaryHACK Team 
 day: 19
 month: 6
 year: 2025
@@ -11,7 +11,7 @@ tags:
 
 Dear Unitary Foundation community,
 
-This week, [unitaryHACK 2025](https://unitaryhack.dev/) came to a close! After 2+ weeks of working together, our community pushed out a record amount of code within the hackathon’s history. Each year, unitaryHACK grows larger, and this is a testament to the importance and staying power of open source quantum computing. 
+Last week, [unitaryHACK 2025](https://unitaryhack.dev/) officially came to a close. After 2+ weeks of working together, our community pushed out a record amount of code within the hackathon’s history! Each year, unitaryHACK grows larger, and this is a testament to the importance and staying power of open source quantum computing. 
 
 It was such a pleasure to work with all of the maintainers and hackers for this fifth edition of the HACK. A hearty thank you to everyone who took part. We’re looking forward to working with you all next year! 
 
@@ -26,6 +26,7 @@ With the generous support of our sponsors and members, unitaryHACK was able to f
 
 
 ## 2024 Stats
+Congratulations to everyone who closed bounties, contributed to projects in meaningful ways, and built relationships both online and in person during the two weeks of unitaryHACK. The 2025 leaderboard can be found [here](https://unitaryhack.dev/leaderboard/). And keep an eye out for more blogposts coming soon about meaningful contributions and collaborations that came out of this year's HACK! 
 
 RECAP IMAGE WILL GO HERE
 
@@ -39,7 +40,7 @@ HACKday IMAGES WILL GO HERE
 
 
 ## Projects + Maintainers
-unitaryHACK thrives thanks to our incredible community of maintainers, who generously guide and support new contributors on their projects. We're delighted to share this year's cohort of projects championed by these marvelous maintainers!
+unitaryHACK thrives thanks to our incredible community of maintainers, who generously guide and support new contributors on their projects. We're delighted to share this year's cohort of projects championed by these marvelous maintainers! You can learn more about their projects and the issues they curated on the [bounties page](https://unitaryhack.dev/bounties/) of the unitaryHACK website!)
 
 ![2025uhack](/images/2025_uhack_projects.png)
 
