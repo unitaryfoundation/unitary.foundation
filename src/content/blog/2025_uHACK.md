@@ -70,10 +70,7 @@ Thank you once again to all who supported us this year!
 - [PsiQuantum](https://www.psiquantum.com/) 
 - [Haiqu](https://haiqu.ai/)
 
-<a href="https://www.nvidia.com/en-us/" target="_blank"> <img src="/images/logo_nvidia.jpg" width="108" height="80"> </a>
-<a href="https://www.error-corp.com/" target="_blank"> <img src="/images/lgog_error_corp.png" width="80" height="80"> </a>
-<a href="https://www.psiquantum.com/" target="_blank"> <img src="/images/logo_psiquantum.png" width="316" height="80"> </a>
-<a href="https://haiqu.ai/" target="_blank"> <img src="/images/logo_haiqu.png" width="251" height="80"> </a>
+<a href="https://www.nvidia.com/en-us/" target="_blank"> <img src="/images/logo_nvidia.jpg" width="108" height="80"> </a> <a href="https://www.error-corp.com/" target="_blank"> <img src="/images/lgog_error_corp.png" width="80" height="80"> </a> <a href="https://www.psiquantum.com/" target="_blank"> <img src="/images/logo_psiquantum.png" width="316" height="80"> </a> <a href="https://haiqu.ai/" target="_blank"> <img src="/images/logo_haiqu.png" width="251" height="80"> </a>
 
 **ADDITIONAL SUPPORTERS** include [Unitary Foundation](unitary.foundation) and its Members:
 - Core Members: [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), and [OQD](https://openquantumdesign.org/)
