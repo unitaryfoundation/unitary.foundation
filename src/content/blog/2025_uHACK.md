@@ -55,10 +55,10 @@ unitaryHACK continues to grow thanks to our generous sponsors. Here are some of 
 Thank you once again to all who supported us this year!
 
 ### ADVOCATE Level Sponsors
-- [Moth Quantum](https://mothquantum.com/)
-- <a href="https://mothquantum.com/" target="_blank">
-      <img src="/images/logo_moth_quantum.jpg" height="150">
+<a href="https://mothquantum.com/" target="_blank">
+      <img src="/images/logo_moth_quantum.jpg" height="80">
     </a>
+- [Moth Quantum](https://mothquantum.com/)
 
 
 ### CHAMPION Level Sponsors
