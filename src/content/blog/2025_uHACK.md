@@ -58,7 +58,7 @@ Thank you once again to all who supported us this year!
 <a href="https://mothquantum.com/" target="_blank">
       <img src="/images/logo_moth_quantum.jpg" width="100" height="100">
     </a>
-**Moth Quantum**
+__Moth Quantum__
 
 
 
