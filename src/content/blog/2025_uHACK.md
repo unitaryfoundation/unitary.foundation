@@ -58,7 +58,8 @@ Thank you once again to all who supported us this year!
 <a href="https://mothquantum.com/" target="_blank">
       <img src="/images/logo_moth_quantum.jpg" height="80">
     </a>
-- [Moth Quantum](https://mothquantum.com/)
+**Moth Quantum**
+
 
 
 ### CHAMPION Level Sponsors
