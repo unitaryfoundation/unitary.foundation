@@ -56,6 +56,10 @@ Thank you once again to all who supported us this year!
 
 ### ADVOCATE Level Sponsors
 - [Moth Quantum](https://mothquantum.com/)
+- <a href="https://mothquantum.com/" target="_blank">
+      <img src="/images/logo_moth_quantum.jpg" height="150">
+    </a>
+
 
 ### CHAMPION Level Sponsors
 - [Nvidia](https://www.nvidia.com/en-us/) 
