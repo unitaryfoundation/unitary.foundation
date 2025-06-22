@@ -43,11 +43,6 @@ unitaryHACK thrives thanks to our incredible community of maintainers, who gener
 
 ![2025uhack](/images/2025_uhack_projects.png)
 
-|               |               |               |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-
 
 ## A Special Thank You to Our Sponsors
 unitaryHACK continues to grow thanks to our generous sponsors. Here are some of the things that their support goes towards:  
