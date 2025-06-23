@@ -36,7 +36,7 @@ While the majority of unitaryHACK takes place digitally, the HACKday program's g
 
 6 HACKdays took place in the US, Portugal, Finland, Mexico, Switzerland, and Italy. Thank you to all of our HACKday organizers who spent their free time putting together these meaningful and fun in-person events!
 
-HACKday IMAGES WILL GO HERE
+![2025hackdays](/images/2025_hackdays.png)
 
 
 ## Projects + Maintainers
