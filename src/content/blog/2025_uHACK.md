@@ -84,5 +84,5 @@ Thank you once again to all who supported us this year!
 ## Keep the Party Going by Purchasing uHACK and UF Merch!  
 In celebration of unitaryHACK, we opened a new version of the [Unitary Foundation Shop](https://shop.unitary.foundation/). And for a limited time we have some awesome unitaryHACK 2025 merch available as well. If you're interested in grabbing some merch, check out the shop today! Note that the unitaryHACK merch will leave the shop by the end of the month! 
 
-
+<a href="https://shop.unitary.foundation/" target="_blank"><img src="/images/2025_merch_shop.png">
 
