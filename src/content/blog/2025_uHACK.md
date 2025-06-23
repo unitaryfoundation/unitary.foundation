@@ -29,7 +29,7 @@ With the generous support of our sponsors and members, unitaryHACK was able to f
 Congratulations to everyone who closed bounties, contributed to projects in meaningful ways, and built relationships both online and in person during the two weeks of unitaryHACK. The 2025 leaderboard can be found [here](https://unitaryhack.dev/leaderboard/). And keep an eye out for more blogposts coming soon about meaningful contributions and collaborations that came out of this year's HACK! 
 
 ![2025hackstats](/images/2025_uhack_stats.gif)
-<img src="/images/2025_uhack_stats.gif" alt="2025hackstats" width="200"/>
+<img src="/images/2025_uhack_stats.gif" alt="2025hackstats" width="600"/>
 
 
 ## HACKdays
