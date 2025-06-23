@@ -30,7 +30,7 @@ Congratulations to everyone who closed bounties, contributed to projects in mean
 
 <p align="center">
 <img src="/images/2025_uhack_stats.gif" alt="2025hackstats" width="600"/>
-p>
+/p>
 
 ## HACKdays
 While the majority of unitaryHACK takes place digitally, the HACKday program's goal is to foster in-person meetups with students and quantum enthusiasts to network and build community at local colleges and companies around the world.
