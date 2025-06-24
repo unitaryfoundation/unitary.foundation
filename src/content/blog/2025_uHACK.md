@@ -50,7 +50,7 @@ This year's full cohort of projects is below! You can learn more about their pro
 
 ![2025uhack](/images/2025_uhack_projects.png)
 
-*Personally, it was very valuable to get new contributions on some issues, and also getting a new long-term contributor! The community is very supportive and welcoming, so I'm happy to see it develop and mature that way even more over time. We have a special thing being done here for the quantum industry.* — Eduardo Maschio, UF Grantee + maintainer of H-hat quantum programming language
+*Personally, it was very valuable to get new contributions on some issues, and also getting a new long-term contributor! The community is very supportive and welcoming, so I'm happy to see it develop and mature that way even more over time. We have a special thing being done here for the quantum industry.* — Eduardo Maschio, UF Micrograntee + Maintainer of the H-hat quantum programming language project
 
 
 ## A Special Thank You to Our Sponsors
