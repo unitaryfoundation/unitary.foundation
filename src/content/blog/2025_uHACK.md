@@ -50,16 +50,16 @@ This year's full cohort of projects is below! You can learn more about their pro
 
 ![2025uhack](/images/2025_uhack_projects.png)
 
-*Personally, it was very valuable to get new contributions on some issues, and also getting a new long-term contributor! The community is very supportive and welcoming, so I'm happy to see it develop and mature that way even more over time. We have a special thing being done here for the quantum industry.* — Eduardo Maschio, UF Micrograntee + Maintainer of the H-hat quantum programming language project
+*"Personally, it was very valuable to get new contributions on some issues, and also getting a new long-term contributor! The community is very supportive and welcoming, so I'm happy to see it develop and mature that way even more over time. We have a special thing being done here for the quantum industry."* — Eduardo Maschio, UF Micrograntee + Maintainer of the H-hat project
 
 
 ## A Special Thank You to Our Sponsors
 unitaryHACK continues to grow thanks to our generous sponsors. Here are some of the things that their support goes towards:  
-* Health and sustainability of the quantum open source software community
-* Maintenance of early stage quantum open source projects
-* Bounty payout rewards for hackers in the community. Often, unitaryHACK is the first monetary support a developer receives in their career in quantum development!
-* Expansion of in-person HACK days for students and student groups around the world
-* Open source community initiatives including our Discord and the unitaryhack.dev website 
+ * Health and sustainability of the quantum open source software community
+ * Maintenance of early stage quantum open source projects
+ * Bounty payout rewards for hackers in the community. Often, unitaryHACK is the first monetary support a developer receives in their career in quantum development!
+ * Expansion of in-person HACK days for students and student groups around the world
+ * Open source community initiatives including our Discord and the unitaryhack.dev website 
 
 Thank you once again to all who supported us this year!
 
