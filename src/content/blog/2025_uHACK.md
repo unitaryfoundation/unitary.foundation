@@ -74,7 +74,7 @@ Thank you once again to all who supported us this year!
 - [**Haiqu**](https://haiqu.ai/)
 
 ### ADDITIONAL SUPPORTERS 
-Include [Unitary Foundation](unitary.foundation) and its Members:
+Include [Unitary Foundation](https://unitary.foundation) and its Members:
 - Core Members: [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), and [OQD](https://openquantumdesign.org/)
 - Supporting Members: [AWS](https://aws.amazon.com/braket/), [Microsoft](https://www.microsoft.com/), [Pasqal](https://www.pasqal.com/), [QC Ware](https://www.qcware.com/), [SandboxAQ](https://www.sandboxaq.com/), [Quantum Machines](https://www.quantum-machines.co/), and [Riverlane](https://www.riverlane.com/)
 
