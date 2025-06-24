@@ -25,7 +25,7 @@ unitaryHACK is a unique bug-bounty style program that rewards individuals at all
 With the generous support of our sponsors and members, unitaryHACK was able to further expand our deeply engaged, global, and continuously growing developer community as well, with 65% of this year’s hackers claiming to have engaged in the open source computing world for the very first time. Take a look below for more stats and a full recap of this year’s HACK! 
 
 
-## 2024 Stats
+## 2025 Stats
 Congratulations to everyone who closed bounties, contributed to projects in meaningful ways, and built relationships both online and in person during the two weeks of unitaryHACK. The 2025 leaderboard can be found [here](https://unitaryhack.dev/leaderboard/). And keep an eye out for more blogposts coming soon about meaningful contributions and collaborations that came out of this year's HACK! 
 
 <p align="center">
