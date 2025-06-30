@@ -11,7 +11,7 @@ tags:
 
 ### We are excited to share that Quantum Machines and Riverlane are now a part of our Member Program as Supporting Members!
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse; margin: 80px 0;">
   <tr style="vertical-align: middle;">
     <td style="width: 40%; text-align: center; vertical-align: middle;">
       <a href="https://www.quantum-machines.co/" target="_blank">
@@ -19,7 +19,17 @@ tags:
       </a>
     </td>
     <td style="font-size: 1rem; padding-left: 40px; vertical-align: middle;">
-      Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
+      <strong>Quantum Machines</strong> is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
+    </td>
+  </tr>
+  <tr style="vertical-align: middle;">
+    <td style="font-size: 1rem; padding-right: 40px; vertical-align: middle;">
+      <strong>Riverlane</strong>'s mission is to make quantum computing useful far sooner than previously imaginable, and they are working to achieve this by building Deltaflow – the quantum error correction stack.
+    </td>
+    <td style="width: 40%; text-align: center; vertical-align: middle;">
+      <a href="https://www.riverlane.com/" target="_blank">
+        <img src="/images/logo_riverlane.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; object-fit: scale-down;">
+      </a>
     </td>
   </tr>
 </table>
