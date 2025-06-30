@@ -18,7 +18,7 @@ tags:
         <img src="/images/logo_quantum_machines.png" style="max-width: 100%; height: auto; display: block; margin: auto;">
       </a>
     </td>
-    <td style="vertical-align: middle;">
+    <td style="vertical-align: middle; font-size: 1rem;">
       Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
     </td>
   </tr>
