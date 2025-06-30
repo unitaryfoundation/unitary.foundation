@@ -13,7 +13,7 @@ tags:
 
 <table>
 <tr>
-<td style="width:60% , object-fit: scale-down"><a href="https://www.quantum-machines.co/" target="_blank"><img src="/images/logo_quantum_machines.jpg" ></a></td>
+<td style="width:60% , object-fit: scale-down"><a href="https://www.quantum-machines.co/" target="_blank"><img src="/images/logo_quantum_machines.png" ></a></td>
 <td>Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.</td>
 </table>
 
