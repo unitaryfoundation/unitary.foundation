@@ -11,6 +11,13 @@ tags:
 
 ### We are excited to share that Quantum Machines and Riverlane are now a part of our Member Program as Supporting Members!
 
+<table>
+<tr>
+<td style="width:60% , object-fit: scale-down"><a href="https://www.quantum-machines.co/" target="_blank"><img src="/images/logo_quantum_machines.jpg" ></a></td>
+<td>Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.</td>
+</table>
+
+
 [Quantum Machines](https://www.quantum-machines.co/) is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
 
 [Riverlane](https://www.riverlane.com/)'s mission is to make quantum computing useful far sooner than previously imaginable, and they are working to achieve this by building Deltaflow - the quantum error correction stack. 
