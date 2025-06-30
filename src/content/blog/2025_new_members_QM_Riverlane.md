@@ -19,14 +19,18 @@ tags:
       </a>
     </td>
     <td style="font-size: 1rem; padding-left: 40px; vertical-align: middle; border: none;">
-      <strong>Quantum Machines</strong> is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
+       <a href="https://www.quantum-machines.co/" target="_blank" style="font-weight: bold; text-decoration: none; color: inherit;">
+        Quantum Machines
+      </a>is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
     </td>
   </tr>
 </table>
 <table style="width: 100%; border-collapse: collapse; margin: 64px 0; border: none;">
   <tr style="vertical-align: middle; border: none;">
     <td style="font-size: 1rem; padding-right: 40px; vertical-align: middle; border: none;">
-      <strong>Riverlane</strong>'s mission is to make quantum computing useful far sooner than previously imaginable, and they are working to achieve this by building Deltaflow – the quantum error correction stack.
+      <a href="https://www.riverlane.com/" target="_blank" style="font-weight: bold; text-decoration: none; color: inherit;">
+        Riverlane
+      </a>'s mission is to make quantum computing useful far sooner than previously imaginable, and they are working to achieve this by building Deltaflow – the quantum error correction stack.
     </td>
     <td style="width: 25%; text-align: center; vertical-align: middle; border: none;">
       <a href="https://www.riverlane.com/" target="_blank">
