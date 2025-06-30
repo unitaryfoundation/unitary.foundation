@@ -11,12 +11,18 @@ tags:
 
 ### We are excited to share that Quantum Machines and Riverlane are now a part of our Member Program as Supporting Members!
 
-<table>
-<tr>
-<td style="width:40% , object-fit: scale-down"><a href="https://www.quantum-machines.co/" target="_blank"><img src="/images/logo_quantum_machines.png" ></a></td>
-<td>Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.</td>
+<table style="width: 100%; border-collapse: collapse;">
+  <tr style="vertical-align: middle;">
+    <td style="width: 40%; text-align: center;">
+      <a href="https://www.quantum-machines.co/" target="_blank">
+        <img src="/images/logo_quantum_machines.png" style="max-width: 100%; height: auto; display: block; margin: auto;">
+      </a>
+    </td>
+    <td style="vertical-align: middle;">
+      Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
+    </td>
+  </tr>
 </table>
-
 
 [Quantum Machines](https://www.quantum-machines.co/) is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
 
