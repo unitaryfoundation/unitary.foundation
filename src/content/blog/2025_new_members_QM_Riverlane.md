@@ -13,16 +13,17 @@ tags:
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr style="vertical-align: middle;">
-    <td style="width: 40%; text-align: center;">
+    <td style="width: 40%; text-align: center; vertical-align: middle;">
       <a href="https://www.quantum-machines.co/" target="_blank">
-        <img src="/images/logo_quantum_machines.png" style="max-width: 100%; height: auto; display: block; margin: auto;">
+        <img src="/images/logo_quantum_machines.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto; object-fit: scale-down;">
       </a>
     </td>
-    <td style="vertical-align: middle; font-size: 1rem;">
+    <td style="font-size: 1rem; padding-left: 40px; vertical-align: middle;">
       Quantum Machines is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
     </td>
   </tr>
 </table>
+
 
 [Quantum Machines](https://www.quantum-machines.co/) is a team of quantum physicists, software and systems engineers, and chip designers, all passionate to advance the world of quantum computing further than it has ever gone before.
 
