@@ -11,12 +11,6 @@ tags:
 
 ### We are excited to share that Quantum Machines and Riverlane are now a part of our Member Program as Supporting Members!
 
-Skip to content
-Chat history
-
-You said:
-Refine the code to adjust the table in a markdown file:
-
 <table>
 <tr>
 <td style="width:40% , object-fit: scale-down"><a href="https://www.quantum-machines.co/" target="_blank"><img src="/images/logo_quantum_machines.png" ></a></td>
