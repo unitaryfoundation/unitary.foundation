@@ -1,8 +1,8 @@
 ---
-name: quantum_factoring_resource_estimation
+name: Quantum Computing for Software Engineers
 year: 2025
-month: 27
-day: 6
+month: 6
+day: 27
 country: FI
 tags:
   - education
