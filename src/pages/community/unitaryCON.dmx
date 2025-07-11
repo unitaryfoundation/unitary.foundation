@@ -1,0 +1,53 @@
+---
+layout: '~/layouts/Layout.astro'
+title: 'unitaryCON'
+---
+
+<p align="center">
+  <img src="/images/unitaryCON_2025.png" style="width: 50%" />
+</p>
+
+<div style='font-size: 1.5rem; line-height: 2rem;'>
+unitaryCON is an invitation-only collaborative workshop for the extended Unitary Foundation community. The workshop is an opportunity to share ongoing projects, connect with collaborators and supporters, and work with our community to advance the quantum open-source software ecosystem with the leading contributors from around the world.
+</div>
+<br/>
+
+<div>
+
+Hosted at [IEEE Quantum Week 2025](https://qce.quantum.ieee.org/2025/), unitaryCON will provide a unique opportunity for Unitary Foundation advisors, grantees, staff, ambassadors and friends to gather, talk, learn, and share ideas about how to move the field forward.
+
+The workshop will feature talks and interactive activities, revolving around various topics in open source software for quantum computing and quantum technologies, including compilers, error mitigation and error correction toolkits, platforms for quantum computing, SDKs, cloud platforms, and open hardware in quantum tech.
+
+For information on the unitaryCON code of conduct, please visit our [GitHub](https://github.com/unitaryfoundation/unitary.foundation/blob/master/CODE_OF_CONDUCT.md).
+
+## unitaryCON event details
+- **Venue:** [**IEEE Quantum Week**](https://qce.quantum.ieee.org/2025/)  
+Albuquerque, New Mexico, USA, at the Albuquerque Convention Center
+
+### **Schedule overview:**
+Coming Soon!
+
+
+## unitaryCON Program
+Coming Soon!
+
+## **Other event details**
+
+### Discord Channel
+You can stay up to date with the information on unitaryCON on the [unitarycon channel](https://discord.com/channels/764231928676089909/1277734851080093872) on the Unitary Foundation Discord. 
+
+### Code of Conduct
+All participants must adhere to Unitary Foundation's Community [Code of Conduct](https://github.com/unitaryfoundation/unitary.foundation/blob/master/CODE_OF_CONDUCT.md). 
+
+### **unitaryCON Sponsors**
+
+Thank you to our members and event sponsors for making unitaryCON possible! 
+
+**Core Members**: IBM Quantum, DoraHacks, Open Quantum Design
+
+**Supporting Members**: AWS, Pasqal, QC Ware, Quantum Machines, Riverlane, SandboxAQ 
+
+**Event Sponsors**: [Quantum New Mexico Institute](https://qnm.unm.edu/) at the University of New Mexico.
+
+
+</div>
