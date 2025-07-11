@@ -30,6 +30,7 @@ export default defineConfig({
     '/talks.html': '/community/events',
     '/meetup': '/community/events',
     '/meetup.html': '/community/events',
+    '/community/unitaryCON': '/community/2025/unitaryCON',
   },
   integrations: [
     tailwind({ config: { applyBaseStyles: false } }),
