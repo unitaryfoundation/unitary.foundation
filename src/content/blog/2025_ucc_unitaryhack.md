@@ -51,20 +51,29 @@ closed by: [WingCode](https://github.com/WingCode)
 GH issue: https://github.com/unitaryfoundation/ucc/issues/62
 
 **Outline**
-- My name (optional)
-- My educational/professional background (optional)
-- What drew me to this issue or to UCC
-- Challenges I faced in hacking on this issue:
-- The impact of this issue on UCC
+- Gregory Varghese
+- Bachelor’s in Computer Science & Engineering
+- Senior Backend Expert, currently focused on QML methods for chemical simulations**
+
+- **What drew me in:** Fascinated by a fundamental problem at the intersection of quantum computing and computational complexity.  
+- **Challenges faced:**  
+  - Understanding how compute time and memory scale with circuit size.  
+  - Working across multiple frameworks (e.g. PyZX, Munich‑Quantum‑Toolkit/qcec) with differing equivalence definitions.  
+- **Impact on UCC:**  
+  Gained clear insights into scaling behaviors in equivalence tests and now we know which frameworks might suit our requirements for logical equivalence.
 
 #### Verifying circuit properties for benchmarking
 bounty: $75 
 closed by: WingCode
 GH issue: https://github.com/unitaryfoundation/ucc-bench/issues/27
-- What drew me to this issue or to UCC
-- Challenges I faced in hacking on this issue:
-- The impact of this issue on UCC
-- Future projects I'm interested in working on 
+
+- **What drew me in:** A compelling opportunity to enhance benchmarking reliability through direct gate‑set verification.  
+- **Challenges faced:** The issue was clearly described and I was able to proceeded smoothly.  
+- **Impact on UCC:** Enabled robust checks for gate‑set‑specific compilations, strengthening benchmarking accuracy.
+
+### Future Interests
+- Researching additional transpilation passes within UCC especially using LLMs.  
+- Designing scalable, predictive models for logical equivalence of black‑box circuits (compute time, memory).  
 
 
 ### CTA
