@@ -52,8 +52,8 @@ GH issue: https://github.com/unitaryfoundation/ucc/issues/62
 
 **Outline**
 - Gregory Varghese
-- Bachelor’s in Computer Science & Engineering
-- Senior Backend Expert, currently focused on QML methods for chemical simulations**
+- Bachelor’s in Computer Science & Engineering.
+- Senior Backend Expert, currently focused on QML methods for chemical simulations.
 
 - **What drew me in:** Fascinated by a fundamental problem at the intersection of quantum computing and computational complexity.  
 - **Challenges faced:**  
