@@ -51,29 +51,18 @@ Closed by: [WingCode](https://github.com/WingCode)
 GH issue: https://github.com/unitaryfoundation/ucc/issues/62
 
 **Outline**
-- Gregory Varghese
-- Bachelor’s in Computer Science & Engineering.
-- Senior Backend Expert, currently focused on QML methods for chemical simulations.
+My name is Gregory Varghese, I have a Undergraduate degree in Computer Science & Engineering, and I work as a Senior Backend Expert, currently focused on QML methods for chemical simulations. I wanted to work on this issue because I am fascinated by this as fundamental problem at the intersection of quantum computing and computational complexity.
 
-- **What drew me in:** Fascinated by a fundamental problem at the intersection of quantum computing and computational complexity.  
-- **Challenges faced:**  
-  - Understanding how compute time and memory scale with circuit size.  
-  - Working across multiple frameworks (e.g. PyZX, Munich‑Quantum‑Toolkit/qcec) with differing equivalence definitions.  
-- **Impact on UCC:**  
-  Gained clear insights into scaling behaviors in equivalence tests and now we know which frameworks might suit our requirements for logical equivalence.
+I faced two main challenges: first, developing a solid understanding of how compute time and memory requirements grow with circuit size; second, working across multiple frameworks—such as PyZX and the Munich‑Quantum‑Toolkit/qcec—that use differing definitions of circuit equivalence. By tackling these, I clarified scaling behaviors in my equivalence tests and identified which frameworks are best suited to our needs for establishing logical equivalence within UCC.
 
 #### Verifying circuit properties for benchmarking
 Bounty: $75  
 Closed by: WingCode  
 GH issue: https://github.com/unitaryfoundation/ucc-bench/issues/27
 
-- **What drew me in:** A compelling opportunity to enhance benchmarking reliability through direct gate‑set verification.  
-- **Challenges faced:** The issue was clearly described and I was able to proceeded smoothly.  
-- **Impact on UCC:** Enabled robust checks for gate‑set‑specific compilations, strengthening benchmarking accuracy.
+I was drawn in by the compelling opportunity to enhance benchmarking reliability through direct gate‑set verification. Because the issue was clearly described, I was able to proceed smoothly, encountering minimal difficulty. As a result, I enabled robust checks for gate‑set‑specific compilations, strengthening benchmarking accuracy within UCC.
 
-### Future Interests
-- Researching additional transpilation passes within UCC especially using LLMs.  
-- Designing scalable, predictive models for logical equivalence of black‑box circuits (compute time, memory).  
+In the future, I am interested in researching additional transpilation passes within the UCC framework, particularly by leveraging large language models (LLMs). Additionally, I aim to design scalable and predictive models capable of evaluating the logical equivalence of black-box quantum circuits, focusing on metrics such as compute time and memory usage.  
 
 
 ### CTA
