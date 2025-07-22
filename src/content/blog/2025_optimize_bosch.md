@@ -9,7 +9,7 @@ tags:
   - pennylane
 ---
 
-This is the work done during the [Quantum Open Source Foundation](qosf.org) mentorship program, Cohort 9. I would like to express my gratitude to my mentor Danial Motlagh and to QOSF.
+This work was done during the [Quantum Open Source Foundation](qosf.org) mentorship program, Cohort 9. I would like to express my gratitude to my mentor Danial Motlagh and to QOSF.
 
 # Introduction
 Catalytic processes are the workhorses of industry – for example, the Haber–Bosch synthesis of ammonia $$\text{N}_2 + 3\text{H}_2 \overset{\text{Fe}}{\longrightarrow} 2\text{NH}_3$$ runs under extreme conditions and consumes roughly 1% of the world’s energy supply. 
