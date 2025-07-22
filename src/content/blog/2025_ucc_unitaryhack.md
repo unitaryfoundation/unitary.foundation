@@ -1,5 +1,5 @@
 ---
-title: Introducing the Unitary Compiler Collection (UCC)
+title: UnitaryHACK 2025 bounty winners in Quantum Compilation
 author: Jordan Sullivan, WolfLink [or your full name], ACE07-Sev [or your full name], WingCode [or your full name]
 day: 7
 month: 31
