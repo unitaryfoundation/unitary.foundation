@@ -7,10 +7,11 @@ type GrantItemProps = {
   grant: FilterSpec['grant']['items'][0];
 };
 
-export function GrantItem({ grant: { data: grant, body } }: GrantItemProps) {
+export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps) {
   return (
-    <div
-      className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4"
+    <a
+      href={`/grants/${slug}`}
+      className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4 no-underline text-current"
       data-tags={grant.tags?.join(',')}>
       <time
         className="block text-sm font-mono border-black border-b -ml-1 pl-3 pb-1"
@@ -37,12 +38,12 @@ export function GrantItem({ grant: { data: grant, body } }: GrantItemProps) {
               .map(
                 (country) =>
                   country in ISO_3166_ALPHA_2_MAPPINGS &&
-                  ISO_3166_ALPHA_2_MAPPINGS[country as keyof typeof ISO_3166_ALPHA_2_MAPPINGS]
+                  ISO_3166_ALPHA_2_MAPPINGS[country as keyof typeof ISO_3166_ALPHA_2_MAPPINGS],
               )
               .filter(Boolean)
               .join(', ')}
         </div>
       )}
-    </div>
+    </a>
   );
 }

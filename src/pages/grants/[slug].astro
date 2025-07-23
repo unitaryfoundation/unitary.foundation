@@ -1,0 +1,45 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const grantEntries = await getCollection('grant');
+
+  return grantEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { slug: entry.slug },
+  }));
+}
+
+export interface Props {
+  slug: CollectionEntry<'grant'>['slug'];
+}
+
+const { slug } = Astro.props;
+
+const entry = await getEntry('grant', slug);
+
+const { Content } = await entry.render();
+
+const { name, day, month, year } = entry.data;
+---
+
+<Layout title={entry.data.name} contained>
+  <a
+    href="/grants"
+    slot="page-start"
+    class="font-mono font-bold bg-yellow-400 text-black uppercase py-0.5 px-4 no-underline"
+    >&larr; Back to Grants</a
+  >
+  <article class="mt-12">
+    <header>
+      <div class="flex text-sm mb-8 max-xs:flex-col">
+        <date class="py-1 px-2 bg-yellow-400 text-black font-mono">{month}.{day}.{year}</date>
+      </div>
+      <h1 class="text-3xl my-6">{name}</h1>
+    </header>
+    <div class="prose max-w-none">
+      <Content />
+    </div>
+  </article>
+</Layout>
