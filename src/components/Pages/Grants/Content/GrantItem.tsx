@@ -10,7 +10,7 @@ type GrantItemProps = {
 export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps) {
   return (
     <div
-      className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4 no-underline text-current"
+      className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4"
       data-tags={grant.tags?.join(',')}>
       <time
         className="block text-sm font-mono border-black border-b -ml-1 pl-3 pb-1"
