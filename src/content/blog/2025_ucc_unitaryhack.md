@@ -10,8 +10,9 @@ tags:
   - qiskit
   - qbraid
   - bqskit
-  - quantum hardware
+  - quantum software
   - hackathon
+  - open source
 ---
 This year marks our fifth annual UnitaryHACK hackathon (check out our [post-event wrap-up blog](https://unitary.foundation/posts/2025_uhack/))! It's also the very _first_ year Unitary Foundation's new open-source quantum compiler [UCC](https://github.com/unitaryfoundation/ucc) has been a part of the event. In this blog, we're going to let three of the UCC UnitaryHACK Bounty winners tell you about their projects.
 
@@ -75,22 +76,18 @@ Closed by: [WolfLink](https://github.com/WolfLink)
 **Future projects I'm interested in working on:**  
 
 
-### Get involved
-Inspired by something you read here? Stay tuned for new ways to get paid to contribute to UCC... 
-Check out our [UCC launch blog](https://unitary.foundation/posts/2025_ucc_launch_blog/).
+## Get involved
+Did you get inspired by something you read here? Tell us about it! You can reach out in the #ucc channel on [Discord](http://discord.unitary.foundation) for casual or time sensitive questions -- or create a GitHub [discussion](https://github.com/unitaryfoundation/ucc/discussions) for code, repo, or theory stuff :]
 
 # About UCC
-The **[Unitary Compiler Collection (UCC)](https://github.com/unitaryfoundation/ucc)** is a Python library for frontend-agnostic, high performance compilation of quantum circuits. UCC's goal is to gather together the best of open source compilation to make quantum programming simpler, faster, and more scalable.
+The **[Unitary Compiler Collection (UCC)](https://github.com/unitaryfoundation/ucc)** is a Python library for frontend-agnostic, high performance compilation of quantum circuits. UCC's goal is to gather together the best of open source compilation to make quantum programming simpler, faster, and more scalable.  
 
-**Want to know more?**
-- Read the [launch announcement](https://unitary.foundation/posts/2025_ucc_launch_blog) to learn more on the current state of UCC, its capabilities and future direction.
-- Watch our [introductory video](https://www.youtube.com/watch?v=11uQynyOUI8) on UCC from [FOSDEM 2025](https://fosdem.org/2025/) by [@natestemen](https://github.com/natestemen/).
-- For code, repo, or theory questions, submit a [Discussion](https://github.com/unitaryfoundation/ucc/discussions).
-- For casual or time sensitive questions, chat with us on [Discord](http://discord.unitary.foundation).
-- Explore [research publications](https://ucc.readthedocs.io/en/latest/research_references.html) that utilize UCC.
-
-
-#### UCC GitHub Repos:
+**GitHub Repos:**  
 **[ucc](https://github.com/unitaryfoundation/ucc)** - our main Unitary Compiler  Collection source code repo  
 **[ucc-bench](https://github.com/unitaryfoundation/ucc-bench)** - our quantum compiler benchmarking suite  
 **[ucc-ft](https://github.com/unitaryfoundation/ucc-ft)** - our prototype Fault Tolerance checker for quantum circuits
+
+**Want to know more?**
+- Read the [launch announcement](https://unitary.foundation/posts/2025_ucc_launch_blog) to get a feel for UCC's design philosophy.
+- Watch our [introductory video](https://www.youtube.com/watch?v=11uQynyOUI8) on UCC from [FOSDEM 2025](https://fosdem.org/2025/) by [@natestemen](https://github.com/natestemen/).
+- Explore [research publications](https://ucc.readthedocs.io/en/latest/research_references.html) that utilize UCC.
