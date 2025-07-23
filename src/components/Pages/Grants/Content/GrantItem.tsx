@@ -17,7 +17,7 @@ export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps
         dateTime={`${grant.year}-${grant.month}-${grant.day}`}>
         {`${grant.month}`}.{grant.day}.{grant.year}
       </time>
-      <a href={`/grants/${slug}`}>
+      <a href={`/grants/${slug}`} aria-label={`View details for ${grant.name}`}>
         <div className="pl-4 pt-2 pb-5 uppercase font-bold font-mono">{grant.name}</div>
       </a>
       <div className="pl-4 min-h-[150px] text-sm flex-grow">
