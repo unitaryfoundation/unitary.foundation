@@ -1,8 +1,8 @@
 ---
 title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
-day: 3
-month: 6
+day: 23
+month: 7
 year: 2025
 tags: 
   - open-source
@@ -13,7 +13,7 @@ tags:
 
 This year, the Quantum Computing Student Association at UCLA hosted the inaugural Quantum Device Workshop! The workshop aimed to teach quantum device design to beginners and provide an enviroment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house! 
 
-  ::image[vlaliy0b9zz2vzoyqnym]
+  ![](/images/2025QDW/Group_Photo.jpeg)
   Quantum Device Workshop Group Photo!
  
 
@@ -21,7 +21,8 @@ So what exactly occured at this workshop? Call us DJ Enzyme cuz we will be break
 
 ## Day 1 
 The first day started off with attendees checking in and grabbing breakfast, followed by Professor Eli Levenson-Falk giving an overview and goals of the workshop. After that, the workshop was split into the two separate tracks, beginner and advanced. For the beginner track, Zlatko Minev from Google taught a two hour workshop on circuit quantum electrodynamics (cQED) and the basic principles behind designing a transmon qubit coupled to a resonator. After Zlatko's workshop, the beginner track had lunch. After lunch, Professor Devoret discussed how a superconducting qubit compares to atom based qubits. This was followed by a talk by Daniel Sank from Google who discussed how to do readout of a superconducting qubit. To cap off the day for the beginners, Professor Andreas Wallraff talked about the physics on how to couple two qubits for the purpose of preforming two qubit gates. 
-      ![Professor Eli Levenson-Falk giving the opening talk to a packed house!](/images/2025QDW/Beg_Day1.jpeg)
+      ![](/images/2025QDW/Beg_Day1.jpeg)
+      Professor Eli Levenson-Falk giving the opening talk to a packed house!
 
 
 For the advanced track, Daniel Sank talked about how to optimize the design of readout resonators for superconducting qubits, issues with scaling up dispersive readout, and designing alternatives for dispersive readout that could be more scalable. This was followed by a workshop session by Ofer Naaman from Google on how to use Keysight ADS to design a Snake Parametric Amplifier. After Ofer's workshop, the advanced track had lunch. After lunch, we resumed with Professor Andreas Wallraff's talk about how to implement a surface code on superconducting quantum devices. During the talk, he also showed a image of a GDS file of chip designed for surface codes and allowed the participants to ask questions about the different circuit elements on the chip, which was very useful for the audience as these images are rarely shared in actual publications. After this, Professor Devoret taught the advanced track participants about constructing Hamiltonians and Lagrangians from a circuit diagram following a second quantization framework. To cap off the day for the advanced track, Zlatko Minev did a deep dive into the backend behind PyEPR and Qiskit Metal and discussed a little bit on optimal meshing conditions for electromagnetic simulation of superconducting qubit devices. 
@@ -32,10 +33,10 @@ After concluding the first day of workshop sessions and talks, many attendees we
 
 
 ## Day 2 
-On Tuesday, the beginner track kicked things off with a 3 part workshop from the David and Lukas Pahl (who we affectionately refer to as the Pahl brothers) from MIT who discussed the ABCD matrix formalism for designing quantum circuits. This was followed by lunch, after which Professor Jens Koch taught the beginners track participants how to use the open source SCqubits package, which models cQED systems and superconducting quantum devices. To cap off the day for the beginners track, Murat can Sarihan from Google led a two hour workshop on electromagnetic simulation, EPR, and LOM analysis of superconducting devices. 
+On Tuesday, the beginner track kicked things off with a 3-part workshop from David and Lukas Pahl (who we affectionately refer to as the Pahl brothers) from MIT who discussed the ABCD matrix formalism for designing quantum circuits. This was followed by lunch, after which Professor Jens Koch taught the beginners track participants how to use the open source SCqubits package, which models cQED systems and superconducting quantum devices. To cap off the day for the beginners track, Murat can Sarihan from Google led a two hour workshop on electromagnetic simulation, EPR, and LOM analysis of superconducting devices. 
       ![Quantum Device Workshop Attendees hard at work!](/images/2025QDW/Beg_Day2.jpg)
 
-For the advanced track, Professor Jens Koch kicked the day off with an advanced tutorial of modeling cQED systems with the open source sccQubits and qFit packages. Then Professor Eli Levenson-Falk discussed how to optmially teach design to students in a way that is scalable. Then the advanced track took a break for lunch. After lunch, Sadman Ahmed Shanto (whom we typically just refer to as Shanto) from USC led a workshop on advanced features and the backend of the open source SQuAADS package, which uses machine learning to generate a GDS file or chip design from a given cQED Hamiltonian. This was followed by a breakout session on formalizing cQED and quantum device design education, namely how do we make an interactive textbook and set aside dedicated lab equipment for an open source educational ecosystem for cQED and superconducting qubits. 
+For the advanced track, Professor Jens Koch kicked the day off with an advanced tutorial of modeling cQED systems with the open source scQubits and qFit packages. Then Professor Eli Levenson-Falk discussed how to optmially teach design to students in a way that is scalable. Then the advanced track took a break for lunch. After lunch, Sadman Ahmed Shanto (whom we typically just refer to as Shanto) from USC led a workshop on advanced features and the backend of the open source SQuAADS package, which uses machine learning to generate a GDS file or chip design from a given cQED Hamiltonian. This was followed by a breakout session on formalizing cQED and quantum device design education, namely how do we make an interactive textbook and set aside dedicated lab equipment for an open source educational ecosystem for cQED and superconducting qubits. 
 
 During lunch, we also hosted an industry networking session where companies like Keysight, Zurich Instruments, and Quantum Machines had table top demos or brochures about their microwave control system interfaces and design tools for quantum computers that attendees could walk around and see. This same session was hosted during lunch on day 3 as well. 
       ![Mani Peroomal and Gabe Lenetsky from Keysight explaining their microwave control system and design tools to attendees.](/images/2025QDW/Keysight.jpg)
