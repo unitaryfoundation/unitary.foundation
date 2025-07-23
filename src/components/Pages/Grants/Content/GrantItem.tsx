@@ -9,8 +9,7 @@ type GrantItemProps = {
 
 export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps) {
   return (
-    <a
-      href={`/grants/${slug}`}
+    <div
       className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4 no-underline text-current"
       data-tags={grant.tags?.join(',')}>
       <time
@@ -18,7 +17,9 @@ export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps
         dateTime={`${grant.year}-${grant.month}-${grant.day}`}>
         {`${grant.month}`}.{grant.day}.{grant.year}
       </time>
-      <div className="pl-4 pt-2 pb-5 uppercase font-bold font-mono">{grant.name}</div>
+      <a href={`/grants/${slug}`}>
+        <div className="pl-4 pt-2 pb-5 uppercase font-bold font-mono">{grant.name}</div>
+      </a>
       <div className="pl-4 min-h-[150px] text-sm flex-grow">
         <Markdown children={body} />
       </div>
@@ -44,6 +45,6 @@ export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps
               .join(', ')}
         </div>
       )}
-    </a>
+    </div>
   );
 }
