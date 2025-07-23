@@ -61,9 +61,9 @@ Feel free to reach out to me via LinkedIn, or discord, or email should you have 
 --
 
 #### Porting over a BQSKiT compiler pass
+[GH issue](https://github.com/unitaryfoundation/ucc/issues/380)  
 Bounty: $500  
 Closed by: [WolfLink](https://github.com/WolfLink)  
-GH issue: https://github.com/unitaryfoundation/ucc/issues/380
 
 **Outline**  
 - My name (optional)
