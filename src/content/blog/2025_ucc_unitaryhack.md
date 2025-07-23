@@ -1,6 +1,6 @@
 ---
 title: UnitaryHACK 2025 bounty winners in Quantum Compilation
-author: Jordan Sullivan, WolfLink [or your full name], ACE07-Sev [or your full name], WingCode [or your full name]
+author: Jordan Sullivan, Gregory Varghese, WolfLink [or your full name], ACE07-Sev [or your full name], 
 day: 7
 month: 31
 year: 2025
@@ -31,7 +31,7 @@ GH issue: https://github.com/unitaryfoundation/ucc/issues/380
 - The impact of this issue on UCC
 - Future projects I'm interested in working on 
 
-#### $500 | Introducing an approximate compilation module
+#### Introducing an approximate compilation module
 Bounty: $500  
 Closed by: [ACE07-Sev](https://github.com/ACE07-Sev)  
 GH issue: https://github.com/unitaryfoundation/ucc/issues/381
@@ -50,10 +50,9 @@ Bounty: $200
 Closed by: [WingCode](https://github.com/WingCode)  
 GH issue: https://github.com/unitaryfoundation/ucc/issues/62
 
-**Outline**
 My name is Gregory Varghese, I have a Undergraduate degree in Computer Science & Engineering, and I work as a Senior Backend Expert, currently focused on QML methods for chemical simulations. I wanted to work on this issue because I am fascinated by this as fundamental problem at the intersection of quantum computing and computational complexity.
 
-I faced two main challenges: first, developing a solid understanding of how compute time and memory requirements grow with circuit size; second, working across multiple frameworks—such as PyZX and the Munich‑Quantum‑Toolkit/qcec—that use differing definitions of circuit equivalence. By tackling these, I clarified scaling behaviors in my equivalence tests and identified which frameworks are best suited to our needs for establishing logical equivalence within UCC.
+I faced two main challenges: first, developing a solid understanding of how compute time and memory requirements grow with circuit size; second, working across multiple frameworks—such as [PyZX](https://github.com/zxcalc/pyzx) and the [Munich‑Quantum‑Toolkit/QCEC](https://github.com/munich-quantum-toolkit/qcec)—that use differing definitions of circuit equivalence. By tackling these, I clarified scaling behaviors in my equivalence tests and identified which frameworks are best suited to our needs for establishing logical equivalence within UCC.
 
 #### Verifying circuit properties for benchmarking
 Bounty: $75  
