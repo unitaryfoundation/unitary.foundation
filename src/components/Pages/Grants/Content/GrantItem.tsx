@@ -7,7 +7,7 @@ type GrantItemProps = {
   grant: FilterSpec['grant']['items'][0];
 };
 
-export function GrantItem({ grant: { data: grant, body } }: GrantItemProps) {
+export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps) {
   return (
     <div
       className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4"
@@ -17,7 +17,9 @@ export function GrantItem({ grant: { data: grant, body } }: GrantItemProps) {
         dateTime={`${grant.year}-${grant.month}-${grant.day}`}>
         {`${grant.month}`}.{grant.day}.{grant.year}
       </time>
-      <div className="pl-4 pt-2 pb-5 uppercase font-bold font-mono">{grant.name}</div>
+      <a href={`/grants/${slug}`} aria-label={`View details for ${grant.name}`}>
+        <div className="pl-4 pt-2 pb-5 uppercase font-bold font-mono">{grant.name}</div>
+      </a>
       <div className="pl-4 min-h-[150px] text-sm flex-grow">
         <Markdown children={body} />
       </div>
@@ -37,7 +39,7 @@ export function GrantItem({ grant: { data: grant, body } }: GrantItemProps) {
               .map(
                 (country) =>
                   country in ISO_3166_ALPHA_2_MAPPINGS &&
-                  ISO_3166_ALPHA_2_MAPPINGS[country as keyof typeof ISO_3166_ALPHA_2_MAPPINGS]
+                  ISO_3166_ALPHA_2_MAPPINGS[country as keyof typeof ISO_3166_ALPHA_2_MAPPINGS],
               )
               .filter(Boolean)
               .join(', ')}
