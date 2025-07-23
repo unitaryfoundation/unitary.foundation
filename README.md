@@ -28,7 +28,7 @@ author: author one and author two
 day: 7
 month: 2
 year: 2023
-tags: 
+tags:
   - python
   - simulator
   - qiskit
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=dB_3R84ewig
 #### This is a heading in heading style four
 
 
-## Including code snippets 
+## Including code snippets
 
 ### With gists
 A supported way to include code snippets is by embedding gists.
@@ -96,6 +96,7 @@ To add an image in a page, there are two options:
 
 To add a new grant, create a markdown file (`YYYY_project_name.md`) under the `src/content/grant/` folder.
 An example file is this [2023 grant to TorchQuantum](src/content/grant/2023_TorchQuantum.md).
+Each grant automatically gets its own page at `/grants/<slug>`, where `<slug>` is the file name without the `.md` extension.
 Make sure to edit the keys correctly, e.g. use [alpha-2 code](https://www.iban.com/country-codes) for the `country` key, as shown below
 
 ```
@@ -112,10 +113,11 @@ tags:
 ---
 To **Hanrui Wang** to further develop **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)**, a Quantum classical simulation framework based on PyTorch.
 ```
+
 ### Open a PR to add the file on a new grant
-If you have a Github account, you can directly add a new markdown file to add a new grant by [clicking here](https://github.com/unitaryfoundation/unitary.foundation/new/main/src/content/grant) and then opening a pull request (PR). 
+
+If you have a Github account, you can directly add a new markdown file to add a new grant by [clicking here](https://github.com/unitaryfoundation/unitary.foundation/new/main/src/content/grant) and then opening a pull request (PR).
 
 ## Run the website locally
 
 Information on how to run the website locally are given in the [developer docs](https://github.com/unitaryfoundation/unitary.foundation/wiki/Developer-docs) wiki.
-
