@@ -13,7 +13,7 @@ tags:
 
 This year, the Quantum Computing Student Association at UCLA hosted the inaugural Quantum Device Workshop! The workshop aimed to teach quantum device design to beginners and provide an enviroment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house! 
 
-  ![](/images/2025QDW/Group_Photo.jpeg)
+  ![](/images/2025QDW/Group_Photo.jpg)
   Quantum Device Workshop Group Photo!
  
 
