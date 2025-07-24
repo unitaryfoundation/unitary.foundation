@@ -1,8 +1,8 @@
 ---
 title: Community-Driven Quantum Compilation w/ UCC @ UnitaryHACK 2025 
 author: Jordan Sullivan, Gregory Varghese, Amir Ali Malekani Nezhad, WolfLink [or your full name]
-day: 7
-month: 31
+day: 31
+month: 7
 year: 2025
 tags: 
   - python
