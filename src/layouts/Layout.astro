@@ -17,6 +17,7 @@ export interface Props extends LayoutProps {
 }
 
 const { title, contained, bodyClassName, metaDescription } = Astro.props.frontmatter || Astro.props;
+const fallback_og_image = '/images/unitary_foundation_og_image.png';
 
 const titleSeparator = '-';
 const titleName = 'Unitary Foundation';
@@ -34,11 +35,35 @@ if (title) {
 
 <html lang="en" class="overflow-x-hidden">
   <head>
+    <!-- Global -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-    <link rel="alternate" type="application/rss+xml" title={titleName} href={`${Astro.url.origin}/posts/feed.xml`} />
+
+    <!-- Primary Tags -->
+    <title>{metaTitle}</title>
+    <meta name="title" content={metaTitle ? metaTitle : title ? title : titleName} />
+    <meta name="description" content={metaDescription ? metaDescription : titleName} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={metaTitle ? metaTitle : title ? title : titleName} />
+    <meta property="og:description" content={metaDescription ? metaDescription : titleName} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={new URL(fallback_og_image, Astro.url)} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@unitaryfdn">
+    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:title" content={metaTitle ? metaTitle : title ? title : titleName} />
+    <meta property="twitter:description" content={metaDescription ? metaDescription : titleName} />
+    <meta property="twitter:image" content={new URL(fallback_og_image, Astro.url)} />
+
+    <!-- Resource Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,13 +72,31 @@ if (title) {
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
-    <meta name="viewport" content="width=device-width" />
-    <title>{metaTitle}</title>
-    {metaDescription && <meta name="description" content={metaDescription} />}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+      integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={titleName}
+      href={`${Astro.url.origin}/posts/feed.xml`}
+    />
+
+    <!-- Scripts -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+      integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+      integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"></script>
   </head>
   <body
     class:list={[
@@ -88,14 +131,14 @@ if (title) {
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
     <script is:inline>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
 
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
+      gtag('js', new Date());
 
-      gtag("config", "UA-19932157-4")
+      gtag('config', 'UA-19932157-4');
     </script>
   </body>
 </html>
