@@ -15,6 +15,8 @@ import {
 } from './src/remark/directives';
 import remarkOnlyStrong from './src/remark/only-strong';
 import svgr from 'vite-plugin-svgr';
+import sitemap from '@astrojs/sitemap';
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -37,6 +39,10 @@ export default defineConfig({
     mdx(),
     react(),
     dotHtmlRedirects(),
+    sitemap({
+      filter: (page) => page !== 'https://unitary.foundation/test/' &&
+        page !== 'https://unitary.foundation/author/image/',
+    }),
   ],
   markdown: {
     remarkPlugins: [
