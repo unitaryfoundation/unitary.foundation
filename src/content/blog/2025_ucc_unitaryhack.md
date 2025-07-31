@@ -93,7 +93,7 @@ Feel free to reach out to me via LinkedIn, or Discord, or email should you have 
 
 --
 
-#### Porting over a BQSKiT compiler pass
+#### Porting over a BQSKit compiler pass
 | Issue | Bounty Amount | Hacker |
 | --- | --- | --- |
 | [#380](https://github.com/unitaryfoundation/ucc/issues/380) | $500 | [WolfLink](https://github.com/WolfLink) |  
@@ -111,7 +111,7 @@ In the course of my research, I work with a variety of quantum circuit compilati
 </div>
 
 **Challenges I faced:**
-My idea was to combine UCC and BQSKit. BQSKit is a quantum compiling tool I have previously worked on that provides a suite of optimization techniques. By implementing BQSKit as a UCC pass, I enabled many powerful circuit optimization tools to be used with the UCC ecosystem. However, many of BQSKit's tools are focused on providing highly efficient circuits at the cost of runtime on the order of hours. UCC has strict runtime limits on the order of less than a second. A compromise was reached, to make BQSkit an optional pass rather than a core part of the UCC workflow.
+My idea was to combine UCC and BQSKit. BQSKit is a quantum compiling tool I have previously worked on that provides a suite of optimization techniques. By implementing BQSKit as a UCC pass, I enabled many powerful circuit optimization tools to be used with the UCC ecosystem. However, many of BQSKit's tools are focused on providing highly efficient circuits at the cost of runtime on the order of hours. UCC has strict runtime limits on the order of less than a second. Since these compilers have different underlying goals, for this issue, we made the deisgn decision to make BQSkit an optional pass rather than a core part of the UCC workflow. This way users can easily import the pass, but the default benchmarks for UCC won't be affected by extended runtimes.
 
 Another difficulty in implementing BQSKit was encountering the limitations of the Qiskit [`TransformationPass`](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.TransformationPass) that UCC uses as the base class for its compiler passes. This class does not maintain information about the target hardware, such as the coupling map, which prevents UCC passes from taking advantage of this information.
 
@@ -120,7 +120,7 @@ I am currently working on compiler passes working on T-count minimization. If UC
 
 
 ## Get involved
-Did you get inspired by something you read here? Tell us about it! You can reach out in the #ucc channel on [Discord](http://discord.unitary.foundation) for casual or time sensitive questions -- or create a [GitHub discussion](https://github.com/unitaryfoundation/ucc/discussions) for code, repo, or theory stuff :]
+Did you get inspired by something you read here? Tell us about it! Comment on this blog post, reach out in the #ucc channel on [Discord](http://discord.unitary.foundation) for casual or time sensitive questions -- or create a [GitHub discussion](https://github.com/unitaryfoundation/ucc/discussions) for code, repo, or theory stuff :]
 
 # About UCC
 The **[Unitary Compiler Collection (UCC)](https://github.com/unitaryfoundation/ucc)** is a Python library for frontend-agnostic, high performance compilation of quantum circuits. UCC's goal is to gather together the best of open source compilation to make quantum programming simpler, faster, and more scalable.  
