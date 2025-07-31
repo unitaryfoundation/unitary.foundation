@@ -11,13 +11,13 @@ tags:
   - mitiq
 ---
 
-**WERQSHOP 2025: Building a Community for Error Resilience in Quantum Computing**
+**WERQSHOP: Building a Community for Error Resilience in Quantum Computing**
 
 <div style="width:100%;">
   <div style="float:right;width:40%;margin-left:2em;">
     <figure>
       <img class="not-prose" src="/images/2025_werqshop/sticker-nyu.png"/>
-      <figcaption>WERQSHOP was made possible by Unitary Foundation, NYU, and grants from the NSF and DOE.</figcaption>
+      <figcaption><a href="https://werq.shop">WERQSHOP</a> was made possible by Unitary Foundation, NYU, and grants from the NSF and DOE.</figcaption>
     </figure> 
   </div>
 </div>
