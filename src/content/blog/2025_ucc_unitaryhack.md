@@ -22,10 +22,10 @@ This year marks our fifth annual unitaryHACK hackathon (check out our [post-even
 
 We created UCC to be a quantum compiler that's genuinely community-driven -- that's part of our mission to make quantum computing more accessible and beneficial to the most people -- and so we did something a little different from the typical [unitaryHACK bounties](https://unitaryhack.dev/bounties/). We put out an [open call](https://github.com/unitaryfoundation/ucc/issues/381) for new quantum compiler passes, and the community delivered! Let's hear from them:
 
-#### Verifying logical equivalence  of quantum circuits
-| Issue | Bounty Amount | Hacker |
+#### [Verifying logical equivalence of quantum circuits](https://github.com/unitaryfoundation/ucc/issues/62)
+| Hacker | Bounty Amount | Description |
 | --- | --- | --- |
-| [#62](https://github.com/unitaryfoundation/ucc/issues/62) | $200 | [WingCode](https://github.com/WingCode) |
+| [WingCode](https://github.com/WingCode) | $200 | _In order to complete this issue, you should aim to demonstrate the use of one of these tools to verify the logical equivalence of a raw quantum circuit of O(100) qubits and O(1000) gates with its UCC compiled equivalent with a runtime <1 hr, excluding compilation time._ |
 
 **My name is Gregory Varghese**, I have a Undergraduate degree in Computer Science & Engineering, and I work as a Senior Backend Expert, currently focused on QML methods for chemical simulations. 
 
@@ -45,10 +45,10 @@ We created UCC to be a quantum compiler that's genuinely community-driven -- tha
 
 **I faced two main challenges**: first, developing a solid understanding of how compute time and memory requirements grow with circuit size; second, working across multiple frameworks—such as [PyZX](https://github.com/zxcalc/pyzx) and the [Munich‑Quantum‑Toolkit/QCEC](https://github.com/munich-quantum-toolkit/qcec)—that use differing definitions of circuit equivalence. By tackling these, I clarified scaling behaviors in my equivalence tests and identified which frameworks are best suited to our needs for establishing logical equivalence within UCC.
 
-#### Verifying circuit properties for benchmarking
-| Issue | Bounty Amount | Hacker |
+#### [Verifying circuit properties for benchmarking](https://github.com/unitaryfoundation/ucc-bench/issues/27)
+| Hacker | Bounty Amount | Description | 
 | --- | --- | --- |
-| [#27](https://github.com/unitaryfoundation/ucc-bench/issues/27) | $75 | [WingCode](https://github.com/WingCode) |
+| [WingCode](https://github.com/WingCode) | $75 | _For this issue, the completion criteria is to check that the compiled circuits in the benchmarks only use Rx, Ry, Rz, H and CX gates. This check should not be included in the measured compilation time._ |
 
 **I was drawn in by** the compelling opportunity to enhance benchmarking reliability through direct gate‑set verification. Because the issue was clearly described, I was able to proceed smoothly, encountering minimal difficulty. As a result, I enabled robust checks for gate‑set‑specific compilations, strengthening benchmarking accuracy within UCC.
 
@@ -62,13 +62,12 @@ We created UCC to be a quantum compiler that's genuinely community-driven -- tha
 
 **In the future**, I am interested in researching additional transpilation passes within the UCC framework, particularly by leveraging large language models (LLMs). Additionally, I aim to design scalable and predictive models capable of evaluating the logical equivalence of black-box quantum circuits, focusing on metrics such as compute time and memory usage.  
 
---
-#### Introducing an approximate compilation module
-| Issue | Bounty Amount | Hacker |
+#### [Introducing an approximate compilation module](https://github.com/unitaryfoundation/ucc/issues/381)
+| Hacker | Bounty Amount | Description |
 | --- | --- | --- |
-| [#381](https://github.com/unitaryfoundation/ucc/issues/381) | $500 | [ACE07-Sev](https://github.com/ACE07-Sev) |
+| [ACE07-Sev](https://github.com/ACE07-Sev) | $500 | _Sequential MPS encoding [[1]] is a way to approximately encode a matrix product state up to arbitrary fidelity in $O(N)$ circuit depth where $N$ is the number of qubits. The cap fidelity is based on the bond dimension $\chi$ which trades off memory and runtime with potential for squeezing more fidelity from the encoding._ |
 
-**Greetings! I am Amir Ali Malekani Nezhad**, a Quantum Compilation Researcher and Developer currently pursuing MPS/MPO utilization for approximate compilation of arbitrary statevectors and operators in O(N) depth.
+**Greetings! I am Amir Ali Malekani Nezhad**, a Quantum Compilation Researcher and Developer currently pursuing MPS/MPO (Matrix Product State/Operator) utilization for approximate compilation of arbitrary statevectors and operators in O(N) depth.
 
 **What drew me to this issue or to UCC?**
 During unitaryHACK 2025, I had the pleasure of contributing to UCC, a Quantum Compilation library maintained by [Jordan Sullivan](https://github.com/jordandsullivan) and [Brad Chase](https://github.com/bachase). Given my current obsession with anything related to Quantum Compilation, the issue immediately intrigued me. Upon reading about the premise of the issue, and the creative freedom provided by UCC’s supportive team, I proposed an approximate quantum compilation module. This was intended to complement the current compilation pipeline present within UCC to tradeoff slight infidelity with exponential depth reduction for certain class of states known as area-law entangled states.
@@ -91,19 +90,18 @@ Additionally, UCC’s infrastructure emphasized the importance of compatibility 
 My current focus is on finishing [qmprs](https://github.com/Qualition/qmprs). Given the approximate compilation module making it to production, I will be looking forward to integrating qmprs once it reaches a minimum mature stage in UCC with the help of the supportive maintainers.
 Feel free to reach out to me via LinkedIn, or Discord, or email should you have any questions or would like to collaborate.
 
---
 
-#### Porting over a BQSKit compiler pass
-| Issue | Bounty Amount | Hacker |
+#### [Porting over a BQSKit compiler pass](https://github.com/unitaryfoundation/ucc/issues/380)
+| Hacker | Bounty Amount | Description |
 | --- | --- | --- |
-| [#380](https://github.com/unitaryfoundation/ucc/issues/380) | $500 | [WolfLink](https://github.com/WolfLink) |  
+| [WolfLink](https://github.com/WolfLink) | $500 |  _I plan to integrate [BQSKit](https://github.com/BQSKit/bqskit) into a UCC compiler pass. BQSKit offers a suite of techniques, but for the circuits in the UCC-bench suite, [partitioning](https://arxiv.org/pdf/2206.07885) and resynthesis by [LEAP](https://dl.acm.org/doi/10.1145/3548693) will likely be most effective._
 
 Hi, I'm Marc Davis, currently pursuing a PhD at MIT researching quantum compiling techniques.
 
 **What drew me to UCC:**
 In the course of my research, I work with a variety of quantum circuit compilation, transpilation, and optimization tools, and a common problem is interfacing between different tools, which often rely on different underlying circuit formats, sometimes with different sets of features. UCC's goal of making a wrapper that allows the interplay of many different tools is a worthy one.
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 20px 0;">
+<div style="display: flex; flex-direction: column; align-items: center; margin: 20px 0">
   <img src="/images/2025_ucc_unitaryhack/bqskit-logo.png" alt="BQSKit logo" width="200" height="auto" />
   <span style="font-size: 0.9em; color: #666; margin-top: 4px; display: block; text-align: center;">
     Source: <a href="https://bqskit.readthedocs.io/" target="_blank" style="color: #666; text-decoration: underline;">BQSKit: Berkeley Quantum Synthesis Toolkit</a>
@@ -111,7 +109,7 @@ In the course of my research, I work with a variety of quantum circuit compilati
 </div>
 
 **Challenges I faced:**
-My idea was to combine UCC and BQSKit. BQSKit is a quantum compiling tool I have previously worked on that provides a suite of optimization techniques. By implementing BQSKit as a UCC pass, I enabled many powerful circuit optimization tools to be used with the UCC ecosystem. However, many of BQSKit's tools are focused on providing highly efficient circuits at the cost of runtime on the order of hours. UCC has strict runtime limits on the order of less than a second. Since these compilers have different underlying goals, for this issue, we made the deisgn decision to make BQSkit an optional pass rather than a core part of the UCC workflow. This way users can easily import the pass, but the default benchmarks for UCC won't be affected by extended runtimes.
+My idea was to combine UCC and BQSKit. BQSKit is a quantum compiling tool I have previously worked on that provides a suite of optimization techniques. By implementing BQSKit as a UCC pass, I enabled many powerful circuit optimization tools to be used with the UCC ecosystem. However, many of BQSKit's tools are focused on providing highly efficient circuits at the cost of runtime on the order of hours. UCC has strict runtime limits on the order of less than a second. Since these compilers have different underlying goals, for this issue, we made the deisgn decision to make BQSkit an optional pass rather than a core part of the UCC workflow. This way users can easily import the pass, but the benchmarks for UCC won't be affected by extended runtimes.
 
 Another difficulty in implementing BQSKit was encountering the limitations of the Qiskit [`TransformationPass`](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.TransformationPass) that UCC uses as the base class for its compiler passes. This class does not maintain information about the target hardware, such as the coupling map, which prevents UCC passes from taking advantage of this information.
 
