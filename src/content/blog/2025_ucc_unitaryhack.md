@@ -1,5 +1,5 @@
 ---
-title: Community-Driven Quantum Compilation w/ UCC @ UnitaryHACK 2025 
+title: Community-Driven Quantum Compilation w/ UCC @ unitaryHACK 2025 
 author: Jordan Sullivan, Gregory Varghese, Amir Ali Malekani Nezhad, Marc Davis
 day: 31
 month: 7
@@ -14,13 +14,13 @@ tags:
   - hackathon
   - open source
 ---
-This year marks our fifth annual UnitaryHACK hackathon (check out our [post-event wrap-up blog](https://unitary.foundation/posts/2025_uhack/))! It's also the very _first_ year Unitary Foundation's new open-source quantum compiler [UCC](https://github.com/unitaryfoundation/ucc) has been a part of the event. In this blog, we're going to let three of the **UCC UnitaryHACK Bounty winners** tell you about their projects.
+This year marks our fifth annual unitaryHACK hackathon (check out our [post-event wrap-up blog](https://unitary.foundation/posts/2025_uhack/))! It's also the very _first_ year Unitary Foundation's new open-source quantum compiler [UCC](https://github.com/unitaryfoundation/ucc) has been a part of the event. In this blog, we're going to let three of the **UCC unitaryHACK Bounty winners** tell you about their projects.
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-  <img src="/images/2025_ucc_unitaryhack/uhack-ucc-2025-logo.png" alt="UnitaryHACK 2025 UCC logo" style="max-width: 700; width: 100%; height: auto;"/>
+  <img src="/images/2025_ucc_unitaryhack/uhack-ucc-2025-logo.png" alt="unitaryHACK 2025 UCC logo" style="max-width: 700; width: 100%; height: auto;"/>
 </div>
 
-We created UCC to be a quantum compiler that's genuinely community-driven -- that's part of our mission to make quantum computing more accessible and beneficial to the most people -- and so we did something a little different from the typical [UnitaryHACK bounties](https://unitaryhack.dev/bounties/). We put out an [open call](https://github.com/unitaryfoundation/ucc/issues/381) for new quantum compiler passes, and the community delivered! Let's hear from them:
+We created UCC to be a quantum compiler that's genuinely community-driven -- that's part of our mission to make quantum computing more accessible and beneficial to the most people -- and so we did something a little different from the typical [unitaryHACK bounties](https://unitaryhack.dev/bounties/). We put out an [open call](https://github.com/unitaryfoundation/ucc/issues/381) for new quantum compiler passes, and the community delivered! Let's hear from them:
 
 #### Verifying logical equivalence  of quantum circuits
 [GH issue](https://github.com/unitaryfoundation/ucc/issues/62)  
@@ -71,7 +71,7 @@ Closed by: [ACE07-Sev](https://github.com/ACE07-Sev)
 **Greetings! I am Amir Ali Malekani Nezhad**, a Quantum Compilation Researcher and Developer currently pursuing MPS/MPO utilization for approximate compilation of arbitrary statevectors and operators in O(N) depth.
 
 **What drew me to this issue or to UCC?**
-During UnitaryHack 2025, I had the pleasure of contributing to UCC, a Quantum Compilation library maintained by [Jordan Sullivan](https://github.com/jordandsullivan) and [Brad Chase](https://github.com/bachase). Given my current obsession with anything related to Quantum Compilation, the issue immediately intrigued me. Upon reading about the premise of the issue, and the creative freedom provided by UCC’s supportive team, I proposed an approximate quantum compilation module. This was intended to complement the current compilation pipeline present within UCC to tradeoff slight infidelity with exponential depth reduction for certain class of states known as area-law entangled states.
+During unitaryHACK 2025, I had the pleasure of contributing to UCC, a Quantum Compilation library maintained by [Jordan Sullivan](https://github.com/jordandsullivan) and [Brad Chase](https://github.com/bachase). Given my current obsession with anything related to Quantum Compilation, the issue immediately intrigued me. Upon reading about the premise of the issue, and the creative freedom provided by UCC’s supportive team, I proposed an approximate quantum compilation module. This was intended to complement the current compilation pipeline present within UCC to tradeoff slight infidelity with exponential depth reduction for certain class of states known as area-law entangled states.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
     <img style="margin-top: 0; margin-bottom: 0;" src="/images/2025_ucc_unitaryhack/MPS-cartoon-pennylane.png" alt="cartoon of a Matrix Product State (MPS) drawn as a strip of paper with scissors poised to cut at regular intervals" width="200"/>
