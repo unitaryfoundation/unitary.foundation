@@ -35,7 +35,7 @@ It's time to ask a new question:
 
 So that was exactly what we gathered people to discuss!
 
-[^1]: There are multiple other techniques that were invented and studied prior to ZNE and PEC in 2017 (for example, dynamical decoupling and decoherence-free subspaces), but these are generally not regarded as QEM techniques following Cai et al [arXiv:2210.00921](https://arxiv.org/abs/2210.00921).
+[^1]: There are multiple other techniques that were invented and studied prior to ZNE and PEC in 2017 (for example, dynamical decoupling and decoherence-free subspaces), but these are generally not regarded as QEM techniques following Cai et al [arXiv\:2210.00921](https://arxiv.org/abs/2210.00921).
 
 The event took place over two days (with a fun mixer the night before to get things started on the right foot), and the schedule comprised of a mix of invited talks, contributed/lightning talks, and discussion sessions.
 The full schedule, talk abstracts, **and slides** are available on [`werq.shop`](https://werq.shop).[^2]
