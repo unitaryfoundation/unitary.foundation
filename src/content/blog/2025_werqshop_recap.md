@@ -1,7 +1,7 @@
 ---
 title: "Operating at the edge of failure: WERQSHOP 2025 Recap"
 author: Nate Stemen
-day: 1
+day: 4
 month: 8
 year: 2025
 tags: 
