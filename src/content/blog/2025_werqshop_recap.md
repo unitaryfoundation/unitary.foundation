@@ -37,9 +37,9 @@ So that was exactly what we gathered people to discuss!
 
 [^1]: There are multiple other techniques that were invented and studied prior to ZNE and PEC in 2017 (for example, dynamical decoupling and decoherence-free subspaces), but these are generally not regarded as QEM techniques following Cai et al [arXiv:2210.00921](https://arxiv.org/abs/2210.00921).
 
-The event took place over two days (with a fun mixer the night before to get things started on the right foot), and the schedule was comprised of a mix of invited talks, contributed/lightning talks, and discussion sessions.
+The event took place over two days (with a fun mixer the night before to get things started on the right foot), and the schedule comprised of a mix of invited talks, contributed/lightning talks, and discussion sessions.
 The full schedule, talk abstracts, **and slides** are available on [`werq.shop`](https://werq.shop).[^2]
-The talk's were broken into 5 sesssions:
+The talks were broken into 5 sessions:
 
 1. **From Theory to Experiment** where we heard about both [theoretical scaling limitations of QEM](https://werq.shop/talks/yihui-quek/) from Yihui Quek and how [QEM aided simulations of quantum magnetism](https://werq.shop/talks/eli-chertkov/) on Quantinuum devices.
 2. **QEM on Next-Gen Devices** where Zhenyu Cai discussed [two ways to merge QEM and QEC](https://werq.shop/talks/zhenyu-cai/), and Raam Uzdin introduced [methods for mitigating noise on circuits with mid-circuit measurements](https://werq.shop/talks/raam-uzdin/).
@@ -81,7 +81,7 @@ A few themes came up again and again throughout the two days:
 - Tailored techniques are showing real results. Some of the most compelling results came from teams designing mitigation strategies specific to the structure of the problem or algorithm they were running. This may be where error mitigation can have the most near-term impact.
 - Everyone is using multiple techniques. Whether it's randomized compiling, dynamical decoupling, zero-noise extrapolation, or learned calibrations — in practice, people are stacking methods.
 
-It's clear there is a lot of work to, and many side streets and alleyways to explore, but I think many of us are walking away from this event with a few of those possibilities pruned, and a more solid sense of direction.
+It's clear there is a lot of work to do, and many side streets and alleyways to explore, but I think many of us are walking away from this event with a few of those possibilities pruned, and a more solid sense of direction.
 
 ## 🙏 Thank you ❤️
 
@@ -91,7 +91,7 @@ To end, I want to give a few thanks:
 - To my wonderful WERQSHOP co-organizers (Nathan Shammah, Greg Quiroz, Ryan LaRose, Andrea Mari, Pranav Gokhale, Peter Orth, Misty Wahl, Will Zeng)
   - The best local organizers: Veena Vijayakumar, Ben Castanon, Javad Shabani, Monna Sabouri
 - All of the speakers listed above: this wouldn't have been an event without you!
-- Every single attendee: everyone who showed up engaged with hard questions and brough many amazing ideas on what to do next. Thank you for fueling the future of error resilience!
+- Every single attendee: everyone who showed up engaged with hard questions and brought many amazing ideas on what to do next. Thank you for fueling the future of error resilience!
 
 <figure>
   <img class="not-prose" src="/images/2025_werqshop/group.png"/>
