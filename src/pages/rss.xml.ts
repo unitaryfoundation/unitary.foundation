@@ -27,7 +27,7 @@ export async function GET(context: { site: any; }) {
     pubDate: new Date(`${post.data.year || 2018}-${post.data.month || 1}-${post.data.day || 1}`),
     tags: post.data.tags || [],
     content: sanitizeHtml(parser.render(post.body), {
-      allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img", "p", "h1", "h2", "h3", "a", "ul", "ol", "li", "blockquote", "code", "pre", "strong"])
+      allowedTags: allowedHtmlTags
     }),
   }))
 
