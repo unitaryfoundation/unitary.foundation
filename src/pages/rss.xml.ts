@@ -33,7 +33,7 @@ export async function GET(context: { site: any; }) {
 
   grants.map(grant => combined_items.push({
     title: grant.data.name,
-    link: "/grants/",
+    link: `/grants/${grant.slug}/`,
     pubDate: new Date(`${grant.data.year || 2018}-${grant.data.month || 1}-${grant.data.day || 1}`),
     tags: grant.data.tags || [],
     content: sanitizeHtml(parser.render(grant.body), {
