@@ -40,8 +40,7 @@ export default defineConfig({
     react(),
     dotHtmlRedirects(),
     sitemap({
-      filter: (page) => page !== 'https://unitary.foundation/test/' &&
-        page !== 'https://unitary.foundation/author/image/',
+      filter: (page) => page !== 'https://unitary.foundation/author/image/',
     }),
   ],
   markdown: {
