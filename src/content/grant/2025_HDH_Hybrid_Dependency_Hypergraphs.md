@@ -3,7 +3,7 @@ name: "HDH: Hybrid Dependency Hypergraphs for Distributing model agnostic quantu
 year: 2025
 month: 7
 day: 28
-country: US
+country: UK
 tags:
   - QEC
 ---
