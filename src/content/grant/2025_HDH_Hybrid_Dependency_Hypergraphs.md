@@ -5,7 +5,9 @@ month: 7
 day: 28
 country: UK
 tags:
-  - QEC
+  - python
+  - IR
+  - distributed-QC
 ---
 To **Maria Gragera Garces** for **HDH: Hybrid Dependency Hypergraphs for Distributing model agnostic quantum workloads**. During this project period, the grantee will develop a consistent framework for the HDH library in order to release a complete and stable v1.0. 
 
