@@ -1,8 +1,8 @@
 ---
 title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
-day: 23
-month: 7
+day: 11
+month: 8
 year: 2025
 tags: 
   - open-source
