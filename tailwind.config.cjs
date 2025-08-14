@@ -297,6 +297,9 @@ module.exports = {
         h2: {
           fontWeight: theme('fontWeight.semibold'),
         },
+        html: {
+          fontVariantLigatures: 'no-common-ligatures',
+        },
       });
     }),
     require('@tailwindcss/typography'),
