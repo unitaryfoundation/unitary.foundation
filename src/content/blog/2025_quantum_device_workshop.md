@@ -1,7 +1,7 @@
 ---
 title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
-day: 11
+day: 14
 month: 8
 year: 2025
 tags: 
@@ -10,9 +10,14 @@ tags:
   - education
   - open hardware
   - research
+  - Guest Post
 ---
 
-This year, the [Quantum Computing Student Association at UCLA](https://uclaqcsa.squarespace.com/) hosted the inaugural [Quantum Device Workshop](https://qdw-ucla.squarespace.com/)! The workshop aimed to teach quantum device design to beginners and provide an environment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house!
+<em>This is a guest post by the Quantum Computing Student Association at UCLA. Unitary Foundation is proud to have been a sponsor of the event.
+
+</em>
+
+In May 2025, the [Quantum Computing Student Association at UCLA](https://uclaqcsa.squarespace.com/) hosted the inaugural [Quantum Device Workshop](https://qdw-ucla.squarespace.com/)! The workshop aimed to teach quantum device design to beginners and provide an environment for the exchange of knowledge between experts in the field. We hosted a beginner and an advanced track for the workshop and more than 400 people were present at the event, with over 100 people in-person and over 300 people online. Indeed, it was a packed house!
 
   ![](/images/Group_Photo.jpg)
   **<p style="text-align:center;">Quantum Device Workshop Group Photo!</p>**
@@ -22,9 +27,6 @@ So what exactly occured at this workshop? Call us DJ Enzyme cuz we will be break
 
 ## Day 1 
 The first day started off with attendees checking in and grabbing breakfast, followed by Professor Eli Levenson-Falk giving an overview and goals of the workshop. After that, the workshop was split into the two separate tracks, beginner and advanced. For the beginner track, Zlatko Minev from Google taught a two hour workshop on circuit quantum electrodynamics (cQED) and the basic principles behind designing a transmon qubit coupled to a resonator. After Zlatko's workshop, the beginner track had lunch. After lunch, Professor Devoret discussed how a superconducting qubit compares to atom based qubits. This was followed by a talk by Daniel Sank from Google who discussed how to do readout of a superconducting qubit. To cap off the day for the beginners, Professor Andreas Wallraff talked about the physics on how to couple two qubits for the purpose of preforming two qubit gates. 
-
-- Highlight: Professor Eli Levenson-Falk gave the opening talk to a packed house.
-
 
 For the advanced track, Daniel Sank talked about how to optimize the design of readout resonators for superconducting qubits, issues with scaling up dispersive readout, and designing alternatives for dispersive readout that could be more scalable. This was followed by a workshop session by Ofer Naaman from Google on how to use Keysight ADS to design a Snake Parametric Amplifier. After Ofer's workshop, the advanced track had lunch. After lunch, we resumed with Professor Andreas Wallraff's talk about how to implement a surface code on superconducting quantum devices. During the talk, he also showed a image of a GDS file of chip designed for surface codes and allowed the participants to ask questions about the different circuit elements on the chip, which was very useful for the audience as these images are rarely shared in actual publications. After this, Professor Devoret taught the advanced track participants about constructing Hamiltonians and Lagrangians from a circuit diagram following a second quantization framework. To cap off the day for the advanced track, Zlatko Minev did a deep dive into the backend behind PyEPR and Qiskit Metal and discussed a little bit on optimal meshing conditions for electromagnetic simulation of superconducting qubit devices. 
 
@@ -53,7 +55,7 @@ The advanced track started things off with Arpit Arora from UCLA who gave a talk
    **<p style="text-align:center;">Lukas Pahl from MIT gives a talk on designing superconducting devices for quantum low density parity check codes.</p>**
 
 ## Day 4 
-For day 4, the beginner and advanced track was combined. To kick things off, Jin Sung Kim from Nvidia gave a workshop on how to use CUDA-Q for fast quantum simulations of the Jaynes-Cummings Hamiltonian and the Landau-Zener effect. After this, the participants had lunch. The day and the workshop was capped off by the panel event and reception, where Andrew Bestwick (senior VP of quantum systems at Rigetti Computing), Professors Andreas Wallraff, Michel Devoret, Eli Levenson-Falk, and Jens Koch discussed the future of designing quantum devices and scaling up superconducting qubits. This panel was moderated by Zlatko Minev. 
+For day 4, the beginner and advanced track was combined. To kick things off, Jin Sung Kim from Nvidia gave a workshop on how to use CUDA-Q for fast quantum simulations of the Jaynes-Cummings Hamiltonian and the Landau-Zener effect. After this, the participants had lunch. The day and the workshop was capped off by the panel event and reception, where Andrew Bestwick, Professors Andreas Wallraff, Michel Devoret, Eli Levenson-Falk, and Jens Koch discussed the future of designing quantum devices and scaling up superconducting qubits. This panel was moderated by Zlatko Minev. 
 
 *Highlights:*
 - Quantum Computing Student Association President Alex Jurgens gave opening remarks before the panel and reception.
@@ -65,7 +67,7 @@ There is a lot that we learned by attending and moderating the talks, but we als
 
 - **Venue** -- In order to plan a successful event, the venue date should be booked immediately after drafting the white paper, and scouting out potential venues should be done in parallel to inquiring about speaker availability and getting sponsors. We did this after confirming an optimal date for all of our speakers and had some trouble getting a venue large enough for the amount of interest the event was getting. Additionally, there were complaints about the room being a little hot. 
 
-- **Prepare for more participants** -- Signups piled in at an exponentially increasing rate and we had to start turning away people from signing up online. However, at one point we even had to turn people away from signing up online because our zoom webinar could have overflowed! 
+- **Prepare for more participants** -- Signups piled in at an exponentially increasing rate and we had to start turning away people from signing up online. However, at one point we even had to turn people away from signing up online because our Zoom webinar could have overflowed! 
 
 - **Find space for food and outlets** -- Events that require laptop usage require there be enough outlets. The outlets also need to be placed at optimal locations for access. For instance, it is not good to bunch up a bunch of outlets or else the area around the outlets will get crowded. Additionally, the food should be placed in an accessible location close to the talks and workshops but not in the same room, as the caterer setting up the food could disrupt the flow of the talk or be distracting to the audience. 
 
@@ -91,8 +93,6 @@ There are a few improvements that we want to make to the workshop so that it is 
 - **More breakout sessions** -- It would have been nice to have breakout sessions dedicated to different topics relevant to cQED or quantum device design. Also, it would have been nice to have breakouts for mentorship, or to make beginning grad students or undergrads feel more comfortable in this space. 
 
 - **Poster Sessions** -- It would be cool for some of the participants to showcase some of their work as well. Many experts also attended the advanced track to learn more. 
-
-- **Better food** -- We want to try to cater through Mendocino Farms or Fresh Corn Grill, since their food is quite good compared to what ASUCLA catering could offer. 
 
 - **Finish 501(c)3 incorporation** -- Currently we are working with a law firm to make Quantum Computing Student Association into a proper 501(c)3, and have many branches at various universities. 
 
