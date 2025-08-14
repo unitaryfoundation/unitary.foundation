@@ -121,7 +121,7 @@ There are a few improvements that we want to make to the workshop so that it is 
 
 - **Material Science Considerations** -- Some people wanted a few more talks or workshops on material science considerations in quantum device design. However, this is a difficult balance. While experimentalists love thinking about material science, the theorists care a bit less about it. 
 
-- **Content and Switching Tracks** -- I think we allowed people to switch between tracks even if we encouraged people to just stick to one. During the workshop we encouraged people who thought the advanced track talks and workshops were too hard to switch to the beginner track. I think next year we need to have a syllabus with pre-requisites for each track. 
+- **Content and Switching Tracks** -- We allowed people to switch between tracks even if they were encouraged to just stick to one. Next year we want to have a syllabus with pre-requisites for each track. 
 
 - **Hybrid Quantum Devices** -- Potential talk on cQED for coupling hybrid quantum devices. There is an increasing interest in other quantum hardware communities in using superconductors to couple devices together. 
 
