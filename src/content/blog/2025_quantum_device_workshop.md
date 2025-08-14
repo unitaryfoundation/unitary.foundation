@@ -9,7 +9,6 @@ tags:
   - community
   - education
   - open hardware
-  - research
   - Guest Post
 ---
 
