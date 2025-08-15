@@ -1,7 +1,7 @@
 ---
 title: Inaugural Quantum Device Workshop!
 author: Quantum Computing Student Association
-day: 14
+day: 15
 month: 8
 year: 2025
 tags: 
@@ -48,7 +48,7 @@ During lunch, we also hosted an industry networking session where companies like
 ## Day 3 
 On Wednesday, the beginner track kicked things off with a tutorial from Shanto about how to use SQuAADs to generate circuit layouts and best practices for accurate electromagnetic simulation of quantum devices such as best practices for meshing, convergence criteria, and DRC rules. This was followed by a talk by Professor Hakan Tureci on his open source package, DEC-QED that can take into account flux quantization, kinetic inductance, and penetration depth. After that, the beginner session took a break for lunch. After lunch, Loren Alegria from Lawrence Livermore National Laboratory gave a talk about designing superconducting qubits with material science considerations and using large language models to design qubits. Finally, the day was capped off with Ben Jarvis-Frain from Rigetti Computing who gave a talk on designing large-scale quantum devices and accounting for cross talk, flip chip architectures, and other 3D architectures. 
 
-The advanced track started things off with Arpit Arora from UCLA who gave a talk on designing superconducting diodes and nonreciprocal quantum circuits. This was followed by a workshop on running microwave simulations on a large scale quantum device in a scalable way and how to simulate 3D and flip chip integrated quantum circuits. After this, the advanced track had lunch. After lunch, Dung Pham from Princeton gave a talk about DEC-QEC and modeling open quantum systems and nonlinear phenomena in superconducting circuits. The last talk of the day was given by the Pahl brothers who discussed quantum device architecture for qLDPC codes in superconducting qubits. Finally the day was ended with a breakout session where the advanced track participants discussed open source design software maintenance and feature additions. During this time, a group dedicated to software maintenance was also formed. The discord link to join this group is [here](https://discord.gg/9yYmbDPH)
+The advanced track started things off with Arpit Arora from UCLA who gave a talk on designing superconducting diodes and nonreciprocal quantum circuits. This was followed by a workshop on running microwave simulations on a large scale quantum device in a scalable way and how to simulate 3D and flip chip integrated quantum circuits. After this, the advanced track had lunch. After lunch, Dung Pham from Princeton gave a talk about DEC-QEC and modeling open quantum systems and nonlinear phenomena in superconducting circuits. The last talk of the day was given by the Pahl brothers who discussed quantum device architecture for qLDPC codes in superconducting qubits. Finally the day was ended with a breakout session where the advanced track participants discussed open source design software maintenance and feature additions. During this time, a group dedicated to software maintenance was also formed.
 
    ![](/images/Adv_Day3.jpg)
    **<p style="text-align:center;">Lukas Pahl from MIT gives a talk on designing superconducting devices for quantum low density parity check codes.</p>**
@@ -132,7 +132,7 @@ There are a few improvements that we want to make to the workshop so that it is 
 
 ## Final Thoughts 💭
 
-Overall, it was a successful event, and we will do it again next year! We were excited to see all the enthusiasm from the community towards designing scalable quantum devices and hope people continue to be very enthusiastic to design more devices and learn more. We also hope that this workshop will bring more people to help maintain open source quantum hardware design tools and create more accessible educational content! The Quantum Computing Student Association, the event sponsors, speakers, and advisory board worked hard to make this event possible and we thank everyone involved to make this event amazing. Please join the [Discord](https://discord.gg/9yYmbDPH) for open source quantum hardware design tools and accessible quantum hardware education if you haven't already. We have already started to organize next year's iteration for the quantum device workshop, and the link to pre-register is [here](https://qdw-ucla.squarespace.com/qdw2026)!
+Overall, it was a successful event, and we will do it again next year! We were excited to see all the enthusiasm from the community towards designing scalable quantum devices and hope people continue to be very enthusiastic to design more devices and learn more. We also hope that this workshop will bring more people to help maintain open source quantum hardware design tools and create more accessible educational content! The Quantum Computing Student Association, the event sponsors, speakers, and advisory board worked hard to make this event possible and we thank everyone involved to make this event amazing. We have already started to organize next year's iteration for the quantum device workshop, and the link to pre-register is [here](https://qdw-ucla.squarespace.com/qdw2026)!
       
 ![](/images/Finale.jpg)
 **<p style="text-align:center;">From all of the sponsors, speakers, and organizers, we wish you long coherence times and fast two qubit gate times in your designs! See you next year!!</p>**
