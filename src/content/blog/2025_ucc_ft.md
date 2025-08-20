@@ -1,7 +1,7 @@
 ---
 title: "ucc-ft: Verifying Fault-Tolerance in Quantum Circuits"
 author: "Brad Chase"
-day: 15
+day: 20
 month: 8
 year: 2025
 tags:
