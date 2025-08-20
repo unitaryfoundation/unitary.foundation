@@ -5,7 +5,8 @@ import dotHtmlRedirects from './src/integration/dot-html-redirects';
 import { defineConfig } from 'astro/config';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
-import remarkOembed from 'remark-oembed';
+import remarkEmbedder from '@remark-embedder/core';
+import oembed from '@remark-embedder/transformer-oembed';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import {
@@ -43,9 +44,9 @@ export default defineConfig({
       remarkOnlyStrong,
       remarkGfm,
       [
-        remarkOembed,
+        remarkEmbedder.default,
         {
-          syncWidget: true,
+          transformers: [[oembed.default]],
         },
       ],
       remarkDirective,
