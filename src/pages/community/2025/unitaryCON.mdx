@@ -132,6 +132,79 @@ compilation options, making it a versatile tool for both researchers and practit
 <span class="text-l font-bold">Abstract:</span><span> TBA</span>
 </p>
 <br /><br />
+### **Lightning Talk Speakers**
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">ZXLive: drag-and-drop to draw and apply ZX-calculus<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Lia Yeh<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> This talk is about the open-source quantum software library [ZXLive](https://github.com/zxcalc/zxlive). ZXLive is a Graphical User Interface to draw and apply rules in the ZX-calculus by just drag and drop, click of a button, or wave of the magic wand tool - no coding required. It builds on top of PyZX, an open-source Python library for the ZX-calculus, a Unitary Foundation funded microgrant project. ZXLive has been used by students to do their programming homeworks and projects in the Quantum Software graduate course at the University of Oxford, and has been developed through a number of semi-annual small hackathon sessions amongst students and early-career researchers.</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">CCMap: Lightweight Compiler Integration for Chiplet-Based Modular Quantum Systems<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Zefan Du<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> As superconducting quantum processors scale, monolithic architectures face manufacturing and control bottlenecks. Modular systems, composed of smaller quantum chips interconnected via short-range couplers, offer a promising alternative. These couplers enable direct two-qubit gates across chips but impose constraints, fixed, sparse connectivity, and unique control protocols, which invalidate compilation strategies designed for NISQ-era monolithic devices. Unlike distributed quantum frameworks relying on teleportation, chiplet-based systems support native cross-chip operations, creating new challenges for circuit compilation.
+We present CCMap, a lightweight, hardware-aware framework for compiling circuits on coupler-connected modular superconducting systems. CCMap partitions the input circuit into subcircuits, compiles each with an external compiler (e.g., UCC) for optimized intra-chip mapping, then explicitly models and refines inter-chip operations. This iterative process minimizes both inter-chip and intra-chip overhead while preserving high fidelity.
+Evaluations on IBM-inspired chiplet topologies show that CCMap reduces SWAP counts and inter-chip operations by up to 58.6%, improving estimated circuit fidelity by over 20% compared to baseline methods. Integrated with UCC, CCMap achieves state-of-the-art reductions in SWAP gate overhead and cross-chip costs.
+By addressing the unique constraints of coupler-connected modular architectures, CCMap bridges the gap between emerging hardware and existing compiler infrastructures. This enables researchers and practitioners to leverage current software tools to fully exploit chip-based architectures.
+This talk will introduce CCMap’s motivation, design, and integration flow, highlight experimental results, and discuss implications for near-term modular quantum computing.</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">Quantum Optimization Benchmarking Library -- The Intractable Decathlon<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Christa Zoufal<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> Quantum computers have advanced to the point where benchmarking of quantum algorithms at scale is within reach. Particularly in combinatorial optimization -- where most algorithms are heuristics -- it is key to empirically analyze their performance on hardware and track progress towards quantum advantage. To this extent, we present ten optimization problem classes that are difficult for existing classical algorithms and can (mostly) be linked to practically-relevant applications, with the goal to enable systematic, fair, and comparable benchmarks for quantum optimization methods. Further, we introduce the Quantum Optimization Benchmark Library (QOBLIB) where the problem instances and solution track records can be found. The individual properties of the problem classes vary in terms of objective and variable type, coefficient ranges, and density. Crucially, they all become challenging for established classical methods already at system sizes ranging from less than 100 to, at most, an order of 100,000 decision variables, allowing to approach them with today's quantum computers. We reference the results from state-of-the-art solvers for instances from all problem classes and demonstrate exemplary baseline results obtained with quantum solvers for selected problems. The baseline results illustrate a standardized form to present benchmarking solutions, which has been designed to ensure comparability of the used methods, reproducibility of the respective results, and trackability of algorithmic and hardware improvements over time. We encourage the optimization community to explore the performance of available classical or quantum algorithms and hardware platforms with the benchmarking problem instances presented in this work toward demonstrating quantum advantage in optimization. See [arxiv paper](https://arxiv.org/abs/2504.03832).</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">Quantum Advantage for Nonlinear Optimization: Theory and Open-Source Software<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Jiaqi Leng<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> We develop an open-source, end-to-end software (named QHDOPT), which can solve nonlinear optimization problems using the quantum Hamiltonian descent (QHD) algorithm. QHDOPT offers an accessible interface and automatically maps tasks to various supported quantum backends (i.e., quantum hardware machines). These features enable users, even those without prior knowledge or experience in quantum computing, to utilize the power of existing quantum devices for nonlinear and nonconvex optimization tasks. In its intermediate compilation layer, QHDOPT employs SimuQ, an efficient interface for Hamiltonian-oriented programming, to facilitate multiple algorithmic specifications and ensure compatible cross-hardware deployment. The detailed documentation of QHDOPT is available at [https://github.com/jiaqileng/QHDOPT](https://github.com/jiaqileng/QHDOPT).</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">Intrinsic error mitigation in quantum-classical auxiliary-field quantum Monte Carlo<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Tim Chen<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> Quantum-classical auxiliary-field quantum Monte Carlo (QC-AFQMC) is a hybrid algorithm for ground state problems in quantum chemistry. We experimentally demonstrate a formally efficient AFQMC process through the adoption of matchgate shadows. The algorithm does not require optimization loops like VQE and it exhibits a built-in error mitigation that makes it resilient to noise. Through algorithmic improvements and the usage of state-of-the-art GPUs, the computational time of classical post-processing is reduced by several orders of magnitude. See [arxiv paper](https://arxiv.org/abs/2404.18303v1).</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">OrangeQS Juice: an open-source OS powering Quantum Experiments and Innovation<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Marlo Kuerner<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> OrangeQS Juice is a Linux-based open-source operating system specifically engineered for quantum R&D systems. Its development arose from the critical need for unified control and improved operability of quantum R&D systems within a single framework. This led to our vision for Juice: to build a robust, efficient, and open platform that facilitates and accelerates quantum Research and Development.<br /><br />
+Juice operates by running a JupyterHub instance directly on the quantum R&D system's control computer, which hosts multiple shared Python kernels. Each kernel is dedicated to a relevant service, such as Quantum Device Management, System Monitoring, Cryostat Control, Task Management, and Database Management. Its open-source nature ensures flexibility and extensibility; for instance, custom qubit experiment software can be integrated since Juice makes use of the open-source Quantify framework to connect to different qubit control backends. Moreover, Juice provides a stable communication framework across these services, enabling essential functionalities like full remote control, comprehensive user dashboards, and transparent system logs for efficient multi-user operation.<br /><br />
+Juice is currently in a closed beta with several leading research institutions, like AQT at Berkely Lab, Chalmers Next Labs and the DiCarlo Lab at QuTech. We plan to open-source Juice by the end of 2025 and are looking for additional testers to get feedback and ensure developments are aligned with quantum R&D needs.</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">Some progress on QIR-EE: A Cross-Platform Execution Engine for QIR<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Elaine Wong<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> Progress and some quick updates on the execution engine for the Quantum Intermediate Representation (QIR-EE) and how we are viewing its integration into the QC-HPC ecosystem.</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">TBA<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Catalina Albornoz<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> The Quantum Compilation hub is a community-driven and software-agnostic project designed to consolidate the scattered knowledge on quantum compilation. Our goal is to create a centralized, easily searchable database of quantum compilation passes, methods, IRs, and software implementations from the open-source ecosystem.<br />
+This year we’ve been working on a foundational schema and a minimum viable product (MVP), successfully cataloging initial passes and techniques. Now we’re ready to bring the community in.<br /><br />
+Challenges and Community Needs<br /><br />
+Our next steps focus on expanding content and bringing in community contributions. Like Wikipedia but with centralized maintenance and ownership, we want to ensure that we’re exposing all of what is available, using terms common in the literature, and sharing known software implementations. We face key challenges in defining flexible yet consistent submission formats and creating a user-friendly process for people to add, edit, and review content. As the hub grows, we’ll need support for ongoing maintenance and moderation to ensure the information remains accurate and up-to-date.<br />
+This project is from the community and for the community. We need your help to make it more useful to you. We're excited to present this project at unitaryCON to get your feedback and collaboration.</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">TBA<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Aaron Trowbridge<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> Piccolo.jl is making advanced robotics-inspired quantum control algorithms available through an integrated open-source ecosystem. In this talk we will discuss the future of this ecosystem both down the stack, via a collaboration with the QICK open qubit control hardware stack, and up the stack, with novel, hardware-tested analog quantum algorithms and pulse-level compilation optimizations.</span>
+</p>
+<br />
+<p class="mb-0">
+<span class="text-l font-bold">TBA<br /></span>
+<span class="text-l font-bold">Speaker:</span><span> Ed Younis<br /></span>
+<span class="text-l font-bold">Abstract:</span><span> Quantum gates are the fundamental instructions of digital quantum computers. Current programming languages, systems, and software development toolkits identify these operational gates by their titles, which requires a shared understanding of their meanings. However, in the continuously developing software ecosystem surrounding quantum computing—spanning high-level programming systems to low-level control stacks—this identification process is often error-prone, challenging to debug, maintenance-heavy, and resistant to change. In this talk, we introduce unitary expressions, a form of accelerated symbolic computation, that aims to shift this burden of identification away from gate labels.</span>
+</p>
+<br />
+<br /><br />
 <p class="text-2xl mb-3">Other event details</p>
 
 ### **DISCORD CHANNEL**
