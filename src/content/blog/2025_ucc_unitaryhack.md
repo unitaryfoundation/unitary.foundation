@@ -13,6 +13,7 @@ tags:
   - quantum software
   - hackathon
   - open source
+  - unitaryhack
 ---
 This year marks our fifth annual unitaryHACK hackathon (check out our [post-event wrap-up blog](https://unitary.foundation/posts/2025_uhack/))! It's also the very _first_ year Unitary Foundation's new open-source quantum compiler [UCC](https://github.com/unitaryfoundation/ucc) has been a part of the event. In this blog, we're going to let three of the **UCC unitaryHACK Bounty winners** tell you about their projects.
 
