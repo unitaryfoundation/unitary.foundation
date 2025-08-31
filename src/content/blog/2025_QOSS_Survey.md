@@ -8,7 +8,7 @@ tags:
   - Survey
 ---
 
-It's that time of year again: the Quantum Open Sourse Software survey is now open! This annual survey is a chance for anyone in the quantum computing industry to share their voice and **help create an informative and representative snapshot of the community and field**. The survey includes questions ranging from demographics to research experience, tech stacks, and more.
+It's that time of year again: the Quantum Open Source Software survey is now open! This annual survey is a chance for anyone in the quantum computing industry to share their voice and **help create an informative and representative snapshot of the community and field**. The survey includes questions ranging from demographics to research experience, tech stacks, and more.
 
 If you are a user or developer of software for any kind of quantum technology, we kindly encourage you to take this ~10 minute survey. **The QOSS Qurvey will be open through Friday, October 3rd, 2025.** We appreciate you taking the time to fill it out! 
 
