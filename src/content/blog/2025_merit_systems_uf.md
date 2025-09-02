@@ -30,7 +30,7 @@ What does that mean for our work at Unitary Foundation? Well, to start off we ar
 ## Mitiq - rolling contributor payments
 <div style="display: flex; justify-content: center; align-items: center;" class="side-by-side">
   <figure style="text-align: center;">
-    <img src="/images/mitiq-logo.png" width="600" alt="Unitary Foundation.">
+    <img src="/images/mitiq-logo.png" width="600" alt="mitiq logo.">
   </figure>
 </div>
 
@@ -39,7 +39,7 @@ If you're not already familiar, [Mitiq](https://github.com/unitaryfund/mitiq) is
 ## UCC -  "pass of the month" bounty
 <div style="display: flex; justify-content: center; align-items: center;" class="side-by-side">
   <figure style="text-align: center;">
-    <img src="/images/UCC-logo.png" width="600" alt="Unitary Foundation.">
+    <img src="/images/UCC-logo.png" width="600" alt="ucc logo.">
   </figure>
 </div>
 
