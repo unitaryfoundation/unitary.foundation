@@ -23,7 +23,7 @@ __Our mission at Unitary Foundation is to help grow a quantum OS ecosysytem that
   </figure>
 </div>
 
-That's why we're partnering with [Merit Systems](https://terminal.merit.systems/), a payment service platform specifically designed for open-source contributors. It interfaces with your GitHub account and makes the process of getting paid straightforward in a wide array of countries.
+That's why we're partnering with [Merit Systems](https://www.merit.systems/), a payment service platform specifically designed for open-source contributors. It interfaces with your GitHub account and makes the process of getting paid straightforward in a wide array of countries.
 
 What does that mean for our work at Unitary Foundation? Well, to start off we are piloting Merit in two of our open-source software projects: [mitiq](https://github.com/unitaryfund/mitiq) and [ucc](https://github.com/unitaryfund/ucc). To understand how Merit works, let's walk through a couple examples of how we're going to start using it in these two sibling repos:
 
