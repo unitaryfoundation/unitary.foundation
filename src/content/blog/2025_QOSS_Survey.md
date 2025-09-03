@@ -19,4 +19,4 @@ All anonymized results will be shared publicly so the survey can serve as a reso
 
 A very special thanks to the Unitary Foundation members, advisors, and partners who continue to help us provide this survey as a resource, including work in designing, testing, and providing general feedback.
 
-[**Fill out the QOSS Survey**](https://www.surveymonkey.com/r/QOSSSurvey25 )
+[**Fill out the QOSS Survey**](https://www.surveymonkey.com/r/QOSSSurvey25)
