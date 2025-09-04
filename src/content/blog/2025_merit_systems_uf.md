@@ -59,7 +59,7 @@ This method means you can get paid for your contributions, no matter how small![
   </div>
 </div>
 
-[UCC](https://github.com/unitaryfoundation/ucc) stands for Unitary Compiler Collection, a set of tools for quantum compilation. We will be using Merit bounties to reward folks for implementing new, performant compiler passes in the repo: this can be be one of our [existing issues](https://github.com/unitaryfoundation/ucc/issues?q=is%3Aissue%20state%3Aopen%20label%3Amerit-bounty) with the `merit-bounty` tag, or a [new compiler pass](https://github.com/unitaryfoundation/ucc/discussions/new?category=new-compiler-pass) that you propose!
+[`ucc`](https://github.com/unitaryfoundation/ucc) stands for Unitary Compiler Collection, a set of tools for quantum compilation. We will be using Merit bounties to reward folks for implementing new, performant compiler passes in the repo: this can be be one of our [existing issues](https://github.com/unitaryfoundation/ucc/issues?q=is%3Aissue%20state%3Aopen%20label%3Amerit-bounty) with the `merit-bounty` tag, or a [new compiler pass](https://github.com/unitaryfoundation/ucc/discussions/new?category=new-compiler-pass) that you propose!
 
 We plan to award between **\$250-$500 per month** to the strongest contribution to UCC's compiler passes.
 
