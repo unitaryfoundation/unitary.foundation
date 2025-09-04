@@ -24,7 +24,7 @@ Open-source software powers all of the most widely used tech tools we rely on, f
   </figure>
 </div>
 
-That's why we're partnering with [Merit Systems](https://www.merit.systems/), a payment service platform designed to help reward open-source contributors. It interfaces with your GitHub account and makes the process of getting paid straightforward in a wide array of countries.
+That's why we're partnering with [Merit Systems](https://www.merit.systems/), a payment service platform designed to help reward open-source contributors. It interfaces with your GitHub account and makes the process of getting paid straightforward in a wide array of countries. 
 
 What does that mean for our work at Unitary Foundation?
 Well, to start off we are piloting Merit in two of our open-source software projects: [mitiq](https://github.com/unitaryfoundation/mitiq) and [ucc](https://github.com/unitaryfoundation/ucc), where we'll be using Merit in slightly different ways:
@@ -66,9 +66,9 @@ We plan to award between **\$250-$500 per month** to the strongest contributions
 
 # Get involved
 
-The next few months will be a trial phase for us using Merit, so our distribution mechanisms may change, but we certainly remain adamant about rewarding open-source contributions.
+The next few months will be a trial phase for us using [Merit](https://www.merit.systems/docs/developers), so our distribution mechanisms may change, but we certainly remain adamant about rewarding open-source contributions.
 To take the first step, make sure your GitHub account is connected to Merit so you can claim your payments 
-Let's get you paid!
+Let's get you paid! 
 
 | GitHub repo | Documentation | Merit Terminal |
 | --- | --- | --- |
