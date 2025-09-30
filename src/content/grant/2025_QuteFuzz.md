@@ -3,7 +3,7 @@ name: QuteFuzz
 year: 2025
 month: 9
 day: 23
-country: UK
+country: GB
 tags:
   - Debugger
   - Compiler
