@@ -3,7 +3,7 @@ name: "HDH: Hybrid Dependency Hypergraphs for Distributing model agnostic quantu
 year: 2025
 month: 7
 day: 28
-country: UK
+country: GB
 tags:
   - python
   - IR
