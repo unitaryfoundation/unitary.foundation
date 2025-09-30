@@ -5,11 +5,9 @@ month: 9
 day: 23
 country: US
 tags:
-  - python
-  - IR
-  - distributed-QC
+  - Machine Learning
 ---
 To **Seun Omonije** for **Qernel**, an agentic command line interface (CLI) to prototype and share quantum code.
 
 
-The public github repository for the project can be found at https://github.com/computabeast/qernel
+The public github repository for the project can be found at [https://github.com/computabeast/qernel](https://github.com/computabeast/qernel)
