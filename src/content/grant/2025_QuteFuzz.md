@@ -8,4 +8,4 @@ tags:
   - Debugger
   - Compiler
 ---
-To **Benny Zong Liu and Ilan Iwumbwe** for **QuteFuzz**, a solution for detecting potentially semantic changing bugs in quantum compilers, weeding out simple but critical errors that can be very time consuming to detect conventionally.
+To **Benny Zong Liu and Ilan Iwumbwe** for [**QuteFuzz**](https://github.com/QuteFuzz/QuteFuzz), a solution for detecting potentially semantic changing bugs in quantum compilers, weeding out simple but critical errors that can be very time consuming to detect conventionally.
