@@ -1,6 +1,6 @@
 ---
 title: A Recap on unitaryCON 2025
-author: Veena Vijayakumar and Frances Poblete
+author: Veena Vijayakumar, Frances Poblete, Ben Castanon
 day: 30
 month: 9
 year: 2025
