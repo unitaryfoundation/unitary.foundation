@@ -1,18 +1,19 @@
 ---
-title: "WERQSHOP 2025 Technical Report"
-author: Nate Stemen
-day: 30
-month: 9
+title: WERQSHOP 2025 Technical Report
+author: nate stemen
+day: 1
+month: 10
 year: 2025
 tags:
   - events
   - error mitigation
   - werqshop
+  - mitiq
 ---
 
 Following the energy of [Operating at the edge of failure: WERQSHOP 2025 Recap](/posts/2025_werqshop_recap/), we took the time to further distill the themes of the talks, breakouts, and discussions into one place.
 
-The full [WERQSHOP 2025 Technical Report](/assets/WERQSHOP_recap.pdf) captures speaker summaries, discussion highlights, and the threads the community wants to pull next.
+The full [WERQSHOP 2025 Technical Report](/assets/WERQSHOP_report.pdf) captures speaker summaries, discussion highlights, and the threads the community wants to pull next.
 Give it a read, share it, and let us know what else would help you keep the conversation going.
 
 **Abstract:**
