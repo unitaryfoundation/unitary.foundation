@@ -18,12 +18,14 @@ Hosted in Albuquerque, New Mexico, and running alongside IEEE Quantum Week, this
 The key focus? Building robust, platform-agnostic tools. We spent a lot of time tackling challenges in quantum compilation, error correction (QEC) toolkits, and standardized SDKs, all with the goal of making quantum programs easier to access, verify, and run efficiently on any hardware. unitaryCON reinforced the idea that open standards and community collaboration are the fastest way to get to the quantum future.
 
 ![2025 unitaryCON group photo](/images/2025_uCON1.jpg)
+*Group photo during the conference*
 
 ## Tuesday, September 2nd
 
 On Tuesday night, we gathered at the Smoky Note in the Nob Hill neighborhood of Albuquerque to welcome all attendees. IEEE Week has tons of activities for attendees, and it was great to connect with many micrograntees, maintainers, partners and friends before the workshop sessions kicked off. 
 
-![2025 unitaryCON group photo](/images/2025_uCON3.jpg)
+![2025 unitaryCON pre-event](/images/2025_uCON3.jpg)
+*Photos during the pre-event dinner*
 
 > I must say that this is my favorite conference, and it's because I share the passion of others for open-source quantum software. So meeting each year with them and seeing the amazing projects they are bringing to the community is special.
 
@@ -35,7 +37,8 @@ Our first official day of unitaryCON was focused on project updates and presenta
 
 UF welcomes were followed by welcomes from colleagues in the local (Mountain West) Quantum ecosystem including **Dr. Ivan Deutsch** from University of New Mexico and **Jake Douglass** from Sandia National Labs and Elevate Quantum. Both Ivan and Jake did a wonderful job of painting a portrait of the extensive research and collaborative work being done across institutions in the Mountain West.
 
-![2025 unitaryCON group photo](/images/2025_uCON4.jpg)
+![2025 unitaryCON intro speakers](/images/2025_uCON4.jpg)
+*Intro Speakers from left to right: Veena Vijayakumar, Will Zeng, Dr. Ivan Deutsch, and Jake Douglass*
 
 ### Featured Talks
 
@@ -43,7 +46,8 @@ The day continued with 5 featured speakers who have been making strides in indus
 
 To read more in-depth abstracts for each featured talk, check out the [unitaryCON webpage](https://unitary.foundation/community/2025/unitaryCON/). 
 
-![2025 unitaryCON lab photo](/images/2025_uCON5.jpg)
+![2025 unitaryCON featured talk speakers](/images/2025_uCON5.jpg)
+*Featured Talk Speakers from left to right: Dr. Lukas Burgholzer, Tom Hartley, Ryan Hill, Kai-Hsin Wu, and Dr. Luciano Bello*
 
 ### Lighting Talks
 
@@ -57,7 +61,8 @@ The day ended with an hour of open networking and the group slowly made its way 
 
 > The open networking sessions were great for [meeting others]. This has led to some future collaboration projects that are already in the works!
 
-![2025 unitaryCON lab photo](/images/2025_uCON6.jpg)
+![2025 unitaryCON during the event](/images/2025_uCON6.jpg)
+*Photo collage during the event*
 
 ## Thursday, September 4th 
 
@@ -77,7 +82,8 @@ Day 2 of unitaryCON was focused on group discussion and brainstorming. There wer
 
 Attendees walked away with potential strategies to incorporate into their own work in all of the discussion areas.
 
-![2025 unitaryCON lab photo](/images/2025_uCON7.jpg)
+![2025 unitaryCON unconference event](/images/2025_uCON7.jpg)
+*Photos and activities during the event*
 
 ### Group Excursion to University of New Mexico
 
@@ -85,7 +91,8 @@ The day (and conference) ended with a group excursion to University of New Mexic
 
 This excursion was a special opportunity for unitaryCON attendees to see what sorts of activities are happening in the area. The UNM campus was beautiful and the faculty and staff were all extremely knowledgeable. We are so grateful to the UNM team, particularly **Dr. Ivan Deutsch** and **Dr. Bob Ledoux,** for helping us make this happen!  
 
-![2025 unitaryCON lab photo](/images/2025_uCON8.jpg)
+![2025 unitaryCON touring UNM](/images/2025_uCON8.jpg)
+*Photos around University of New Mexico*
 
 > Thank you for organizing! I really appreciate it and am thankful for the experience, especially to finally meet people with a common cause and interest.
 
