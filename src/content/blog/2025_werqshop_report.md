@@ -1,7 +1,7 @@
 ---
 title: WERQSHOP 2025 Technical Report
 author: nate stemen
-day: 1
+day: 2
 month: 10
 year: 2025
 tags:
