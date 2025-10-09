@@ -8,7 +8,6 @@ tags:
   - Machine Learning
   - Quantum Algorithms
   - Education
-  - Tooling
 ---
 To **Seun Omonije** for **Qernel**, an agentic command line interface (CLI) to prototype and share quantum code.
 
