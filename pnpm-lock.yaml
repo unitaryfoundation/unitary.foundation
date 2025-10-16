@@ -27,8 +27,8 @@ importers:
         specifier: 6.0.2
         version: 6.0.2(astro@5.14.3(@types/node@24.7.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.52.4)(sass@1.86.3)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@3.4.17)
       '@cloudinary/url-gen':
-        specifier: ^1.21.0
-        version: 1.21.0
+        specifier: ^1.22.0
+        version: 1.22.0
       '@emotion/css':
         specifier: ^11.13.5
         version: 11.13.5
@@ -416,11 +416,11 @@ packages:
     resolution: {integrity: sha512-+ntATQe1AlL7nTOYjwjj6w3299CgRot48wL761TUGYpYgAou3AaONZazp0PKZyCyWhudWsjhq1nvRHOvbMzhTA==}
     engines: {node: '>=18'}
 
-  '@cloudinary/transformation-builder-sdk@1.16.1':
-    resolution: {integrity: sha512-Mh1qYMkoDxSAzbt0qY9NJaZrdH/vFBcrpeVWmbTXbPVDZHLaaLyJ2+RDFGger5lycbrehPLoNp2hh22BvhkvbQ==}
+  '@cloudinary/transformation-builder-sdk@1.21.2':
+    resolution: {integrity: sha512-ehOgKUaP+Nvuf7B0TosmB8iilL0kdiVjzjl8tIK06cjvsNnwSJI3xP9nEJmKkvqNxwwFwvYXT+mxUTqnSv9JOA==}
 
-  '@cloudinary/url-gen@1.21.0':
-    resolution: {integrity: sha512-ctYcCzX3G3vcgnESTU2ET3K1XsBiXcEnBddCGV0QbR3fJhLLrIShjSMEwZoepgh4LAFOHJu9DzvLFr+E8R7c7g==}
+  '@cloudinary/url-gen@1.22.0':
+    resolution: {integrity: sha512-le8RMlgyC0JN3+FlC/YAlPYfvmJdtw8QGcSKDjCsfhS2CIem0mJl6ayti8bMoZ0P5wDvBewvRB0/dUQvhCzy3g==}
 
   '@emnapi/runtime@1.5.0':
     resolution: {integrity: sha512-97/BJ3iXHww3djw6hYIfErCZFee7qCtrneuLa20UXFCOTCfBM2cvQHjWJ2EG0s0MtdNwInarqCTz35i4wWXHsQ==}
@@ -4441,13 +4441,13 @@ snapshots:
     dependencies:
       fontkit: 2.0.4
 
-  '@cloudinary/transformation-builder-sdk@1.16.1':
+  '@cloudinary/transformation-builder-sdk@1.21.2':
     dependencies:
-      '@cloudinary/url-gen': 1.21.0
+      '@cloudinary/url-gen': 1.22.0
 
-  '@cloudinary/url-gen@1.21.0':
+  '@cloudinary/url-gen@1.22.0':
     dependencies:
-      '@cloudinary/transformation-builder-sdk': 1.16.1
+      '@cloudinary/transformation-builder-sdk': 1.21.2
 
   '@emnapi/runtime@1.5.0':
     dependencies:
