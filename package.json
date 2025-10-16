@@ -30,7 +30,7 @@
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
     "@unpic/react": "^1.0.1",
-    "astro": "5.13.2",
+    "astro": "5.14.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
