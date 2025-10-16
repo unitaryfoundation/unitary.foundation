@@ -15,8 +15,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       '@astrojs/mdx':
-        specifier: ^4.3.0
-        version: 4.3.0(astro@5.14.3(@types/node@24.7.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.52.4)(sass@1.86.3)(typescript@5.8.3)(yaml@2.7.1))
+        specifier: ^4.3.7
+        version: 4.3.7(astro@5.14.3(@types/node@24.7.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.52.4)(sass@1.86.3)(typescript@5.8.3)(yaml@2.7.1))
       '@astrojs/react':
         specifier: 4.3.0
         version: 4.3.0(@types/node@24.7.1)(@types/react-dom@19.1.2(@types/react@19.1.1))(@types/react@19.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.86.3)(yaml@2.7.1)
@@ -233,20 +233,14 @@ packages:
   '@astrojs/compiler@2.13.0':
     resolution: {integrity: sha512-mqVORhUJViA28fwHYaWmsXSzLO9osbdZ5ImUfxBarqsYdMlPbqAqGJCxsNzvppp1BEzc1mJNjOVvQqeDN8Vspw==}
 
-  '@astrojs/internal-helpers@0.6.1':
-    resolution: {integrity: sha512-l5Pqf6uZu31aG+3Lv8nl/3s4DbUzdlxTWDof4pEpto6GUJNhhCbelVi9dEyurOVyqaelwmS9oSyOWOENSfgo9A==}
-
   '@astrojs/internal-helpers@0.7.4':
     resolution: {integrity: sha512-lDA9MqE8WGi7T/t2BMi+EAXhs4Vcvr94Gqx3q15cFEz8oFZMO4/SFBqYr/UcmNlvW+35alowkVj+w9VhLvs5Cw==}
-
-  '@astrojs/markdown-remark@6.3.2':
-    resolution: {integrity: sha512-bO35JbWpVvyKRl7cmSJD822e8YA8ThR/YbUsciWNA7yTcqpIAL2hJDToWP5KcZBWxGT6IOdOkHSXARSNZc4l/Q==}
 
   '@astrojs/markdown-remark@6.3.8':
     resolution: {integrity: sha512-uFNyFWadnULWK2cOw4n0hLKeu+xaVWeuECdP10cQ3K2fkybtTlhb7J7TcScdjmS8Yps7oje9S/ehYMfZrhrgCg==}
 
-  '@astrojs/mdx@4.3.0':
-    resolution: {integrity: sha512-OGX2KvPeBzjSSKhkCqrUoDMyzFcjKt5nTE5SFw3RdoLf0nrhyCXBQcCyclzWy1+P+XpOamn+p+hm1EhpCRyPxw==}
+  '@astrojs/mdx@4.3.7':
+    resolution: {integrity: sha512-5SRmvMyT/UMWaU2eoD+htnXtE2mUZZEH2K/nEzhuEy+iCsOSuS/DUry59WuKUJRQETi1mgJFdNR4dZLJHYVuRA==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       astro: ^5.0.0
@@ -919,8 +913,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mdx-js/mdx@3.1.0':
-    resolution: {integrity: sha512-/QxEhPAvGwbQmy1Px8F899L5Uc2KZ6JtXwlCgJmjSTBedwOZkByYcBG4GceIGPXRDsmfxhHazuS+hlOShRLeDw==}
+  '@mdx-js/mdx@3.1.1':
+    resolution: {integrity: sha512-f6ZO2ifpwAQIpzGWaBQT2TXxPv6z3RBzQKpVftEWN78Vl/YweF1uwussDx8ECAXVtr3Rs89fKyG9YlzUs9DyGQ==}
 
   '@nanostores/react@0.8.4':
     resolution: {integrity: sha512-EciHSzDXg7GmGODjegGG1VldPEinbAK+12/Uz5+MAdHmxf082Rl6eXqKFxAAu4pZAcr5dNTpv6wMfEe7XacjkQ==}
@@ -1765,11 +1759,6 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn@8.14.1:
-    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
@@ -2204,9 +2193,6 @@ packages:
 
   error-stack-parser@2.1.4:
     resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==}
-
-  es-module-lexer@1.6.0:
-    resolution: {integrity: sha512-qqnD1yMU6tk/jnaMosogGySTZP8YtUgAffA9nMN+E/rjxcfRQ6IEk7IiozUjgxKoFHBGjTLnrHB/YC45r/59EQ==}
 
   es-module-lexer@1.7.0:
     resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
@@ -3105,9 +3091,6 @@ packages:
   parse-srcset@1.0.2:
     resolution: {integrity: sha512-/2qh0lav6CmI15FzA3i/2Bzk2zCgQhGMkvhOhKNcBVQ1ldgpbfiNTVslmooUmWJcADi1f1kIeynbDRVzNlfR6Q==}
 
-  parse5@7.2.1:
-    resolution: {integrity: sha512-BuBYQYlv1ckiPdQi/ohiivi9Sagc9JG+Ozs0r7b/0iK3sKmrb0b9FdWdBbOdx6hBCM/F9Ir82ofnBhtZOjCRPQ==}
-
   parse5@7.3.0:
     resolution: {integrity: sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==}
 
@@ -3334,8 +3317,10 @@ packages:
   recma-build-jsx@1.0.0:
     resolution: {integrity: sha512-8GtdyqaBcDfva+GUKDr3nev3VpKAhup1+RvkMvUxURHpW7QyIvk9F5wz7Vzo06CEMSilw6uArgRqhpiUcWp8ew==}
 
-  recma-jsx@1.0.0:
-    resolution: {integrity: sha512-5vwkv65qWwYxg+Atz95acp8DMu1JDSqdGkA2Of1j6rCreyFUE/gp15fC8MnGEuG1W68UKjM6x6+YTWIh7hZM/Q==}
+  recma-jsx@1.0.1:
+    resolution: {integrity: sha512-huSIy7VU2Z5OLv6oFLosQGGDqPqdO1iq6bWNAdhzMxSJP7RAso4fCZ1cKu8j9YHCZf3TPrq4dw3okhrylgcd7w==}
+    peerDependencies:
+      acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
   recma-parse@1.0.0:
     resolution: {integrity: sha512-OYLsIGBB5Y5wjnSnQW6t3Xg7q3fQ7FWbw/vcXtORTnyaSFscOtABg+7Pnz6YZ6c27fG1/aN8CjfwoUEUIdwqWQ==}
@@ -3382,8 +3367,8 @@ packages:
   remark-math@6.0.0:
     resolution: {integrity: sha512-MMqgnP74Igy+S3WwnhQ7kqGlEerTETXMvJhrUzDikVZ2/uogJCb+WHUg97hK9/jcfc0dkD73s3LN8zU49cTEtA==}
 
-  remark-mdx@3.1.0:
-    resolution: {integrity: sha512-Ngl/H3YXyBV9RcRNdlYsZujAmhsxwzxpDzpDEhFBVAGthS4GDgnctpDjgFl/ULx5UEDzqtW1cyBSNKqYYrqLBA==}
+  remark-mdx@3.1.1:
+    resolution: {integrity: sha512-Pjj2IYlUY3+D8x00UJsIOg5BEvfMyeI+2uLPn9VO9Wg4MEtN/VTIq2NEJQfde9PnX15KgtHyl9S0BcTnWrIuWg==}
 
   remark-oembed@1.2.2:
     resolution: {integrity: sha512-zTHfSCgBIJV7D2UHanWlUT1sDqulOuAv9eVGl3XhV2o2tGDUgyVjMz5Ctx560IysJ+Qni4p0C3vkR1n3EubNRQ==}
@@ -3541,9 +3526,9 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
 
-  source-map@0.7.4:
-    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
-    engines: {node: '>= 8'}
+  source-map@0.7.6:
+    resolution: {integrity: sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==}
+    engines: {node: '>= 12'}
 
   space-separated-tokens@1.1.5:
     resolution: {integrity: sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==}
@@ -3594,6 +3579,12 @@ packages:
 
   style-to-js@1.1.16:
     resolution: {integrity: sha512-/Q6ld50hKYPH3d/r6nr117TZkHR0w0kGGIVfpG9N6D8NymRPM9RqCUv4pRpJ62E5DqOYx2AFpbZMyCPnjQCnOw==}
+
+  style-to-js@1.1.18:
+    resolution: {integrity: sha512-JFPn62D4kJaPTnhFUI244MThx+FEGbi+9dw1b9yBBQ+1CZpV7QAT8kUtJ7b7EUNdHajjF/0x8fT+16oLJoojLg==}
+
+  style-to-object@1.0.11:
+    resolution: {integrity: sha512-5A560JmXr7wDyGLK12Nq/EYS38VkGlglVzkis1JEdbGWSnbQIEhZzTJhzURXN5/8WwwFCs/f/VVcmkTppbXLow==}
 
   style-to-object@1.0.8:
     resolution: {integrity: sha512-xT47I/Eo0rwJmaXC4oilDGDWLohVhR6o/xAQcPQN8q6QBuZVL8qMYL85kLmST5cPjAorwvqIA4qXTRQoYHaL6g==}
@@ -3750,6 +3741,9 @@ packages:
   unist-util-is@6.0.0:
     resolution: {integrity: sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==}
 
+  unist-util-is@6.0.1:
+    resolution: {integrity: sha512-LsiILbtBETkDz8I9p1dQ0uyRUWuaQzd/cuEeS1hoRSyW5E5XGmTzlwY1OrNzzakGowI9Dr/I8HVaw4hTtnxy8g==}
+
   unist-util-modify-children@4.0.0:
     resolution: {integrity: sha512-+tdN5fGNddvsQdIzUF3Xx82CU9sMM+fA0dLgR9vOmT0oPT2jH+P1nd5lSqfCfXAw+93NhcXNY2qqvTUtE4cQkw==}
 
@@ -3773,6 +3767,9 @@ packages:
 
   unist-util-visit-parents@6.0.1:
     resolution: {integrity: sha512-L/PqWzfTP9lzzEa6CKs0k2nARxTdZduw3zyh8d2NVBnsyvHjSX4TWse388YrrQKbvI8w20fGjGlhgT96WwKykw==}
+
+  unist-util-visit-parents@6.0.2:
+    resolution: {integrity: sha512-goh1s1TBrqSqukSc8wrjwWhL0hiJxgA8m4kFxGlQ+8FYQ3C/m11FcTs4YYem7V664AhHVvgoQLk890Ssdsr2IQ==}
 
   unist-util-visit@2.0.3:
     resolution: {integrity: sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==}
@@ -4095,35 +4092,7 @@ snapshots:
 
   '@astrojs/compiler@2.13.0': {}
 
-  '@astrojs/internal-helpers@0.6.1': {}
-
   '@astrojs/internal-helpers@0.7.4': {}
-
-  '@astrojs/markdown-remark@6.3.2':
-    dependencies:
-      '@astrojs/internal-helpers': 0.6.1
-      '@astrojs/prism': 3.3.0
-      github-slugger: 2.0.0
-      hast-util-from-html: 2.0.3
-      hast-util-to-text: 4.0.2
-      import-meta-resolve: 4.2.0
-      js-yaml: 4.1.0
-      mdast-util-definitions: 6.0.0
-      rehype-raw: 7.0.0
-      rehype-stringify: 10.0.1
-      remark-gfm: 4.0.1
-      remark-parse: 11.0.0
-      remark-rehype: 11.1.2
-      remark-smartypants: 3.0.2
-      shiki: 3.13.0
-      smol-toml: 1.4.2
-      unified: 11.0.5
-      unist-util-remove-position: 5.0.0
-      unist-util-visit: 5.0.0
-      unist-util-visit-parents: 6.0.1
-      vfile: 6.0.3
-    transitivePeerDependencies:
-      - supports-color
 
   '@astrojs/markdown-remark@6.3.8':
     dependencies:
@@ -4146,25 +4115,25 @@ snapshots:
       unified: 11.0.5
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
-      unist-util-visit-parents: 6.0.1
+      unist-util-visit-parents: 6.0.2
       vfile: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.0(astro@5.14.3(@types/node@24.7.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.52.4)(sass@1.86.3)(typescript@5.8.3)(yaml@2.7.1))':
+  '@astrojs/mdx@4.3.7(astro@5.14.3(@types/node@24.7.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.52.4)(sass@1.86.3)(typescript@5.8.3)(yaml@2.7.1))':
     dependencies:
-      '@astrojs/markdown-remark': 6.3.2
-      '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
-      acorn: 8.14.1
+      '@astrojs/markdown-remark': 6.3.8
+      '@mdx-js/mdx': 3.1.1
+      acorn: 8.15.0
       astro: 5.14.3(@types/node@24.7.1)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.52.4)(sass@1.86.3)(typescript@5.8.3)(yaml@2.7.1)
-      es-module-lexer: 1.6.0
+      es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
       kleur: 4.1.5
       rehype-raw: 7.0.0
       remark-gfm: 4.0.1
       remark-smartypants: 3.0.2
-      source-map: 0.7.4
+      source-map: 0.7.6
       unist-util-visit: 5.0.0
       vfile: 6.0.3
     transitivePeerDependencies:
@@ -4792,12 +4761,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@mdx-js/mdx@3.1.0(acorn@8.14.1)':
+  '@mdx-js/mdx@3.1.1':
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.13
+      acorn: 8.15.0
       collapse-white-space: 2.1.0
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
@@ -4806,20 +4776,19 @@ snapshots:
       hast-util-to-jsx-runtime: 2.3.6
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
-      recma-jsx: 1.0.0(acorn@8.14.1)
+      recma-jsx: 1.0.1(acorn@8.15.0)
       recma-stringify: 1.0.0
       rehype-recma: 1.0.0
-      remark-mdx: 3.1.0
+      remark-mdx: 3.1.1
       remark-parse: 11.0.0
       remark-rehype: 11.1.2
-      source-map: 0.7.4
+      source-map: 0.7.6
       unified: 11.0.5
       unist-util-position-from-estree: 2.0.0
       unist-util-stringify-position: 4.0.0
       unist-util-visit: 5.0.0
       vfile: 6.0.3
     transitivePeerDependencies:
-      - acorn
       - supports-color
 
   '@nanostores/react@0.8.4(nanostores@0.11.4)(react@18.3.1)':
@@ -5610,15 +5579,9 @@ snapshots:
 
   '@xobotyi/scrollbar-width@1.9.5': {}
 
-  acorn-jsx@5.3.2(acorn@8.14.1):
-    dependencies:
-      acorn: 8.14.1
-
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
       acorn: 8.15.0
-
-  acorn@8.14.1: {}
 
   acorn@8.15.0: {}
 
@@ -6093,8 +6056,6 @@ snapshots:
     dependencies:
       stackframe: 1.3.4
 
-  es-module-lexer@1.6.0: {}
-
   es-module-lexer@1.7.0: {}
 
   esast-util-from-estree@2.0.0:
@@ -6188,14 +6149,14 @@ snapshots:
 
   estree-util-scope@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       devlop: 1.1.0
 
   estree-util-to-js@2.0.0:
     dependencies:
       '@types/estree-jsx': 1.0.5
       astring: 1.9.0
-      source-map: 0.7.4
+      source-map: 0.7.6
 
   estree-util-visit@2.0.0:
     dependencies:
@@ -6392,7 +6353,7 @@ snapshots:
       hast-util-to-parse5: 8.0.0
       html-void-elements: 3.0.0
       mdast-util-to-hast: 13.2.0
-      parse5: 7.2.1
+      parse5: 7.3.0
       unist-util-position: 5.0.0
       unist-util-visit: 5.0.0
       vfile: 6.0.3
@@ -6429,9 +6390,9 @@ snapshots:
       mdast-util-mdx-expression: 2.0.1
       mdast-util-mdx-jsx: 3.2.0
       mdast-util-mdxjs-esm: 2.0.1
-      property-information: 7.0.0
+      property-information: 7.1.0
       space-separated-tokens: 2.0.2
-      style-to-js: 1.1.16
+      style-to-js: 1.1.18
       unist-util-position: 5.0.0
       zwitch: 2.0.4
     transitivePeerDependencies:
@@ -6459,14 +6420,14 @@ snapshots:
       hast-util-whitespace: 3.0.0
       html-void-elements: 3.0.0
       mdast-util-to-hast: 13.2.0
-      property-information: 7.0.0
+      property-information: 7.1.0
       space-separated-tokens: 2.0.2
       stringify-entities: 4.0.4
       zwitch: 2.0.4
 
   hast-util-to-jsx-runtime@2.3.6:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/hast': 3.0.4
       '@types/unist': 3.0.3
       comma-separated-tokens: 2.0.3
@@ -6476,9 +6437,9 @@ snapshots:
       mdast-util-mdx-expression: 2.0.1
       mdast-util-mdx-jsx: 3.2.0
       mdast-util-mdxjs-esm: 2.0.1
-      property-information: 7.0.0
+      property-information: 7.1.0
       space-separated-tokens: 2.0.2
-      style-to-js: 1.1.16
+      style-to-js: 1.1.18
       unist-util-position: 5.0.0
       vfile-message: 4.0.3
     transitivePeerDependencies:
@@ -6813,8 +6774,8 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       escape-string-regexp: 5.0.0
-      unist-util-is: 6.0.0
-      unist-util-visit-parents: 6.0.1
+      unist-util-is: 6.0.1
+      unist-util-visit-parents: 6.0.2
 
   mdast-util-from-markdown@2.0.2:
     dependencies:
@@ -6954,7 +6915,7 @@ snapshots:
   mdast-util-phrasing@4.1.0:
     dependencies:
       '@types/mdast': 4.0.4
-      unist-util-is: 6.0.0
+      unist-util-is: 6.0.1
 
   mdast-util-to-hast@13.2.0:
     dependencies:
@@ -7436,10 +7397,6 @@ snapshots:
 
   parse-srcset@1.0.2: {}
 
-  parse5@7.2.1:
-    dependencies:
-      entities: 4.5.0
-
   parse5@7.3.0:
     dependencies:
       entities: 6.0.1
@@ -7652,19 +7609,18 @@ snapshots:
 
   recma-build-jsx@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.3
 
-  recma-jsx@1.0.0(acorn@8.14.1):
+  recma-jsx@1.0.1(acorn@8.15.0):
     dependencies:
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       estree-util-to-js: 2.0.0
       recma-parse: 1.0.0
       recma-stringify: 1.0.0
       unified: 11.0.5
-    transitivePeerDependencies:
-      - acorn
 
   recma-parse@1.0.0:
     dependencies:
@@ -7675,7 +7631,7 @@ snapshots:
 
   recma-stringify@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       estree-util-to-js: 2.0.0
       unified: 11.0.5
       vfile: 6.0.3
@@ -7716,7 +7672,7 @@ snapshots:
 
   rehype-recma@1.0.0:
     dependencies:
-      '@types/estree': 1.0.7
+      '@types/estree': 1.0.8
       '@types/hast': 3.0.4
       hast-util-to-estree: 3.1.3
     transitivePeerDependencies:
@@ -7764,7 +7720,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  remark-mdx@3.1.0:
+  remark-mdx@3.1.1:
     dependencies:
       mdast-util-mdx: 3.0.0
       micromark-extension-mdxjs: 3.0.0
@@ -8002,7 +7958,7 @@ snapshots:
 
   source-map@0.6.1: {}
 
-  source-map@0.7.4: {}
+  source-map@0.7.6: {}
 
   space-separated-tokens@1.1.5: {}
 
@@ -8067,6 +8023,14 @@ snapshots:
   style-to-js@1.1.16:
     dependencies:
       style-to-object: 1.0.8
+
+  style-to-js@1.1.18:
+    dependencies:
+      style-to-object: 1.0.11
+
+  style-to-object@1.0.11:
+    dependencies:
+      inline-style-parser: 0.2.4
 
   style-to-object@1.0.8:
     dependencies:
@@ -8231,6 +8195,10 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
+  unist-util-is@6.0.1:
+    dependencies:
+      '@types/unist': 3.0.3
+
   unist-util-modify-children@4.0.0:
     dependencies:
       '@types/unist': 3.0.3
@@ -8266,6 +8234,11 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
       unist-util-is: 6.0.0
+
+  unist-util-visit-parents@6.0.2:
+    dependencies:
+      '@types/unist': 3.0.3
+      unist-util-is: 6.0.1
 
   unist-util-visit@2.0.3:
     dependencies:
