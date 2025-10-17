@@ -10,6 +10,10 @@ tags:
   - community 
 ---
 
+<a href="https://orangeqs.com">
+  <img src="/images/2025_orangeqs_uf.png" alt="Alt text" class="w-auto inline" />
+</a>
+
 We are beyond ecstatic to announce that **OrangeQS has joined Unitary Foundation as a Supporting Member**! Based in the Netherlands, OrangeQS builds products for fast and reliable testing of quantum chips. 
 
 This collaboration is especially meaningful because two of the OrangeQS founders, Adriaan Rol and Amber Van Hauwermeiren, began their involvement with us as **[Unitary Foundation micrograntees in 2021](https://unitary.foundation/grants/2021_quantify_core/)** for [Quantify](https://quantify-os.org/)—less than a year after OrangeQS was founded! Since then, various members of their team have continued to participate in and support the UF community in multiple ways, including serving as maintainers during unitaryHACK and as speakers at unitaryCON.
