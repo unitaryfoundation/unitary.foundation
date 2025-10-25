@@ -1,6 +1,14 @@
 {
   "supporters": [
     {
+      "title": "Accenture",
+      "url": "https://www.accenture.com/us-en"
+    },
+    {
+      "title": "Agnostiq",
+      "url": "https://www.linkedin.com/company/agnostiq/"
+    },
+    {
       "title": "Alphabet X (formerly Google X)",
       "url": "https://x.company/"
     },
@@ -29,6 +37,14 @@
       "url": "https://www.eeroq.com/"
     },
     {
+      "title": "IonQ",
+      "url": "https://ionq.com/"
+    },
+    {
+      "title": "IQM",
+      "url": "https://meetiqm.com/"
+    },
+    {
       "title": "IQT Labs",
       "url": "https://www.iqt.org/labs/"
     },
@@ -49,6 +65,10 @@
       "url": "https://qcware.com/"
     },
     {
+      "title": "Quandela",
+      "url": "https://www.quandela.com/"
+    },
+    {
       "title": "quantumcomputing.com",
       "url": "http://quantumcomputing.com/"
     },
@@ -57,8 +77,16 @@
       "url": "https://www.quera.com/"
     },
     {
+      "title": "Qyber",
+      "url": "https://qyber.llc/home"
+    },
+    {
       "title": "Rigetti",
       "url": "https://www.rigetti.com/"
+    },
+    {
+      "title": "Scientifica",
+      "url": "https://scientifica.vc/en/homepage/"
     },
     {
       "title": "Strangeworks",
