@@ -9,12 +9,12 @@
       "url": "https://atom-computing.com/"
     },
     {
-      "title": "Boston Consulting Group",
-      "url": "https://www.bcg.com/"
+      "title": "BlueQubit",
+      "url": "https://www.bluequbit.io"
     },
     {
-      "title": "Microsoft",
-      "url": "https://www.microsoft.com/en-us/"
+      "title": "Boston Consulting Group",
+      "url": "https://www.bcg.com/"
     },
     {
       "title": "Cambridge Quantum Computing",
@@ -25,12 +25,24 @@
       "url": "https://www.classiq.io/"
     },
     {
+      "title": "EeroQ",
+      "url": "https://www.eeroq.com/"
+    },
+    {
       "title": "IQT Labs",
       "url": "https://www.iqt.org/labs/"
     },
     {
-      "title": "Rigetti",
-      "url": "https://www.rigetti.com/"
+      "title": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/"
+    },
+    {
+      "title": "PLOS",
+      "url": "https://www.plos.org/"
+    },
+    {
+      "title": "Q-CTRL",
+      "url": "https://q-ctrl.com/"
     },
     {
       "title": "QCWare",
@@ -45,36 +57,47 @@
       "url": "https://www.quera.com/"
     },
     {
-      "title": "Riverlane",
-      "url": "https://www.riverlane.com/"
-    },
-    {
-      "title": "Xanadu",
-      "url": "https://www.xanadu.ai/"
+      "title": "Rigetti",
+      "url": "https://www.rigetti.com/"
     },
     {
       "title": "Strangeworks",
       "url": "https://strangeworks.com/"
     },
     {
-      "title": "PLOS",
-      "url": "https://www.plos.org/"
+      "title": "Xanadu",
+      "url": "https://www.xanadu.ai/"
     },
+    {
+      "title": "Lia Yeh"
+    },
+    {
+      "title": "Alberto Maldonado Romo"
+    },
+    {
+      "title": "Spencer Churchill"
+    },
+    {
+      "title": "Stephen Diadamo"
+    },
+    {
+      "title": "Hayk Tepanyan"
+    },
+    {
+      "title": "Pranav Gokhale"
+    },
+    {
+      "title": "Alex McCaskey"
+    },
+    {
+      "title": "Peter Karalekas"
+    },
+    {
+      "title": "Nathan Killoran"
+    }, 
     {
       "title": "Steve Willis and NYC Quantum Meetup",
       "url": "https://www.meetup.com/New-York-Quantum-Computing-Meetup/"
-    },
-    {
-      "title": "EeroQ",
-      "url": "https://www.eeroq.com/"
-    },
-    {
-      "title": "Q-CTRL",
-      "url": "https://q-ctrl.com/"
-    },
-    {
-      "title": "BlueQubit",
-      "url": "https://www.bluequbit.io"
     },
     {
       "title": "John Hering",
@@ -169,22 +192,7 @@
     },
     {
       "title": "Sarah Kaiser"
-    },
-    {
-      "title": "Nathan Killoran"
-    },
-    {
-      "title": "Peter Karalekas"
-    },
-    {
-      "title": "Alex McCaskey"
-    },
-    {
-      "title": "Pranav Gokhale"
-    },
-    {
-      "title": "Hayk Tepanyan"
-    },
+    },  
     {
       "title": "Will Zeng",
       "url": "https://twitter.com/wjzeng"
