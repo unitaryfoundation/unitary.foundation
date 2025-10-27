@@ -12,7 +12,7 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0",
-    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/mdx": "^4.3.8",
     "@astrojs/react": "4.3.0",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/tailwind": "6.0.2",
