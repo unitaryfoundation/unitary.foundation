@@ -1,6 +1,6 @@
 ---
 title: 2025 Quantum Open Source Software Survey Results
-Author: UF Team
+author: UF Team
 day: 3
 month: 11
 year: 2025
