@@ -3,7 +3,7 @@ layout: '~/layouts/Layout.astro'
 title: Donate
 ---
 
-import { PageIntro, ButtonLink, ButtonLinkSubtext } from '~/components/Ui';
+import { PageIntro, ButtonLink, ButtonLinkSubtext,HomeSection,ReducedWidth, } from '~/components/Ui';
 
 <div
   style={{
@@ -14,11 +14,18 @@ import { PageIntro, ButtonLink, ButtonLinkSubtext } from '~/components/Ui';
 >
   <br /><br />
   ![Giving Tuesday Banner](/images/2025_Giving_Tuesday_Banner.png)
-
-  <PageIntro spacingBelow="large">
-    # Evolve with Us: A Unitary Foundation Giving Tuesday
-
+  <HomeSection
+  title="<mark>Evolve with Us:</mark> A Unitary Foundation Giving Tuesday"
+  topSpacing="large"
+  bottomSpacing="small"
+  titleStyle="secondary"
+  >
+<ReducedWidth smaller>
     **Because evolution is unitary.**
+</ReducedWidth>
+</HomeSection>
+
+
 Unitary Foundation is dedicated to fostering an open and accessible quantum technology ecosystem that benefits the most people. This Giving Tuesday, we invite you to join us in a crucial mission to empower the next generation of quantum explorers. Your support isn't just a donation; it's a quantum leap for our community.
 
   <br /><br />
@@ -28,7 +35,12 @@ Unitary Foundation is dedicated to fostering an open and accessible quantum tech
     <ButtonLinkSubtext>via PayPal</ButtonLinkSubtext>
   <br /><br />
 
-    # Our Goal: Fund the Future of Open Quantum
+  <h2 className="text-2xl font-bold">
+  Our Goal: Fund the Future of Open Quantum
+  </h2>
+  <br />
+    ![Community People Image](/images/2025_donate01.png)
+    <br />
     **Target: \$4,000 USD**
 This year, our goal is simple and specific: to have our community entirely underwrite a UF Microgrant.
 A \$4,000 grant provides vital, unrestricted funding to an exceptional explorer working on open-source software, educational materials, or a cutting-edge quantum project. This is how we seed innovation and ensure that great ideas, regardless of institutional affiliation, have the support they need to thrive.
@@ -40,7 +52,13 @@ Help us continue to fund brilliance. Donate Today.
     </ButtonLink>
   <br /><br />
 
-    # The Exchange: Your Support, Our Gratitude
+  
+  <h2 className="text-2xl font-bold">
+  The Exchange: Your Support, Our Gratitude
+  </h2>
+  <br />
+    ![Community People Image](/images/2025_donate02.png)
+     <br />
     Donating to Unitary Foundation means directly supporting innovation, community, and open science. As a small token of our immense gratitude, we are pleased to offer special recognition tiers during this campaign:
 
   <br /><br />
@@ -49,7 +67,13 @@ Help us continue to fund brilliance. Donate Today.
     </ButtonLink>
   <br /><br />
 
-    # Amplify the Future: The Unitary Giveaway
+  
+  <h2 className="text-2xl font-bold">
+  Amplify the Future: The Unitary Giveaway
+  </h2>
+  <br />
+     ![Community People Image](/images/2025_donate03.png)
+     <br />
 We can’t evolve without a network! Help us share our mission with the world, and you could win. We’re raffling a **$50 promo code** to our shop on each of our social platforms.
 <br />
 1 Post Reshare = 1 Entry on that platform.
@@ -67,9 +91,15 @@ Subscribe to UF on YouTube for another chance to win a $50 promo code!
 Winners will be announced on December 3rd.
 
   <br /><br />
-    # The Archive Reopens: Special Edition Shop
-    For a limited time during the campaign, our shop will feature a Special Edition drop!
+  
+  <h2 className="text-2xl font-bold">
+  The Archive Reopens: Special Edition Shop
+  </h2>
+  <br />
+![Community People Image](/images/2025_donate_merch.png)
+<br />
+For a limited time during the campaign, our shop will feature a Special Edition drop!
 This is your last chance this year to grab designs from major UF moments—from uHACK, uCON, WERQSHOP, and our featured projects. Stock up on the past to fund the future.
 
-  </PageIntro>
+
 </div>
