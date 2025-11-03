@@ -13,9 +13,9 @@ Unitary Foundation is happy to share the results of this year’s **Quantum Open
 
 Topics covered include Demographics, Experience, Cloud Services, Full-Stack Development Platforms, Compilers and Simulators, Software for Applications and Tools, User Experience, OSS Development and Research, and Community.
 
-**Thank you** to you all for your input, answers, and participation! We continue to be amazed at the tools being developed all the time that push the science forward in ways both big and small. A special thank you as well to our supporting and core members, for their guidance, thought leadership, and ongoing support of Unitary Foundation and the open source ecosystem.
+Thank you to you all for your input, answers, and participation! We continue to be amazed at the tools being developed all the time that push the science forward in ways both big and small. **A special thank you** as well to our supporting and core members, for their guidance, thought leadership, and ongoing support of Unitary Foundation and the open source ecosystem.
 
-**[Read the full survey results here.](https://unitaryfoundation.github.io/survey-2025/)** We've provided some insights below and look forward to hearing what you think as well! Write to us at info@unitary.foundation with any questions or comments. 
+**[Read the full survey results here.](https://unitaryfoundation.github.io/survey-2025/)** We've provided some insights below and look forward to hearing what you think as well! Write to us at info(at)unitary(dot)foundation with any questions or comments. 
 
 Warmly,
 </br>
@@ -36,11 +36,11 @@ Finally, the **Educational Background** of respondents appears more evenly dispe
 ## [⚙️ Full-stack development platforms, compilers, and simulators](https://unitaryfoundation.github.io/survey-2025/#Full-stack-development)
 We noted significant interest in **up-and-coming and smaller packages**. Here are the ones that jumped the most this year: 
 
-&nbsp;&nbsp;&nbsp; **OpenQ:** Grew from 1.1% to **7.7%** in current/future usage.
+- **OpenQ:** Grew from 1.1% to **7.7%** in current/future usage.
 
-&nbsp;&nbsp;&nbsp; **Yao.jl:** jumped from 1.3% to **7.9% **in current/future usage.
+- **Yao.jl:** jumped from 1.3% to **7.9%** in current/future usage.
 
-&nbsp;&nbsp;&nbsp; **UCC (Unitary Compiler Collection):** Had the highest jump from 2% to **10%** in current/future usage.
+- **UCC (Unitary Compiler Collection):** Had the highest jump from 2% to **10%** in current/future usage.
 
 
 ## [🛠️ Software for Applications and Tools](https://unitaryfoundation.github.io/survey-2025/#Software)
@@ -52,11 +52,11 @@ When respondents were asked about the type of quantum computing research they pe
 
 Regarding the **areas of quantum computing believed to be the most promising for future research**, there were a few significant drops from 2024 to 2025: 
 
-&nbsp;&nbsp;&nbsp; **Hardware Development:** While **34%** of respondents believed it was the most promising in 2024, only **27%** believe this to be true in 2025.
+- **Hardware Development:** While **34%** of respondents believed it was the most promising in 2024, only **27%** believe this to be true in 2025.
 
-&nbsp;&nbsp;&nbsp; **Error Mitigation:** While **28%** of respondents believed it was the most promising in 2024, only **23%** believe this to be true in 2025.
+- **Error Mitigation:** While **28%** of respondents believed it was the most promising in 2024, only **23%** believe this to be true in 2025.
 
-&nbsp;&nbsp;&nbsp;Though they saw slight drops, **Algorithm development**, **Error Correction**, and **Application development** continue to be considered the most promising! 
+- **Algorithm development**, **Error Correction**, and **Application development** continue to be considered the most promising! 
 
 It’s **encouraging to see high interest** in respondents wanting to **co-author a research paper** based on work with open-source software. Unitary Foundation will look to encourage new engagement around this topic in the coming year.
 
