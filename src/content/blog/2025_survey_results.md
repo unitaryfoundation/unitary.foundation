@@ -7,6 +7,8 @@ year: 2025
 tags: 
   - survey
 ---
+<a href="https://unitaryfoundation.github.io/survey-2025/" target="_blank"><img src="/images/2025_qoss_banner.png"></a>
+
 Dear community members, 
 
 Unitary Foundation is happy to share the results of this year’s **Quantum Open Source Survey**! Now in its fourth iteration, the survey is meant to serve as a snapshot of our community to provide illuminating and actionable insights as we look to develop a quantum ecosystem that is the most useful to the most people.
@@ -71,3 +73,5 @@ This year, there continued to be a relatively **even spread of resources** the c
 When asked about the **Source of answers or information when developing quantum software**, we are encouraged that project **documentation and source code** remain higher-ranked than chatbots. This confirms that having **good docs and readable code** still matters most to developers.
 
 In the **open-ended feedback section**, the top two categories of responses were: **Learning, Mentorship & Training** (e.g., requests for structured learning, workshops, tutorials) and **Collaboration & Community Building** (e.g., importance of inclusivity and support for newcomers). This suggests that the community is actively calling for **more formalized educational pathways and stronger structural support** to welcome and onboard new members.
+
+![Open-Ended Question Survey Results](/images/2025_qoss_results.png)
