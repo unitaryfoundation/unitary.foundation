@@ -12,7 +12,7 @@ tags:
   - Guest Post
 ---
 
-<em>This is a guest post by the Quantum Computing Student Association at UCLA. Unitary Foundation is proud to have been a sponsor of the event.
+<em> **This post is currently under edits.** This is a guest post by the Quantum Computing Student Association at UCLA. Unitary Foundation is proud to have been a sponsor of the event.
 
 </em>
 
