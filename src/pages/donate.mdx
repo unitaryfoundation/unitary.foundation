@@ -14,6 +14,9 @@ import { PageIntro, ButtonLink, ButtonLinkSubtext, HomeSection, ReducedWidth, } 
 >
   <br /><br />
   ![Giving Tuesday Banner](/images/2025_Giving_Tuesday_Banner.png)
+  
+  <label htmlFor="donation-progress" className="block text-sm font-medium text-black mb-2"><b>Funding Progress:</b> \$1,250 of \$4,000</label>
+  <progress id="donation-progress" className="donation-progress" value={1250} max={4000}></progress>
   <HomeSection
   title="<mark>Evolve with Us:</mark> A Unitary Foundation Giving Tuesday"
   topSpacing="large"

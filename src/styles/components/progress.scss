@@ -1,0 +1,25 @@
+progress.donation-progress {
+  width: 100%;
+  height: 12px; // roughly Tailwind h-3
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-color: #e5e7eb; // gray-200
+}
+
+progress.donation-progress::-webkit-progress-bar {
+  background-color: #e5e7eb; // gray-200
+  border-radius: 9999px;
+}
+
+progress.donation-progress::-webkit-progress-value {
+  background-color: #000000; // black
+  border-radius: 9999px;
+}
+
+progress.donation-progress::-moz-progress-bar {
+  background-color: #000000; // black
+  border-radius: 9999px;
+}
+
