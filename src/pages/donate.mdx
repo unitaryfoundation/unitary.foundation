@@ -5,6 +5,9 @@ title: Donate
 
 import { PageIntro, ButtonLink, ButtonLinkSubtext, HomeSection, ReducedWidth, } from '~/components/Ui';
 
+export const amountRaised = 1650;
+export const donationGoal = 4000;
+
 <div
   style={{
     maxWidth: '870px',
@@ -12,8 +15,8 @@ import { PageIntro, ButtonLink, ButtonLinkSubtext, HomeSection, ReducedWidth, } 
     padding: '0 1.5rem', /* adjust for side padding */
   }}
 >
-  <label htmlFor="donation-progress" className="block text-sm font-medium text-black mb-2"><b>Funding Progress:</b> \$1,150 of \$4,000</label>
-  <progress id="donation-progress" className="donation-progress" value={1150} max={4000}></progress>
+  <label htmlFor="donation-progress" className="block text-sm font-medium text-black mb-2"><b>Funding Progress:</b> \${amountRaised.toLocaleString("en-US")} of \${donationGoal.toLocaleString("en-US")}</label>
+  <progress id="donation-progress" className="donation-progress" value={amountRaised} max={donationGoal}></progress>
   <br /><br />
   ![Giving Tuesday Banner](/images/2025_Giving_Tuesday_Banner.png)
   
