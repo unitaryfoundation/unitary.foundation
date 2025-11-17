@@ -48,7 +48,7 @@ The alignment here is clear: just as the internet must be a public resource, the
 
 </br>
 
-In addition to becoming Supporting Members, **Mozilla Foundation has committed funds for Unitary Foundation to host an Open Source Fellow in 2026.** You can learn more about the fellowship and nominate a colleague (or yourself!) [here](https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2026-nominations-request/). Deadline to submit nominations is January 30, 2026. 
+In addition to welcoming them to the membership program, Unitary Foundation is thrilled to be **partnering with Mozilla Foundation to host a 2026 Open Source Fellow** to help advance the quantum OSE. You can learn more about the fellowship and nominate a colleague (or yourself!) [here](https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2026-nominations-request/). Deadline to submit nominations is January 30, 2026. 
 
 We look forward to a dynamic collaboration and the powerful results it will yield for the entire quantum ecosystem. Thank you, Mozilla Foundation, for joining our community! 
 
