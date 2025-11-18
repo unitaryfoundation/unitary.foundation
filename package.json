@@ -37,7 +37,7 @@
     "downshift": "^9.0.9",
     "hastscript": "^9.0.1",
     "html-react-parser": "^5.2.3",
-    "iso-3166": "^4.3.0",
+    "iso-3166": "^4.4.0",
     "lucide-react": "^0.487.0",
     "markdown-it": "^14.1.0",
     "markdown-to-jsx": "^7.7.4",
