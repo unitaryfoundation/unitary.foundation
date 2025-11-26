@@ -15,7 +15,7 @@ tags:
 *Ella and Timothy are 2024 Unitary Foundation micrograntees.* 
 </br>
 </br>
-**diversifying talent and increasing interest in quantum through gaming.**
+## diversifying talent and increasing interest in quantum through gaming.
 
 **Ella:** Beginning in 2019, UBC Geering Up had been working with multiple partner organizations to introduce K-12 students in British Columbia to quantum computing. Through the (now 6 years) of the project, we had tried a ton of different types of programs to get students engaged and excited about this field. Part of this was developing some online games and demos for students to play. In 2023, I received an out of the blue email from Tim. 
 
@@ -23,7 +23,7 @@ tags:
 
 In 2023, a year into my secondment, I was looking into the next big thing when quantum computing popped into my news stream. A bit of research showed the only program actively doing quantum education in Canada was UBC’s Geering Up engineering outreach, so I dug up an email and cold called them!
 
-# the idea for a quantum boot camp at UBC summer of 2023.
+## the idea for a quantum boot camp at UBC summer of 2023.
 
 **Ella:** I wanted to give Tim and two other collaborators an opportunity to dive headfirst into quantum learning. I organized a 2-day crash course with PhD students, researchers, and a tour of D Wave Systems, a Burnaby-based quantum computing company. We had an awesome time diving into game design, quantum concepts, and left really inspired to continue working together. 
 
