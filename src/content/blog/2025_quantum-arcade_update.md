@@ -15,7 +15,7 @@ tags:
 *Ella and Timothy are 2024 Unitary Foundation micrograntees.* 
 </br>
 </br>
-# diversifying talent and increasing interest in quantum through gaming.
+**diversifying talent and increasing interest in quantum through gaming.**
 
 **Ella:** Beginning in 2019, UBC Geering Up had been working with multiple partner organizations to introduce K-12 students in British Columbia to quantum computing. Through the (now 6 years) of the project, we had tried a ton of different types of programs to get students engaged and excited about this field. Part of this was developing some online games and demos for students to play. In 2023, I received an out of the blue email from Tim. 
 
