@@ -1,8 +1,8 @@
 ---
 title: A Warm Welcome to Classiq, UF’s newest Supporting Members
 author: Veena Vijayakumar	
-day: 26
-month: 11
+day: 3
+month: 12
 year: 2025
 tags: 
   - members
@@ -12,9 +12,9 @@ tags:
 
 Dear UF Community,
 
-During this Giving Tuesday season, we’re delighted to announce another major addition to the Unitary Foundation family: **Classiq has joined us as a Supporting Member!**
+We’re delighted to announce a major addition to the Unitary Foundation community: **Classiq has joined us as a Supporting Member!**
 
-Classiq is a pioneer in the quantum industry, known for its powerful software platform that allows developers to design, synthesize, and optimize complex quantum circuits. Their work is all about making advanced quantum development more accessible and efficient—a goal that aligns perfectly with our mission.
+Classiq is a pioneer in the quantum industry, known for its powerful software platform that allows developers to design, synthesize, and optimize complex quantum circuits. Their work is all about making advanced quantum development more accessible and efficient — a goal that aligns perfectly with our mission. The Classiq library, which is one of the most comprehensive in the industry, features over 200 maintained notebooks. Check it out [here](https://github.com/Classiq/classiq-library). 
 
 We are incredibly proud to partner with a company that is innovating at the intersection of software and quantum hardware. Classiq's support ensures that we can continue to grow our community and provide the essential resources needed to keep the quantum ecosystem open, diverse, and robust.
 
