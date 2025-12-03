@@ -1,5 +1,5 @@
 ---
-title: A Warm Welcome to Classiq, UF’s newest Supporting Members
+title: A Warm Welcome to Classiq, UF’s newest Supporting Member
 author: Veena Vijayakumar	
 day: 3
 month: 12
