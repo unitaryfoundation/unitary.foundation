@@ -10,7 +10,7 @@ tags:
   - community 
 ---
 
-::image[qdsc6xqbmcjppcokdwqy]
+![Classiq and Unitary Foundation logos](/images/collab.png)
 
 Dear UF Community,
 
