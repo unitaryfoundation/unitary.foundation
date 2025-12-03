@@ -10,6 +10,8 @@ tags:
   - community 
 ---
 
+::image[qdsc6xqbmcjppcokdwqy]
+
 Dear UF Community,
 
 We’re delighted to announce a major addition to the Unitary Foundation community: **Classiq has joined us as a Supporting Member!**
