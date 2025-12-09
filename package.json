@@ -73,7 +73,7 @@
     "@types/sanitize-html": "^2.16.0",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
-    "sass": "^1.94.1",
+    "sass": "^1.95.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
