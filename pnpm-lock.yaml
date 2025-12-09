@@ -99,8 +99,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0
       markdown-to-jsx:
-        specifier: ^7.7.4
-        version: 7.7.4(react@19.2.0)
+        specifier: ^9.3.3
+        version: 9.3.3(react@19.2.0)
       merge-refs:
         specifier: ^2.0.0
         version: 2.0.0(@types/react@19.2.7)
@@ -2757,11 +2757,23 @@ packages:
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
 
-  markdown-to-jsx@7.7.4:
-    resolution: {integrity: sha512-1bSfXyBKi+EYS3YY+e0Csuxf8oZ3decdfhOav/Z7Wrk89tjudyL5FOmwZQUoy0/qVXGUl+6Q3s2SWtpDEWITfQ==}
-    engines: {node: '>= 10'}
+  markdown-to-jsx@9.3.3:
+    resolution: {integrity: sha512-6vxAU22zGz3anoU4HiORlk9ld+Hgiu5Ko0tANTSqz9Qc0qiWaXLuMqgLLm4rzLLrPz9TD2UD/8Bsv83cj8fbcQ==}
+    engines: {node: '>= 18'}
     peerDependencies:
-      react: '>= 0.14.0'
+      react: '>= 16.0.0'
+      react-native: '*'
+      solid-js: '>=1.0.0'
+      vue: '>=3.0.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-native:
+        optional: true
+      solid-js:
+        optional: true
+      vue:
+        optional: true
 
   matchmediaquery@0.4.2:
     resolution: {integrity: sha512-wrZpoT50ehYOudhDjt/YvUJc6eUzcdFPdmbizfgvswCKNHD1/OBOHYJpHie+HXpu6bSkEGieFMYk6VuutaiRfA==}
@@ -6834,8 +6846,8 @@ snapshots:
 
   markdown-table@3.0.4: {}
 
-  markdown-to-jsx@7.7.4(react@19.2.0):
-    dependencies:
+  markdown-to-jsx@9.3.3(react@19.2.0):
+    optionalDependencies:
       react: 19.2.0
 
   matchmediaquery@0.4.2:
