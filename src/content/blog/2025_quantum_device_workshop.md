@@ -95,7 +95,7 @@ Building on the momentum of this year’s program, the organizing team plans to 
 
 ## Join the Community
 
-To stay involved with open-source quantum device design tools and receive updates on future workshops, we welcome you to join the [Community Discord](https://discord.gg/swHQTSgXrs) and pre-register for next year’s event. For more events hosted by the Quantum Computing Student Association, feel free to join the [QCSA Discord](https://discord.gg/Uv9RbsBYW6).
+To stay involved with open-source quantum device design tools and receive updates on future workshops, we welcome you to join the [Community Discord](https://discord.gg/swHQTSgXrs) and [pre-register](https://qdw-ucla.squarespace.com/qdw2026) for next year’s event. For more events hosted by the Quantum Computing Student Association, feel free to join the [QCSA Discord](https://discord.gg/Uv9RbsBYW6).
 
 ![](/images/Finale.jpg)  
 **<p style="text-align:center;">From all of the sponsors, speakers, and organizers, we wish you long coherence times and fast two qubit gate times in your designs! See you next year!!</p>**
