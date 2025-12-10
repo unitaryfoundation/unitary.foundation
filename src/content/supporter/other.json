@@ -89,100 +89,13 @@
       "url": "https://www.xanadu.ai/"
     },
     {
-      "title": "Spencer Churchill"
-    },
-    {
-      "title": "Jeff Cordova"
-    },
-    {
-      "title": "Amir Ebrahimi"
-    },
-     {
-      "title": "Douglas Finke"
-    },
-    {
-      "title": "Ryan Shaffer"
-    },
-    {
-      "title": "Lia Yeh"
-    },
-    {
-      "title": "Alberto Maldonado Romo"
-    },
-    {
-      "title": "Stephen Diadamo"
-    },
-    {
-      "title": "Hayk Tepanyan"
-    },
-    {
-      "title": "Pranav Gokhale"
-    },
-    {
-      "title": "Alex McCaskey"
-    },
-    {
-      "title": "Peter Karalekas"
-    },
-    {
-      "title": "Nathan Killoran"
-    }, 
-    {
-      "title": "Steve Willis and NYC Quantum Meetup"
-    },
-    {
-      "title": "John Hering"
-    },
-    {
-      "title": "Nima Alidoust"
-    },
-    {
-      "title": "Travis Humble "
-    },
-    {
-      "title": "George Umbrarescu"
-    },
-    {
-      "title": "Michał Stęchły"
-    },
-    {
-      "title": "Terrill Frantz"
-    },
-    {
-      "title": "Konstantin Vinogradov"
-    },
-    {
-      "title": "Jordan Rule"
-    },
-    {
-      "title": "Greg Ramsay"
-    },
-    {
-      "title": "Peter Johnson"
-    },
-    {
-      "title": "Guillaume Verdon"
-    },
-    {
-      "title": "Rishi Sreedhar"
-    },
-    {
-      "title": "Travis L. Scholten"
-    },
-    {
-      "title": "Jens Koch"
-    },
-    {
-      "title": "Christophe Jurczak"
-    },
-    {
-      "title": "Angelo Danducci II"
-    },
-    {
       "title": "Amira Abbas"
     },
     {
       "title": "Shahnawaz Ahmed"
+    },
+    {
+      "title": "Nima Alidoust"
     },
     {
       "title": "Tomas Babej"
@@ -194,17 +107,107 @@
       "title": "Amy Brown"
     },
     {
+      "title": "Spencer Churchill"
+    },
+    {
+      "title": "Jeff Cordova"
+    },
+    {
+      "title": "Angelo Danducci II"
+    },
+    {
+      "title": "Stephen Diadamo"
+    },
+    {
+      "title": "Amir Ebrahimi"
+    },
+    {
       "title": "Mark Fingerhuth"
+    },
+    {
+      "title": "Douglas Finke"
+    },
+    {
+      "title": "Terrill Frantz"
+    },
+    {
+      "title": "Pranav Gokhale"
     },
     {
       "title": "Cassandra Granade"
     },
     {
+      "title": "John Hering"
+    },
+    {
+      "title": "Travis Humble"
+    },
+    {
       "title": "Josh Izaac"
     },
     {
+      "title": "Peter Johnson"
+    },
+    {
+      "title": "Christophe Jurczak"
+    },
+    {
       "title": "Sarah Kaiser"
-    },  
+    },
+    {
+      "title": "Peter Karalekas"
+    },
+    {
+      "title": "Nathan Killoran"
+    },
+    {
+      "title": "Jens Koch"
+    },
+    {
+      "title": "Alberto Maldonado Romo"
+    },
+    {
+      "title": "Alex McCaskey"
+    },
+    {
+      "title": "Greg Ramsay"
+    },
+    {
+      "title": "Jordan Rule"
+    },
+    {
+      "title": "Travis L. Scholten"
+    },
+    {
+      "title": "Ryan Shaffer"
+    },
+    {
+      "title": "Rishi Sreedhar"
+    },
+    {
+      "title": "Michał Stęchły"
+    },
+    {
+      "title": "nate stemen"
+    },
+    {
+      "title": "Hayk Tepanyan"
+    },
+    {
+      "title": "George Umbrarescu"
+    },
+    {
+      "title": "Guillaume Verdon"
+    },
+    {
+      "title": "Konstantin Vinogradov"
+    },
+    {
+      "title": "Steve Willis and NYC Quantum Meetup"
+    },
+    {
+      "title": "Lia Yeh"
+    },
     {
       "title": "Will Zeng"
     }
