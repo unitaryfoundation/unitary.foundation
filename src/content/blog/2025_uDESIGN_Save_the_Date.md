@@ -11,7 +11,7 @@ tags:
 
 Unitary Foundation is excited to announce the **inaugural edition of [unitaryDESIGN](https://unitary.design/)**, our newest online hackathon! 
 
-unitaryDESIGN encourages people to make contributions to the open source quantum ecosystem through the lens of community engagement and science communication. If you've ever participated in our annual [unitaryHACK](https://unitaryhack.dev/), this hackathon runs quite similarly, but with more of a focus on repository documentation, data visualization, and overall science communication. 
+unitaryDESIGN encourages people to make contributions to the open source quantum ecosystem through the lens of community engagement and science communication. If you've ever participated in our annual [unitaryHACK](https://unitaryhack.dev/), this hackathon runs quite similarly but with more of a focus on repository documentation, data visualization, and overall science communication. 
 
 The event will run **February 16-27, 2026**, and hackers at all experience levels have the opportunity to win cash bounties!
 
