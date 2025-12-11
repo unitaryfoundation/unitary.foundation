@@ -22,3 +22,5 @@ Interested in participating in this new effort? Here’s what you can do right n
 - **Share** this opportunity with your friends and colleagues in other networks!
 
 Keep an eye out for new announcements coming in the new year. See you all in February! 
+
+_unitaryDESIGN is made possible by a generous donation from [Shift Grants](https://www.shiftgrants.org/) as well as support from Unitary Foundation members. Thank you all for your support and guidance!_ 
