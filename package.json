@@ -18,7 +18,7 @@
     "@astrojs/tailwind": "6.0.2",
     "@cloudinary/url-gen": "^1.22.0",
     "@emotion/css": "^11.13.5",
-    "@nanostores/react": "^0.8.4",
+    "@nanostores/react": "^1.0.0",
     "@radix-ui/react-accordion": "^1.2.4",
     "@radix-ui/react-scroll-area": "^1.2.4",
     "@radix-ui/react-select": "^2.1.7",
