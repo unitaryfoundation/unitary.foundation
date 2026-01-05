@@ -3,157 +3,20 @@ layout: '~/layouts/Layout.astro'
 title: Donate
 ---
 
-import { PageIntro, ButtonLink, ButtonLinkSubtext, HomeSection, ReducedWidth, } from '~/components/Ui';
+import { PageIntro, ButtonLink, ButtonLinkSubtext } from '~/components/Ui';
 
-export const amountRaised = 3715;
-export const donationGoal = 4000;
+<PageIntro spacingBelow='large'>
+# Help support open source quantum software with Unitary Foundation
 
-<div
-  style={{
-    maxWidth: '870px',
-    margin: '0 auto',
-    padding: '0 1.5rem', /* adjust for side padding */
-  }}
->
-  <label htmlFor="donation-progress" className="block text-sm font-medium text-black mb-2"><b>Funding Progress:</b> \${amountRaised.toLocaleString("en-US")} of \${donationGoal.toLocaleString("en-US")}</label>
-  <progress id="donation-progress" className="donation-progress" value={amountRaised} max={donationGoal}></progress>
-  <br /><br />
-  ![Giving Tuesday Banner](/images/2025_Giving_Tuesday_Banner.png)
-  
-  <HomeSection
-    title="<mark>Evolve with Us:</mark> A Unitary Foundation Giving Tuesday"
-    topSpacing="small"
-    bottomSpacing="small"
-    titleStyle="secondary"
-  >
-    <ReducedWidth smaller>
-        **Because evolution is unitary.**
-    </ReducedWidth>
-  </HomeSection>
+**Unitary Foundation is a 501(c)(3) non-profit working to create a quantum technology ecosystem that benefits the most people. Help to strengthen the open source tools that will enable quantum computing by becoming a donor today!**
 
+You can also represent Unitary Foundation by buying some swag in our [shop](https://shop.unitary.foundation/)!
 
-  Unitary Foundation is dedicated to fostering an open and accessible quantum technology ecosystem that benefits the most people.
-  This Giving Tuesday, we invite you to join us in a crucial mission to empower the next generation of quantum explorers.
-  Your support isn't just a donation; it's a quantum leap for our community.
+<ButtonLink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NYN7D2ADDYQ78&source=url">
+  Donate
+</ButtonLink>
+<ButtonLinkSubtext>via PayPal</ButtonLinkSubtext>
 
-  <br />
-  <ButtonLink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NYN7D2ADDYQ78&source=url">
-    Donate
-  </ButtonLink>
-  <ButtonLinkSubtext>via PayPal</ButtonLinkSubtext>
-  <br />
-  <br />
+_All donations to UF are tax-deductible._ 
 
-  <h2 className="text-2xl font-bold">
-    Our Goal: Fund the Future of Open Quantum
-  </h2>
-  <br />
-  ![Community People Image](/images/2025_donate01.png)
-  <br />
-  **Target: \$4,000 USD**
-
-  This year, our goal is simple and specific: to have our community entirely underwrite a **UF Microgrant.**
-  A \$4,000 grant provides vital, unrestricted funding to an exceptional explorer working on open-source software, educational materials, or a cutting-edge quantum project.
-  This is how we seed innovation and ensure that great ideas, regardless of institutional affiliation, have the support they need to thrive.
-  **Help us continue to fund brilliance.
-  [Donate today.](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NYN7D2ADDYQ78&source=url&ssrt=1762205575587)**
-  <br />
-  <br />
-
-  <h2 className="text-2xl font-bold">
-    The Exchange: Your Support, Our Gratitude
-  </h2>
-  <br />
-  ![Community People Image](/images/2025_donate02.png)
-  <br />
-  Donating to Unitary Foundation means directly supporting innovation, community, and open science.
-  As a small token of our immense gratitude, we are pleased to offer special recognition tiers during this campaign:
-
-  <table className="min-w-full divide-y divide-gray-200 border border-gray-200">
-    <thead className="bg-gray-50">
-      <tr>
-        <th
-          scope="col"
-          className="px-6 py-3 text-left text-sm font-semibold text-black"
-        >
-          Donation Tier
-        </th>
-        <th
-          scope="col"
-          className="px-6 py-3 text-left text-sm font-semibold text-black"
-        >
-          Recognition & Gift
-        </th>
-      </tr>
-    </thead>
-    <tbody className="divide-y divide-gray-200 bg-white">
-      <tr>
-        <td className="px-6 py-4 text-sm text-black">$500+ Donors</td>
-        <td className="px-6 py-4 text-sm text-black">
-          Receive a special, exclusive thank-you gift from the Unitary Foundation team.
-        </td>
-      </tr>
-      <tr className="bg-gray-50">
-        <td className="px-6 py-4 text-sm text-black">$250+ Donors</td>
-        <td className="px-6 py-4 text-sm text-black">
-          Your name or organization will be featured on the Unitary Foundation website homepage as a dedicated supporter.
-        </td>
-      </tr>
-      <tr>
-        <td className="px-6 py-4 text-sm text-black">All Donors</td>
-        <td className="px-6 py-4 text-sm text-black">
-          Recognition in our Annual Report and endless gratitude for making the quantum future more open.
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <br />
-  <ButtonLink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NYN7D2ADDYQ78&source=url">
-    Donate
-  </ButtonLink>
-  <br /><br /><br />
-
-
-  <h2 className="text-2xl font-bold">
-    Amplify the Future: The Unitary Giveaway
-  </h2>
-  <br />
-  ![Community People Image](/images/2025_donate03.png)
-  <br />
-  We can’t evolve without a network!
-  Help us share our mission with the world, and you could win.
-  We’re raffling a **$50 promo code** to our shop on *each* of our social platforms.<br /><br />
-  **1 Post Reshare = 1 Entry on that platform.**<br /><br />
-  **To Enter the Raffle, follow these three simple steps:**
-  <ol className="list-decimal pl-5 space-y-2">
-    <li>Follow us on the platform ([LinkedIn](https://www.linkedin.com/company/unitary-foundation/), [Bluesky](https://bsky.app/profile/unitaryfoundation.bsky.social), or [X](https://x.com/unitaryfdn/)).</li>
-    <li>Like and Reshare the official Giving Tuesday post.</li>
-    <li>Be sure to tag us in your post so we can see your brilliant support!</li>
-  </ol>
-  You can reshare as many times as you’d like throughout the entire campaign (November 4–December 2).
-
-  **Bonus Raffle Entry!**
-  Subscribe to UF on YouTube for another chance to win a $50 promo code!
-  <br />
-  Winners will be announced on December 3rd.
-  <br /><br />
-
-  <h2 className="text-2xl font-bold">
-    The Archive Reopens: Special Edition Shop
-  </h2>
-  <br />
-
-  <a href="https://shop.unitary.foundation/" target="_blank" rel="noopener noreferrer">
-    <img src="/images/2025_donate_merch.png" alt="2025 Donate Merch" />
-  </a>
-
-  <br />
-  For a limited time during the campaign, [our shop](https://shop.unitary.foundation/) will feature a **Special Edition drop!**
-  This is your last chance this year to grab designs from major UF moments—from uHACK, uCON, WERQSHOP, and our featured projects.
-  Stock up on the past to fund the future.
-
-  All donations to Unitary Foundation are tax deductible.
-  [Donate today](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=NYN7D2ADDYQ78&source=url&ssrt=1762205575587) and help further the quantum open source ecosystem.
-</div>
+</PageIntro>
