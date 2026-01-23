@@ -10,9 +10,7 @@ tags:
 ---
 
 
-## **Unitary Foundation is excited to welcome the newest additions to our 2026 Advisory Board!**
-
-Many in this global group of volunteer champions have been active participants in the UF community, from organizing in-person workshops to co-authoring research papers with the UF team. A subset of these advisors are also **UF microgrant alumni** who bring a special point of view to the application review and mentorship process. 
+**Unitary Foundation is excited to welcome the newest additions to our 2026 Advisory Board!** Many in this global group of volunteer champions have been active participants in the UF community, from organizing in-person workshops to co-authoring research papers with the UF team. A subset of these advisors are also **UF microgrant alumni** who bring a special point of view to the application review and mentorship process. 
 
 The microgrant advisors are all experts in their fields, and they bring experience across the quantum technology stack and beyond. They work at academic research centers, corporate research divisions, and startups, both collaborating on large open source projects and having authored personal projects. Importantly, they all share our commitment to growing the community of open science and technology.
 
