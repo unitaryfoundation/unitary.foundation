@@ -9,6 +9,7 @@ tags:
   - community
 ---
 
+
 ## **Unitary Foundation is excited to welcome the newest additions to our 2026 Advisory Board!**
 
 Many in this global group of volunteer champions have been active participants in the UF community, from organizing in-person workshops to co-authoring research papers with the UF team. A subset of these advisors are also **UF microgrant alumni** who bring a special point of view to the application review and mentorship process. 
