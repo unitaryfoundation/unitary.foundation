@@ -3,7 +3,7 @@ name: Topologiq UX
 year: 2026
 month: 1
 day: 26
-country: FINLAND
+country: FI
 tags:
   - compiler
   - error correction
