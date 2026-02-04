@@ -1,10 +1,22 @@
 {
   "advisors": [
     {
-      "title": "Stephen DiAdamo"
+      "title": "Edoardo Altamura"
+    },
+    {
+      "title": "Coleman Collins"
+    },
+    {
+      "title": "Leonardo Disilvestro"
     },
     {
       "title": "Jamie Friel"
+    },
+    {
+      "title": "Shangjie Guo"
+    },
+    {
+      "title": "Klem Jankiewicz"
     },
     {
       "title": "Sonika Johri"
@@ -28,13 +40,10 @@
       "title": "Ryan Shaffer"
     },
     {
-      "title": "Erica Stump"
-    },
-    {
-      "title": "Misty Wahl"
-    },
-    {
       "title": "Nate Stemen"
+    }
+    {
+      "title": "Charles Yuan"
     }
   ]
 }
