@@ -23,6 +23,6 @@ Ben has been with Unitary Foundation over three years, beginning in the role of 
 
 Prior to his work at Unitary Foundation, Ben spent 15 years working in the sciences and arts focused on scaling novel support mechanisms and community development resources for creative individuals operating at the vanguard of their fields. 
 
-> _“Open source tools and public goods will be the backbone of the field, a multiplier and democratizer for research and innovation. Our work lies at the center of it all. I’m thrilled to lead the Foundation to ensure our growing open source community is well-resourced, connected, inclusive, and thriving.”_ - Ben Castanon, CEO, Unitary Foundation
+> _Open source tools and public goods will be the backbone of the field, a multiplier and democratizer for research and innovation. Our work lies at the center of it all. I’m thrilled to lead the Foundation to ensure our growing open source community is well-resourced, connected, inclusive, and thriving._ - Ben Castanon, CEO, Unitary Foundation
 
 Want to get involved? Join nearly 6,000 developers from around the world on our [Discord](https://discord.gg/2Y9z9xKKbr) to learn more about building the quantum open source ecosystem. 
