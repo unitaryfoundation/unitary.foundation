@@ -21,7 +21,9 @@ To ensure we respond to this moment, we began a search last year to find a CEO f
 
 Ben has been with Unitary Foundation over three years, beginning in the role of Chief of Staff, before being named COO in 2024; overseeing partnerships, community, and grantmaking. Under his direction, UF has grown its Labs initiative including expanding its open benchmarking initiative and the Quantum Open Source Software Survey, securing the first private foundation support of the non-profit, inaugurated the unitaryCON workshop series, opened Unitary Foundation France, scaled the membership program, and much more. 
 
-Prior to his work at Unitary Foundation, Ben spent 15 years working in the sciences and arts focused on scaling novel support mechanisms and community development resources for creative individuals operating at the vanguard of their fields. 
+Prior to his work at Unitary Foundation, Ben spent 15 years in philanthropy and non-profits focused on scaling innovative support mechanisms and community development resources for scientists and artists operating at the vanguard of their fields. 
+
+On behalf of the rest of the board of directors, we are thrilled to work with Ben to continue to scale our work and impact on the open source quantum community. 
 
 > _Open source tools and public goods will be the backbone of the field, a multiplier and democratizer for research and innovation. Our work lies at the center of it all. I’m thrilled to lead the Foundation to ensure our growing open source community is well-resourced, connected, inclusive, and thriving._ - Ben Castanon, CEO, Unitary Foundation
 
