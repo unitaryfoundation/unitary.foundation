@@ -1,6 +1,6 @@
 ---
 title: Announcing Our New CEO
-author: William Zeng
+author: Will Zeng
 day: 9
 month: 2
 year: 2026
@@ -11,7 +11,7 @@ tags:
 
 Unitary Foundation has grown by leaps and bounds since its origins as a microgrant fund in 2018. With 136 grants distributed across 30+ countries, hundreds of thousands of downloads of public goods projects like Mitiq, Metriq, UCC, and QOSS, and a fantastic community of 5,700+ developers using our Discord, we are building the infrastructure necessary to ensure quantum technology is accessible and useful to all.  
 
-### The future of quantum tech needs strong open foundations. 
+**The future of quantum tech needs strong open foundations.** 
 
 The quantum tech industry is also scaling rapidly ($3Bn+ in private VC in 2025) and the open source ecosystem needs to grow with it. Our public goods and open source work across quantum is more useful and important than ever. It will remove bottlenecks and ensure we have the widest possible participation in our field’s advancement. 
 
