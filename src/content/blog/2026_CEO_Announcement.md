@@ -17,7 +17,7 @@ The quantum tech industry is also scaling rapidly ($3Bn+ in private VC in 2025) 
 
 To ensure we respond to this moment, we began a search last year to find a CEO for Unitary Foundation, with the goal of driving open-source projects critical to the quantum ecosystem, scaling funding, partnerships, and community, and fulfilling the Foundation's mission across industry, government, and academia.
 
-After completing our search, **I am thrilled to announce Ben Castanon as Unitary Foundation's first CEO!**
+**After completing our search, I am thrilled to announce Ben Castanon as Unitary Foundation's first CEO!**
 
 Ben has been with Unitary Foundation over three years, beginning in the role of Chief of Staff, before being named COO in 2024; overseeing partnerships, community, and grantmaking. Under his direction, UF has grown its Labs initiative including expanding its open benchmarking initiative and the Quantum Open Source Software Survey, securing the first private foundation support of the non-profit, inaugurated the unitaryCON workshop series, opened Unitary Foundation France, scaled the membership program, and much more. 
 
