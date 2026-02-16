@@ -141,8 +141,8 @@ importers:
         specifier: ^2.17.0
         version: 2.17.0
       swiper:
-        specifier: ^11.2.6
-        version: 11.2.6
+        specifier: ^12.1.1
+        version: 12.1.1
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -3574,8 +3574,8 @@ packages:
   svg-parser@2.0.4:
     resolution: {integrity: sha512-e4hG1hRwoOdRb37cIMSgzNsxyzKfayW6VOflrwvR+/bzrkyxY/31WkbgnQpgtrNp1SdpJvpUAGTa/ZoiPNDuRQ==}
 
-  swiper@11.2.6:
-    resolution: {integrity: sha512-8aXpYKtjy3DjcbzZfz+/OX/GhcU5h+looA6PbAzHMZT6ESSycSp9nAjPCenczgJyslV+rUGse64LMGpWE3PX9Q==}
+  swiper@12.1.1:
+    resolution: {integrity: sha512-NB8Uvpu6m725Xf68l2hZBHD184v/ZAi6WIvAorDuR3gRuwCWbGSam233/8seeeIrMJ9isHGk/CTKFdpgeT5u2Q==}
     engines: {node: '>= 4.7.0'}
 
   tailwind-merge@3.3.1:
@@ -7974,7 +7974,7 @@ snapshots:
 
   svg-parser@2.0.4: {}
 
-  swiper@11.2.6: {}
+  swiper@12.1.1: {}
 
   tailwind-merge@3.3.1: {}
 
