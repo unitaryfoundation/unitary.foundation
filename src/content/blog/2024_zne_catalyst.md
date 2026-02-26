@@ -62,4 +62,4 @@ Of course, there are always more options and more error mitigation techniques th
 more sophisticated noise models. This is just the start, and stay tuned on this blog for updates.
 
 If at this point, you are intrigued by just-in-time error mitigation and want to give it a try, 
-read the [documentation](https://docs.pennylane.ai/projects/catalyst/en/latest/code/api/catalyst.mitigate_with_zne.html), run the [tutorial](https://pennylane.ai/qml/demos/tutorial_zne_catalyst), check out the [Catalyst](https://github.com/PennyLaneAI/catalyst) repository. Remember it's all open-source, and you are _just in time_ to contribute!
+read the [documentation](https://docs.pennylane.ai/projects/catalyst/en/latest/code/api/catalyst.mitigate_with_zne.html), run the [tutorial](https://pennylane.ai/qml/demos/zne_catalyst), check out the [Catalyst](https://github.com/PennyLaneAI/catalyst) repository. Remember it's all open-source, and you are _just in time_ to contribute!
