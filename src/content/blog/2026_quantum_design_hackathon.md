@@ -1,6 +1,6 @@
 ---
 title: "From Code to Choreography: Highlights from the NYC Quantum Design Sprint"
-author: Jaye Lin (Supply Projects), Aaron Trowbridge (Harmoniqs), Jack Champagne (Harmoniqs), Veena Vijayakumar (UF)
+author: Jaye Lin, Aaron Trowbridge, Jack Champagne, Veena Vijayakumar
 day: 6
 month: 3
 year: 2026
@@ -9,18 +9,20 @@ tags:
   - education
   - event
 ---
+_This is a collaborative post between UF + Harmoniqs staff. All photography by [Won Jun Seok](https://www.instagram.com/wonjunseok) · wonjunseok.com_  
+
 ## The Vision.
 
-<figure style="text-align: center;">
+<figure style="text-align: left;">
   <img src="public/images/QDH/MS garage.jpg" alt="microsoft garage before the event started" width="500">
   <figcaption style="font-style: italic; color: #555; margin-top: 8px;">
    The calm before the creative storm
   </figcaption>
-</figure>
+</figure>  
 
 On February 20, 2026, a group of quantum enthusiasts gathered in NYC for the first ever **Quantum Design Hackathon**, a [unitaryDESIGN](https://unitary.design/) event presented by [Harmoniqs](https://www.harmoniqs.ai/) and [Unitary Foundation](https://unitary.foundation/). We brought together 80+ participants to tackle one big question: 
 <br>
-<div style="text-align: center;">
+<div style="text-align: left;">
  <em>"How do we communicate the quantum world?"</em>
 </div>  
 <br>
@@ -163,5 +165,5 @@ As the night wrapped and projects hit the stage, one question kept coming up: **
 Here's what YOU can do right now to make sure you're in the know for the next Quantum Design Hackathon: 
 * **Explore the Work:** [Check out](https://quantum-design-hackathon.github.io/index.html) all of the projects that were presented in this iteration of the hackathon
 * **Join the Community:** Follow [Harmoniqs](https://www.linkedin.com/company/harmoniqs/) and [Unitary Foundation](https://www.linkedin.com/company/unitary-foundation/) on socials to be the first to find out when we announce the next quantum design event
-**Collaborate:** All submissions are open source and available under the MIT License for the community to build upon - reach out to us you’d like to contribute to these projects! 
-**Chat with us:** We have a [Quantum Design channel](https://discord.gg/qdKqMyCzu8) on the Unitary Foundation Discord server. You can learn more about what's happening next, ask questions about ways to upskill what you've learned, and more!
+* **Collaborate:** All submissions are open source and available under the MIT License for the community to build upon - reach out to us you’d like to contribute to these projects!
+* **Chat with us:** We have a [Quantum Design channel](https://discord.gg/qdKqMyCzu8) on the Unitary Foundation Discord server. You can learn more about what's happening next, ask questions about ways to upskill what you've learned, and more!
