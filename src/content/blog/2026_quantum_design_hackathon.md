@@ -12,7 +12,6 @@ tags:
 _This is a collaborative post between UF + Harmoniqs staff. All photography by [Won Jun Seok](https://www.instagram.com/wonjunseok) · wonjunseok.com_  
 
 ## The Vision.
-
 <figure style="text-align: left;">
   <img src="public/images/QDH/MS garage.jpg" alt="microsoft garage before the event started" width="500">
   <figcaption style="font-style: italic; color: #555; margin-top: 8px;">
@@ -22,28 +21,27 @@ _This is a collaborative post between UF + Harmoniqs staff. All photography by [
 
 On February 20, 2026, a group of quantum enthusiasts gathered in NYC for the first ever **Quantum Design Hackathon**, a [unitaryDESIGN](https://unitary.design/) event presented by [Harmoniqs](https://www.harmoniqs.ai/) and [Unitary Foundation](https://unitary.foundation/). We brought together 80+ participants to tackle one big question: 
 <br>
-<div style="text-align: left;">
+<div style="text-align: center;">
  <em>"How do we communicate the quantum world?"</em>
 </div>  
 <br>
-
 With a crowd spanning design, art, physics, and engineering, it wasn't just a technical challenge—it was some of the most fun we’ve ever had.
 
 As organizers, our goal was simple: **bring new voices into quantum.** By pairing creative newcomers with veteran researchers, we set out to spark fresh excitement and bridge the communication gap between the lab and the world.
 
 Accessibility was our north star. Between collaborative hacking sessions, we hosted a series of talks designed to orient, inspire, and demo the future of the field:
-* Ben Castanon, CEO of Unitary Foundation – Welcome to Quantum Design Hackathon
-* Mike Pell, Director of the Microsoft Garage (Keynote) – Creativity, Quantum, and the "Why"
-* Aaron Trowbridge, CEO of Harmoniqs – QC Fundamentals & Harmoniqs Demo
-* Stewart Smith, Head of Experience Design, Moth Quantum – Hackathon Visualizations & Inspiration 
-* Francesco Valenti, IBM – Qiskit Platform Demo
-* Dalila Pasotti Art & Natural Sciences – Artistic applications
-* Ishaan Pakrasi, Quantum Product, AWS  / Specialist Lecturer, UAL – Quantum and Creative applications
-* David Bryant, Chief Creative Officer of IBM (Keynote) – Closing Perspectives
+* **Ben Castanon**, CEO of Unitary Foundation – Welcome to Quantum Design Hackathon
+* **Mike Pell**, Director of the Microsoft Garage (Keynote) – Creativity, Quantum, and the "Why"
+* **Aaron Trowbridge**, CEO of Harmoniqs – QC Fundamentals & Harmoniqs Demo
+* **Stewart Smith**, Head of Experience Design, Moth Quantum – Hackathon Visualizations & Inspiration 
+* **Francesco Valenti**, IBM – Qiskit Platform Demo
+* **Dalila Pasotti**, Art & Natural Sciences – Artistic applications
+* **Ishaan Pakrasi**, Quantum Product, AWS  / Specialist Lecturer, UAL – Quantum and Creative applications
+* **David Bryant**, Chief Creative Officer of IBM (Keynote) – Closing Perspectives
 
 ## The Challenge.
 
-The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisible tangible. With 80+ attendees across 9 powerhouse teams, each group took on the challenge of demystifying one of the nine existing qubits through creative storytelling and design, from interactive simulations to—in a hackathon first—a full-blown **theatrical debut**. (Keep an eye out; they might just be headed for Broadway!)
+The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisible tangible.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1000px; margin: 40px auto; padding: 24px; border: 1px solid #e1e4e8; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); background-color: #ffffff;">
 
@@ -83,36 +81,36 @@ The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisib
 
 <br>
 
-With hackers split across 9 powerhouse teams, each group (with the support of mentors from diverse disciplinary backgrounds) took on the challenge of demystifying a specific qubit through creative storytelling and design—ranging from interactive simulations to a hackathon first: a full-blown theatrical debut. (Keep an eye out; they might just be headed for Broadway!) 
+With hackers split across 9 powerhouse teams, each group (with the support of mentors from diverse disciplinary backgrounds) took on the challenge of demystifying a specific qubit through creative storytelling and design—ranging from interactive simulations to a hackathon first: a **full-blown theatrical debut**. (Keep an eye out; they might just be headed for Broadway!) 
 
 ## The Winners!
 
 As our opening keynote Mike Pell reminded us, the heart of this hackathon was collaboration, learning, and community—not just competition. In that spirit, we moved away from a single "grand prize" to celebrate excellence across five distinct categories. Here are the teams that took home the honors (and you can check out all of the projects in detail [here](https://quantum-design-hackathon.github.io/index.html)!):
 
 **Best Visual Design**  
-<img src="public/images/QDH/Group 8.jpg" alt="group8" width="200">  
 _PHOTON & Quantum Rescue_ (Group 8)  
 Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja
+<img src="public/images/QDH/Group 8.jpg" alt="group8" width="200">  
 
 **Best Experience**  
-<img src="public/images/QDH/Group 7.jpg" alt="group7" width="200">  
 _Silicon Pulse: Silicon Spin Explorer_ (Group 7)   
 Hannah Zhao, Raghav Mysore Vishveshwara, Sara Andotra, Atsuko Shimizu, and Ann Mahe
+<img src="public/images/QDH/Group 7.jpg" alt="group7" width="200">  
 
 **Best Translation of a Quantum Concept**  
-<img src="public/images/QDH/Group 2.jpg" alt="group2" width="200">  
 _CAT Qubit Visualization_ (Group 2)  
 Will Stark, Elizabeth Jiang, Yuni Jung, Amiratabak Bahengam, and Christina Lu
+<img src="public/images/QDH/Group 2.jpg" alt="group2" width="200">  
 
 **Most Original Abstraction/Metaphor**  
-<img src="public/images/QDH/Group 1.jpg" alt="group1" width="200">  
 _Transmon Quantum Computer_ (Group 1)  
 Han Qin, Samriddhi, Senuri, Sherly Deng, Miguel Palma, and Obi Nami
+<img src="public/images/QDH/Group 1.jpg" alt="group1" width="200">  
 
 **Audience Favorite**  
-<img src="public/images/QDH/Group 5.jpg" alt="group5" width="200">  
 _The Qubitarium of Trapped Ions_ (Group 5)  
 Ricky Soto, Mahnoor Fatima, Carrie Jaquith, Jasper Sands, Dylan Kawalec, Timothy Clark Dauz, and Alex [age 9!]
+<img src="public/images/QDH/Group 5.jpg" alt="group5" width="200">  
 
 ## Voices from the Hackathon.
 <img src="public/images/QDH/Audience.jpg" alt="Audience laughing and using their phone flashlights" width="500">  
@@ -164,6 +162,6 @@ As the night wrapped and projects hit the stage, one question kept coming up: **
 ## What’s next?
 Here's what YOU can do right now to make sure you're in the know for the next Quantum Design Hackathon: 
 * **Explore the Work:** [Check out](https://quantum-design-hackathon.github.io/index.html) all of the projects that were presented in this iteration of the hackathon
+* **Collaborate:** All of the projects are open source and available under the MIT License for the community to build upon - reach out to us you’d like to contribute to these projects!
 * **Join the Community:** Follow [Harmoniqs](https://www.linkedin.com/company/harmoniqs/) and [Unitary Foundation](https://www.linkedin.com/company/unitary-foundation/) on socials to be the first to find out when we announce the next quantum design event
-* **Collaborate:** All submissions are open source and available under the MIT License for the community to build upon - reach out to us you’d like to contribute to these projects!
 * **Chat with us:** We have a [Quantum Design channel](https://discord.gg/qdKqMyCzu8) on the Unitary Foundation Discord server. You can learn more about what's happening next, ask questions about ways to upskill what you've learned, and more!
