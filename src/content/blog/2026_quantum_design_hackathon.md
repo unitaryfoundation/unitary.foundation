@@ -9,7 +9,7 @@ tags:
   - education
   - event
 ---
-_This is a collaborative post between UF + Harmoniqs staff. All photography by [Won Jun Seok](https://www.instagram.com/wonjunseok) · wonjunseok.com_  
+_This is a collaborative post between UF + Harmoniqs staff. All photography by [Won Jun Seok](https://www.instagram.com/wonjunseok) · [wonjunseok.com](https://wonjunseok.com/)_  
 
 ## The Vision.
 <figure style="text-align: left;">
@@ -41,7 +41,7 @@ Accessibility was our north star. Between collaborative hacking sessions, we hos
 
 ## The Challenge.
 
-The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisible tangible.
+The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisible tangible. With hackers split across 9 powerhouse teams, each group (with the support of mentors from diverse disciplinary backgrounds) took on the challenge of demystifying a specific qubit through creative storytelling and design—ranging from interactive simulations to a hackathon first: a **full-blown theatrical debut**. (Keep an eye out; they might just be headed for Broadway!) 
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1000px; margin: 40px auto; padding: 24px; border: 1px solid #e1e4e8; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); background-color: #ffffff;">
 
@@ -79,9 +79,6 @@ The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisib
 
 </div>
 
-<br>
-
-With hackers split across 9 powerhouse teams, each group (with the support of mentors from diverse disciplinary backgrounds) took on the challenge of demystifying a specific qubit through creative storytelling and design—ranging from interactive simulations to a hackathon first: a **full-blown theatrical debut**. (Keep an eye out; they might just be headed for Broadway!) 
 
 ## The Winners!
 
@@ -90,27 +87,27 @@ As our opening keynote Mike Pell reminded us, the heart of this hackathon was co
 **Best Visual Design**  
 _PHOTON & Quantum Rescue_ (Group 8)  
 Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja  
-<img src="/images/QDH/Group 8.jpg" alt="group8" width="200">  
+<img src="/images/QDH/Group 8.jpg" alt="group8" width="300">  
 
 **Best Experience**  
 _Silicon Pulse: Silicon Spin Explorer_ (Group 7)   
 Hannah Zhao, Raghav Mysore Vishveshwara, Sara Andotra, Atsuko Shimizu, and Ann Mahe  
-<img src="/images/QDH/Group 7.jpg" alt="group7" width="200">  
+<img src="/images/QDH/Group 7.jpg" alt="group7" width="300">  
 
 **Best Translation of a Quantum Concept**  
 _CAT Qubit Visualization_ (Group 2)  
 Will Stark, Elizabeth Jiang, Yuni Jung, Amiratabak Bahengam, and Christina Lu  
-<img src="/images/QDH/Group 2.jpg" alt="group2" width="200">  
+<img src="/images/QDH/Group 2.jpg" alt="group2" width="300">  
 
 **Most Original Abstraction/Metaphor**  
 _Transmon Quantum Computer_ (Group 1)  
 Han Qin, Samriddhi, Senuri, Sherly Deng, Miguel Palma, and Obi Nami  
-<img src="/images/QDH/Group 1.jpg" alt="group1" width="200">  
+<img src="/images/QDH/Group 1.jpg" alt="group1" width="300">  
 
 **Audience Favorite**  
 _The Qubitarium of Trapped Ions_ (Group 5)  
 Ricky Soto, Mahnoor Fatima, Carrie Jaquith, Jasper Sands, Dylan Kawalec, Timothy Clark Dauz, and Alex [age 9!]  
-<img src="/images/QDH/Group 5.jpg" alt="group5" width="200">  
+<img src="/images/QDH/Group 5.jpg" alt="group5" width="300">  
 
 ## Voices from the Hackathon.
 <img src="/images/QDH/Audience.jpg" alt="Audience laughing and using their phone flashlights" width="500">  
@@ -161,7 +158,8 @@ As the night wrapped and projects hit the stage, one question kept coming up: **
 
 ## What’s next?
 Here's what YOU can do right now to make sure you're in the know for the next Quantum Design Hackathon: 
-* **Explore the Work:** [Check out](https://quantum-design-hackathon.github.io/index.html) all of the projects that were presented in this iteration of the hackathon
-* **Collaborate:** All of the projects are open source and available under the MIT License for the community to build upon - reach out to us you’d like to contribute to these projects!
+* **Explore the Work:** <a href="https://quantum-design-hackathon.github.io/index.html" target="_blank" rel="noopener noreferrer" style="color: #0366d6; text-decoration: none; font-weight: 600;">
+  Check out ↗
+</a> all of the projects that were presented in this iteration of the hackathon and feel free to reach out to us with feedback! 
 * **Join the Community:** Follow [Harmoniqs](https://www.linkedin.com/company/harmoniqs/) and [Unitary Foundation](https://www.linkedin.com/company/unitary-foundation/) on socials to be the first to find out when we announce the next quantum design event
 * **Chat with us:** We have a [Quantum Design channel](https://discord.gg/qdKqMyCzu8) on the Unitary Foundation Discord server. You can learn more about what's happening next, ask questions about ways to upskill what you've learned, and more!
