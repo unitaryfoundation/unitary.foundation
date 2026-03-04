@@ -158,8 +158,6 @@ As the night wrapped and projects hit the stage, one question kept coming up: **
 
 ## What’s next?
 Here's what YOU can do right now to make sure you're in the know for the next Quantum Design Hackathon: 
-* **Explore the Work:** <a href="https://quantum-design-hackathon.github.io/index.html" target="_blank" rel="noopener noreferrer" style="color: #000000; text-decoration: none; font-weight: 600;">
-  Check out ↗
-</a> all of the projects that were presented in this iteration of the hackathon and feel free to reach out to us with feedback! 
+* **Explore the Work:** <a href="https://quantum-design-hackathon.github.io/index.html" target="_blank" rel="noopener noreferrer">Check out↗</a> all of the projects that were presented in this iteration of the hackathon and feel free to reach out to us with feedback! 
 * **Join the Community:** Follow [Harmoniqs](https://www.linkedin.com/company/harmoniqs/) and [Unitary Foundation](https://www.linkedin.com/company/unitary-foundation/) on socials to be the first to find out when we announce the next quantum design event
 * **Chat with us:** We have a [Quantum Design channel](https://discord.gg/qdKqMyCzu8) on the Unitary Foundation Discord server. You can learn more about what's happening next, ask questions about ways to upskill what you've learned, and more!
