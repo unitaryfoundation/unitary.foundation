@@ -86,7 +86,7 @@ As our opening keynote Mike Pell reminded us, the heart of this hackathon was co
 
 **Best Visual Design**  
 _PHOTON & Quantum Rescue_ (Group 8)  
-Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja  
+Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja
 <img src="/images/QDH/Group 8.jpg" alt="group8" width="300">  
 
 **Best Experience**  
