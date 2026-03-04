@@ -86,28 +86,28 @@ As our opening keynote Mike Pell reminded us, the heart of this hackathon was co
 
 **Best Visual Design**  
 _PHOTON & Quantum Rescue_ (Group 8)  
-Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja
-<img src="/images/QDH/Group 8.jpg" alt="group8" width="300">  
+Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja  
+<img src="/images/QDH/Group 8.jpg" alt="group8" width="375">  
 
 **Best Experience**  
 _Silicon Pulse: Silicon Spin Explorer_ (Group 7)   
 Hannah Zhao, Raghav Mysore Vishveshwara, Sara Andotra, Atsuko Shimizu, and Ann Mahe  
-<img src="/images/QDH/Group 7.jpg" alt="group7" width="300">  
+<img src="/images/QDH/Group 7.jpg" alt="group7" width="375">  
 
 **Best Translation of a Quantum Concept**  
 _CAT Qubit Visualization_ (Group 2)  
 Will Stark, Elizabeth Jiang, Yuni Jung, Amiratabak Bahengam, and Christina Lu  
-<img src="/images/QDH/Group 2.jpg" alt="group2" width="300">  
+<img src="/images/QDH/Group 2.jpg" alt="group2" width="375">  
 
 **Most Original Abstraction/Metaphor**  
 _Transmon Quantum Computer_ (Group 1)  
 Han Qin, Samriddhi, Senuri, Sherly Deng, Miguel Palma, and Obi Nami  
-<img src="/images/QDH/Group 1.jpg" alt="group1" width="300">  
+<img src="/images/QDH/Group 1.jpg" alt="group1" width="375">  
 
 **Audience Favorite**  
 _The Qubitarium of Trapped Ions_ (Group 5)  
 Ricky Soto, Mahnoor Fatima, Carrie Jaquith, Jasper Sands, Dylan Kawalec, Timothy Clark Dauz, and Alex [age 9!]  
-<img src="/images/QDH/Group 5.jpg" alt="group5" width="300">  
+<img src="/images/QDH/Group 5.jpg" alt="group5" width="375">  
 
 ## Voices from the Hackathon.
 <img src="/images/QDH/Audience.jpg" alt="Audience laughing and using their phone flashlights" width="500">  
