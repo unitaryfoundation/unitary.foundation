@@ -13,7 +13,7 @@ _This is a collaborative post between UF + Harmoniqs staff. All photography by [
 
 ## The Vision.
 <figure style="text-align: left;">
-  <img src="public/images/QDH/MS garage.jpg" alt="microsoft garage before the event started" width="500">
+  <img src="/images/QDH/MS garage.jpg" alt="microsoft garage before the event started" width="500">
   <figcaption style="font-style: italic; color: #555; margin-top: 8px;">
    The calm before the creative storm
   </figcaption>
@@ -46,7 +46,7 @@ The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisib
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1000px; margin: 40px auto; padding: 24px; border: 1px solid #e1e4e8; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); background-color: #ffffff;">
 
   <figure style="text-align: center; margin: 0;">
-    <img src="public/images/QDH/Hacker team v1.jpg" alt="group working together at a table" 
+    <img src="/images/QDH/Hacker team v1.jpg" alt="group working together at a table" 
          style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px; border: 1px solid #eee;">
     <figcaption style="font-style: italic; color: #555; margin-top: 10px; font-size: 0.9em;">
       Team working together during the hack.
@@ -54,7 +54,7 @@ The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisib
   </figure>
 
   <figure style="text-align: center; margin: 0;">
-    <img src="public/images/QDH/Showing work.jpg" alt="whiteboard table with writing on it" 
+    <img src="/images/QDH/Showing work.jpg" alt="whiteboard table with writing on it" 
          style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px; border: 1px solid #eee;">
     <figcaption style="font-style: italic; color: #555; margin-top: 10px; font-size: 0.9em;">
       Gotta show your work.
@@ -62,7 +62,7 @@ The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisib
   </figure>
 
   <figure style="text-align: center; margin: 0;">
-    <img src="public/images/QDH/A phenomenal performance.jpg" alt="two men dancing as part of their presentation" 
+    <img src="/images/QDH/A phenomenal performance.jpg" alt="two men dancing as part of their presentation" 
          style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px; border: 1px solid #eee;">
     <figcaption style="font-style: italic; color: #555; margin-top: 10px; font-size: 0.9em;">
       A phenomenal performance.
@@ -70,7 +70,7 @@ The challenge was intense: a **"One Day, Six Hours"** sprint to make the invisib
   </figure>
 
   <figure style="text-align: center; margin: 0;">
-    <img src="public/images/QDH/Youngest participant age 9.jpg" alt="back view of a child high fiving a woman on stage" 
+    <img src="/images/QDH/Youngest participant age 9.jpg" alt="back view of a child high fiving a woman on stage" 
          style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px; border: 1px solid #eee;">
     <figcaption style="font-style: italic; color: #555; margin-top: 10px; font-size: 0.9em;">
       Our youngest participant receiving kudos.
@@ -90,30 +90,30 @@ As our opening keynote Mike Pell reminded us, the heart of this hackathon was co
 **Best Visual Design**  
 _PHOTON & Quantum Rescue_ (Group 8)  
 Eloise Yalovitser, Arsh Kaushik, Shawn Dai, Ilayda Dilek, Ethan Feldman, Allen Tu, and Kezia Widjaja  
-<img src="public/images/QDH/Group 8.jpg" alt="group8" width="200">  
+<img src="/images/QDH/Group 8.jpg" alt="group8" width="200">  
 
 **Best Experience**  
 _Silicon Pulse: Silicon Spin Explorer_ (Group 7)   
 Hannah Zhao, Raghav Mysore Vishveshwara, Sara Andotra, Atsuko Shimizu, and Ann Mahe  
-<img src="public/images/QDH/Group 7.jpg" alt="group7" width="200">  
+<img src="/images/QDH/Group 7.jpg" alt="group7" width="200">  
 
 **Best Translation of a Quantum Concept**  
 _CAT Qubit Visualization_ (Group 2)  
 Will Stark, Elizabeth Jiang, Yuni Jung, Amiratabak Bahengam, and Christina Lu  
-<img src="public/images/QDH/Group 2.jpg" alt="group2" width="200">  
+<img src="/images/QDH/Group 2.jpg" alt="group2" width="200">  
 
 **Most Original Abstraction/Metaphor**  
 _Transmon Quantum Computer_ (Group 1)  
 Han Qin, Samriddhi, Senuri, Sherly Deng, Miguel Palma, and Obi Nami  
-<img src="public/images/QDH/Group 1.jpg" alt="group1" width="200">  
+<img src="/images/QDH/Group 1.jpg" alt="group1" width="200">  
 
 **Audience Favorite**  
 _The Qubitarium of Trapped Ions_ (Group 5)  
 Ricky Soto, Mahnoor Fatima, Carrie Jaquith, Jasper Sands, Dylan Kawalec, Timothy Clark Dauz, and Alex [age 9!]  
-<img src="public/images/QDH/Group 5.jpg" alt="group5" width="200">  
+<img src="/images/QDH/Group 5.jpg" alt="group5" width="200">  
 
 ## Voices from the Hackathon.
-<img src="public/images/QDH/Audience.jpg" alt="Audience laughing and using their phone flashlights" width="500">  
+<img src="/images/QDH/Audience.jpg" alt="Audience laughing and using their phone flashlights" width="500">  
 
 HARMONIQS QUOTE  
 
@@ -132,7 +132,7 @@ HARMONIQS QUOTE
 “The diversity of voices in the room. Such a unique combination of people to learn from, all in one night.”  
 
 ## Gratitude & Supporters.
-<img src="public/images/QDH/The organizing team.jpg" alt="image of the organizing team grouped together and smiling facing the camera" width="500">  
+<img src="/images/QDH/The organizing team.jpg" alt="image of the organizing team grouped together and smiling facing the camera" width="500">  
 
 At the start of the day, we didn’t fully know what would unfold. Bringing artists, designers, physicists, and engineers into the same room was an experiment in itself. What conversations would emerge? What would happen when radically different disciplines shared an eight-hour sprint? What emerged was more than a hackathon — it was proof that quantum needs creative collaboration to move forward.  
 
