@@ -112,9 +112,9 @@ Ricky Soto, Mahnoor Fatima, Carrie Jaquith, Jasper Sands, Dylan Kawalec, Timothy
 ## Voices from the Hackathon.
 <img src="/images/QDH/Audience.jpg" alt="Audience laughing and using their phone flashlights" width="500">  
 
-HARMONIQS QUOTE  
+“We built this hackathon with the Harmoniqs team to serve the unitaryDESIGN goal of an open-source quantum community. Unitary Foundation has always been about making quantum technology benefit as many people as possible—and seeing this community come together in NYC felt like watching that mission come to life in real-time.” – Veena Vijayakumar, Unitary Foundation
 
-“We built this hackathon with the Harmoniqs team to serve the unitaryDESIGN goal of an open-source quantum community. Unitary Foundation has always been about making quantum technology benefit as many people as possible—and seeing this community come together in NYC felt like watching that mission come to life in real-time.” – Veena Vijayakumar, Unitary Foundation  
+"As was echoed by the incredible speakers we managed to get, the understanding of the natural world, what we call physics, and visual design have been entangled from the start. Today, we can build the most incredible devices that harness and wrangle quantum physics, but the visualizations of these devices have not kept pace with technological progress. Seeing what teams of designers and physicists could accomplish—in just four hours of hacking—that gap is inexplicable. We need more of this: more creativity, more ingenuity, more harmony, more unitarity!" – Aaron Trowbridge, Co-Founder & CEO, Harmoniqs  
 
 **Hacker quotes**
 
@@ -143,16 +143,16 @@ Thank you to our community partner, **Moth Quantum**, for helping bridge quantum
 
 **And to our mentors**: this sprint worked because of you. Across nine teams, you helped participants navigate qubit architectures, clarify technical concepts, pressure-test ideas, and push creative boundaries:  
 
-* Deborah Berebichez, AI & Quantum Leader
-* Kate Bonner, Quantum Product, AWS  / Specialist Lecturer, UAL
-* Tyson Jones, Quantum Computer Scientist
-* Alberto Maldonado, Quantum Developer & Educator
-* Jordan Harvey, CEO & Founder at Remote Control
-* Grace Lindsell, Visual Designer for Quantum
-* Stewart Smith, Head of Experience Design, Moth Quantum – Hackathon Visualizations & Inspiration
-* Francesco Valenti, IBM – Qiskit Platform Demo
-* Dalila Pasotti Art & Natural Sciences – Artistic applications
-* Ishaan Pakrasi, Quantum Product, AWS  / Specialist Lecturer, UAL – Quantum and Creative applications
+* Deborah Berebichez, AI and Quantum Leader
+* Kate Bonner, Columbia University + Independent Designer/Artist
+* Tyson Jones, NVIDIA
+* Alberto Maldonado, QOSF
+* Jordan Harvey, Remote Control
+* Grace Lindsell, IBM
+* Stewart Smith, Moth Quantum
+* Francesco Valenti, IBM
+* Dalila Pasotti, Independent Artist
+* Ishaan Pakrasi, AWS + UAL
 
 As the night wrapped and projects hit the stage, one question kept coming up: **When’s the next one?** So… 
 
