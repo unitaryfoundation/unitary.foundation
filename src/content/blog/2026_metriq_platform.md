@@ -50,7 +50,7 @@ Unlike vendor-maintained benchmarking suites, Metriq is built to act as a neutra
 -	Vendor-neutral: Metriq is an independent project for the community, maintained by the Unitary Foundation non-profit.
 -	Cross-platform by design: The same benchmark configuration runs across multiple providers.
 -	A living platform: Benchmarks are re-executed periodically, enabling longitudinal tracking as devices and stacks evolve.
--	Open and transparent (FAIR-first): Code is fully open source, and datasets and schemas are public and structured around [FAIR principles](https://www.go-fair.org/fair-principles/).
+-	Open and transparent: Code is fully open source, and datasets and schemas are public and structured around [FAIR principles](https://www.go-fair.org/fair-principles/).
 -	Community-driven governance: Benchmarks are proposed via open RFCs, results are peer-reviewed, and aggregation choices (including scoring weights) are discussed in the open.
 -	Schema-validated reproducibility: Benchmark configurations are formally defined and validated so "the same benchmark" actually means the same experiment.
 
@@ -62,10 +62,11 @@ The Metriq platform is organized around three complementary components.
 - [metriq-web](https://github.com/unitaryfoundation/metriq-web) is a new website (currently in *beta* at https://metriq.info), which turns the dataset into an interactive dashboards.
 
 <figure>
-  <img src="/images/2026_metriq_platform/metriq-platform.png"/>
+  <img 
+    style="display:block; margin:auto;" 
+    src="/images/2026_metriq_platform/metriq-platform.png"
+    alt="Metriq platform component" />
 </figure>
-
-The platform makes it easy to run the same benchmarks across providers and share results with the community.
 
 ## An initial suite of benchmarks
 
@@ -76,7 +77,10 @@ The suite currently includes eight benchmarks spanning system-level diagnostics 
 We chose benchmarks that are *frugal* (cheap enough to reproduce) and *scalable* (they are still meaningful as devices grow). The suite is intentionally opinionated — these are the benchmarks we think matter today — but it's designed to evolve (see it as a version 1.0).
 
 <figure>
-  <img src="/images/2026_metriq_platform/metriq-gym.gif" alt="metriq-gym CLI" />
+  <img 
+    style="display:block; margin:auto;"  
+    src="/images/2026_metriq_platform/metriq-gym.gif" 
+    alt="metriq-gym CLI" />
   <figcaption>metriq-gym CLI in action.</figcaption>
 </figure>
 
