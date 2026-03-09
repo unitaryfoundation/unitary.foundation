@@ -1,7 +1,7 @@
 ---
 title: "Metriq: A Collaborative Platform for Benchmarking Quantum Computers"
 author: The Metriq Team
-day: 10
+day: 9
 month: 3
 year: 2026
 tags: 
@@ -81,7 +81,7 @@ We chose benchmarks that are *frugal* (cheap enough to reproduce) and *scalable*
 </figure>
 
 
-For the first release, we ran the full suite across devices from IBM, Quantinuum, IQM, Rigetti, and OriginQ — eleven devices in total. The results are aggregated into a composite **Metriq score** that normalizes each benchmark against a baseline device and combines them with scale-aware weights. It's a single number meant to start conversations, not end them. The paper goes deep on how the scoring works, the tradeoffs involved, and why we made the choices we did.
+For the first release, we ran the full suite across devices from IBM, Quantinuum, IQM, Rigetti, and OriginQ — eleven devices in total. The results are aggregated into a composite Metriq score that normalizes each benchmark against a baseline device and combines them with scale-aware weights. It's a single number meant to start conversations, not end them. The paper goes deep on how the scoring works, the tradeoffs involved, and why we made the choices we did.
 
 ## A starting point
 
@@ -96,7 +96,7 @@ Here is how to get involved:
 - **Run benchmarks and submit results.** Pick a device you have access to, run the suite, and open a PR. Every submission is reviewed and becomes part of the public dataset.
 - **Review existing data.** Spot something that looks off? Flag it. Peer review of benchmark results is just as valuable as peer review of papers.
 - **Propose new benchmarks.** Think something important is missing from the suite? Open an RFC and make the case.
-- **Join the conversation.** Find us on the `#metriq` channel in the [Unitary Foundation Discord](https://discord.unitary.fund), or start a thread in [GitHub Discussions](https://github.com/unitaryfund/metriq-gym/discussions).
+- **Join the conversation.** Find us on the `#metriq` channel in the [Unitary Foundation Discord](https://discord.unitary.fund), or start a thread in [GitHub Discussions](https://github.com/unitaryfoundation/metriq-gym/discussions).
 - **Contribute code.** Whether it's improving the runner, adding new benchmarks, or building new features for the website, contributions to the codebase are always welcome.
 - **Simply star our repositories.** ⭐️
 
