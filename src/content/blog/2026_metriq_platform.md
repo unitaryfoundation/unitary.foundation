@@ -113,7 +113,6 @@ We would also like to thank everyone who has already contributed to the Metriq c
 The suite will grow alongside the hardware it measures. A few directions we're actively thinking about:
 
 - **More benchmarks, more providers.** The current suite of eight benchmarks is a starting point. We plan to continue adding new benchmarks, supporting additional hardware providers, and scaling existing benchmarks to larger problem sizes as devices catch up.
-- **Entanglement-based benchmarks.** BSEQ scratches the surface of what entanglement-based benchmarking can do. There's a rich space of similar protocols that we think deserves deeper exploration as a benchmark family.
 - **Logical-qubit benchmarks.** As fault-tolerant devices start to emerge, benchmarking needs to move beyond physical qubits. We're working on protocols that evaluate logical-level performance.
 - **Quantum error mitigation.** Integration with [Mitiq](https://mitiq.readthedocs.io/) to optionally layer error suppression techniques (ZNE, PEC, dynamical decoupling) on top of benchmark runs — so you can see how much mitigation actually buys you on a given device.
 - **Community features.** The Metriq website will gain the ability to annotate, comment on, and discuss results directly — making it easier to have the conversations that benchmarking data should spark.
