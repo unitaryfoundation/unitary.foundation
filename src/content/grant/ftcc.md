@@ -6,7 +6,7 @@ day: 26
 country: US
 tags:
   - compiler
-  - [evan to add more tags]
+  - 
 ---
 
 To **Evan Dobbs** to develop the **Fault-Tolerant Compiler Collection**, to.. [evan to finish this language] 
