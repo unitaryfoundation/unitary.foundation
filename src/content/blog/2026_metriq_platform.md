@@ -12,7 +12,7 @@ tags:
 
 Today we are releasing a major update to Metriq, our platform for open, community-driven quantum computer benchmarking.
 
-This release introduces [metriq-gym](https://github.com/unitaryfoundation/metriq-gym), a new open-source toolkit for defining and running benchmarks across hardware providers, [metriq-data](https://github.com/unitaryfoundation/metriq-data), a public dataset of benchmark results, along with a new [Metriq website](https://metriq.info/), where results can be tracked and shared.
+This release introduces  <a href="https://github.com/unitaryfoundation/metriq-gym" target="_blank" rel="noopener noreferrer">metriq-gym</a>, a new open-source toolkit for defining and running benchmarks across hardware providers, <a href="https://github.com/unitaryfoundation/metriq-data" target="_blank" rel="noopener noreferrer">metriq-data</a>, a public dataset of benchmark results, along with a new <a href="https://metriq.info/" target="_blank" rel="noopener noreferrer">Metriq website</a>, where results can be tracked and shared.
 
 We invite the quantum community to suggest improvements, extend the benchmark suite, run experiments, and upload new results. 
 As quantum computers evolve over time, the Metriq platform will evolve with them. See you on GitHub!
@@ -40,7 +40,8 @@ Today we're launching the **Metriq Platform**: an open, collaborative workflow f
 - publishing the resulting data with transparent provenance, and 
 - making it easy for the community to explore and discuss results constructively.
 
-📃 Alongside this release, we've posted a [companion paper on arXiv](https://arxiv.org/abs/2603.08680v1). The paper provides technical background for the platform: how the workflow is designed, how the benchmark suite is implemented, and how we think about aggregation, cost, and the practical blockers that keep “benchmarks in theory” from becoming “benchmarks people can actually run.” The paper also showcases a collection of cross-vendor results obtained through the Metriq platform itself.
+📃 Alongside this release, we've posted a <a href="https://arxiv.org/abs/2603.08680" target="_blank" rel="noopener noreferrer">companion paper on arXiv</a>. 
+The paper provides technical background for the platform: how the workflow is designed, how the benchmark suite is implemented, and how we think about aggregation, cost, and the practical blockers that keep “benchmarks in theory” from becoming “benchmarks people can actually run.” The paper also showcases a collection of cross-vendor results obtained through the Metriq platform itself.
 
 ## What makes Metriq different?
 
@@ -99,16 +100,16 @@ Here is how to get involved:
 
 - **Run benchmarks and submit results.** Pick a device you have access to, run the suite with metriq-gym, and open a PR to metriq-data. Every submission is reviewed and becomes part of the public dataset.
 - **Review existing data.** Spot something that looks off? Flag it. Peer review of benchmark results is just as valuable as peer review of papers.
-- **Propose new benchmarks.** Think something important is missing from the suite? Open an [issue](https://github.com/unitaryfoundation/metriq-gym/issues) and make the case.
-- **Join the conversation.** Find us on the `#metriq` channel in the [Unitary Foundation Discord](https://discord.unitary.fund), or start a thread in [GitHub Discussions](https://github.com/unitaryfoundation/metriq-gym/discussions).
+- **Propose new benchmarks.** Think something important is missing from the suite? Open an <a href="https://github.com/unitaryfoundation/metriq-gym/issues" target="_blank" rel="noopener noreferrer">issue</a> and make the case.
+- **Join the conversation.** Find us on the `#metriq` channel in the <a href="https://discord.unitary.foundation" target="_blank" rel="noopener noreferrer">Unitary Foundation Discord</a>, or start a thread in <a href="https://github.com/unitaryfoundation/metriq-gym/discussions" target="_blank" rel="noopener noreferrer">GitHub Discussions</a>.
 - **Contribute code.** Whether it's improving the runner, adding new benchmarks, or building new features for the website, contributions to the codebase are always welcome.
 - **Simply star the repositories.** ⭐️
 
 We also hope that our platform creates a positive flywheel for the benchmarking ecosystem: as Metriq scores become more visible and useful, we hope that hardware vendors and cloud providers will make it increasingly easy to run benchmarks on their systems.
 
-Benchmarking is ultimately a community effort. We would like to acknowledge the [Open Quantum Benchmark Committee (OQBC)](https://unitary.foundation/posts/2024_benchmark_committee/), an initiative we launched in 2024 to bring together researchers, hardware providers, and practitioners around open benchmarking discussions. Members of the committee have helped us iterate on Metriq by providing feedback on benchmark definitions and methodology. Within the Metriq Platform, we see the committee playing a role similar to a *working group*, comparable to those in initiatives like [MLCommons](https://mlcommons.org/working-groups/).
+Benchmarking is ultimately a community effort. We would like to acknowledge the <a href="https://unitary.foundation/posts/2024_benchmark_committee/" target="_blank" rel="noopener noreferrer">Open Quantum Benchmark Committee (OQBC)</a>, an initiative we launched in 2024 to bring together researchers, hardware providers, and practitioners around open benchmarking discussions. Members of the committee have helped us iterate on Metriq by providing feedback on benchmark definitions and methodology. Within the Metriq Platform, we see the committee playing a role similar to a *working group*, comparable to those in initiatives like <a href="https://mlcommons.org/working-groups/" target="_blank" rel="noopener noreferrer">MLCommons</a>.
 
-We would like to thank the early contributors to the Metriq codebase who helped make this launch possible – including contributors to [metriq-gym](https://github.com/unitaryfoundation/metriq-gym/graphs/contributors), [metriq-web](https://github.com/unitaryfoundation/metriq-web/graphs/contributors), and [metriq-data](https://github.com/unitaryfoundation/metriq-data/graphs/contributors).
+We would like to thank the early contributors to the Metriq codebase who helped make this launch possible – including contributors to <a href="https://github.com/unitaryfoundation/metriq-gym/graphs/contributors" target="_blank" rel="noopener noreferrer">metriq-gym</a>, <a href="https://github.com/unitaryfoundation/metriq-web/graphs/contributors" target="_blank" rel="noopener noreferrer">metriq-web</a>, and <a href="https://github.com/unitaryfoundation/metriq-data/graphs/contributors" target="_blank" rel="noopener noreferrer">metriq-data</a>.
 
 ## What's next?
 
