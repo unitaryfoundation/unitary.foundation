@@ -20,12 +20,11 @@ The core of unitaryDESIGN rested on science communication - organizers and maint
 Participants also helped the maintainers build intuitive ways to see and understand the nuances of their repositories through video tutorials, branding updates, explanatory animations, and more. Whether through reimagining a project’s "Why" or creating compelling visual narratives, these efforts ensured that the breakthroughs happening in the code are finally being seen — and understood — by a larger audience.
 
 
+![unitaryDESIGN 2026 Recap](/images/2026_unitaryDESIGN_Wrap_Up.gif)
 ### The Impact
 **383 participants** from 51 countries registered for the event with **41 maintainers** overseeing 15 projects. 
 
 In the end, participants earned **$5935** by closing **46 of the 59 bounties** (which were funded by Shift Grants and 2026 Unitary Foundation Members). Congratulations to everyone who participated and contributed!
-
-[GIF goes here]
 
 
 ### Participating Projects
