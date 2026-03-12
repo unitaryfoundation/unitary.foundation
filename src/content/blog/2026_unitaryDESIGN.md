@@ -17,10 +17,12 @@ Our goal for [unitaryDESIGN](https://unitary.design/) was just this. We set out 
 ### Beyond Bug Bounties
 The core of unitaryDESIGN rested on science communication - organizers and maintainers went into the event with the ethos that a project’s impact is only as strong as its accessibility. Throughout the event, participants worked to transform dense, technical READMEs and tutorials into clear, user-friendly guides that act as welcoming front doors for new contributors ([here's a quick example](https://gitlab.com/quantify-os/quantify/-/work_items/146)). 
 
-Participants also helped maintainers build intuitive ways to see and understand the nuances of their work through [video tutorials](https://www.youtube.com/shorts/DtnhOT5iLSM), [branding updates](https://github.com/hhat-lang/hhat_lang/pull/106), [explanatory animations](https://github.com/harmoniqs/Piccolo.jl/pull/74), [data visualization](https://github.com/qosf/qosf.org/pull/128), and [educational challenges](https://github.com/qosf/monthly-challenges/pull/69). Whether through reimagining a project’s "Why" or creating compelling visual narratives, these efforts ensured that the breakthroughs happening in the code are finally being seen — and understood — by a larger audience.
+Participants also helped maintainers build intuitive ways to see and understand the nuances of their work through [video tutorials](https://www.youtube.com/shorts/DtnhOT5iLSM), [branding updates](https://github.com/hhat-lang/hhat_lang/pull/106), [explanatory animations](https://github.com/harmoniqs/Piccolo.jl/pull/74), [data visualization](https://github.com/qosf/qosf.org/pull/128), and [educational challenges](https://github.com/qosf/monthly-challenges/pull/69). Whether through reimagining a project’s "Why" or creating compelling visual narratives, these efforts ensured that the breakthroughs happening in the code are being seen — and understood — by a larger audience.
 
 
-![unitaryDESIGN 2026 Recap](/images/2026_unitaryDESIGN_Wrap_Up.gif)
+<p align="center">
+  <img src="/images/2026_unitaryDESIGN_Wrap_Up.gif" alt="unitaryDESIGN 2026 Recap" width="400">
+</p>
 ### The Impact
 **383 participants** from 51 countries registered for the event with **41 maintainers** overseeing 15 projects. 
 
@@ -47,12 +49,12 @@ While the code was built on GitHub, the pulse of the event was felt across our e
 
 This creative energy shone across the cohort of participating projects. A fantastic example of this was seen at PennyLane, where the maintainer team leaned into the creative challenge, working closely with participants to produce puzzles, GIFs, and animations that demystify complex quantum concepts. You can see the results of that particular collaboration — including the winning designs and honorable mentions — over at the [PennyLane blog](https://pennylane.ai/blog/2026/03/unitaryDESIGN-2026).
 
-Additional programming further bridged the gap between theory and practice. We were honored to host UF Advisor and microgrant alum Klem Jankiewicz, who led an informal group discussion on her journey as the Head of Design at Classiq. Her insights into what it truly means to be a designer in the quantum industry provided a roadmap for those looking to turn their creative skills into a career in deep tech.
+Additional programming further bridged the gap between theory and practice. We were honored to host UF Advisor and microgrant alum Klem Jankiewicz, who led an informal "Ask Me Anything"-style group discussion about her journey as the Head of Design at Classiq. Her insights into what it truly means to be a designer in the quantum industry provided a potential roadmap for those looking to turn their creative skills into a career in deep tech.
 
 Ultimately, the impact of unitaryDESIGN has already moved beyond the digital realm. The interdisciplinary energy of this event served as the direct inspiration for the NYC Quantum Design Hackathon, a first-of-its-kind gathering (developed by UF and our colleagues and former grantees at Harmoniqs) that proved just how hungry this community is for a design-led future. You can read the full recap of that sister event [here](https://unitary.foundation/posts/2026_quantum_design_hackathon/).
 
 
-### Lessons Learned and Final Thoughts
+### Lessons Learned
 unitaryDESIGN was an experiment in reimagining how open-source maintainers and contributors can collaborate. As with any inaugural event, we walked away with valuable insights on how to better support our community.
 
 Firstly, while we saw a surge of interest from designers and artists at registration, they ultimately did not make it to our [leaderboard](https://unitary.design/leaderboard/) this year. Part of this is the learning curve even for contributing on Github, and part of it is the fast-paced nature of the hackathon itself. In future iterations, we hope to offer more onboarding opprtunities (e.g. Zoom-based Github tutorials, connections to other educational opportunties ahead of the events, and regular office hours throught the event) as well as more face-to-face oppourtunies for all participants, like the Ask Me Anything session with Klem. 
@@ -63,9 +65,9 @@ In both cases, we found a consistent truth: proximity matters. Whether through d
 
 
 ### Final thoughts: Making Quantum Technology Benefit Everyone
-unitaryDESIGN was an experiment in reimagining how open-source maintainers and contributors can collaborate. By treating design as a foundational tool for our community, we’ve seen that the quantum ecosystem can be as engaging as it is functional. This event demonstrated that there is a massive, untapped community of creatives ready to support the quantum stack — we just needed to build the right bridge to reach them.
+By treating design as a foundational tool for our community, we’ve seen that the quantum ecosystem can be as engaging as it is functional. This event demonstrated that there is a massive, untapped community of creatives ready to support the quantum stack — we just needed to build the right bridge to reach them.
 
-We are incredibly proud of what this community achieved in such a short window. **A huge thank you to our event sponsor, Shift Grants, as well as the Unitary Foundation Members** for their vital support in bringing this inaugural edition to life. We’re already looking forward to seeing how these new connections continue to grow.
+We are incredibly proud of what our community achieved in such a short window. **A huge thank you to our event sponsor, Shift Grants, as well as the Unitary Foundation Members** for their vital support in bringing this inaugural edition to life. We’re already looking forward to seeing how these new connections continue to grow.
 
 
 ### What’s Next?
