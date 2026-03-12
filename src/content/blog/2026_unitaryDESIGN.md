@@ -23,6 +23,7 @@ Participants also helped maintainers build intuitive ways to see and understand 
 <p align="center">
   <img src="/images/2026_unitaryDESIGN_Wrap_Up.gif" alt="unitaryDESIGN 2026 Recap" width="400">
 </p>
+
 ### The Impact
 **383 participants** from 51 countries registered for the event with **41 maintainers** overseeing 15 projects. 
 
