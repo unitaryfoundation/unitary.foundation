@@ -51,7 +51,7 @@ UF is lucky to have advisors who continue to contribute their time year after ye
 </br>[Elena Pena Tapia](https://www.linkedin.com/in/elept/), IBM
 </br>[Dr. Ryan Shaffer](https://www.linkedin.com/in/rmshaffer/), AWS
 </br>[Nate Stemen](https://nates.place/), University of Amsterdam
-</br>[Misty Winsor](https://www.linkedin.com/in/misty-wahl-winsor/), Q-CTRL
+</br>[Jordan Sullivan](https://www.linkedin.com/in/j-sullivan/), Independent Researcher
 
 
 ## UF Staff
