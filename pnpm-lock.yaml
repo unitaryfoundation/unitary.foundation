@@ -34,7 +34,7 @@ importers:
         version: 11.13.5
       '@nanostores/react':
         specifier: ^1.0.0
-        version: 1.0.0(nanostores@0.11.4)(react@19.2.3)
+        version: 1.0.0(nanostores@1.2.0)(react@19.2.3)
       '@radix-ui/react-accordion':
         specifier: ^1.2.4
         version: 1.2.4(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -105,8 +105,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(@types/react@19.2.7)
       nanostores:
-        specifier: ^0.11.4
-        version: 0.11.4
+        specifier: ^1.2.0
+        version: 1.2.0
       pupa:
         specifier: ^3.1.0
         version: 3.1.0
@@ -2955,9 +2955,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanostores@0.11.4:
-    resolution: {integrity: sha512-k1oiVNN4hDK8NcNERSZLQiMfRzEGtfnvZvdBvey3SQbgn8Dcrk0h1I6vpxApjb10PFUflZrgJ2WEZyJQ+5v7YQ==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  nanostores@1.2.0:
+    resolution: {integrity: sha512-F0wCzbsH80G7XXo0Jd9/AVQC7ouWY6idUCTnMwW5t/Rv9W8qmO6endavDwg7TNp5GbugwSukFMVZqzPSrSMndg==}
+    engines: {node: ^20.0.0 || >=22.0.0}
 
   neotraverse@0.6.18:
     resolution: {integrity: sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA==}
@@ -4794,9 +4794,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nanostores/react@1.0.0(nanostores@0.11.4)(react@19.2.3)':
+  '@nanostores/react@1.0.0(nanostores@1.2.0)(react@19.2.3)':
     dependencies:
-      nanostores: 0.11.4
+      nanostores: 1.2.0
       react: 19.2.3
 
   '@nodelib/fs.scandir@2.1.5':
@@ -7227,7 +7227,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  nanostores@0.11.4: {}
+  nanostores@1.2.0: {}
 
   neotraverse@0.6.18: {}
 
