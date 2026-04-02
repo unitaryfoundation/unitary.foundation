@@ -12,6 +12,9 @@ tags:
 
 We are thrilled to announce the 6th edition of unitaryHACK! This year’s event runs from June 3-17, 2026, and the mission remains the same: building a more resilient, open-source quantum future. Check out the [unitaryHACK26 website](https://unitaryhack.dev/) to learn more and register today. More details will be revealed over the coming weeks! 
 
+
+<img src="/images/2026_uhack_logo.png" alt="unitaryhack26 logo" width="400">
+
 ### What is unitaryHACK?
 If you’re new here, this isn’t your average weekend hackathon. unitaryHACK is a **bounty-driven sprint** designed to bridge the gap between curiosity and contribution. Whether you're a seasoned quantum dev or just pushing your first commits, this is your chance to:
 - **Earn Rewards:** Get paid for solving real-world issues on the most critical tools in the stack
