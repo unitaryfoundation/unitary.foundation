@@ -33,8 +33,7 @@ If you’re new here, this isn’t your average weekend hackathon. unitaryHACK i
 We’re looking to blow those numbers out of the water in 2026.
 
 <blockquote class="quote-flair">
-  <p>“I’ve been participating in UnitaryHack since its inception, and it has always been a fantastic experience. It’s a great opportunity to learn from open source projects and engage with their amazing maintainers.”</p>
-  <cite>— UnitaryHack 2025 Participant</cite>
+  <p>“I’ve been participating in UnitaryHack since its inception, and it has always been a fantastic experience. It’s a great opportunity to learn from open source projects and engage with their amazing maintainers.”</p> <cite>— UnitaryHack 2025 Participant</cite>
 </blockquote>
 
 ### Ready to Hack? Here’s Your Roadmap:
