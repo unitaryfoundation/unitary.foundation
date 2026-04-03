@@ -14,7 +14,7 @@ We are thrilled to announce the 6th edition of unitaryHACK! This year’s event 
 
 Before diving into things, we hope you'll review the new [unitaryHACK AI policy](https://unitaryhack.dev/ai-guide/). In this time of Generative AI, we are particularly focused on how LLMs can be a collaborator in the open source community. 
 
-Check out the full [unitaryHACK26 website](https://unitaryhack.dev/) to learn more and register today. And make sure you stay tuned: more details will be revealed over the coming weeks! 
+Check out the full [unitaryHACK26 website](https://unitaryhack.dev/?utm_source=uf_blog) to learn more and register today. And make sure you stay tuned: more details will be revealed over the coming weeks! 
 
 [![UnitaryHack 2026](/images/2026_uhack_logo.png)](https://unitaryhack.dev)
 
