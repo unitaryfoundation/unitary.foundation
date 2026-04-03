@@ -16,7 +16,7 @@ Before diving into things, we hope you'll review the new [unitaryHACK AI policy]
 
 Check out the full [unitaryHACK26 website](https://unitaryhack.dev/?utm_source=uf_blog) to learn more and register today. And make sure you stay tuned: more details will be revealed over the coming weeks! 
 
-[![UnitaryHack 2026](/images/2026_uhack_logo.png)](https://unitaryhack.dev)
+[![UnitaryHack 2026](/images/2026_uhack_logo.png)](https://unitaryhack.dev/?utm_source=uf_blog)
 
 ### What is unitaryHACK?
 If you’re new here, this isn’t your average weekend hackathon. unitaryHACK is a **bounty-driven sprint** designed to bridge the gap between curiosity and contribution. Whether you're a seasoned quantum dev or just pushing your first commits, this is your chance to:
