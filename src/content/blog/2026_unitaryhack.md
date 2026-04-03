@@ -32,10 +32,14 @@ If you’re new here, this isn’t your average weekend hackathon. unitaryHACK i
 
 We’re looking to blow those numbers out of the water in 2026.
 
-<blockquote class="unitary-hack-quote">
-  <p>“I’ve been participating in UnitaryHack since its inception, and it has always been a fantastic experience. It’s a great opportunity to learn from open source projects and engage with their amazing maintainers.”</p>
-  <cite>— UnitaryHack Participant</cite>
-</blockquote>
+<div style="border-left: 6px solid #7b61ff; border-image: linear-gradient(to bottom, #00d4ff, #7b61ff) 1; padding: 15px 25px; background: rgba(123, 97, 255, 0.05); margin: 2rem 0; border-radius: 0 8px 8px 0;">
+  <p style="font-size: 1.15rem; line-height: 1.6; color: #2d3748; font-style: italic; margin: 0; font-family: sans-serif;">
+    I’ve been participating in UnitaryHack since its inception, and it has always been a fantastic experience. It’s a great opportunity to learn from open source projects and engage with their amazing maintainers.
+  </p>
+  <p style="margin-top: 15px; font-weight: bold; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; color: #7b61ff; text-align: right; font-family: sans-serif;">
+    — UnitaryHack Participant
+  </p>
+</div>
 
 ### Ready to Hack? Here’s Your Roadmap:
 1. **Get Prepped:** Review the [Rules](https://unitaryhack.dev/rules/), [Hacker Guide](https://unitaryhack.dev/hacker-guide/), and [AI Policy](https://unitaryhack.dev/ai-guide/) pages on the brand new unitaryHACK26 website.
