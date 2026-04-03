@@ -10,7 +10,11 @@ tags:
   - unitarydesign
 ---
 
-We are thrilled to announce the 6th edition of unitaryHACK! This year’s event runs from June 3-17, 2026, and the mission remains the same: building a more resilient, open-source quantum future. Check out the [unitaryHACK26 website](https://unitaryhack.dev/) to learn more and register today. More details will be revealed over the coming weeks! 
+We are thrilled to announce the 6th edition of unitaryHACK! This year’s event runs from June 3-17, 2026, and the mission remains the same: building a more resilient, open-source quantum future. 
+
+In this time of Generative AI, we are particularly focused on how LLMs can be a collaborator in the open source community. Before diving into things, we hope you'll review the new [unitaryHACK AI policy](https://unitaryhack.dev/ai-guide/). 
+
+Check out the full [unitaryHACK26 website](https://unitaryhack.dev/) to learn more and register today. And make sure you stay tuned: more details will be revealed over the coming weeks! 
 
 [![UnitaryHack 2026](/images/2026_uhack_logo.png)](https://unitaryhack.dev)
 
@@ -18,15 +22,20 @@ We are thrilled to announce the 6th edition of unitaryHACK! This year’s event 
 If you’re new here, this isn’t your average weekend hackathon. unitaryHACK is a **bounty-driven sprint** designed to bridge the gap between curiosity and contribution. Whether you're a seasoned quantum dev or just pushing your first commits, this is your chance to:
 - **Earn Rewards:** Get paid for solving real-world issues on the most critical tools in the stack
 - **Build Your Portfolio:** Make substantive contributions to top-tier open-source projects
-- **Strengthen the Ecosystem:** Help us move from "quantum utility" to "quantum advantage" by fixing bugs and adding must-have features
+- **Strengthen the Ecosystem:** Support and build relationships with maintainers
 
 ### The Momentum is Real
-Last year, the community absolutely crushed it:
-- **1,000+** global participants
+[Last year](https://2025.unitaryhack.dev/), the community absolutely crushed it:
+- **1,000+** global participants (hackers and maintainers)
 - **172** bounties claimed
 - **$19,000+** in rewards distributed worldwide
 
 We’re looking to blow those numbers out of the water in 2026.
+
+<blockquote class="quote-flair">
+  <p>“I’ve been participating in UnitaryHack since its inception, and it has always been a fantastic experience. It’s a great opportunity to learn from open source projects and engage with their amazing maintainers.”</p>
+  <cite>— UnitaryHack 2025 Participant</cite>
+</blockquote>
 
 ### Ready to Hack? Here’s Your Roadmap:
 1. **Get Prepped:** Review the [Rules](https://unitaryhack.dev/rules/), [Hacker Guide](https://unitaryhack.dev/hacker-guide/), and [AI Policy](https://unitaryhack.dev/ai-guide/) pages on the brand new unitaryHACK26 website.
