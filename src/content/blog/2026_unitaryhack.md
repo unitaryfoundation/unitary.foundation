@@ -12,7 +12,7 @@ tags:
 
 We are thrilled to announce the 6th edition of unitaryHACK! This year’s event runs from June 3-17, 2026, and the mission remains the same: building a more resilient, open-source quantum future. 
 
-In this time of Generative AI, we are particularly focused on how LLMs can be a collaborator in the open source community. Before diving into things, we hope you'll review the new [unitaryHACK AI policy](https://unitaryhack.dev/ai-guide/). 
+Before diving into things, we hope you'll review the new [unitaryHACK AI policy](https://unitaryhack.dev/ai-guide/). In this time of Generative AI, we are particularly focused on how LLMs can be a collaborator in the open source community. 
 
 Check out the full [unitaryHACK26 website](https://unitaryhack.dev/) to learn more and register today. And make sure you stay tuned: more details will be revealed over the coming weeks! 
 
