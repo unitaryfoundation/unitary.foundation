@@ -12,7 +12,7 @@ tags:
 
 We are thrilled to announce the 6th edition of [unitaryHACK](https://unitaryhack.dev/?utm_source=uf_blog)! This year’s event runs from June 3-17, 2026, and the mission remains the same: building a more resilient, open-source quantum future. 
 
-Before diving into things, we hope you'll review the new [unitaryHACK AI policy](https://unitaryhack.dev/ai-guide/). In this time of Generative AI, we are particularly focused on how LLMs can be a collaborator in the open source community. 
+Before diving into things, we hope you'll review the new [unitaryHACK AI policy](https://unitaryhack.dev/ai-guide/?utm_source=uf_blog). In this time of Generative AI, we are particularly focused on how LLMs can be a collaborator in the open source community. 
 
 Check out the full [unitaryHACK26 website](https://unitaryhack.dev/?utm_source=uf_blog) to learn more and register today. And make sure you stay tuned: more details will be revealed over the coming weeks! 
 
@@ -42,11 +42,10 @@ We’re looking to blow those numbers out of the water in 2026.
 </div>
 
 ### Ready to Hack? Here’s Your Roadmap:
-1. **Get Prepped:** Review the [Rules](https://unitaryhack.dev/rules/), [Hacker Guide](https://unitaryhack.dev/hacker-guide/), and [AI Policy](https://unitaryhack.dev/ai-guide/) pages on the brand new unitaryHACK26 website.
+1. **Get Prepped:** Review the [Rules](https://unitaryhack.dev/rules/?utm_source=uf_blog), [Hacker Guide](https://unitaryhack.dev/hacker-guide/?utm_source=uf_blog), and [AI Policy](https://unitaryhack.dev/ai-guide/?utm_source=uf_blog) pages on the brand new unitaryHACK26 website.
 2. **Secure Your Spot:** Register for unitaryHACK26 [here](https://airtable.com/appfhkqSH4zVtjha0/pag7CoNawqpRfN6Oo/form).
 3. **Join the Hub:** Jump into our [Discord](https://discord.gg/zRct9ATJjj) to find peers, talk tech with the maintainers, and get real-time bounty alerts.
 4. **Host a HACKday:** Want to bring the energy to your campus or office? Help us organize an in-person HACKday. Reach out to Veena at hack@unitary.foundation to get started.
 5. **Fuel the Innovation:** We keep the barrier to entry low so everyone can support the community. Interested in sponsoring? Reach out to us at hack@unitary.foundation.
 
 The countdown is on. We’ll see you on the repos in two months!
-
