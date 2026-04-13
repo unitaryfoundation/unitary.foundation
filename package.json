@@ -61,7 +61,7 @@
     "tailwindcss-full-bleed": "^2.0.2",
     "type-fest": "^4.39.1",
     "unified": "^11.0.5",
-    "unist-util-visit": "^5.0.0",
+    "unist-util-visit": "^5.1.0",
     "vite-plugin-svgr": "^4.3.0"
   },
   "devDependencies": {
