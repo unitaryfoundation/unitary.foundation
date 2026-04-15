@@ -43,3 +43,5 @@ Quantum computing now sits at exactly this juncture. We are asking three things 
 3. **To investors:** Recognize that open source ecosystems drive the market development that makes your hardware and application bets more valuable. Every startup that can prototype on open tools rather than building from scratch reaches product-market fit faster. Every researcher who can avoid being locked to one vendor generates the comparative knowledge that matures the market. Open infrastructure is not a competitor to your portfolio companies. It is the rising tide.
 
 If you want to feed a fire, you need to create breathing space between the logs for oxygen to flow in as fuel. Open source software is that breathing space for quantum technology. It draws in the talent, the creativity, and the experimentation that will determine whether quantum computing fulfills its promise or remains an expensive curiosity. 
+
+Interested in reading more? Read the full white paper [here](../../../public/assets/The_Open_Foundation_Quantum_Technology_Needs.pdf) 
