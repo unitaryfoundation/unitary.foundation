@@ -44,4 +44,11 @@ Quantum computing now sits at exactly this juncture. We are asking three things 
 
 If you want to feed a fire, you need to create breathing space between the logs for oxygen to flow in as fuel. Open source software is that breathing space for quantum technology. It draws in the talent, the creativity, and the experimentation that will determine whether quantum computing fulfills its promise or remains an expensive curiosity. 
 
-Interested in reading more? Read the full white paper [here](../../../public/assets/The_Open_Foundation_Quantum_Technology_Needs.pdf) 
+Interested in reading more? **Read the full white paper [here](../../../public/assets/The_Open_Foundation_Quantum_Technology_Needs.pdf)**
+
+<hr style="width: 20%; margin-left: 0; border: 0; border-top: 1px solid #ccc;">
+
+<small>**Footnotes** 
+1. https://www.csis.org/analysis/csis-commission-us-quantum-leadership
+2. Hoffmann, M., Nagle, F., & Zhou, Y. (2024). The value of open source software. Harvard Business School Strategy Unit Working Paper, (24-038).
+</small>
