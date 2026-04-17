@@ -13,7 +13,7 @@ _**Why Open Source Infrastructure can Accelerate a Better Quantum Future**_
 
 Quantum technology is no longer a distant science project. It is a field of active engineering and accelerating capital deployment, and its strategic importance is now recognized at the highest levels of government and industry worldwide. In 2025, private investment in quantum technology surpassed \$10 billion (more than double the previous year’s record) bringing **cumulative global investment past \$55.7 billion**. McKinsey estimates the economic value at stake from quantum computing alone at \$0.9 to \$2 trillion by 2035, driven by breakthroughs in pharmaceuticals, financial services, energy, and logistics. The White House ranked quantum technology second only to artificial intelligence on its 2025 Science and Technology Highlights. Quantum technology is now a significant focus of industrial policy across continents.
 
-The national security implications are equally concrete. Quantum computers will eventually break the encryption that underpins global commerce, military communications, and critical infrastructure: an event the industry calls Q-Day. The CSIS Commission on U.S. Quantum Leadership warned that a quantum decryption surprise from a strategic competitor would threaten both national security and commercial communication. NIST has published post-quantum cryptography standards, but transitioning the world’s digital infrastructure to these new protocols is a multi-year, multi-billion-dollar undertaking. The risk to cryptography alone, as the Commission concluded, justifies major public spending on quantum technology.<sup>1</sup>
+The national security implications are equally concrete. Quantum computers will eventually break the encryption that underpins global commerce, military communications, and critical infrastructure: an event the industry calls Q-Day. The CSIS Commission on U.S. Quantum Leadership warned that a quantum decryption surprise from a strategic competitor would threaten both national security and commercial communication. NIST has published post-quantum cryptography standards, but transitioning the world’s digital infrastructure to these new protocols is a multi-year, multi-billion-dollar undertaking. The risk to cryptography alone, as the Commission concluded, justifies major public spending on quantum technology.[^1]
 
 What makes this moment unusual is the gap between the scale of investment and the maturity of the ecosystem. **Billions are flowing into quantum hardware, but the software layer remains underfunded and fragmented.**
 
@@ -31,7 +31,7 @@ Open source is how you make that exploration possible at scale. When a chemist i
 
 The **best case scenario** is an open-source quantum operating system that enables hardware platforms, cloud providers, researchers, startups, and government users to interoperate through a common, trusted software foundation. Just as Linux and related open systems software catalyzed decades of innovation in classical computing, an open quantum software layer is required to translate quantum advances into scalable, secure, and economically meaningful capability. Without it, the United States and the global quantum community risk continued fragmentation, duplicated effort, and slower capability diffusion.
 
-Can’t Silicon Valley handle this? Not really. Venture capital funds companies with products and paths to revenue. Open source infrastructure projects are not companies. They do not have customers. They have users—often thousands of them—but no product to sell and no equity to return. These projects fall between the cracks. The economic downside is not abstract. Ninety-six percent of commercial software includes open source components. Harvard Business School research estimates the demand-side value of open source software at \$8.8 trillion, i.e. the cost firms would bear if they had to recreate the open source code they currently use for free.<sup>2</sup> The quantum field, still in its early chapters, has the opportunity to build its ecosystem on an open foundation from the beginning. This is better than trying to retrofit openness later.
+Can’t Silicon Valley handle this? Not really. Venture capital funds companies with products and paths to revenue. Open source infrastructure projects are not companies. They do not have customers. They have users—often thousands of them—but no product to sell and no equity to return. These projects fall between the cracks. The economic downside is not abstract. Ninety-six percent of commercial software includes open source components. Harvard Business School research estimates the demand-side value of open source software at \$8.8 trillion, i.e. the cost firms would bear if they had to recreate the open source code they currently use for free.[^2] The quantum field, still in its early chapters, has the opportunity to build its ecosystem on an open foundation from the beginning. This is better than trying to retrofit openness later.
 
 History offers a clear precedent. The U.S. government’s sustained investment in HPC, from the 1950s through the NITRD program and beyond, was driven first by national security and then by the recognition that shared computing infrastructure accelerated both scientific discovery and commercial competitiveness. By contrast, the United Kingdom built the first supercomputer but kept it locked in a secret facility and classified the research; leadership in computing went elsewhere.
 
@@ -48,7 +48,9 @@ Interested in reading more? **Read the [full white paper](/assets/The_Open_Found
 
 <hr style="width: 20%; margin-left: 0; border: 0; border-top: 1px solid #ccc;">
 
-<small>**Footnotes** 
-1. https://www.csis.org/analysis/csis-commission-us-quantum-leadership
-2. Hoffmann, M., Nagle, F., & Zhou, Y. (2024). The value of open source software. Harvard Business School Strategy Unit Working Paper, (24-038).
+<small>**Footnotes**
+
+[^1] https://www.csis.org/analysis/csis-commission-us-quantum-leadership </br>
+[^2] Hoffmann, M., Nagle, F., & Zhou, Y. (2024). The value of open source software. _Harvard Business School Strategy Unit Working Paper_, (24-038).
+
 </small>
