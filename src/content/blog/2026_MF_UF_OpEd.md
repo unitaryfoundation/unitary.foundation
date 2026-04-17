@@ -15,7 +15,7 @@ Quantum technology is no longer a distant science project. It is a field of acti
 
 The national security implications are equally concrete. Quantum computers will eventually break the encryption that underpins global commerce, military communications, and critical infrastructure: an event the industry calls Q-Day. The CSIS Commission on U.S. Quantum Leadership warned that a quantum decryption surprise from a strategic competitor would threaten both national security and commercial communication. NIST has published post-quantum cryptography standards, but transitioning the world’s digital infrastructure to these new protocols is a multi-year, multi-billion-dollar undertaking. The risk to cryptography alone, as the Commission concluded, justifies major public spending on quantum technology.[^1]
 
-[^1] https://www.csis.org/analysis/csis-commission-us-quantum-leadership
+[^1]: https://www.csis.org/analysis/csis-commission-us-quantum-leadership
 
 What makes this moment unusual is the gap between the scale of investment and the maturity of the ecosystem. **Billions are flowing into quantum hardware, but the software layer remains underfunded and fragmented.**
 
@@ -35,7 +35,7 @@ The **best case scenario** is an open-source quantum operating system that enabl
 
 Can’t Silicon Valley handle this? Not really. Venture capital funds companies with products and paths to revenue. Open source infrastructure projects are not companies. They do not have customers. They have users—often thousands of them—but no product to sell and no equity to return. These projects fall between the cracks. The economic downside is not abstract. Ninety-six percent of commercial software includes open source components. Harvard Business School research estimates the demand-side value of open source software at \$8.8 trillion, i.e. the cost firms would bear if they had to recreate the open source code they currently use for free.[^2] The quantum field, still in its early chapters, has the opportunity to build its ecosystem on an open foundation from the beginning. This is better than trying to retrofit openness later.
 
-[^2] Hoffmann, M., Nagle, F., & Zhou, Y. (2024). The value of open source software. _Harvard Business School Strategy Unit Working Paper_, (24-038).
+[^2]: Hoffmann, M., Nagle, F., & Zhou, Y. (2024). The value of open source software. _Harvard Business School Strategy Unit Working Paper_, (24-038).
 
 History offers a clear precedent. The U.S. government’s sustained investment in HPC, from the 1950s through the NITRD program and beyond, was driven first by national security and then by the recognition that shared computing infrastructure accelerated both scientific discovery and commercial competitiveness. By contrast, the United Kingdom built the first supercomputer but kept it locked in a secret facility and classified the research; leadership in computing went elsewhere.
 
