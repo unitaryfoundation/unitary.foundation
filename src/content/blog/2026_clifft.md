@@ -22,7 +22,7 @@ In early fault-tolerant quantum computing, researchers increasingly face a frust
 
 Today, we are releasing **Clifft**, an open-source simulator designed to push this tradeoff much further. If you have a Stim circuit and want to add non-Clifford gates, Clifft provides a familiar compile-once and sample-many workflow with outstanding performance in this regime. It is designed specifically for the "awkward middle": circuits with large Clifford backbones, noisy operations, mid-circuit measurements, and localized non-Clifford structure. Alongside the software release, we are posting a companion paper that describes the theory, implementation, benchmarks, and an application to end-to-end magic-state cultivation.
 
-**Try Clifft:** [GitHub](https://github.com/unitaryfoundation/clifft) · [Documentation](https://unitaryfoundation.github.io/clifft) · [Playground](https://unitaryfoundation.github.io/clifft/playground/) · [PyPI](https://pypi.org/project/clifft/) · [Paper](TODO_ARXIV_LINK)
+**Try Clifft:** <a href="https://github.com/unitaryfoundation/clifft" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://unitaryfoundation.github.io/clifft" target="_blank" rel="noopener noreferrer">Documentation</a> · <a href="https://unitaryfoundation.github.io/clifft/playground/" target="_blank" rel="noopener noreferrer">Playground</a> · <a href="https://pypi.org/project/clifft/" target="_blank" rel="noopener noreferrer">PyPI</a> · <a href="TODO_ARXIV_LINK" target="_blank" rel="noopener noreferrer">Paper</a>
 
 ## The gap between stabilizer and state vector simulation
 
@@ -115,7 +115,7 @@ At a high level, Clifft is meant to be a strong default when a circuit sits betw
           ▶↗
         </a>
       </td>
-      <td>Clifft reaches 10.4M shots/s, about 370× faster than Tsim on this benchmark.</td>
+      <td>Clifft reaches 10.4M shots/s, about 370× faster than <a href="https://github.com/QuEraComputing/tsim" target="_blank" rel="noopener noreferrer">Tsim</a> on this benchmark.</td>
     </tr>
     <tr>
       <td>Larger near-Clifford FT circuits</td>
@@ -130,15 +130,17 @@ At a high level, Clifft is meant to be a strong default when a circuit sits betw
           ▶↗
         </a>
       </td>
-      <td>Clifft simulates a single shot about 13× faster than SOFT: ~7.4μs per shot on one CPU core versus ~94μs per shot on one H800 GPU.</td>
+      <td>Clifft reaches ~135K shots/s on one CPU core, about 13× faster than <a href="https://github.com/haoliri0/SOFT" target="_blank" rel="noopener noreferrer">SOFT</a> at ~10.6K shots/s on one H800 GPU.</td>
     </tr>
     <tr>
       <td>Dense universal circuits</td>
       <td>Quantum Volume</td>
-      <td>In the worst-case dense limit, Clifft remains neck-and-neack with simulators like qiskit-aer and qsim.</td>
+      <td>In the worst-case dense limit, Clifft remains neck-and-neck with simulators like <a href="https://github.com/Qiskit/qiskit-aer" target="_blank" rel="noopener noreferrer">qiskit-aer</a> and <a href="https://github.com/quantumlib/qsim" target="_blank" rel="noopener noreferrer">qsim</a>.</td>
     </tr>
   </tbody>
 </table>
+
+_Throughput numbers above were measured on cloud CPU (and, for SOFT, GPU) instances; the in-browser WASM playground runs on a single thread and will report lower throughput. See the paper for full hardware details and methodology._
 
 The paper presents a comprehensive benchmark study, including the full set of circuits, the methodology, and the comparison points. The short version is that Stim remains the right tool for fully Clifford circuits, while Clifft is designed for the middle regime where exact non-Clifford effects matter but remain localized. On the low-magic fault-tolerant benchmarks we studied, this yields large to orders-of-magnitude throughput gains over prior near-Clifford exact-simulation approaches. And when the active dimension reaches the dense-state limit, Clifft remains competitive with leading CPU-based statevector simulators.
 
@@ -161,13 +163,13 @@ That longer-term direction is still early. The useful thing today is the simulat
 ## Try Clifft
 
 - Install Clifft: `uv pip install clifft` or `pip install clifft`
-- Read the [documentation](https://unitaryfoundation.github.io/clifft)
-- Try the [playground](https://unitaryfoundation.github.io/clifft/playground/)
-- View the [source code](https://github.com/unitaryfoundation/clifft)
+- Read the <a href="https://unitaryfoundation.github.io/clifft" target="_blank" rel="noopener noreferrer">documentation</a>
+- Try the <a href="https://unitaryfoundation.github.io/clifft/playground/" target="_blank" rel="noopener noreferrer">playground</a>
+- View the <a href="https://github.com/unitaryfoundation/clifft" target="_blank" rel="noopener noreferrer">source code</a>
 - Read the paper: TODO_ARXIV_LINK
 
 We welcome feedback, bug reports, examples, and contributions. If you are working on early fault-tolerant protocols, low-magic simulation, decoder studies, or non-Clifford QEC circuits, we would be especially interested  in hearing which workloads you would like Clifft to support next.
 
-Find us on the [Unitary Foundation Discord](https://discord.unitary.foundation), or open an [issue](https://github.com/unitaryfoundation/clifft/issues) on GitHub.
+Find us on the <a href="https://discord.unitary.foundation" target="_blank" rel="noopener noreferrer">Unitary Foundation Discord</a>, or open an <a href="https://github.com/unitaryfoundation/clifft/issues" target="_blank" rel="noopener noreferrer">issue</a> on GitHub.
 
 We look forward to building Clifft with and for the quantum computing community.
