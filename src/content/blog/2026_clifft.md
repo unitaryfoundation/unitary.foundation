@@ -1,6 +1,6 @@
 ---
 title: "Introducing Clifft: Exact Simulation for Early Fault-Tolerant Circuits"
-author: The Clifft Team
+author: Brad Chase, Farrokh Labib
 day: 1
 month: 5
 year: 2026
