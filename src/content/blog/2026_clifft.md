@@ -22,7 +22,7 @@ In early fault-tolerant quantum computing, researchers increasingly face a frust
 
 Today, we are releasing **Clifft**, an open-source simulator designed to push this tradeoff much further. If you have a Stim circuit and want to add non-Clifford gates, Clifft provides a familiar compile-once and sample-many workflow with outstanding performance in this regime. It is designed specifically for the "awkward middle": circuits with large Clifford backbones, noisy operations, mid-circuit measurements, and localized non-Clifford structure. Alongside the software release, we are posting a companion paper that describes the theory, implementation, benchmarks, and an application to end-to-end magic-state cultivation.
 
-**Try Clifft:** <a href="https://github.com/unitaryfoundation/clifft" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://unitaryfoundation.github.io/clifft" target="_blank" rel="noopener noreferrer">Documentation</a> · <a href="https://unitaryfoundation.github.io/clifft/playground/" target="_blank" rel="noopener noreferrer">Playground</a> · <a href="https://pypi.org/project/clifft/" target="_blank" rel="noopener noreferrer">PyPI</a> · <a href="TODO_ARXIV_LINK" target="_blank" rel="noopener noreferrer">Paper</a>
+**Try Clifft:** <a href="https://github.com/unitaryfoundation/clifft" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://unitaryfoundation.github.io/clifft" target="_blank" rel="noopener noreferrer">Documentation</a> · <a href="https://unitaryfoundation.github.io/clifft/playground/" target="_blank" rel="noopener noreferrer">Playground</a> · <a href="https://pypi.org/project/clifft/" target="_blank" rel="noopener noreferrer">PyPI</a> · <a href="https://arxiv.org/abs/2604.27058" target="_blank" rel="noopener noreferrer">Paper</a>
 
 ## The gap between stabilizer and state vector simulation
 
@@ -166,7 +166,7 @@ That longer-term direction is still early. The useful thing today is the simulat
 - Read the <a href="https://unitaryfoundation.github.io/clifft" target="_blank" rel="noopener noreferrer">documentation</a>
 - Try the <a href="https://unitaryfoundation.github.io/clifft/playground/" target="_blank" rel="noopener noreferrer">playground</a>
 - View the <a href="https://github.com/unitaryfoundation/clifft" target="_blank" rel="noopener noreferrer">source code</a>
-- Read the paper: TODO_ARXIV_LINK
+- Read the paper: <a href="https://arxiv.org/abs/2604.27058" >target="_blank" rel="noopener noreferrer">arXiv:2604.27058</a>
 
 We welcome feedback, bug reports, examples, and contributions. If you are working on early fault-tolerant protocols, low-magic simulation, decoder studies, or non-Clifford QEC circuits, we would be especially interested  in hearing which workloads you would like Clifft to support next.
 
