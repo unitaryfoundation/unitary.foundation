@@ -140,7 +140,7 @@ At a high level, Clifft is meant to be a strong default when a circuit sits betw
   </tbody>
 </table>
 
-_Throughput numbers above were measured on cloud CPU (and, for SOFT, GPU) instances; the in-browser WASM playground runs on a single thread and will report lower throughput. See the paper for full hardware details and methodology._
+_Throughput numbers above were measured on cloud instances; the in-browser WASM playground runs on a single thread and will report lower throughput. See the paper for full hardware details and methodology._
 
 The paper presents a comprehensive benchmark study, including the full set of circuits, the methodology, and the comparison points. The short version is that Stim remains the right tool for fully Clifford circuits, while Clifft is designed for the middle regime where exact non-Clifford effects matter but remain localized. On the low-magic fault-tolerant benchmarks we studied, this yields large to orders-of-magnitude throughput gains over prior near-Clifford exact-simulation approaches. And when the active dimension reaches the dense-state limit, Clifft remains competitive with leading CPU-based statevector simulators.
 
@@ -166,7 +166,7 @@ That longer-term direction is still early. The useful thing today is the simulat
 - Read the <a href="https://unitaryfoundation.github.io/clifft" target="_blank" rel="noopener noreferrer">documentation</a>
 - Try the <a href="https://unitaryfoundation.github.io/clifft/playground/" target="_blank" rel="noopener noreferrer">playground</a>
 - View the <a href="https://github.com/unitaryfoundation/clifft" target="_blank" rel="noopener noreferrer">source code</a>
-- Read the paper: <a href="https://arxiv.org/abs/2604.27058" >target="_blank" rel="noopener noreferrer">arXiv:2604.27058</a>
+- Read the <a href="https://arxiv.org/abs/2604.27058" target="_blank" rel="noopener noreferrer">paper</a>
 
 We welcome feedback, bug reports, examples, and contributions. If you are working on early fault-tolerant protocols, low-magic simulation, decoder studies, or non-Clifford QEC circuits, we would be especially interested  in hearing which workloads you would like Clifft to support next.
 
