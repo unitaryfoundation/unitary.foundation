@@ -5,7 +5,7 @@ export interface Props {
   numberOfPosts?: number;
 }
 
-import Slider from './Slider';
+import Slider from './Slider.astro';
 
 const { numberOfPosts = 4 } = Astro.props;
 
@@ -20,4 +20,4 @@ const sortedEntries = blogEntries
   .slice(0, numberOfPosts);
 ---
 
-<Slider posts={sortedEntries} client:only />
+<Slider posts={sortedEntries} />

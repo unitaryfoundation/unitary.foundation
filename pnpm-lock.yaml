@@ -71,6 +71,9 @@ importers:
       astro:
         specifier: 5.18.1
         version: 5.18.1(@types/node@24.10.1)(jiti@1.21.7)(lightningcss@1.29.2)(rollup@4.60.0)(sass@1.99.0)(typescript@5.9.3)(yaml@2.9.0)
+      astro-swiper:
+        specifier: ^2.10.0
+        version: 2.10.0
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -140,9 +143,6 @@ importers:
       sanitize-html:
         specifier: ^2.17.0
         version: 2.17.0
-      swiper:
-        specifier: ^12.1.2
-        version: 12.1.2
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -2130,6 +2130,10 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
+  astro-swiper@2.10.0:
+    resolution: {integrity: sha512-vvgeF6Xy+ouRNPQ9xBYd7id/uwNlGFr8zmW7mHHdg1OzU+V+YjkZBTKgbjdwNgNW7K7D7BRdc4J4p3R+a8AGAQ==}
+    engines: {node: '>=18', npm: '>=9.6.5', pnpm: '>=7.1.0'}
+
   astro@5.18.1:
     resolution: {integrity: sha512-m4VWilWZ+Xt6NPoYzC4CgGZim/zQUO7WFL0RHCH0AiEavF1153iC3+me2atDvXpf/yX4PyGUeD8wZLq1cirT3g==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
@@ -3922,8 +3926,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  swiper@12.1.2:
-    resolution: {integrity: sha512-4gILrI3vXZqoZh71I1PALqukCFgk+gpOwe1tOvz5uE9kHtl2gTDzmYflYCwWvR4LOvCrJi6UEEU+gnuW5BtkgQ==}
+  swiper@14.1.0:
+    resolution: {integrity: sha512-ppit/AqmGvThKlXy4I1/9N/gEyb9s/BDHWciWNeIxbfteFKUhPQXrYuOMKszomXKd9WiLd+/0vKdPHW+0N0mhA==}
     engines: {node: '>= 4.7.0'}
 
   tailwind-merge@3.3.1:
@@ -6142,6 +6146,10 @@ snapshots:
   array-iterate@2.0.1: {}
 
   astring@1.9.0: {}
+
+  astro-swiper@2.10.0:
+    dependencies:
+      swiper: 14.1.0
 
   astro@5.18.1(@types/node@24.10.1)(jiti@1.21.7)(lightningcss@1.29.2)(rollup@4.60.0)(sass@1.99.0)(typescript@5.9.3)(yaml@2.9.0):
     dependencies:
@@ -8597,7 +8605,7 @@ snapshots:
       picocolors: 1.1.1
       sax: 1.6.0
 
-  swiper@12.1.2: {}
+  swiper@14.1.0: {}
 
   tailwind-merge@3.3.1: {}
 
