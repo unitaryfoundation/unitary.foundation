@@ -6,8 +6,6 @@ day: 26
 country: DE
 tags:
   - error correction
-  - 
-  - 
 ---
 
 To **Ludwig Schmid and Tom Peham** to expand **QECirc**, a community-driven library for quantum error correction circuits. The project provides a central place to find, share, and reuse circuits for common QEC tasks such as encoding, state preparation, syndrome extraction, and related workflows. QECirc is supported by Prof. Robert Wille, leading the Chair for Design Automation at the Technical University of Munich.
