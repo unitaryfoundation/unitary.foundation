@@ -3,7 +3,7 @@ name: ZX Calculus Online
 year: 2026
 month: 2
 day: 23
-country: UK
+country: GB
 tags:
   - games
   - education
