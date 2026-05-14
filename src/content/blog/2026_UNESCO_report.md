@@ -13,7 +13,7 @@ tags:
 
 We’re excited to share a new joint report published in collaboration with **UNESCO** that examines a critical hurdle for our field: the growing "quantum divide."
 
-<a href="https://url-to-the-report-or-website.com">
+<a href="https://unesdoc.unesco.org/ark:/48223/pf0000398055.locale=en">
   <img src="public/images/2026_UNESCO.png" alt="Joint Report Cover" width="400">
 </a>
 
