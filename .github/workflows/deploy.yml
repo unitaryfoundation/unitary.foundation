@@ -18,17 +18,28 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
+    env:
+      PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
+      PUBLIC_CLOUDINARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v6
+      - name: Validate required public environment variables
+        run: |
+          test -n "$PUBLIC_CLOUDINARY_CLOUD_NAME" || {
+            echo "PUBLIC_CLOUDINARY_CLOUD_NAME is not available to the build job"
+            exit 1
+          }
+          test -n "$PUBLIC_CLOUDINARY_UPLOAD_PRESET" || {
+            echo "PUBLIC_CLOUDINARY_UPLOAD_PRESET is not available to the build job"
+            exit 1
+          }
       - name: Install, build, and upload your site
         uses: withastro/action@v6
         with:
           node-version: 22
           package-manager: pnpm@10.33.2
-        env:
-          PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
-          PUBLIC_CLOUDINARY_UPLOAD_PRESET: ${{ vars.PUBLIC_CLOUDINARY_UPLOAD_PRESET }}
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
