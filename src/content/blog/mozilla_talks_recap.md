@@ -13,7 +13,30 @@ tags:
 
 _This post is written in collaboration with Hannah Ismael, Program Associate at Mozilla Foundation._ 
 
+<div style="
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+    border: 1px solid #e1e4e8; 
+    border-radius: 8px; 
+    background-color: #f6f8fa;
+    margin: 20px 0;">
+    
+  <div style="flex: 1; min-width: 250px; max-width: 300px;">
+    <img src="/images/2026_Mozilla_Talks/Talk 1.jpg" alt="First Talk: Why Quantum Technology Needs Open and Accessible Benchmarking" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+  </div>
 
+  <div style="flex: 1; min-width: 250px; max-width: 300px;">
+    <img src="/images/2026_Mozilla_Talks/Talk 2.jpg" alt="Second Talk: The Impact and Future of the Quantum Open Source Ecosystem" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+  </div>
+
+  <div style="flex: 1; min-width: 250px; max-width: 300px;">
+    <img src="/images/2026_Mozilla_Talks/Talk 3.jpg" alt="Final Talk: Grantmaking + Open Source Community Development in Quantum Technology" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+  </div>
+
+</div>
 
 Over the past few months, Unitary Foundation + Mozilla Foundation have collaborated on a series of deep-dive conversations exploring the intersection of open-source principles and the emerging quantum ecosystem.
 As quantum technology moves from theoretical research to early-stage implementation, the lessons learned from the history of the open web have never been more relevant. Our joint talk series brought together experts, advocates, and developers from UF to discuss how we can ensure this next era of computing remains a public resource—accessible, transparent, and community-led.
