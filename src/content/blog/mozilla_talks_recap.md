@@ -29,11 +29,11 @@ _This post is written in collaboration with Hannah Ismael, Program Associate at 
   </div>
 
   <div style="flex: 1; min-width: 250px; max-width: 300px;">
-    <img src="/images/2026_Mozilla_Talks/Talk 2.jpg" alt="Second Talk: The Impact and Future of the Quantum Open Source Ecosystem" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+    <img src="/images/2026_Mozilla_Talks/Talk 2.png" alt="Second Talk: The Impact and Future of the Quantum Open Source Ecosystem" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
   </div>
 
   <div style="flex: 1; min-width: 250px; max-width: 300px;">
-    <img src="/images/2026_Mozilla_Talks/Talk 3.jpg" alt="Final Talk: Grantmaking + Open Source Community Development in Quantum Technology" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
+    <img src="/images/2026_Mozilla_Talks/Talk 3.png" alt="Final Talk: Grantmaking + Open Source Community Development in Quantum Technology" style="width: 100%; border-radius: 4px; border: 1px solid #ddd;">
   </div>
 
 </div>
