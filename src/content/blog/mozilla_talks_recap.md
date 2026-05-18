@@ -1,6 +1,6 @@
 ---
 title: "Building an Open Foundation: A Recap of the Unitary Foundation x Mozilla Foundation 2026 Talk Series"
-author: Veena Vijayakumar and Hannah Ismael
+author: Veena Vijayakumar
 day: 18
 month: 5
 year: 2026
@@ -8,10 +8,7 @@ tags:
  - members
  - partnership
  - community
- - guest post
 ---
-
-_This post is written in collaboration with Hannah Ismael, Program Associate at Mozilla Foundation._ 
 
 <div style="
     display: flex; 
