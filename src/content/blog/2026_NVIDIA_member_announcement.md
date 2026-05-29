@@ -19,13 +19,13 @@ The synergy between our organizations is rooted in a shared vision for the futur
 
 <blockquote style="background-color: #f9f9f9; padding: 1.5rem 2rem; margin: 2rem 0; border-radius: 4px; font-style: italic; color: #222222; text-align: left;">
   <p style="font-size: 1.15rem; line-height: 1.6; margin: 0;">
-    “NVIDIA is not only a leader in quantum technology, they have long been at the forefront of supporting open source ecosystems, from AI to scientific simulation,” <strong>said Ben Castanon, UF CEO.</strong> “We are honored to have them join us as a Core Member. We are excited to work alongside them to empower and expand quantum’s OS developer community, and ensure that the ecosystem is open, accessible, and high-performing. With the support and leadership of our members, we can significantly accelerate the development of the open-source quantum software stack.”
+    NVIDIA is not only a leader in quantum technology, they have long been at the forefront of supporting open source ecosystems, from AI to scientific simulation,” <strong>said Ben Castanon, UF CEO.</strong> “We are honored to have them join us as a Core Member. We are excited to work alongside them to empower and expand quantum’s OS developer community, and ensure that the ecosystem is open, accessible, and high-performing. With the support and leadership of our members, we can significantly accelerate the development of the open-source quantum software stack.
   </p>
 </blockquote>
 
-<blockquote style="background-color: #f9f9f9; padding: 1.5rem 2rem; margin: 2rem 0; border-radius: 4px; font-style: italic; color: #222222; text-align: right;">
-  <p style="font-size: 1.15rem; line-height: 1.6; margin: 0;">
-    "Quantum researchers and developers need open tools and platforms they can build on, and NVIDIA is building accelerated quantum supercomputing to support them,” <strong>said Sam Stanwyck, Director of Quantum Product at NVIDIA.</strong> “Unitary Foundation has championed that openness for years, and we are joining as a Core Member to advance it together with CUDA-Q and the broader NVIDIA platform."
+<blockquote style="background-color: #f9f9f9; padding: 1.5rem 2rem; margin: 2rem 0; border-radius: 4px; font-style: italic; color: #222222; text-align: right; border-left: none; border-right: 4px solid #222222;">
+  <p style="font-size: 1.15rem; line-height: 1.6; margin: 0;">    
+    Quantum researchers and developers need open tools and platforms they can build on, and NVIDIA is building accelerated quantum supercomputing to support them,” <strong>said Sam Stanwyck, Director of Quantum Product at NVIDIA.</strong> “Unitary Foundation has championed that openness for years, and we are joining as a Core Member to advance it together with CUDA-Q and the broader NVIDIA platform.
   </p>
 </blockquote>
 
