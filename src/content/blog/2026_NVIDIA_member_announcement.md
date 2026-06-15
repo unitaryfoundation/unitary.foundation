@@ -1,6 +1,6 @@
 ---
 title: NVIDIA Joins UF with a shared vision for accelerating the Open-Source Quantum Stack
-author: UF Team
+author: The UF Team
 day: 29
 month: 5
 year: 2026
