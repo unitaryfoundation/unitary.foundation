@@ -1,20 +1,20 @@
----  
-title: Xanadu Joins UF to Strengthen the Open Quantum Software Ecosystem  
-author: Veena Vijayakumar  
-day: 15  
-month: 6  
-year: 2026  
-tags:   
- - members  
- - partnership  
- - community  
 ---
-
-::[Xanadu and UF logos](images/2026_Xanadu_UF.png)
+title: Xanadu Joins UF to Strengthen the Open Quantum Software Ecosystem
+author: Veena Vijayakumar
+day: 15
+month: 6
+year: 2026
+tags:
+  - members
+  - partnership
+  - community
+---
 
 Dear all,
 
 It is a pleasure to announce that Xanadu has formally joined the Unitary Foundation as our newest Supporting Member!
+
+::image[images/2026_Xanadu_UF.png]
 
 This partnership feels like a natural homecoming. As the team behind [PennyLane](http://pennylane.ai), Xanadu has long been a vital champion of the open-source philosophy that we hold dear. By formalizing this relationship, they are doubling down on their support for the community-driven initiatives—from microgrants to collaborative research—that keep the quantum ecosystem vibrant and inclusive.
 
