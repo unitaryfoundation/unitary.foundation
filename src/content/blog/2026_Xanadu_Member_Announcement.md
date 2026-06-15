@@ -10,7 +10,7 @@ tags:
  - community  
 ---
 
-![][image1]
+![Xanadu and UF logos](images/2026_Xanadu_UF.png)
 
 Dear all,
 
