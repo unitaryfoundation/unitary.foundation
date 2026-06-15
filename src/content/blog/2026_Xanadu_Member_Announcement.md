@@ -1,6 +1,6 @@
 ---
 title: Xanadu Joins UF to Strengthen the Open Quantum Software Ecosystem
-author: Veena Vijayakumar
+author: The UF Team
 day: 15
 month: 6
 year: 2026
