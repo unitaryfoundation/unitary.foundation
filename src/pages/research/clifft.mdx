@@ -1,0 +1,19 @@
+---
+title: Clifft
+layout: '~/layouts/Layout.astro'
+---
+
+import { PageIntro, ReducedWidth } from '~/components/Ui';
+
+<PageIntro>
+# Fast exact simulation for near-Clifford quantum circuits.
+
+**`clifft`** helps researchers simulate early fault-tolerant circuits that are mostly Clifford but depend on localized non-Clifford operations. It accepts Stim-format circuits, extends them with non-Clifford gates, and compiles them into bytecode for a high-performance simulator, preserving the compile-once, sample-many workflow used in QEC studies while keeping the expensive dense-state work focused on the active non-Clifford dimension.
+
+</PageIntro>
+
+<ReducedWidth className="mt-12 md:mt-16">
+**Learn More and Contribute**
+
+If you'd like to chat, find us in the #clifft channel on our :social-link-discord[Discord]. Read the [documentation](https://unitaryfoundation.github.io/clifft/), try the [interactive playground](https://unitaryfoundation.github.io/clifft/playground/), read the [paper](https://arxiv.org/abs/2604.27058), or contribute on [GitHub](https://github.com/unitaryfoundation/clifft).
+</ReducedWidth>
