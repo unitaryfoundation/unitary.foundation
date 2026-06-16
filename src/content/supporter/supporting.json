@@ -26,11 +26,6 @@
       "imageId": "c2vuieystyxvxqck0ajr"
     },
     {
-      "title": "SandboxAQ",
-      "url": "https://www.sandboxaq.com/",
-      "imageId": "crdrjgdw5jndh7ro2nfa"
-    },
-    {
       "title": "QC Ware",
       "url": "https://www.qcware.com/",
       "imageId": "pisrqdbl3cgjqlpgzhah"
@@ -44,6 +39,16 @@
       "title": "Riverlane",
       "url": "https://www.riverlane.com/",
       "imageId": "jt3w14gr9u4wfpfzlde9"
+    },
+    {
+      "title": "SandboxAQ",
+      "url": "https://www.sandboxaq.com/",
+      "imageId": "crdrjgdw5jndh7ro2nfa"
+    }, 
+    {
+      "title": "Xanadu",
+      "url": "https://www.xanadu.ai/",
+      "imageId": "ophtdid5onl9paypldsu"
     }
   ]
 }
