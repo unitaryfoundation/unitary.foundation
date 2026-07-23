@@ -14,6 +14,6 @@ tags:
 
 **Project URLs:**
 QRNG paper: https://pubs.aip.org/aip/apq/article/2/4/046105/3368334/Fully-passive-quantum-random-number-generation
-Randomness Beacon: quantum-entropy.sg
+Randomness Beacon: https://quantum-entropy.sg/
 
 **Project Champions:** Will Zeng, Jamie Friel
