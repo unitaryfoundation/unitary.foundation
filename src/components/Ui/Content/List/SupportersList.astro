@@ -15,10 +15,13 @@ const supporterEntry = (await getEntry('supporter', type)) as unknown;
 const supporterParse = supporterSchema.safeParse(
   supporterEntry && typeof supporterEntry === 'object' && 'data' in supporterEntry
     ? supporterEntry.data
-    : null
+    : null,
 );
 
 let supporters = supporterParse.success ? supporterParse.data : null;
+
+// Set logo wrapper size depending on member type
+const imageSize = type === 'core' ? 'large' : 'normal';
 ---
 
 <ul
@@ -39,16 +42,17 @@ let supporters = supporterParse.success ? supporterParse.data : null;
         {!!supporter.url && (
           <a class="break-words font-normal" href={supporter.url} title={supporter.title}>
             {supporter?.imageId ? (
-              <SupporterImage imageId={supporter.imageId} />
+              <SupporterImage imageId={supporter.imageId} size={imageSize} />
             ) : (
               <span class="text-base md:text-lg">{supporter.title} &rarr;</span>
             )}
           </a>
         )}
+
         {!supporter.url && (
           <span class="break-words">
             {supporter?.imageId ? (
-              <SupporterImage imageId={supporter.imageId} />
+              <SupporterImage imageId={supporter.imageId} size={imageSize} />
             ) : (
               <span class="text-base md:text-lg">{supporter.title}</span>
             )}
