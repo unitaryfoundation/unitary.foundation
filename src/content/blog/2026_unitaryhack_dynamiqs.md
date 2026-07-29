@@ -23,7 +23,7 @@ Thanks to [spital](https://github.com/spital), [Ronit-Raj9](https://github.com/R
 
 Building a quantum chip takes more than analytical formulas. As real devices grow in complexity, simulation becomes the only way to move fast — testing and optimising designs before fabrication, then characterising and calibrating the real chip through a digital twin after. You cannot fabricate every variant and measure it, so you simulate. And the simulations that matter are not textbook two-level toy models. They are open quantum systems with many modes, large Hilbert spaces, and dynamics that span wildly different timescales.
 
-Dynamiqs was built for that regime. It is the engine we reach for when a question has to be answered at full scale rather than approximated down to something convenient. Below we put it to work on two problems drawn from cat-qubit design, and show that one library carries both within a single shell.
+Dynamiqs was built for that regime, and for nearly any open quantum system that needs it, not only cat qubits. It is the engine we reach for when a question has to be answered at full scale rather than approximated down to something convenient. Below we put it to work on two problems drawn from cat-qubit design, chosen for their large Hilbert spaces and stiff dynamics, and show that one library carries both within a single shell.
 
 ## Dynamiqs in a nutshell
 
@@ -42,7 +42,7 @@ Our companion post walks through the API and design philosophy in more detail ([
 
 A focused library with good defaults beats a sprawling one, and unitaryHACK helped us keep it that way, expanding type coverage across the codebase ([#1081](https://github.com/dynamiqs/dynamiqs/issues/1081)) and filling out the `QArray` manipulation utilities ([#1080](https://github.com/dynamiqs/dynamiqs/issues/1080)).
 
-Now let's put it to work. We will walk through two problems, each chosen to showcase the maturity of the library: one running the forward simulation at full scale, and one running it backwards to recover a model from data.
+Now let's put it to work. Nothing below is cat-specific: the solvers, the sparse format, and the batching all apply the same way to any bosonic or spin system. We will walk through two problems, each chosen to showcase the maturity of the library: one running the forward simulation at full scale, and one running it backwards to recover a model from data.
 
 ## Sixteen CNOTs at once
 
@@ -91,7 +91,7 @@ Three of the library's bets compound here. The sparse format reduces the memory 
 
 > **Figure 1 —** A 4 × 4 grid of Wigner functions, one panel per tomography input (rows: control preparation; columns: target preparation), animated across the gate. We trace out the buffer and show the target mode, because that is where the action is visible.
 
-**Why you'd care.** This is the inner loop of cat-qubit gate design: change a parameter, re-run the tomography, read the fidelity. Doing all sixteen states at once, on a stiff multi-mode system, in seconds rather than minutes, is what turns an overnight sweep into an interactive afternoon.
+**Why you'd care.** This is the inner loop of any multi-mode gate design, cat qubits included: change a parameter, re-run the tomography, read the fidelity. Doing all sixteen states at once, on a stiff multi-mode system, in seconds rather than minutes, is what turns an overnight sweep into an interactive afternoon.
 
 ## Reverse-engineering a chip from its noise
 
