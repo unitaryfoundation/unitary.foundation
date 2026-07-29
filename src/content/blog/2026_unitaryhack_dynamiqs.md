@@ -11,7 +11,7 @@ tags:
   - quantum-simulation
 ---
 
-**The Unitary Foundation runs [unitaryHACK](https://unitaryhack.dev/) every year, a hackathon built around real issues from open source libraries. This year [Alice & Bob](https://alice-bob.com/) submitted five from [Dynamiqs](https://www.dynamiqs.org/), and contributors picked up every one of them.**
+Unitary Foundation runs [unitaryHACK](https://unitaryhack.dev/) every year, a hackathon built around real issues from open source libraries. This year, [Alice & Bob](https://alice-bob.com/) submitted five issues from [Dynamiqs](https://www.dynamiqs.org/), and contributors picked up every one of them.
 
 The five range widely, but converge on the same thing: a library that's reliable under load, easy to work with, trustworthy and performant enough to build chips with.
 
