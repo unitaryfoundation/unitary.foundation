@@ -1,7 +1,7 @@
 ---
 title: Dynamiqs, Put to Work
 author: Alice & Bob
-day: 6
+day: 31
 month: 7
 year: 2026
 tags:
