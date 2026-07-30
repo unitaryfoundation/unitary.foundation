@@ -40,7 +40,7 @@
     "html-react-parser": "^5.2.11",
     "iso-3166": "^4.4.0",
     "lucide-react": "^0.575.0",
-    "markdown-it": "^14.1.1",
+    "markdown-it": "^14.2.0",
     "markdown-to-jsx": "^9.5.0",
     "merge-refs": "^2.0.0",
     "nanostores": "^1.2.0",
