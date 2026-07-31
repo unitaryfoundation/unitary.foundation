@@ -11,9 +11,9 @@ tags:
   - quantum-simulation
 ---
 
-_Following unitaryHACK26, the team at Alice & Bob breaks down their open-source work on Dynamiqs in this guest contribution. They detail the collaborative efforts during the hackathon and where this work sits within their wider technical vision.
+*Following unitaryHACK26, the team at Alice & Bob breaks down their open-source work on Dynamiqs in this guest contribution. They detail the collaborative efforts during the hackathon and where this work sits within their wider technical vision.
 
-Thank you to Nicolas Lepage, Ronan Gautier, Adrien Bocquet, and Matthieu Patrizio for serving as maintainers, and to Laurent Prost and the team for their support of the hackathon._
+Thank you to Nicolas Lepage, Ronan Gautier, Adrien Bocquet, and Matthieu Patrizio for serving as maintainers, and to Laurent Prost and the team for their support of the hackathon.*
 
 </br>
 Unitary Foundation runs [unitaryHACK](https://unitaryhack.dev/) every year, a hackathon built around real issues from open source libraries. This year, [Alice & Bob](https://alice-bob.com/) submitted five issues from [Dynamiqs](https://www.dynamiqs.org/), and contributors picked up every one of them.
