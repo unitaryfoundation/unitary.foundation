@@ -13,9 +13,8 @@ tags:
 
 *Following unitaryHACK26, the team at Alice & Bob breaks down their open-source work on Dynamiqs in this guest contribution. They detail the collaborative efforts during the hackathon and where this work sits within their wider technical vision. Thank you to Nicolas Lepage, Ronan Gautier, Adrien Bocquet, and Matthieu Patrizio for serving as maintainers, and to Laurent Prost and the team for their support of the hackathon.*
 
-</br>
 
-## Unitary Foundation runs [unitaryHACK](https://unitaryhack.dev/) every year, a hackathon built around real issues from open source libraries. This year, [Alice & Bob](https://alice-bob.com/) submitted five issues from [Dynamiqs](https://www.dynamiqs.org/), and contributors picked up every one of them.
+**Unitary Foundation runs [unitaryHACK](https://unitaryhack.dev/) every year, a hackathon built around real issues from open source libraries. This year, [Alice & Bob](https://alice-bob.com/) submitted five issues from [Dynamiqs](https://www.dynamiqs.org/), and contributors picked up every one of them.**
 
 The five range widely, but converge on the same thing: a library that's reliable under load, easy to work with, trustworthy, and performant enough to build chips with. A new test suite for the stochastic solvers ([#1079](https://github.com/dynamiqs/dynamiqs/issues/1079)) validates a tool that gets used daily. Work on the QArray manipulation utilities ([#1080](https://github.com/dynamiqs/dynamiqs/issues/1080), still in progress) is smoothing out small frictions in daily use. Broader type coverage across the codebase ([#1081](https://github.com/dynamiqs/dynamiqs/issues/1081)) makes the library production grade, easier to maintsain and to build on. Native Hessian computation ([#1082](https://github.com/dynamiqs/dynamiqs/issues/1082), also merged) enables the use of advanced optimisation tools. And a large benchmark suite ([#1083](https://github.com/dynamiqs/dynamiqs/issues/1083), in the works) will allow us to know exactly the performance and accuracy of the library.
 
