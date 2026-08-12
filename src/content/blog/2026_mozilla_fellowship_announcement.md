@@ -9,8 +9,8 @@ tags:
  - partnership
  - fellow
 --- 
-This is a post by Mathys Rennela, UF’s newest year-long Fellow, who will be working on Error Correction research and community building with support from the Mozilla Foundation. 
-—-
+*This is a post by Mathys Rennela, UF’s newest year-long Fellow, who will be working on Error Correction research and community building with support from the Mozilla Foundation.* 
+
 
 I am Mathys Rennela, a quantum software researcher based in Paris. My experience working at the intersection of formal methods and quantum algorithmics has led me more recently to jump onto what I see as quantum computing’s biggest bottleneck: quantum error correction. As I was working on implementing new quantum error correction protocols, I realized a critical gap in quantum software tooling. Say that you are at the end of a coding sprint; you want to make sure that your newest quantum error correction tool actually corrects quantum errors. Typically, like for any software, you would make sure that there is a battery of unit tests analyzing your code, or you would try to formally prove some subset of it. 
 
