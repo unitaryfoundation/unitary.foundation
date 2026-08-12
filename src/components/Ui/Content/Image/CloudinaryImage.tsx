@@ -11,6 +11,7 @@ type CloudinaryImageProps = SetOptional<ImageProps, 'src'> & {
 export function CloudinaryImage({
   id,
   alterImage,
+  className,
   ...props
 }: CloudinaryImageProps) {
   let image = cld.image(id);
@@ -21,6 +22,10 @@ export function CloudinaryImage({
 
   return (
     // eslint-disable-next-line jsx-a11y/alt-text
-    <Image src={image.toURL()} {...props} />
+    <Image
+      src={image.toURL()}
+      className={`object-contain ${className ?? ''}`}
+      {...props}
+    />
   );
 }
