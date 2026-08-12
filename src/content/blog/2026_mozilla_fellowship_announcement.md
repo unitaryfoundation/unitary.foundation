@@ -1,5 +1,5 @@
 ---
-title: A Mozilla Fellowship on Quantum Error Correction
+title: "A Mozilla Fellowship on Quantum Error Correction"
 author: Mathys Rennela
 day: 12
 month: 8
