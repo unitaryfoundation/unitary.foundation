@@ -8,7 +8,7 @@ tags:
  - community
  - partnership
  - fellow
-- - - 
+--- 
 This is a post by Mathys Rennela, UF’s newest year-long Fellow, who will be working on Error Correction research and community building with support from the Mozilla Foundation. 
 —-
 
