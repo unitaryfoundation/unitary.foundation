@@ -30,8 +30,6 @@ Observable coverage: observable never touched by any mechanism
 Probability bounds: NaN / negative / unphysical error rates
 Duplicates: duplicate fault signatures
 
-::image[ftbwokvz74edggz7uq2t]
-
 Underpinning emlint is a rigorous algebraic formalism. Category theory is used as a design framework to break down the many challenges in establishing a verification pipeline into simpler, tractable problems. The fellowship roadmap extends towards automated and human-readable counter-example construction (for easier debugging), code-level verification, automated code discovery (linter as AI harness), and extension library system (to author custom checks).
 But a mathematically sound or well-developed tool won’t be enough on its own. Developing a core user base early on and building in the open is essential to drive adoption of good quantum software practices in quantum error correction. I am taking all the advantages of this fellowship to build in the open. My community plan mirrors tried and tested open source software practices, by learning from the development of linters like ESLint for JavaScript. 
 
