@@ -1,6 +1,6 @@
 ---
 title: "Community Journal Log: QuTiP at EuroSciPy 2026 Reflections"
-author: Alexander Pitchford and Maximilian Meyer-Mölleringhof 
+author: "Alexander Pitchford and Maximilian Meyer-Mölleringhof"
 day: 20
 month: 8
 year: 2026
