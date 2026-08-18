@@ -1,8 +1,10 @@
 import { Cloudinary } from '@cloudinary/url-gen';
 
+const cloudName = import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME || 'dcz4ywuer';
+
 export const cld = new Cloudinary({
   cloud: {
-    cloudName: import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME,
+    cloudName,
   },
   url: {
     secure: true,
