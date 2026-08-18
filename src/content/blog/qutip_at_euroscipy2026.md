@@ -25,10 +25,3 @@ And of course it was great to meet so many interesting people, too many to menti
 Both Max and I are very grateful to have had Unitary Foundation on board for this conference. EuroSciPy 2026 has shown that open source software is indispensable for progress in academia and industry alike. But it is ever more important to recognize the people that are behind all of these projects and it wouldn’t be without such conferences that ideas, that come up over coffee, eventually turn into fruitful collaborations.
 
 [![Unitary Foundation](https://img.shields.io/badge/Supported%20By-UNITARY%20FOUNDATION-brightgreen.svg?style=for-the-badge)](https://unitary.foundation)
-
-
-
-
-
-
-
