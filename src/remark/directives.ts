@@ -2,11 +2,20 @@ import 'remark-directive';
 import type { Plugin } from 'unified';
 import type { Root } from 'mdast';
 import { visit } from 'unist-util-visit';
+import { Cloudinary } from '@cloudinary/url-gen';
 import { Resize } from '@cloudinary/url-gen/actions/resize';
-import { cld } from '../util/cloudinary';
 import socialLinks from '../data/social.json';
 
-export const imageDirective: Plugin<[], Root> = () => {
+type ImageDirectiveOptions = {
+  cloudName: string;
+};
+
+export const imageDirective: Plugin<[ImageDirectiveOptions], Root> = ({ cloudName }) => {
+  const cld = new Cloudinary({
+    cloud: { cloudName },
+    url: { secure: true },
+  });
+
   return (tree, file) => {
     visit(tree, (node) => {
       if (

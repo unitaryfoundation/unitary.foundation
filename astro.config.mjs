@@ -15,7 +15,14 @@ import {
   socialDirective,
 } from './src/remark/directives';
 import remarkOnlyStrong from './src/remark/only-strong';
+import { loadEnv } from 'vite';
 import svgr from 'vite-plugin-svgr';
+
+const { PUBLIC_CLOUDINARY_CLOUD_NAME } = loadEnv(
+  process.env.NODE_ENV ?? 'development',
+  process.cwd(),
+  '',
+);
 
 // https://astro.build/config
 export default defineConfig({
@@ -51,7 +58,7 @@ export default defineConfig({
       ],
       remarkDirective,
       remarkMath,
-      imageDirective,
+      [imageDirective, { cloudName: PUBLIC_CLOUDINARY_CLOUD_NAME }],
       gistDirective,
       socialDirective,
     ],
