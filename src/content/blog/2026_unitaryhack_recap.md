@@ -72,9 +72,9 @@ That visible rush risked discouraging slower and more deliberate work, even when
 
 ### What We Tried to Keep Human
 
-<div class="flex flex-row items-start gap-4 max-sm:flex-col">
-  <img class="m-0 block aspect-[4/3] w-full max-w-none object-cover sm:flex-1" src="/images/2026_unitaryhack_recap/UnitaryHack_Aalto.jpg" alt="unitaryHACK participants at Aalto" />
-  <img class="m-0 block aspect-[4/3] w-full max-w-none object-cover object-bottom sm:flex-1" src="/images/2026_unitaryhack_recap/UnitaryHack_GDGOAU.jpg" alt="unitaryHACK participants at GDG OAU" />
+<div class="grid min-w-0 grid-cols-1 gap-4 sm:grid-cols-2">
+  <img class="m-0 block aspect-[4/3] min-w-0 w-full max-w-full object-cover" src="/images/2026_unitaryhack_recap/UnitaryHack_Aalto.jpg" alt="unitaryHACK participants at Aalto" />
+  <img class="m-0 block aspect-[4/3] min-w-0 w-full max-w-full object-cover object-bottom" src="/images/2026_unitaryhack_recap/UnitaryHack_GDGOAU.jpg" alt="unitaryHACK participants at GDG OAU" />
 </div>
 
 We had anticipated part of this problem, so we did not run exactly the same HACK as in previous years.
