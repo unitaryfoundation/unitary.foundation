@@ -32,7 +32,7 @@ In 2026, hackers could give a well-scoped GitHub issue to Claude, Codex, or anot
 
 The obvious benefit: hackers could get up to speed on unfamiliar dense (and sometimes “intimidatingly quantum”) codebases faster, and people with less experience could tackle issues that might previously have looked inaccessible. Seeing this actually unfold over those two weeks was pretty cool.
 
-While providing cash bounties attracts new contributors from outside QOSS, we recognize that the format does create an incentive to move quickly; hackers competing for the same bounty is not new. What changed this year was the speed and scale at which plausible submissions could be produced. The compressed format made that shift particularly easy to see.
+While providing cash bounties attracts new contributors from outside quantum open source software (QOSS), we recognize that the format does create an incentive to move quickly; hackers competing for the same bounty is not new. What changed this year was the speed and scale at which plausible submissions could be produced. The compressed format made that shift particularly easy to see.
 
 That is why, beyond celebrating the usual wins, we want to look directly at the challenges that coding agents created during unitaryHACK26—and at what those challenges might mean for quantum open source more broadly.
 
@@ -52,15 +52,15 @@ We were not interested in asking participants to pretend these tools didn’t ex
 
 ### Review Became the Bottleneck
 
-At the same time, coding agents created a very visible **volume-over-depth** dynamic.
+At the same time, coding agents created a very visible volume-over-depth dynamic.
 
 Some issues received clusters of parallel pull requests shortly after being released. A maintainer could find several implementations waiting for review before having had a design conversation with any of the hackers. In a few cases, later submissions also appeared to incorporate guidance given during the review of earlier ones without clearly acknowledging where that guidance came from.
 
-And yes, we saw plenty of **AI slop**.
+And yes, we saw plenty of AI slop.
 
 By slop, we don’t simply mean code written with AI. Many of this year’s bounty solutions arrived as one-shot PRs, with no prior issue discussion, no visible development process, and little evidence that the hacker had tested the change outside the generated test suite. Maintainers also saw clusters of similar PRs appear during review, sometimes incorporating guidance given on other submissions without clearly acknowledging it.
 
-The review fatigue was real. **An agent could produce an implementation quickly, but a maintainer still had to understand the change line by line**, check whether it matched the project’s architecture, verify the assumptions behind it, and decide whether the hacker would be able to maintain or revise it.
+The review fatigue was real. An agent could produce an implementation quickly, but a maintainer still had to understand the change line by line, check whether it matched the project’s architecture, verify the assumptions behind it, and decide whether the hacker would be able to maintain or revise it.
 
 Maintainers therefore spent less time helping newcomers understand quantum concepts and more time triaging submissions. As one maintainer noted in their post-event survey:
 
@@ -93,7 +93,7 @@ We introduced **project office hours** on Discord. Maintainers spent an hour in 
 
 We also ran **17 in-person HACKdays across four continents**. These gave hackers a chance to work alongside one another, speak directly with maintainers, and learn about projects before choosing an issue. This was also the first year in which unitaryHACK developed a substantial in-person community in Africa.
 
-A **massive shoutout goes to the maintainers** across the stack. Many spent hours reviewing code, explaining project context, answering questions on Discord, and helping hackers revise their work. That effort has always been central to unitaryHACK, but it was more demanding this year because so much maintainer time had shifted from mentoring to triage.
+A massive shoutout goes to the maintainers across the stack. Many spent hours reviewing code, explaining project context, answering questions on Discord, and helping hackers revise their work. That effort has always been central to unitaryHACK, but it was more demanding this year because so much maintainer time had shifted from mentoring to triage.
 
 We also expanded enforcement of the **4-open-pull-request limit** introduced in 2025. Previously, organizers monitored the limit manually. This year, a bot regularly checked hackers’ open pull requests and notified organizers, maintainers, and hackers when someone exceeded the limit. Most people responded positively after a warning. The limit helped prevent one participant from filling several review queues at once, but it did not solve the problem of several participants opening parallel pull requests for the same issue.
 
@@ -121,12 +121,12 @@ Review could also become a more visible and communal part of the event. Similar 
 
 We are also questioning why all this concentration of maintainer and contributor attention should be limited to two weeks. If coding agents make it easier to work through issues, why wait for one annual sprint? Our [DeltaKit Community Fund pilot](https://unitary.foundation/posts/2026_deltakit_community_fund_announcement/) is one attempt to test a more continuous model. The annual hackathon could remain a period of concentrated activity without being the only time when supported contributions happen.
 
-Maybe there is a world in which unitaryHACK lives alongside other heavily-AI-focused competitions to help our community better understand LLMs’ influence on QOSS. Projects like ECDSA.fail and our very own QLDPC Challenge are ways to promote more focused AI-driven research. 
+Maybe there is a world in which unitaryHACK lives alongside other heavily-AI-focused competitions to help our community better understand LLMs’ influence on QOSS. Projects like [ECDSA.fail](https://ecdsa.fail) and our very own [QLDPC Challenge](https://unitaryfoundation.github.io/qldpc-challenge/) are ways to promote more focused AI-driven research.
 
 
 ### Could a “Lower-Stack” Quantum Hackathon be the Next Iteration?
 
-A [recent Hacker News discussion](https://news.ycombinator.com/item?id=48468766) argued that hackathons may need to move towards hardware as software becomes increasingly cheap to produce. This resonates strongly with those of us in quantum computing as we are in a particularly interesting phase of building and rewriting the full computational stack. From bare-metal experiments and control firmware, to FPGA programming, instrument integration, calibration, and device characterization, **many important problems still live close to the hardware.**
+A [recent Hacker News discussion](https://news.ycombinator.com/item?id=48468766) argued that hackathons may need to move towards hardware as software becomes increasingly cheap to produce. This resonates strongly with those of us in quantum computing as we are in a particularly interesting phase of building and rewriting the full computational stack. From bare-metal experiments and control firmware, to FPGA programming, instrument integration, calibration, and device characterization, many important problems still live close to the hardware.
 
 These are also areas where producing code is only one part of the work. Someone still needs to connect the instruments, understand what the device is doing, validate the experiment, and debug the messy interfaces between software and a physical laboratory.
 
@@ -141,6 +141,6 @@ This was our experience, now share yours.
 
 If you participated in unitaryHACK26, [let us know](https://airtable.com/appfhkqSH4zVtjha0/pag3wYF9zB2hPjuJD/form) whether this reflection matches your experience and what we may have missed.
 
-We would also like to [hear from](info@unitary.foundation) people involved in other hackathons and open-source sprints. Are coding agents creating similar dynamics in your events?
+We would also like to [hear from](mailto:info@unitary.foundation) people involved in other hackathons and open-source sprints. Are coding agents creating similar dynamics in your events?
 
 Finally, if you maintain or contribute to quantum open-source software, please share any policies, workflows, or tools that have actually reduced review noise or made maintaining software easier—without closing the door to newcomers.
