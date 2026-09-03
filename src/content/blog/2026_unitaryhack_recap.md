@@ -12,7 +12,7 @@ tags:
 
 **The sixth edition of Unitary Foundation’s annual hackathon was very different from any previous edition.**
 
-unitaryHACK is a two-week, bounty-based hackathon that brings together hackers and maintainers from across the quantum open-source ecosystem. It takes place on GitHub and GitLab: maintainers propose concrete issues they would like help with, and those issues become bounties, typically with around $500 available per project.
+[unitaryHACK](https://unitaryhack.dev) is a two-week, bounty-based hackathon that brings together hackers and maintainers from across the quantum open-source ecosystem. It takes place on GitHub and GitLab: maintainers propose concrete issues they would like help with, and those issues become bounties, typically with around $500 available per project.
 
 The event has always had goals beyond getting code merged. For maintainers, it is a chance to get neglected work over the line and, more importantly, meet potential long-term contributors. For hackers, it provides a structured way to explore unfamiliar projects, build experience, make connections, and enter quantum open source regardless of their starting skill level. For us as organizers, it is a way to bring these groups together and strengthen the community around the projects.
 
