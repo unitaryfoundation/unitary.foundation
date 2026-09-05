@@ -1,0 +1,23 @@
+<button class="mitiq-install" type="button" data-copy-install aria-label="Copy pip install mitiq">
+  <span class="mitiq-install-prompt" aria-hidden="true">$</span>
+  <code>pip install mitiq</code>
+  <span class="mitiq-copy-label" data-copy-label aria-live="polite">Copy</span>
+</button>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-copy-install]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const label = button.querySelector<HTMLElement>('[data-copy-label]');
+
+      try {
+        await navigator.clipboard.writeText('pip install mitiq');
+        if (label) label.textContent = 'Copied';
+        window.setTimeout(() => {
+          if (label) label.textContent = 'Copy';
+        }, 1600);
+      } catch {
+        if (label) label.textContent = 'Select and copy';
+      }
+    });
+  });
+</script>
