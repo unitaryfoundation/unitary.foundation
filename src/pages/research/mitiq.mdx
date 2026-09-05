@@ -16,7 +16,7 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
           <p class="mitiq-kicker">Platform-independent by design</p>
         </div>
         <h1 id="mitiq-title">Open tools for <span>noisy hardware.</span></h1>
-        <p class="mitiq-lede">Mitiq is a community-built Python toolkit for reducing the impact of noise on quantum computations—without locking research to one SDK or hardware provider.</p>
+        <p class="mitiq-lede">Mitiq is a Python toolkit for reducing the impact of noise on quantum computations—without locking research to one SDK or hardware provider.</p>
         <div class="mitiq-actions">
           <a class="mitiq-button mitiq-button-primary" href="https://mitiq.readthedocs.io/en/stable/">Start with Mitiq <span aria-hidden="true">→</span></a>
           <a class="mitiq-button mitiq-button-secondary" href="https://github.com/unitaryfoundation/mitiq">View on GitHub <span aria-hidden="true">↗</span></a>
@@ -135,48 +135,35 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
   }
 
   .mitiq-page {
-    --ink: #08070d;
-    --purple: #5e00bd;
-    --purple-dark: #210042;
-    --yellow: #f3f16b;
-    --cyan: #67c8c8;
-    --paper: #f7f5ee;
-    --wash: #f0edf2;
+    --ink: #000;
+    --yellow: #ffff00;
+    --yellow-soft: #ffff99;
+    --purple: #36006c;
+    --light-grey: #f6f6f9;
     width: 100vw;
     margin-left: calc(50% - 50vw);
     color: var(--ink);
+    background: white;
+    font-family: 'Manrope', system-ui, sans-serif;
     overflow: hidden;
   }
 
   .mitiq-shell {
+    position: relative;
     width: min(1180px, calc(100% - 48px));
     margin-inline: auto;
   }
 
   .mitiq-hero {
-    position: relative;
-    isolation: isolate;
-    padding: clamp(72px, 9vw, 132px) 0 clamp(82px, 10vw, 148px);
-    color: white;
-    background: var(--purple-dark);
-  }
-
-  .mitiq-hero::before {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    content: '';
-    opacity: .14;
-    background-image: linear-gradient(rgba(255,255,255,.32) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.32) 1px, transparent 1px);
-    background-size: 48px 48px;
+    padding: clamp(68px, 8vw, 112px) 0 clamp(76px, 9vw, 124px);
+    border-bottom: 3px solid var(--ink);
+    background: linear-gradient(90deg, white 0 66%, var(--yellow) 66% 100%);
   }
 
   .mitiq-hero-grid {
-    position: relative;
-    z-index: 1;
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(330px, .8fr);
-    gap: clamp(48px, 8vw, 108px);
+    grid-template-columns: minmax(0, 1.2fr) minmax(340px, .8fr);
+    gap: clamp(52px, 8vw, 108px);
     align-items: center;
   }
 
@@ -184,20 +171,23 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
     display: flex;
     align-items: center;
     gap: 22px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 
   .mitiq-logo {
     display: block;
     width: clamp(112px, 11vw, 148px);
     height: auto;
+    border: 3px solid var(--ink);
   }
 
   .mitiq-brand-row .mitiq-kicker {
     max-width: 230px;
     margin: 0;
-    padding-left: 22px;
-    border-left: 1px solid rgba(255,255,255,.35);
+    padding: 5px 8px;
+    border-left: 0;
+    color: white;
+    background: var(--ink);
   }
 
   .mitiq-release-note {
@@ -206,22 +196,24 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
     gap: 10px;
     max-width: 100%;
     margin: 0;
-    padding: 7px 10px;
-    border: 1px solid rgba(255,255,255,.26);
-    color: rgba(255,255,255,.74);
-    background: rgba(255,255,255,.06);
-    font: 400 .66rem/1.4 'Space Mono', monospace;
+    padding: 9px 12px;
+    border: 3px solid var(--ink);
+    color: white;
+    background: var(--ink);
+    font: 400 .65rem/1.45 'Space Mono', monospace;
     text-decoration: none;
     white-space: nowrap;
-    transition: border-color .2s ease, background .2s ease;
+    transition: color .2s ease, background .2s ease;
   }
 
   .mitiq-release-note strong { color: var(--yellow); font-weight: 700; }
-  .mitiq-release-note span:last-child { color: var(--cyan); transition: transform .2s ease; }
-  .mitiq-release-note:hover { border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.1); }
+  .mitiq-release-note span:last-child { color: var(--yellow); transition: transform .2s ease; }
+  .mitiq-release-note:hover { color: var(--ink); background: var(--yellow); }
+  .mitiq-release-note:hover strong,
+  .mitiq-release-note:hover span:last-child { color: var(--ink); }
   .mitiq-release-note:hover span:last-child { transform: translateX(3px); }
 
-  .mitiq-release-row { margin-top: 26px; }
+  .mitiq-release-row { margin-top: 28px; }
 
   .mitiq-signal-column { min-width: 0; }
   .mitiq-signal-column .mitiq-install { display: flex; width: fit-content; margin: 24px auto 0; }
@@ -229,142 +221,170 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
   .mitiq-kicker,
   .mitiq-eyebrow {
     margin: 0 0 22px;
-    color: var(--yellow);
-    font: 700 .72rem/1.4 'Space Mono', monospace;
-    letter-spacing: .14em;
+    color: var(--ink);
+    font: 700 .72rem/1.35 'Space Mono', monospace;
+    letter-spacing: .1em;
     text-transform: uppercase;
   }
 
   .mitiq-hero h1 {
     max-width: 780px;
     margin: 0;
-    font: 700 clamp(3.2rem, 6.5vw, 6.1rem)/.94 'Space Grotesk', sans-serif;
-    letter-spacing: -.06em;
+    font: 700 clamp(3.2rem, 6.2vw, 5.9rem)/.88 'Space Grotesk', sans-serif;
+    letter-spacing: -.075em;
+    text-transform: uppercase;
   }
 
-  .mitiq-hero h1 span { color: var(--yellow); }
+  .mitiq-hero h1 span {
+    padding: 0 .08em .03em;
+    color: white;
+    background: var(--ink);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
 
   .mitiq-lede {
-    max-width: 700px;
+    max-width: 660px;
     margin: 32px 0 0;
-    color: rgba(255,255,255,.82);
-    font-size: clamp(1.08rem, 1.5vw, 1.32rem);
-    line-height: 1.65;
+    padding-left: 20px;
+    border-left: 6px solid var(--ink);
+    color: #3d3d3d;
+    font-size: clamp(1.04rem, 1.45vw, 1.24rem);
+    line-height: 1.68;
   }
 
-  .mitiq-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px; }
+  .mitiq-actions { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 36px; }
 
   .mitiq-button {
     display: inline-flex;
-    gap: 12px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
-    min-height: 52px;
-    padding: 0 22px;
-    border: 2px solid var(--yellow);
+    min-height: 50px;
+    padding: 0 18px;
+    border: 3px solid var(--ink);
+    color: var(--ink);
+    background: white;
+    font: 700 .87rem/1.35 'Space Mono', monospace;
+    font-weight: 700;
+    text-transform: uppercase;
     text-decoration: none;
-    transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    box-shadow: 6px 6px 0 var(--ink);
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
   }
 
-  .mitiq-button:hover { transform: translate(-1px, -1px); box-shadow: -2px -2px 0 rgba(0, 227, 227, .75), 2px 2px 0 rgba(255, 43, 34, .65); }
-  .mitiq-button-primary { color: var(--ink); background: var(--yellow); }
-  .mitiq-button-secondary { color: white; background: transparent; }
+  .mitiq-button-primary { background: var(--yellow); }
+  .mitiq-button:hover { transform: translate(3px, 3px); box-shadow: 3px 3px 0 var(--ink); background: var(--yellow-soft); }
 
   .mitiq-install {
     display: inline-flex;
     align-items: center;
     gap: 10px;
     margin: 26px 0 0;
-    padding: 13px 15px;
-    border: 1px solid rgba(255,255,255,.3);
-    color: white;
-    background: rgba(255,255,255,.07);
+    padding: 13px 16px;
+    border: 3px solid var(--ink);
+    color: var(--ink);
+    background: var(--yellow);
     cursor: pointer;
-    font: 400 .94rem/1.4 'Space Mono', monospace;
-    transition: background .2s ease, border-color .2s ease;
+    font: 400 .92rem/1.4 'Space Mono', monospace;
+    box-shadow: 5px 5px 0 var(--ink);
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
   }
 
-  .mitiq-install:hover { border-color: rgba(255,255,255,.58); background: rgba(255,255,255,.12); }
-  .mitiq-install:focus-visible { outline: 2px solid var(--yellow); outline-offset: 3px; }
+  .mitiq-install:hover { transform: translate(2px, 2px); box-shadow: 3px 3px 0 var(--ink); color: white; background: var(--purple); }
+  .mitiq-install:focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
   .mitiq-install code { color: inherit; font: inherit; }
-  .mitiq-install-prompt { color: var(--cyan); }
-  .mitiq-copy-label { margin-left: 18px; color: var(--yellow); font-size: .66rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+  .mitiq-install-prompt { color: var(--purple); }
+  .mitiq-install:hover .mitiq-install-prompt { color: var(--yellow); }
+  .mitiq-copy-label { margin-left: 18px; color: var(--purple); font-size: .64rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+  .mitiq-install:hover .mitiq-copy-label { color: var(--yellow); }
 
   .mitiq-signal-card {
     position: relative;
-    isolation: isolate;
     padding: clamp(28px, 4vw, 44px);
-    background: rgba(8,7,13,.7);
-    backdrop-filter: blur(10px);
+    border: 3px solid var(--ink);
+    color: white;
+    background: var(--ink);
+    box-shadow: 12px 12px 0 var(--purple);
   }
 
-  .mitiq-signal-card::before,
-  .mitiq-signal-card::after {
-    position: absolute;
-    z-index: -1;
-    content: '';
-    pointer-events: none;
-  }
-  .mitiq-signal-card::before { inset: -7px 7px 7px -7px; border: 2px solid rgba(0, 227, 227, .72); }
-  .mitiq-signal-card::after { inset: 7px -7px -7px 7px; border: 2px solid rgba(255, 43, 34, .68); }
-
-  .mitiq-big-number { margin: 0; color: var(--yellow); font: 700 clamp(4.5rem, 8vw, 7.4rem)/.9 'Space Grotesk', sans-serif; letter-spacing: -.06em; }
-  .mitiq-big-number span { font-size: .4em; vertical-align: top; }
-  .mitiq-card-title { margin: 8px 0 32px; font: 700 1.16rem/1.4 'Space Mono', monospace; }
-  .mitiq-study-meta { display: grid; border-top: 1px solid rgba(255,255,255,.18); }
-  .mitiq-study-meta > div { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.18); font: 400 .64rem/1.4 'Space Mono', monospace; }
-  .mitiq-study-meta span { color: rgba(255,255,255,.56); text-transform: uppercase; }
+  .mitiq-big-number { margin: 0; color: var(--yellow); font: 700 clamp(4.5rem, 8vw, 7.1rem)/.88 'Space Grotesk', sans-serif; letter-spacing: -.07em; }
+  .mitiq-big-number span { color: white; font-size: .38em; vertical-align: top; }
+  .mitiq-card-title { margin: 10px 0 32px; font: 700 .82rem/1.45 'Space Mono', monospace; letter-spacing: .01em; }
+  .mitiq-study-meta { display: grid; border-top: 2px solid white; }
+  .mitiq-study-meta > div { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; padding: 12px 0; border-bottom: 2px solid white; font: 400 .64rem/1.4 'Space Mono', monospace; }
+  .mitiq-study-meta span { color: var(--yellow); text-transform: uppercase; }
   .mitiq-study-meta strong { color: white; text-align: right; }
-  .mitiq-card-note { margin: 26px 0 0; color: rgba(255,255,255,.58); font-size: .67rem; line-height: 1.6; }
+  .mitiq-card-note { margin: 24px 0 0; color: #d6d6d6; font-size: .7rem; line-height: 1.6; }
   .mitiq-card-note a { color: var(--yellow); }
 
-  .mitiq-proof { padding: clamp(64px, 7vw, 96px) 0; background: var(--paper); }
-  .mitiq-proof-title { margin: 0 0 24px; color: #5f5964; font: 700 .7rem/1.4 'Space Mono', monospace; letter-spacing: .12em; text-transform: uppercase; }
-  .mitiq-proof-grid { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--ink); }
-  .mitiq-proof-card { min-height: 260px; padding: clamp(26px, 3vw, 36px); border-left: 1px solid var(--ink); background: white; }
+  .mitiq-proof {
+    padding: clamp(66px, 7vw, 96px) 0;
+    border-bottom: 3px solid var(--ink);
+    background: var(--light-grey);
+  }
+  .mitiq-proof-title { width: fit-content; margin: 0 0 28px; padding: 7px 10px; color: white; background: var(--ink); font: 700 clamp(.9rem, 1.6vw, 1.2rem)/1.2 'Space Mono', monospace; letter-spacing: 0; text-transform: uppercase; }
+  .mitiq-proof-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 3px solid var(--ink);
+  }
+  .mitiq-proof-card { min-height: 270px; padding: clamp(26px, 3vw, 36px); border-left: 3px solid var(--ink); background: white; }
   .mitiq-proof-card:first-child { border-left: 0; }
-  .mitiq-proof-featured { color: white; background: var(--purple-dark); }
-  .mitiq-stat { margin: 0 0 34px; font: 700 clamp(3rem, 5vw, 4.8rem)/.9 'Space Grotesk', sans-serif; letter-spacing: -.05em; }
-  .mitiq-proof-featured .mitiq-stat { color: var(--yellow); }
-  .mitiq-proof-card h3 { margin: 0 0 14px; font-size: .84rem; letter-spacing: .04em; }
+  .mitiq-proof-featured { color: var(--ink); background: var(--yellow); }
+  .mitiq-proof-card:nth-child(3) { color: white; background: var(--purple); }
+  .mitiq-stat { margin: 0 0 34px; font: 700 clamp(3.2rem, 5.4vw, 5.1rem)/.86 'Space Grotesk', sans-serif; letter-spacing: -.065em; }
+  .mitiq-proof-card h3 { margin: 0 0 14px; font: 700 .8rem/1.4 'Space Mono', monospace; letter-spacing: .02em; }
   .mitiq-proof-card h3 sup { margin-left: 4px; }
-  .mitiq-proof-card p:last-child { margin: 0; color: inherit; font-size: .84rem; line-height: 1.65; opacity: .82; }
-  .mitiq-proof-card a { color: inherit; }
+  .mitiq-proof-card p:last-child { margin: 0; color: #3d3d3d; font-size: .84rem; line-height: 1.65; }
+  .mitiq-proof-card a { color: var(--ink); }
+  .mitiq-proof-card:nth-child(3) p:last-child { color: white; }
+  .mitiq-proof-card:nth-child(3) a { color: var(--yellow); }
 
-  .mitiq-toolkit .mitiq-eyebrow { color: var(--purple); }
   .mitiq-toolkit h2,
-  .mitiq-calibration h2 { margin: 0; font: 700 clamp(2.45rem, 5vw, 4.8rem)/.98 'Space Grotesk', sans-serif; letter-spacing: -.05em; text-transform: none; }
-  .mitiq-text-link { display: inline-flex; gap: 10px; align-items: center; padding-bottom: 5px; border-bottom: 2px solid currentColor; color: var(--purple); text-decoration: none; }
+  .mitiq-calibration h2 { margin: 0; font: 700 clamp(2.4rem, 5vw, 4.7rem)/.9 'Space Grotesk', sans-serif; letter-spacing: -.07em; text-transform: uppercase; }
+  .mitiq-text-link { display: inline-flex; gap: 10px; align-items: center; min-height: 42px; padding: 0 12px; border: 3px solid var(--ink); color: var(--ink); background: var(--yellow); box-shadow: 4px 4px 0 var(--ink); font: 700 .78rem/1.3 'Space Mono', monospace; text-transform: uppercase; text-decoration: none; transition: transform .15s ease, box-shadow .15s ease; }
+  .mitiq-text-link:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
   .mitiq-text-link span { transition: transform .2s ease; }
   .mitiq-text-link:hover span { transform: translateX(4px); }
 
-  .mitiq-toolkit { padding: clamp(72px, 8vw, 108px) 0; background: white; }
+  .mitiq-toolkit {
+    padding: clamp(72px, 8vw, 108px) 0;
+    border-bottom: 3px solid var(--ink);
+    background: white;
+  }
   .mitiq-toolkit-heading { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(36px, 7vw, 86px); align-items: end; margin-bottom: 42px; }
   .mitiq-toolkit-heading .mitiq-eyebrow { grid-column: 1 / -1; margin-bottom: -14px; }
-  .mitiq-toolkit h2 { max-width: 720px; font-size: clamp(2.3rem, 4.5vw, 4rem); }
-  .mitiq-toolkit-heading > p:last-child { max-width: 560px; margin: 0; color: #595462; line-height: 1.7; }
-  .mitiq-toolkit-columns { display: grid; grid-template-columns: repeat(2, 1fr); border: 1px solid var(--ink); }
-  .mitiq-toolkit-columns article { padding: clamp(28px, 4vw, 44px); }
-  .mitiq-toolkit-columns article + article { border-left: 1px solid var(--ink); background: var(--wash); }
-  .mitiq-column-label { margin: 0 0 24px; color: var(--purple); font: 700 .67rem/1.4 'Space Mono', monospace; letter-spacing: .1em; text-transform: uppercase; }
+  .mitiq-toolkit .mitiq-eyebrow { display: inline; width: fit-content; padding: 5px 8px; color: white; background: var(--ink); }
+  .mitiq-toolkit h2 { max-width: 760px; font-size: clamp(2.4rem, 4.8vw, 4.2rem); }
+  .mitiq-toolkit-heading > p:last-child { max-width: 560px; margin: 0; color: #3d3d3d; line-height: 1.7; }
+  .mitiq-toolkit-columns { display: grid; grid-template-columns: repeat(2, 1fr); border: 3px solid var(--ink); box-shadow: 10px 10px 0 var(--ink); }
+  .mitiq-toolkit-columns article { padding: clamp(30px, 4vw, 44px); background: white; }
+  .mitiq-toolkit-columns article + article { border-left: 3px solid var(--ink); background: var(--yellow-soft); }
+  .mitiq-column-label { display: inline-block; margin: 0 0 24px; padding: 3px 7px; color: white; background: var(--ink); font: 700 .65rem/1.4 'Space Mono', monospace; letter-spacing: .08em; text-transform: uppercase; }
   .mitiq-toolkit-columns h3 { display: flex; gap: 14px; align-items: baseline; margin: 0 0 20px; font: 700 .9rem/1.3 'Space Mono', monospace; text-transform: uppercase; }
-  .mitiq-toolkit-columns h3 strong { color: var(--purple); font: 700 3.2rem/1 'Space Grotesk', sans-serif; letter-spacing: -.05em; }
-  .mitiq-toolkit-columns article > p:not(.mitiq-column-label) { max-width: 500px; min-height: 58px; margin: 0 0 28px; color: #5f5964; font-size: .78rem; line-height: 1.7; }
-  .mitiq-toolkit-columns a { color: var(--purple); }
+  .mitiq-toolkit-columns h3 strong { font: 700 3.5rem/.9 'Space Grotesk', sans-serif; letter-spacing: -.065em; }
+  .mitiq-toolkit-columns article > p:not(.mitiq-column-label) { max-width: 500px; min-height: 58px; margin: 0 0 28px; color: #3d3d3d; font-size: .8rem; line-height: 1.7; }
 
-  .mitiq-calibration { position: relative; padding: clamp(72px, 9vw, 118px) 0; color: white; background: var(--purple-dark); }
-  .mitiq-calibration-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr); gap: clamp(56px, 8vw, 108px); align-items: center; }
-  .mitiq-video-frame { overflow: hidden; border: 1px solid rgba(255,255,255,.3); background: white; box-shadow: 6px 6px 0 rgba(103, 200, 200, .7); }
+  .mitiq-calibration {
+    padding: clamp(72px, 9vw, 118px) 0;
+    color: white;
+    background: var(--ink);
+  }
+  .mitiq-calibration-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr); gap: clamp(56px, 8vw, 108px); align-items: center; }
+  .mitiq-video-frame { overflow: hidden; border: 4px solid white; background: white; box-shadow: 12px 12px 0 var(--purple); }
   .mitiq-video-frame video { display: block; width: 100%; height: auto; }
-  .mitiq-calibration-copy .mitiq-eyebrow { color: var(--yellow); }
-  .mitiq-calibration-copy > p:not(.mitiq-eyebrow) { margin: 28px 0 34px; color: rgba(255,255,255,.78); line-height: 1.7; }
+  .mitiq-calibration-copy .mitiq-eyebrow { display: inline; padding: 5px 8px; color: var(--ink); background: var(--yellow); }
+  .mitiq-calibration-copy > p:not(.mitiq-eyebrow) { margin: 28px 0 34px; color: #d6d6d6; line-height: 1.7; }
+  .mitiq-calibration .mitiq-button { border-color: white; background: var(--yellow); box-shadow: 6px 6px 0 var(--purple); }
+  .mitiq-calibration .mitiq-button:hover { box-shadow: 3px 3px 0 var(--purple); }
 
-  .mitiq-sources { padding: 40px 0 72px; border-top: 1px solid #d8d3c8; background: var(--paper); }
-  .mitiq-sources ol { display: grid; gap: 12px; max-width: 900px; margin: 0; padding-left: 26px; color: #5f5964; font-size: .7rem; line-height: 1.55; list-style: decimal outside !important; }
+  .mitiq-sources { padding: 40px 0 72px; border-top: 3px solid var(--ink); background: var(--yellow-soft); }
+  .mitiq-sources ol { display: grid; gap: 12px; max-width: 900px; margin: 0; padding-left: 26px; color: #5c5c5c; font-size: .7rem; line-height: 1.58; list-style: decimal outside !important; }
   .mitiq-sources ol li { display: list-item; padding-left: 4px !important; }
   .mitiq-sources ol li::before { display: none !important; }
   .mitiq-sources ol li::marker { color: var(--purple); font-weight: 700; }
-  .mitiq-sources a { color: var(--purple); }
+  .mitiq-sources a { color: var(--ink); }
 
   @media (max-width: 900px) {
     .mitiq-hero-grid,
@@ -372,10 +392,11 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
     .mitiq-calibration-grid { grid-template-columns: 1fr; }
     .mitiq-signal-column { max-width: 560px; }
     .mitiq-proof-grid { grid-template-columns: 1fr; }
-    .mitiq-proof-card { min-height: 0; border-top: 1px solid var(--ink); border-left: 0; }
+    .mitiq-proof-card { min-height: 0; border-top: 3px solid var(--ink); border-left: 0; }
     .mitiq-proof-card:first-child { border-top: 0; }
     .mitiq-stat { margin-bottom: 34px; }
     .mitiq-toolkit-heading .mitiq-eyebrow { margin-bottom: 0; }
+    .mitiq-hero { background: white; }
   }
 
   @media (max-width: 560px) {
@@ -384,13 +405,13 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
     .mitiq-hero h1 { font-size: clamp(2.85rem, 15vw, 4.8rem); }
     .mitiq-brand-row { align-items: flex-start; flex-direction: column; gap: 14px; }
     .mitiq-brand-row .mitiq-kicker { max-width: none; padding-left: 0; border-left: 0; }
-    .mitiq-release-note { gap: 7px; font-size: .57rem; }
+    .mitiq-release-note { flex-wrap: wrap; gap: 7px; font-size: .57rem; white-space: normal; }
     .mitiq-actions { align-items: stretch; flex-direction: column; }
     .mitiq-button { width: 100%; }
     .mitiq-toolkit-columns { grid-template-columns: 1fr; }
-    .mitiq-toolkit-columns article + article { border-top: 1px solid var(--ink); border-left: 0; }
+    .mitiq-toolkit-columns article + article { border-top: 3px solid var(--ink); border-left: 0; }
     .mitiq-toolkit-columns article > p:not(.mitiq-column-label) { min-height: 0; }
-    .mitiq-video-frame { box-shadow: 4px 4px 0 rgba(103, 200, 200, .7); }
+    .mitiq-video-frame { box-shadow: 7px 7px 0 var(--purple); }
   }
 
   @media (prefers-reduced-motion: reduce) {
