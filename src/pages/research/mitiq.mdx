@@ -15,7 +15,7 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
           <img class="mitiq-logo" src="/images/mitiq-logo.png" alt="Mitiq" />
           <p class="mitiq-kicker">Platform-independent by design</p>
         </div>
-        <h1 id="mitiq-title">Open tools for <span>noisy hardware.</span></h1>
+        <h1 id="mitiq-title">Open tools for <span class="mitiq-headline-accent"><span>noisy</span> <span>hardware.</span></span></h1>
         <p class="mitiq-lede">Mitiq is a Python toolkit for reducing the impact of noise on quantum computations—without locking research to one SDK or hardware provider.</p>
         <div class="mitiq-actions">
           <a class="mitiq-button mitiq-button-primary" href="https://mitiq.readthedocs.io/en/stable/">Start with Mitiq <span aria-hidden="true">→</span></a>
@@ -230,17 +230,22 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
   .mitiq-hero h1 {
     max-width: 780px;
     margin: 0;
-    font: 700 clamp(3.2rem, 6.2vw, 5.9rem)/.88 'Space Grotesk', sans-serif;
+    font: 700 clamp(3.2rem, 6.2vw, 5.9rem)/.94 'Space Grotesk', sans-serif;
     letter-spacing: -.075em;
     text-transform: uppercase;
   }
 
-  .mitiq-hero h1 span {
-    padding: 0 .08em .03em;
+  .mitiq-hero h1 .mitiq-headline-accent {
+    color: inherit;
+  }
+
+  .mitiq-hero h1 .mitiq-headline-accent > span {
+    display: inline-block;
+    margin-top: .07em;
+    padding: 0 .07em .02em;
     color: white;
     background: var(--ink);
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    line-height: .9;
   }
 
   .mitiq-lede {
@@ -296,8 +301,15 @@ import MitiqInstall from '~/components/MitiqInstall.astro';
   .mitiq-install code { color: inherit; font: inherit; }
   .mitiq-install-prompt { color: var(--purple); }
   .mitiq-install:hover .mitiq-install-prompt { color: var(--yellow); }
-  .mitiq-copy-label { margin-left: 18px; color: var(--purple); font-size: .64rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
-  .mitiq-install:hover .mitiq-copy-label { color: var(--yellow); }
+  .mitiq-copy-icon { display: inline-flex; align-items: center; justify-content: center; margin-left: 18px; color: var(--purple); }
+  .mitiq-copy-icon svg { display: block; width: 18px; height: 18px; }
+  .mitiq-copy-icon .mitiq-copy-icon-success { display: none; }
+  .mitiq-install:hover .mitiq-copy-icon,
+  .mitiq-install[data-copied='true'] .mitiq-copy-icon { color: var(--yellow); }
+  .mitiq-install[data-copied='true'] { color: white; background: var(--purple); }
+  .mitiq-install[data-copied='true'] .mitiq-install-prompt { color: var(--yellow); }
+  .mitiq-install[data-copied='true'] .mitiq-copy-icon-default { display: none; }
+  .mitiq-install[data-copied='true'] .mitiq-copy-icon-success { display: block; }
 
   .mitiq-signal-card {
     position: relative;
