@@ -9,7 +9,7 @@ export interface Props {
 const { className } = Astro.props;
 
 import { getEntry } from 'astro:content';
-import { navigationSchema } from '~/content/config';
+import { navigationSchema } from '~/content.config';
 
 const navigationEntry = (await getEntry('navigation', 'main')) as unknown;
 const navigationParse = navigationSchema.safeParse(

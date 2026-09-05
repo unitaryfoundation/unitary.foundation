@@ -7,7 +7,7 @@ const { columns = 1 } = Astro.props;
 
 import { getEntry } from 'astro:content';
 import { getTextListStyles } from '~/components/Ui/Content/List/List';
-import { directorSchema } from '~/content/config';
+import { directorSchema } from '~/content.config';
 
 const directorEntry = (await getEntry('director', 'main')) as unknown;
 const directorParse = directorSchema.safeParse(

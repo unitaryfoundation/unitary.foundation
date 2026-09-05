@@ -50,7 +50,7 @@ export function GrantsOutput() {
                   return dateB.getTime() - dateA.getTime();
                 })
                 ?.map((grant) => (
-                  <GrantItem key={grant.slug} grant={grant} />
+                  <GrantItem key={grant.id} grant={grant} />
                 ))}
             </ul>
           </div>

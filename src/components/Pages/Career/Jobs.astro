@@ -17,7 +17,7 @@ const jobs = await getCollection('job');
           <li>
             <div class="flex gap-4 max-sm:flex-col max-sm:items-start">
               <span class="text-xl">{job.data.title}</span>
-              <ButtonLink url={`/jobs/${job.slug}`}>More Info</ButtonLink>
+              <ButtonLink url={`/jobs/${job.id}`}>More Info</ButtonLink>
             </div>
           </li>
         ))}

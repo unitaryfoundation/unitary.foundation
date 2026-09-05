@@ -1,5 +1,6 @@
-import { z, defineCollection } from 'astro:content';
-import { ISO_3166_ALPHA_2_CODES } from '~/util/iso3166';
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
 const linkSchemaPart = {
   text: z.string(),
@@ -20,7 +21,7 @@ export const navigationSchema = z.object({
 });
 
 const navigationCollection = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/navigation' }),
   schema: navigationSchema,
 });
 
@@ -43,7 +44,7 @@ export const blogSchema = z.object({
 });
 
 const blogCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
   schema: blogSchema,
 });
 
@@ -61,7 +62,7 @@ export const grantSchema = z.object({
 });
 
 const grantCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/grant' }),
   schema: grantSchema,
 });
 
@@ -80,7 +81,7 @@ export const eventSchema = z.object({
 });
 
 const eventCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/event' }),
   schema: eventSchema,
 });
 
@@ -93,7 +94,7 @@ export const jobSchema = z.object({
 });
 
 const jobCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/job' }),
   schema: jobSchema,
 });
 
@@ -105,14 +106,14 @@ export const supporterSchema = z.object({
   supporters: z.array(
     z.object({
       title: z.string(),
-      url: z.string().url().optional(),
+      url: z.url().optional(),
       imageId: z.string().optional(),
     })
   ),
 });
 
 const supporterCollection = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/supporter' }),
   schema: supporterSchema,
 });
 
@@ -124,13 +125,13 @@ export const advisorSchema = z.object({
   advisors: z.array(
     z.object({
       title: z.string(),
-      url: z.string().url().optional(),
+      url: z.url().optional(),
     })
   ),
 });
 
 const advisorCollection = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/advisor' }),
   schema: advisorSchema,
 });
 
@@ -142,13 +143,13 @@ export const teamSchema = z.object({
   team: z.array(
     z.object({
       title: z.string(),
-      url: z.string().url().optional(),
+      url: z.url().optional(),
     })
   ),
 });
 
 const teamCollection = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/team' }),
   schema: teamSchema,
 });
 
@@ -160,13 +161,13 @@ export const directorSchema = z.object({
   directors: z.array(
     z.object({
       title: z.string(),
-      url: z.string().url().optional(),
+      url: z.url().optional(),
     })
   ),
 });
 
 const directorCollection = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/director' }),
   schema: directorSchema,
 });
 

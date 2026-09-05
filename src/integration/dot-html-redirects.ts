@@ -1,4 +1,4 @@
-import type { AstroConfig, AstroIntegration, BuildConfig } from 'astro';
+import type { AstroConfig, AstroIntegration } from 'astro';
 import * as fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -18,7 +18,7 @@ const createPlugin = (): AstroIntegration => {
         _config = config;
       },
 
-      'astro:build:done': async ({ dir, routes, pages }) => {
+      'astro:build:done': async ({ pages }) => {
         for (const page of pages) {
           // Ignore '' which is / aka the homepage and 404, no redirect needed here
           if (page.pathname && page.pathname !== '404/') {

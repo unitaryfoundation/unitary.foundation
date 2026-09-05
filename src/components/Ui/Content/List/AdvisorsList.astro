@@ -7,7 +7,7 @@ const { columns = 1 } = Astro.props;
 
 import { getEntry } from 'astro:content';
 import { getTextListStyles } from '~/components/Ui/Content/List/List';
-import { advisorSchema } from '~/content/config';
+import { advisorSchema } from '~/content.config';
 
 const advisorEntry = (await getEntry('advisor', 'main')) as unknown;
 const advisorParse = advisorSchema.safeParse(

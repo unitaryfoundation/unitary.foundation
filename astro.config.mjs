@@ -1,6 +1,8 @@
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
-import tailwind from '@astrojs/tailwind';
+import { unified } from '@astrojs/markdown-remark';
+import tailwind from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 import dotHtmlRedirects from './src/integration/dot-html-redirects';
 import { defineConfig } from 'astro/config';
 import remarkDirective from 'remark-directive';
@@ -9,17 +11,22 @@ import remarkEmbedder from '@remark-embedder/core';
 import oembed from '@remark-embedder/transformer-oembed';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import {
-  imageDirective,
-  gistDirective,
-  socialDirective,
-} from './src/remark/directives';
+import rehypeLegacyHeadingIds from './src/rehype/legacy-heading-ids';
+import { imageDirective, gistDirective, socialDirective } from './src/remark/directives';
 import remarkOnlyStrong from './src/remark/only-strong';
+import { loadEnv } from 'vite';
 import svgr from 'vite-plugin-svgr';
+
+const { PUBLIC_CLOUDINARY_CLOUD_NAME } = loadEnv(
+  process.env.NODE_ENV ?? 'development',
+  process.cwd(),
+  '',
+);
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://unitary.foundation',
+  compressHTML: true,
   redirects: {
     '/faq': '/faqs',
     '/faq.html': '/faqs',
@@ -33,35 +40,33 @@ export default defineConfig({
     '/meetup.html': '/community/events',
     '/community/unitaryCON': '/community/2025/unitaryCON',
   },
-  integrations: [
-    tailwind({ config: { applyBaseStyles: false } }),
-    mdx(),
-    react(),
-    dotHtmlRedirects(),
-  ],
+  integrations: [mdx(), react(), dotHtmlRedirects()],
   markdown: {
-    remarkPlugins: [
-      remarkOnlyStrong,
-      remarkGfm,
-      [
-        remarkEmbedder.default,
-        {
-          transformers: [[oembed.default]],
-        },
+    processor: unified({
+      remarkPlugins: [
+        remarkOnlyStrong,
+        remarkGfm,
+        [
+          remarkEmbedder.default,
+          {
+            transformers: [[oembed.default]],
+          },
+        ],
+        remarkDirective,
+        remarkMath,
+        [imageDirective, { cloudName: PUBLIC_CLOUDINARY_CLOUD_NAME }],
+        gistDirective,
+        socialDirective,
       ],
-      remarkDirective,
-      remarkMath,
-      imageDirective,
-      gistDirective,
-      socialDirective,
-    ],
-    rehypePlugins: [rehypeKatex],
+      rehypePlugins: [rehypeKatex, rehypeLegacyHeadingIds],
+    }),
   },
   vite: {
-    plugins: [
-      svgr({
-        exportAsDefault: true,
-      }),
-    ],
+    css: {
+      postcss: {
+        plugins: [tailwind(), autoprefixer()],
+      },
+    },
+    plugins: [svgr()],
   },
 });

@@ -7,7 +7,7 @@ const { columns = 1 } = Astro.props;
 
 import { getEntry } from 'astro:content';
 import { getTextListStyles } from '~/components/Ui/Content/List/List';
-import { teamSchema } from '~/content/config';
+import { teamSchema } from '~/content.config';
 
 const teamEntry = (await getEntry('team', 'main')) as unknown;
 const teamParse = teamSchema.safeParse(
