@@ -86,6 +86,17 @@ if (title) {
     />
 
     <!-- Scripts -->
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script is:inline async src="https://plausible.io/js/pa-7F1QuWfpGESgjQ6NstBcq.js"></script>
+    <script is:inline>
+      window.plausible = window.plausible || function () {
+        (plausible.q = plausible.q || []).push(arguments);
+      };
+      plausible.init = plausible.init || function (i) {
+        plausible.o = i || {};
+      };
+      plausible.init();
+    </script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
