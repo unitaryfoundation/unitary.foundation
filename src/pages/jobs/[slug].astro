@@ -1,26 +1,24 @@
 ---
 import Layout from '~/layouts/Layout.astro';
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
   const jobEntries = await getCollection('job');
 
   return jobEntries.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { slug: entry.slug },
+    params: { slug: entry.id },
+    props: { entry },
   }));
 }
 
 export interface Props {
-  slug: CollectionEntry<'job'>['slug'];
+  entry: CollectionEntry<'job'>;
 }
 
-const { slug } = Astro.props;
+const { entry } = Astro.props;
 
-const entry = await getEntry('job', slug);
-
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const { title } = entry.data;
 ---

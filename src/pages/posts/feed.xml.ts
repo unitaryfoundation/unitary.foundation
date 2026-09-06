@@ -26,9 +26,9 @@ export async function GET(context: SiteContext) {
     items: sortedPosts
       .map((post) => ({
         title: post.data.title,
-        link: `/posts/${post.slug}/`,
+        link: `/posts/${post.id}/`,
         pubDate: getDateFromPost(post),
-        content: sanitizeHtml(parser.render(post.body)),
+        content: sanitizeHtml(parser.render(post.body ?? '')),
     })),
     customData: `<language>en-us</language>`,
   });

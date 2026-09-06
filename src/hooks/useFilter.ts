@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
-import type { z, CollectionEntry } from 'astro:content';
-import type { blogSchema, grantSchema } from '~/content/config';
+import type { CollectionEntry } from 'astro:content';
+import type { z } from 'astro/zod';
+import type { blogSchema, grantSchema } from '~/content.config';
 import { useStore } from '@nanostores/react';
 import { filterMap } from '~/util/store';
 

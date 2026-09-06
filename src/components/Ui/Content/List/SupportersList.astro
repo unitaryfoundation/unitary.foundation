@@ -8,7 +8,7 @@ const { type, columns = 1 } = Astro.props;
 
 import { getEntry } from 'astro:content';
 import SupporterImage from '~/components/Ui/Content/Image/SupporterImage';
-import { supporterSchema } from '~/content/config';
+import { supporterSchema } from '~/content.config';
 import { getTextListStyles } from '~/components/Ui/Content/List/List';
 
 const supporterEntry = (await getEntry('supporter', type)) as unknown;

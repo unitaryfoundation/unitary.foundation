@@ -17,7 +17,7 @@ export function BlogOutput() {
   return (
     <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-4 sm:gap-y-12">
       {filteredPosts?.map((post) => (
-        <BlogItem key={post.slug} post={post} />
+        <BlogItem key={post.id} post={post} />
       ))}
     </ul>
   );

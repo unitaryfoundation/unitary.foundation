@@ -7,7 +7,7 @@ type GrantItemProps = {
   grant: FilterSpec['grant']['items'][0];
 };
 
-export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps) {
+export function GrantItem({ grant: { data: grant, id, body } }: GrantItemProps) {
   return (
     <div
       className="flex flex-col w-full sm:w-[calc(100%/3-(1rem*2/3))] sm:min-w-[320px] flex-grow border-yellow-400 border-l-4"
@@ -17,11 +17,11 @@ export function GrantItem({ grant: { data: grant, slug, body } }: GrantItemProps
         dateTime={`${grant.year}-${grant.month}-${grant.day}`}>
         {`${grant.month}`}.{grant.day}.{grant.year}
       </time>
-      <a href={`/grants/${slug}`} aria-label={`View details for ${grant.name}`}>
+      <a href={`/grants/${id}`} aria-label={`View details for ${grant.name}`}>
         <div className="pl-4 pt-2 pb-5 uppercase font-bold font-mono">{grant.name}</div>
       </a>
       <div className="pl-4 min-h-[150px] text-sm flex-grow">
-        <Markdown children={body} />
+        <Markdown children={body ?? ''} />
       </div>
       {!!grant.country && (
         <div className="uppercase flex items-center pr-2 -ml-[4px] font-mono tracking-wider text-sm border-b border-black w-fit">

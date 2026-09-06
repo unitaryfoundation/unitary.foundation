@@ -6,9 +6,9 @@ type BlogItemProps = {
   post: FilterSpec['blog']['items'][0];
 };
 
-export function BlogItem({ className, post: { data: post, slug } }: BlogItemProps) {
+export function BlogItem({ className, post: { data: post, id } }: BlogItemProps) {
   return (
-    <a href={`/posts/${slug}`} className={cn(['flex flex-col border-l border-black max-sm:bg-gray-200 no-underline font-normal', className])}>
+    <a href={`/posts/${id}`} className={cn(['flex flex-col border-l border-black max-sm:bg-gray-200 no-underline font-normal', className])}>
       <header className="flex flex-col p-2 pl-3 mdpl-4 border-b border-black md:flex-row" aria-hidden="true">
         <time
           className="font-mono max-md:text-lg"

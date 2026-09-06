@@ -1,4 +1,4 @@
-import type { z } from 'astro:content';
+import type { z } from 'astro/zod';
 import { useEffect, type CSSProperties, ReactNode } from 'react';
 import { useWindowSize } from 'react-use';
 import { cn } from '~/util/cn';
@@ -6,7 +6,7 @@ import pupa from 'pupa';
 import social from '~/data/social.json';
 import { useStore } from '@nanostores/react';
 import Button from '~/components/Layout/Header/Navigation/Button';
-import type { navigationSchema } from '~/content/config';
+import type { navigationSchema } from '~/content.config';
 import useIsMenuCramped from '~/hooks/useIsMenuCramped';
 import { navigationActiveSubmenuAtom, navigationOpenAtom } from '~/util/store';
 

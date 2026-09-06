@@ -1,26 +1,24 @@
 ---
 import Layout from '~/layouts/Layout.astro';
-import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
 import PostComments from '~/components/Pages/Blog/PostComments.astro';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
 
   return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { slug: entry.slug },
+    params: { slug: entry.id },
+    props: { entry },
   }));
 }
 
 export interface Props {
-  slug: CollectionEntry<'blog'>['slug'];
+  entry: CollectionEntry<'blog'>;
 }
 
-const { slug } = Astro.props;
+const { entry } = Astro.props;
 
-const entry = await getEntry('blog', slug);
-
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const { title, author, day, month, year } = entry.data;
 ---
