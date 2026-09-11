@@ -38,7 +38,7 @@ export default defineConfig({
     '/talks.html': '/community/events',
     '/meetup': '/community/events',
     '/meetup.html': '/community/events',
-    '/community/unitaryCON': '/community/2025/unitaryCON',
+    '/community/unitaryCON': '/community/2026/unitaryCON',
   },
   integrations: [mdx(), react(), dotHtmlRedirects()],
   markdown: {
