@@ -11,16 +11,14 @@
     @apply w-full min-w-[32rem] border-collapse;
   }
 
-  .schedule :global(th),
+  .schedule :global(thead) {
+    @apply sr-only;
+  }
+
   .schedule :global(td) {
     @apply border-b border-gray-300 px-3 py-3 text-left align-top;
   }
 
-  .schedule :global(th) {
-    @apply border-black font-mono uppercase;
-  }
-
-  .schedule :global(th:first-child),
   .schedule :global(td:first-child) {
     @apply w-px whitespace-nowrap;
   }
