@@ -3,6 +3,8 @@ layout: '~/layouts/Layout.astro'
 title: 'unitaryCON'
 ---
 
+import Schedule from '~/components/Pages/UnitaryCon/Schedule.astro';
+
 <p align="center">
   <img src="/images/2026_unitaryCON.png" style="width: 100%" alt="unitaryCON 2026 logo"/>
 </p>
@@ -22,29 +24,58 @@ For information on the unitaryCON code of conduct, please visit our [GitHub](htt
 <br /><br />
 
 <p class="text-2xl mb-3"><mark>Schedule</mark>  overview</p>
+
 ### **Kickoff: Thursday September 17th**
 Welcome Event at Xanadu from 5\:00pm to 9\:00pm<br />
-_What to expect:_ 
-- Come prepared with a 1-minute intro to yourself! 
-- Poster session (call for posters coming soon) 
-- A mini hackathon... 
-- Drinks, snacks, and plenty of networking opportunities
-<br />
+
+<Schedule>
+
+| Time | Session |
+| :--- | :--- |
+| **5\:00 PM - 5\:30 PM** | Check-in / Networking |
+| **5\:30 PM - 6\:00 PM** | Welcome Remarks |
+| **6\:00 PM - 7\:00 PM** | Minihack announcements + open time to code |
+| **7\:00 PM - 9\:00 PM** | Poster sessions + Networking |
+
+</Schedule>
+
+---
+
 ### **Main Event Day: September 18th**
 Full day at Xanadu from 10\:00am to 6\:00pm<br />
-_What to expect:_ 
-- Come prepared with a 1-minute intro to yourself! 
-- Demos of open source tools and breakout sessions on topics that are the most pressing for our community
-- Highlights of the local, Toronto and Waterloo-based quantum ecosystems 
-- Opportunities to meet potential collaborators, users, contributors, and colleagues within our community 
-<br />
-### **Closing events: September 19th**
-Half day at our partnering universities from 10\:00am to 2\:00pm<br />
-_What to expect:_ 
-- Campus and lab tours 
-- Chances to meet colleagues who are local to Toronto 
-<br /><br />
-<p class="text-2xl mb-3">Other <mark>event details</mark></p>
+
+<Schedule>
+
+| Time | Session |
+| :--- | :--- |
+| **9\:30 AM - 10\:00 AM** | Check-in / Networking |
+| **10\:00 AM - 11\:00 AM** | **Intro Talks by UF staff and guest speakers**<br />• Welcome – Veena Vijayakumar<br />• Intro to Unitary Foundation – Ben Castanon<br />• Intro to Xanadu – Catalina Albornoz<br />• Intro to Open Quantum Design – Benjamin MacLellan |
+| **11\:00 AM - 11\:15 AM** | BREAK |
+| **11\:15 AM - 12\:00 PM** | **Lightning Intros** (1-min talks)<br />• What are you about?<br />• What are you currently working on?<br />• What would you like from the community? |
+| **12\:00 PM - 1\:00 PM** | Lunch Break / Networking |
+| **1\:00 PM - 2\:00 PM** | **Featured Talks / Breakout Sessions** (7-min talks)<br />• Avi Elazari + Matan Vax (Classiq)<br />• Justin Lietz (NVIDIA)<br />• Kristian Gogora (OrangeQS)<br />• Roger Luo (QuEra)<br />• Victor Onofre (Pasqal)<br />• Sara Metwalli (Riverlane)<br />• Alessandro Cosentino (Metriq, UF)<br />• Brad Chase (Unitary Foundation) |
+| **2\:00 PM - 3\:00 PM** | **Co-Coding / Breakout Sessions**<br />All Featured Speakers + Session Leaders:<br />• Catalina Albornoz (Xanadu)<br />• Ben MacLellan (OQD)<br />• Mathys Rennela + Vincent Russo (UF’s QLDPC Challenge) |
+| **3\:00 PM - 4\:00 PM** | **Lightning Intros Pt. 3** *(if needed)* (1-min talks)<br />• What are you about?<br />• What are you currently working on?<br />• What would you like from the community? |
+| **4\:00 PM - 6\:00 PM** | Open Networking Time |
+
+</Schedule>
+
+---
+
+
+### **Final Day: September 19th**
+Half day at the University of Toronto from 10\:00am to 2\:00pm<br />
+
+<Schedule>
+
+| Time | Session |
+| :--- | :--- |
+| **10\:00 AM - 10\:15 AM** | Group gathers in front of physics building |
+| **10\:15 AM - 11\:15 AM** | **Intro Talks + Group Discussion**<br />• Welcome from Anna Dyring, Quantum Strategic Initiative Lead at CQIQC<br />• Intro to the UofT Quantum Computing Club and QSITE conference with Michael Silver<br />• Presentations from Lab Heads (TBA) |
+| **11\:15 AM - 11\:30 AM** | Group photo! |
+| **11\:30 AM - 12\:30 PM** | Lab Tours |
+
+</Schedule>
 
 ### **DISCORD Server**
 You can stay up to date with the information on unitaryCON on the [Unitary Foundation Discord Server](https://discord.gg/2Y9z9xKKbr) (`#unitarycon-26` channel).
@@ -54,14 +85,12 @@ All participants must adhere to Unitary Foundation's Community [Code of Conduct]
 <br /><br />
 <p class="text-2xl mb-3">unitaryCON <mark>Supporters</mark></p>
 
-Thank you to our members and event sponsors for making unitaryCON possible!
+Thank you to our members and event partners for making unitaryCON possible!
 
 ### EVENT PARTNERS
 <a class="mr-4" href="https://www.xanadu.ai/"><img class="inline-block" src="/images/2026_Xanadu.png" alt="Xanadu logo" style="width:20%" /></a>
 <a class="mr-4" href="https://openquantumdesign.org/"><img class="inline-block" src="/images/2026_OQD.png" alt="OQD logo" style="width:20%" /></a>
 <br /><br />
-### EVENT SPONSORS
-To Be Announced 
 ### CORE MEMBERS
 [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), [Open Quantum Design](https://openquantumdesign.org/), [NVIDIA](https://www.nvidia.com/en-us/)
 <br />
