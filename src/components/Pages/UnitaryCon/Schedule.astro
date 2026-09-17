@@ -1,0 +1,27 @@
+<div class="schedule">
+  <slot />
+</div>
+
+<style>
+  .schedule {
+    @apply my-6 overflow-x-auto;
+  }
+
+  .schedule :global(table) {
+    @apply w-full min-w-[32rem] border-collapse;
+  }
+
+  .schedule :global(th),
+  .schedule :global(td) {
+    @apply border-b border-gray-300 px-3 py-3 text-left align-top;
+  }
+
+  .schedule :global(th) {
+    @apply border-black font-mono uppercase;
+  }
+
+  .schedule :global(th:first-child),
+  .schedule :global(td:first-child) {
+    @apply w-px whitespace-nowrap;
+  }
+</style>
