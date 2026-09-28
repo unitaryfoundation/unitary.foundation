@@ -1,5 +1,5 @@
 ---
-name: "LightStim: A Complete Framework for QEC Protocol Construction, Prototyping, and Benchmarking"
+name: "LightStim - A Complete Framework for QEC Protocol Construction, Prototyping, and Benchmarking"
 year: 2026
 month: 8
 day: 24
