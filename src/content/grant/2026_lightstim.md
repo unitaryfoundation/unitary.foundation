@@ -13,7 +13,7 @@ tags:
 To **Xiang Fang** for **LightStim**, an open-source framework for constructing and evaluating quantum error correction protocols. LightStim provides reusable code patches and atomic operations, automatically generating detectors and logical observables during circuit compilation while preserving QEC semantics. It integrates protocol construction, noise injection, simulation, decoding, and logical error rate estimation across multiple code families.
 
 **Project URLs:**
-Repo: https://github.com/QuTone/LightStim
-Paper: https://arxiv.org/abs/2604.21472
+<br>Repo: https://github.com/QuTone/LightStim
+<br>Paper: https://arxiv.org/abs/2604.21472
 
 **Project Champions:** Jamie Friel, Mathys Rennela
