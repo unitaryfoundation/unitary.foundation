@@ -1,0 +1,74 @@
+---
+const { calendarId } = Astro.props;
+---
+
+<div class="google-calendar" data-calendar-id={calendarId}>
+  <div class="google-calendar__frame">
+    <iframe
+      id="google-calendar-iframe"
+      title="Unitary Foundation Community Calendar"
+      frameborder="0"
+      scrolling="no"></iframe>
+  </div>
+</div>
+
+<script>
+  const calendar = document.querySelector('.google-calendar');
+  const iframe = document.querySelector('#google-calendar-iframe') as HTMLIFrameElement | null;
+
+  if (calendar && iframe) {
+    const calendarId = calendar.getAttribute('data-calendar-id');
+
+    if (calendarId) {
+      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+
+      const params = new URLSearchParams({
+        src: calendarId,
+        ctz: timezone,
+        mode: 'AGENDA',
+        bgcolor: '#F7F8FA',
+        color: '#FFFF00',
+      });
+
+      iframe.src = `https://calendar.google.com/calendar/embed?${params.toString()}`;
+    }
+  }
+</script>
+
+<style>
+  .google-calendar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto 3rem;
+    background: #f7f8fa;
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .google-calendar__frame {
+    width: 100%;
+    background: #f7f80fa;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .google-calendar iframe {
+    display: block;
+    width: 100%;
+    height: 700px;
+    border: 0;
+    background: #f7f8fa;
+  }
+
+  @media (max-width: 768px) {
+    .google-calendar {
+      margin: 1rem auto 2rem;
+      border-radius: 8px;
+    }
+
+    .google-calendar iframe {
+      height: 650px;
+    }
+  }
+</style>

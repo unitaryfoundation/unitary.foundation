@@ -7,10 +7,10 @@ import {
   PageIntro,
   SolidHeading,
   ReducedWidth,
-  AddEventCalendar,
   SocialLink,
   ButtonLink,
 } from '~/components/Ui';
+import GoogleCalendar from '~/components/Ui/GoogleCalendar.astro';
 import Events from '~/components/Pages/Events/Events.astro';
 
 <PageIntro spacingBelow='small'>
@@ -20,7 +20,12 @@ Want to keep up to date with all the cool stuff the Unitary Foundation community
 
 </PageIntro>
 
-<AddEventCalendar id="kn360162" />
+{/* <AddEventCalendar id="kn360162" /> */}
+
+<GoogleCalendar
+  calendarId="bri08d58q2u22odnlu0jqd054bddd2hq@import.calendar.google.com"
+  timezone="Europe/Berlin"
+/>
 
 <ReducedWidth>
   Interested in hosting a community call for your project on our
