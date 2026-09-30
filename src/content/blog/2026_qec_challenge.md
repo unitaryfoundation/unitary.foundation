@@ -41,7 +41,7 @@ The board is a grid: rows are locality classes and columns are check weights, bo
       src="/images/2026_qec_challenge/frontier.gif"
       alt="Animated (n, k) Pareto frontier of the QEC Challenge board by distance floor, June to September 2026" />
   </picture>
-  <figcaption>How the board's frontier grew over the summer. Each panel fixes a minimum distance d; lower n and higher k are better. The staircase is the set of codes nothing else beats. On a phone you see three of the six distance floors; <a href="/images/2026_qec_challenge/frontier.gif" target="_blank" rel="noopener noreferrer">open the full chart</a> for all six.</figcaption>
+  <figcaption>How the board's frontier grew over the summer. Each panel fixes a minimum distance d; lower n and higher k are better. The staircase is the set of codes nothing else beats.</figcaption>
 </figure>
 
 ## Distances are challenged
