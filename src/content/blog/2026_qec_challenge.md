@@ -67,4 +67,4 @@ With all that being said, the best way to get familiar with the challenge is to 
 
 ## Acknowledgements
 
-Thanks to everyone who has submitted, refuted or reviewed a code, and to the participants of the unitaryCON sprint and its hosts at IEEE Quantum Week. This work is supported by NVIDIA and by the Department of Energy's Genesis Mission under the AutoQEC Phase 1 award.
+Thanks to everyone who has submitted, refuted or reviewed a code, and to the participants of the unitaryCON sprint (September 17-19, 2026) and its hosts at IEEE Quantum Week. This work is supported by NVIDIA and by the Department of Energy's Genesis Mission under the AutoQEC Phase 1 award.
