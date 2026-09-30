@@ -32,11 +32,16 @@ To submit a code you submit its parity-check matrices, the distance you think it
 The board is a grid: rows are locality classes and columns are check weights, both computed from what you submitted. Within each cell, entries form a Pareto frontier over n, k, d and w. Your code is a record if nothing there beats it on all four at once, so a cell can hold several records side by side.
 
 <figure>
-  <img
-    style="display:block; margin:auto;"
-    src="/images/2026_qec_challenge/frontier.gif"
-    alt="Animated (n, k) Pareto frontier of the QEC Challenge board by distance floor, June to September 2026" />
-  <figcaption>How the board's frontier grew over the summer. Each panel fixes a minimum distance d; lower n and higher k are better. The staircase is the set of codes nothing else beats.</figcaption>
+  <picture>
+    <source
+      media="(max-width: 767px)"
+      srcset="/images/2026_qec_challenge/frontier-mobile.gif" />
+    <img
+      style="display:block; margin:auto;"
+      src="/images/2026_qec_challenge/frontier.gif"
+      alt="Animated (n, k) Pareto frontier of the QEC Challenge board by distance floor, June to September 2026" />
+  </picture>
+  <figcaption>How the board's frontier grew over the summer. Each panel fixes a minimum distance d; lower n and higher k are better. The staircase is the set of codes nothing else beats. On a phone you see three of the six distance floors; <a href="/images/2026_qec_challenge/frontier.gif" target="_blank" rel="noopener noreferrer">open the full chart</a> for all six.</figcaption>
 </figure>
 
 ## Distances are challenged
