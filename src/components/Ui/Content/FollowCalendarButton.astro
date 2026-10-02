@@ -1,0 +1,134 @@
+---
+const { calendarId } = Astro.props;
+
+const encodedCalendarId = encodeURIComponent(calendarId);
+
+const googleCalendarUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodedCalendarId}`;
+
+const icsUrl = `https://calendar.google.com/calendar/ical/${encodedCalendarId}/public/basic.ics`;
+---
+
+<div class="calendar-add">
+  <button
+    class="calendar-add__button"
+    type="button"
+    aria-expanded="false"
+    aria-controls="calendar-add-menu">
+    FOLLOW CALENDAR
+    <span class="calendar-add__chevron" aria-hidden="true"></span>
+  </button>
+
+  <div id="calendar-add-menu" class="calendar-add__menu" hidden>
+    <a
+      href={googleCalendarUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="calendar-add__item">
+      <span>Google Calendar</span>
+    </a>
+
+    <a href={icsUrl} class="calendar-add__item" download>
+      <span>Apple Calendar / iOS</span>
+    </a>
+
+    <a href={icsUrl} class="calendar-add__item" download>
+      <span>Outlook</span>
+    </a>
+
+    <a href={icsUrl} class="calendar-add__item" download>
+      <span>Download .ics</span>
+    </a>
+  </div>
+</div>
+
+<script>
+  const addButton = document.querySelector('.calendar-add__button') as HTMLButtonElement | null;
+  const addMenu = document.querySelector('#calendar-add-menu') as HTMLElement | null;
+
+  if (addButton && addMenu) {
+    addButton.addEventListener('click', () => {
+      const isOpen = addButton.getAttribute('aria-expanded') === 'true';
+
+      addButton.setAttribute('aria-expanded', String(!isOpen));
+      addMenu.hidden = isOpen;
+    });
+
+    document.addEventListener('click', (event) => {
+      const target = event.target as Node;
+
+      if (!addButton.contains(target) && !addMenu.contains(target)) {
+        addButton.setAttribute('aria-expanded', 'false');
+        addMenu.hidden = true;
+      }
+    });
+  }
+</script>
+
+<style>
+  .calendar-add {
+    position: relative;
+  }
+
+  .calendar-add__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0px;
+    background: black;
+    color: #ffff00;
+    font-family: Space Mono;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      background 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .calendar-add__button:hover {
+    background: #252525;
+    border-color: #ffff00;
+  }
+
+  .calendar-add__chevron {
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .calendar-add__menu {
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    min-width: 201px;
+    padding: 0.4rem;
+    background: #ffffff;
+    border: 1px solid #d9dce1;
+    border-radius: 0px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .calendar-add__item {
+    display: block;
+    padding: 0.7rem 0.8rem;
+    border-radius: 5px;
+    color: #222222;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .calendar-add__item:hover {
+    background: #f1f2f4;
+  }
+
+  .calendar-add__chevron {
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translateY(-2px);
+    transition: transform 0.2s ease;
+  }
+</style>
