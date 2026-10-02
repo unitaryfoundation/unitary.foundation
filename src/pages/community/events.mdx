@@ -12,11 +12,17 @@ import {
 } from '~/components/Ui';
 import GoogleCalendar from '~/components/Ui/GoogleCalendar.astro';
 import Events from '~/components/Pages/Events/Events.astro';
+import YouTube from '~/components/Pages/Events/YouTube.astro';
+import FollowCalendarButton from '~/components/Ui/Content/FollowCalendarButton.astro';
 
 <PageIntro spacingBelow='small'>
 # Unitary Foundation Community Calendar
 
 Want to keep up to date with all the cool stuff the Unitary Foundation community is up to? Take a look at the calendar below and add it to your favorite calendar app!
+
+<FollowCalendarButton
+  calendarId="bri08d58q2u22odnlu0jqd054bddd2hq@import.calendar.google.com"
+/>
 
 </PageIntro>
 
@@ -40,7 +46,7 @@ Want to keep up to date with all the cool stuff the Unitary Foundation community
 
 <ReducedWidth>
 
-On Wednesdays at 5:30PM UTC the Unitary Foundation hosts "Quantum Wednesday" (QW). The event is an hour long and generally pertains to quantum computing related topics. The main types of events are:
+On Wednesdays at `5:30pm` UTC the Unitary Foundation hosts "Quantum Wednesday" (QW). The event is an hour long and generally pertains to quantum computing related topics. The main types of events are:
 
 - Invited speaker
 - Paper review
@@ -54,4 +60,13 @@ The events are hosted on our :social-link-discord[Discord], and are open for all
 
 </ReducedWidth>
 
-<Events />
+{/* <Events /> */}
+{/* 
+<SolidHeading>
+## Latest Videos
+
+</SolidHeading>
+<YouTube
+  channelId="UCDbDLAzGRTHnhkoMMOX7D1A"
+  limit={6}
+/> */}

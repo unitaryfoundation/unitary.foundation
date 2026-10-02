@@ -1,8 +1,14 @@
 ---
 const { calendarId } = Astro.props;
+
+const encodedCalendarId = encodeURIComponent(calendarId);
+
+const googleCalendarUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodedCalendarId}`;
+
+const icsUrl = `https://calendar.google.com/calendar/ical/${encodedCalendarId}/public/basic.ics`;
 ---
 
-<div class="google-calendar" data-calendar-id={calendarId}>
+<div class="google-calendar" data-calendar-id={calendarId}>  
   <div class="google-calendar__frame">
     <iframe
       id="google-calendar-iframe"
@@ -15,6 +21,7 @@ const { calendarId } = Astro.props;
 <script>
   const calendar = document.querySelector('.google-calendar');
   const iframe = document.querySelector('#google-calendar-iframe') as HTMLIFrameElement | null;
+  
 
   if (calendar && iframe) {
     const calendarId = calendar.getAttribute('data-calendar-id');
@@ -33,6 +40,8 @@ const { calendarId } = Astro.props;
       iframe.src = `https://calendar.google.com/calendar/embed?${params.toString()}`;
     }
   }
+
+  
 </script>
 
 <style>
@@ -46,9 +55,16 @@ const { calendarId } = Astro.props;
     font-family: 'Manrope', sans-serif;
   }
 
+  .google-calendar__toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1.25rem;
+    background: white;}
+
+  
   .google-calendar__frame {
     width: 100%;
-    background: #f7f80fa;
+    background: #f7f8fa;
     border-radius: 12px;
     overflow: hidden;
   }
@@ -67,8 +83,29 @@ const { calendarId } = Astro.props;
       border-radius: 8px;
     }
 
+    .google-calendar__toolbar {
+      padding: 0.75rem;
+    }
+
+    .calendar-add__button {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .calendar-add {
+      width: 100%;
+    }
+
+    .calendar-add__menu {
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+
     .google-calendar iframe {
       height: 650px;
     }
   }
+
+ 
 </style>
