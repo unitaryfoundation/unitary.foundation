@@ -1,0 +1,142 @@
+---
+interface YouTubeVideo {
+  id: string;
+  title: string;
+  published: string;
+  link: string;
+  thumbnail: string;
+}
+
+const { channelId, limit = 6 } = Astro.props as {
+  channelId: string;
+  limit?: number;
+};
+
+let videos: YouTubeVideo[] = [];
+
+try {
+  const response = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
+
+  if (response.ok) {
+    const xml = await response.text();
+    const entries = xml.split('<entry>').slice(1);
+
+    videos = entries
+      .slice(0, limit)
+      .map((entry) => {
+        const id = entry.split('<yt:videoId>')[1]?.split('</yt:videoId>')[0];
+
+        const title = entry.split('<title>')[1]?.split('</title>')[0];
+
+        const published = entry.split('<published>')[1]?.split('</published>')[0];
+
+        if (!id || !title || !published) {
+          return null;
+        }
+
+        return {
+          id,
+          title,
+          published,
+          link: `https://www.youtube.com/watch?v=${id}`,
+          thumbnail: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+        };
+      })
+      .filter((video) => video !== null);
+  }
+} catch (error) {
+  console.error('Failed to load YouTube videos:', error);
+}
+---
+
+<section class="youtube-videos">
+  <div class="youtube-grid">
+    {
+      videos.map((video) => (
+        <a href={video.link} target="_blank" rel="noopener noreferrer" class="youtube-card">
+          <img src={video.thumbnail} alt={video.title} loading="lazy" />
+
+          <div class="youtube-card-content">
+            <h3>{video.title}</h3>
+
+            <time datetime={video.published}>
+              {new Date(video.published).toLocaleDateString('en-GB', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
+            </time>
+          </div>
+        </a>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .youtube-videos {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .youtube-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+
+  .youtube-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    background: var(--color-background, #fff);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+    border: 1px solid #000;
+  }
+
+  .youtube-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .youtube-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .youtube-card-content {
+    padding: 1rem;
+  }
+
+  .youtube-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    display: inline;
+    background-color: #ffff00;
+  }
+
+  .youtube-card time {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.7;
+  }
+
+  @media (max-width: 900px) {
+    .youtube-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .youtube-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
