@@ -8,7 +8,7 @@ tags:
   - unitaryCON
   - community
 ---
-The fourth annual [unitaryCON](https://unitary.foundation/community/2026/unitaryCON/) brought together the open-source quantum community in Toronto, Ontario. Put on by Unitary Foundation in partnership with [Xanadu](https://xanadu.ai/) and [Open Quantum Design](https://openquantumdesign.org/), unitaryCON26 provided a dedicated space for about 60 open-source quantum developers, researchers, project maintainers, and enthusiasts to connect, collaborate, and share ideas.
+The fourth annual [unitaryCON](https://unitary.foundation/community/2026/unitaryCON/) brought together the open-source quantum community in Toronto, Ontario. Put on by Unitary Foundation in partnership with [Xanadu](https://xanadu.ai/) and [Open Quantum Design](https://openquantumdesign.org/), unitaryCON26 provided a dedicated space for 70 open-source quantum developers, researchers, project maintainers, and enthusiasts to connect, collaborate, and share ideas.
 
 <figure>
 <img class="not-prose" src="/images/2026_uCON/01.jpg"/>
@@ -17,7 +17,7 @@ The fourth annual [unitaryCON](https://unitary.foundation/community/2026/unitary
 
 This year's unitaryCON took place across three days: a welcome event on the evening of Thursday, September 17th; a full day of presentations, group discussions, and co-coding on Friday, September 18th; and a morning excursion to the University of Toronto’s Physics Campus on Saturday, September 19th. 
 
-During a time when the interactions in our open source community feel like they’re primarily virtual and AI-assisted, we wanted to create a space that challenged the norm. unitaryCON was not only a place to share project updates for feedback, it was also an informal gathering space to build the human connection that underpins the most important open tools in quantum - with music, good food, and even a friendly pingpong competition!
+During a time when the interactions in our open source community feel like they’re primarily virtual and AI-assisted, we wanted to create a space that challenged this "norm". unitaryCON was not only a place to share project updates for feedback, it was also an informal gathering space to build the human connection that underpins the most important open tools in quantum - with music, good food, and even a friendly ping pong competition!
 
 
 ## Program Highlights
@@ -34,7 +34,7 @@ This year we introduced Lightning Intros, an opportunity for each attendee to us
 _"The Lightning Intros format is the strongest single feature. Getting a one-minute snapshot of every attendee's work and ask up front made the next two days feel like a targeted mini-conference rather than a room of strangers." — unitaryCON 2026 Attendee_
 
 
-### Featured Speaker Talks + Breakouts
+### Featured Speaker Talks and Breakouts
 Friday's main program paired short, 7-minute presentations with longer group breakout sessions. Highlighted talks were given by the following speakers throughout the day:
 - Catalina Albornoz (Xanadu)
 - Ben MacLellan (OQD)
@@ -95,7 +95,7 @@ The second was the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-cha
 <figcaption>UF Fellow, Matthys introduces the QEC Challenge</figcaption>
 </figure>
 
-## Community Excursion to UofT
+## Community Excursion to the University of Toronto
 After 2 fantastic days of community-building and technical exchange at the Xanadu offices, we closed out the conference with a group excursion to the University of Toronto. We had presentations from representatives at Xanadu, UofT’s [Center for Quantum Information and Quantum Control](https://cqiqc.physics.utoronto.ca/) (CQIQC), and the student-led [QSITE](https://www.qsiteconf.ca/) conference as well as a few faculty presentations. After the presentations, faculty members and postdocs led lab tours so our community could see what they’re working on right now.
 
 <figure>
@@ -113,7 +113,7 @@ _The socializing time and places made meeting and chatting so fun. Thank you for
 ## Thank You!
 A massive thank you to everyone who made unitaryCON 2026 possible:
 - Our host and event partners at **Xanadu** as well as our event partners at **Open Quantum Design**. Your support through the planning process and throughout the actual event days made this year’s unitaryCON extra fun and extra special. 
--Our **UF members** for continuing to support our community initiatives like unitaryCON: 
+- Our **UF members** for continuing to support our community initiatives like unitaryCON: 
     - **Core** Members: [IBM Quantum](https://www.ibm.com/quantum), [DoraHacks](https://dorahacks.io/), [Open Quantum Design](https://openquantumdesign.org/), [NVIDIA](https://www.nvidia.com/en-us/)
     - **Supporting** Members: [AWS](https://aws.amazon.com/braket/), [Classiq](https://www.classiq.io/), [Microsoft](https://www.microsoft.com/), [Mozilla Foundation](https://foundation.mozilla.org/), [OrangeQS](https://www.orangeqs.com/), [QC Ware](https://www.qcware.com/), [Quantum Machines](https://www.quantum-machines.co/), [Riverlane](https://www.riverlane.com/), [Xanadu](https://www.xanadu.ai/)
 - **All of YOU**: our speakers, breakout leads, challenge creators, and attendees for bringing energy, insight, and open-source spirit to Toronto
