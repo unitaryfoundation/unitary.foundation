@@ -69,12 +69,12 @@ This year we put out a Call for Posters to be presented during the welcome event
 Additionally, we had a table display from our colleagues at Open Quantum Design - a model of the company’s trapped ion quantum computer so attendees could check out how it works!
 
 <figure>
-<img class="not-prose" src="/images/2026_uCON/04.jpg"/>
+<img class="not-prose" src="/images/2026_uCON/04.JPG"/>
 <figcaption>Poster presentation during Thursday’s Welcome Event</figcaption>
 </figure>
 
 <figure>
-<img class="not-prose" src="/images/2026_uCON/05.jpg"/>
+<img class="not-prose" src="/images/2026_uCON/05.JPG"/>
 <figcaption>Ben M. with OQD’s trapped-ion quantum computer model</figcaption>
 </figure>
 
@@ -86,12 +86,12 @@ The first was the [PennyLane Challenge](https://pennylane.ai/challenges/intro_to
 The second was the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-challenge/) put on by the UF team focused on an open leaderboard for human- and AI-discovered quantum error correction codes. While winners have already been chosen for this iteration, contributors are still vying for a chance to be on the leaderboard - check it out and see how far you can make it! 
 
 <figure>
-<img class="not-prose" src="/images/2026_uCON/06.jpg"/>
+<img class="not-prose" src="/images/2026_uCON/06.JPG"/>
 <figcaption>PennyLane Challenge winners with Catalina from Xanadu and Veena from UF</figcaption>
 </figure>
 
 <figure>
-<img class="not-prose" src="/images/2026_uCON/07.jpg"/>
+<img class="not-prose" src="/images/2026_uCON/07.JPG"/>
 <figcaption>UF Fellow, Matthys introduces the QEC Challenge</figcaption>
 </figure>
 
