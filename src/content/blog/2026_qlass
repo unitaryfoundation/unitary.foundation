@@ -1,0 +1,30 @@
+---
+title: Quantum Glass-based Photonic Integrated Circuits (QLASS):
+Advancing Open-Source Software and Hardware Integration
+ 
+author: Nathan Shammah, Farrokh Labib, Mariam Gassama
+day: 9
+month: 4
+year: 2026
+tags: 
+  - research
+  - open source
+  - unitaryhack
+---
+
+## About the software toolkit
+
+- [qlass](https://qlass.readthedocs.io/en/latest/) is a software package for VQE workflows on photonics devices
+- It builds upon and is integrated with key tools in numerical simulation, like SciPy and PySCF, and quantum-specific applications, including Qiskit and Perceval.
+- Recent highlights: The package is integrated with Piquasso and participated in unitaryHACK 2025.
+- [Documentation](https://qlass.readthedocs.io/en/latest/): User guide, API-doc, examples, can be found.
+-  Hackathon: qlass participated in [unitaryHACK 2025](https://2025.unitaryhack.dev/) and was the first project to be completed. 
+- Community: ESA Phi Lab seminar, Deep Tech La Fabrique event, etc.
+
+## About the collaboration
+
+- [QLASS](https://www.qlass-project.eu/) is a collaboration funded by the EU under Horizon Europe (HE).
+- The QLASS consortium meeting was held in Montpellier on March 10, 2026.
+- It is one of the quantum-technology focused programs by HE. In it, UF partners with industry and research institutions to advance the field of quantum technology and its software stack’s integration with EU technology.
+- UF leads WP5, coordinating theory and software work package.
+- So far results have included theoretical and software progress in the field of VQAs applied to photonics and experimental investigations are undergoing.
