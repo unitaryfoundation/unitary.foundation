@@ -130,7 +130,7 @@ The second was the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-cha
 
 <figure>
 <img class="not-prose" src="/images/2026_uCON/07.jpg"/>
-<figcaption>UF Fellow, Matthys introduces the QEC Challenge</figcaption>
+<figcaption>UF Fellow, Mathys introduces the QEC Challenge</figcaption>
 </figure> -->
 
 <div class="image-grid">
