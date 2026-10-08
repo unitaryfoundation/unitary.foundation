@@ -68,6 +68,42 @@ This year we put out a Call for Posters to be presented during the welcome event
 
 Additionally, we had a table display from our colleagues at Open Quantum Design - a model of the company’s trapped ion quantum computer so attendees could check out how it works!
 
+<!-- <figure>
+<img class="not-prose" src="/images/2026_uCON/04.jpg"/>
+<figcaption>Poster presentation during Thursday’s Welcome Event</figcaption>
+</figure>
+
+<figure>
+<img class="not-prose" src="/images/2026_uCON/05.jpg"/>
+<figcaption>Ben M. with OQD’s trapped-ion quantum computer model</figcaption>
+</figure> -->
+
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.image-grid figure {
+  margin: 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="image-grid">
+
 <figure>
 <img class="not-prose" src="/images/2026_uCON/04.jpg"/>
 <figcaption>Poster presentation during Thursday’s Welcome Event</figcaption>
@@ -78,12 +114,26 @@ Additionally, we had a table display from our colleagues at Open Quantum Design 
 <figcaption>Ben M. with OQD’s trapped-ion quantum computer model</figcaption>
 </figure>
 
+</div>
+
 ## Minihacks and Open Coding
 In addition to discussions and presentations, we opened up a few hands-on challenges and open coding opportunities during unitaryCON. 
 
 The first was the [PennyLane Challenge](https://pennylane.ai/challenges/intro_to_resource_estimation) put on by Xanadu, where attendees were encouraged to complete a task focused on resource estimation between Thursday evening and Friday morning. On Friday morning, three winners were chosen at random from a pool of people who completed the challenge. 
 
 The second was the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-challenge/) put on by the UF team focused on an open leaderboard for human- and AI-discovered quantum error correction codes. While winners have already been chosen for this iteration, contributors are still vying for a chance to be on the leaderboard - check it out and see how far you can make it! 
+
+<!-- <figure>
+<img class="not-prose" src="/images/2026_uCON/06.jpg"/>
+<figcaption>PennyLane Challenge winners with Catalina from Xanadu and Veena from UF</figcaption>
+</figure>
+
+<figure>
+<img class="not-prose" src="/images/2026_uCON/07.jpg"/>
+<figcaption>UF Fellow, Matthys introduces the QEC Challenge</figcaption>
+</figure> -->
+
+<div class="image-grid">
 
 <figure>
 <img class="not-prose" src="/images/2026_uCON/06.jpg"/>
@@ -95,10 +145,12 @@ The second was the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-cha
 <figcaption>UF Fellow, Matthys introduces the QEC Challenge</figcaption>
 </figure>
 
+</div>
+
 ## Community Excursion to the University of Toronto
 After 2 fantastic days of community-building and technical exchange at the Xanadu offices, we closed out the conference with a group excursion to the University of Toronto. We had presentations from representatives at Xanadu, UofT’s [Center for Quantum Information and Quantum Control](https://cqiqc.physics.utoronto.ca/) (CQIQC), and the student-led [QSITE](https://www.qsiteconf.ca/) conference as well as a few faculty presentations. After the presentations, faculty members and postdocs led lab tours so our community could see what they’re working on right now.
 
-<figure>
+<!-- <figure>
 <img class="not-prose" src="/images/2026_uCON/08.jpg"/>
 <figcaption> Intro to the day from Anna Dyring, Quantum Strategic Initiative Lead at CQIQC</figcaption>
 </figure>
@@ -106,7 +158,21 @@ After 2 fantastic days of community-building and technical exchange at the Xanad
 <figure>
 <img class="not-prose" src="/images/2026_uCON/09.jpg"/>
 <figcaption>Lab tour given by a doctoral researcher</figcaption>
+</figure> -->
+
+<div class="image-grid">
+
+<figure>
+<img class="not-prose" src="/images/2026_uCON/08.jpg" style="aspect-ratio: 4 / 3; object-fit: cover; width: 100%;"/>
+<figcaption>Intro to the day from Anna Dyring, Quantum Strategic Initiative Lead at CQIQC</figcaption>
 </figure>
+
+<figure>
+<img class="not-prose" src="/images/2026_uCON/09.jpg"/>
+<figcaption>Lab tour given by a doctoral researcher</figcaption>
+</figure>
+
+</div>
 
 _The socializing time and places made meeting and chatting so fun. Thank you for organizing :)) — unitaryCON 2026 Attendee_
 
