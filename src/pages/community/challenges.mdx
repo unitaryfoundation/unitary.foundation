@@ -1,0 +1,42 @@
+---
+layout: '~/layouts/Layout.astro'
+title: Challenges
+metaDescription: Open quantum research challenges and leaderboards from Unitary Foundation and friends. Contribute as a human or point a coding agent at them.
+---
+
+import { PageIntro, ReducedWidth } from '~/components/Ui';
+
+<PageIntro spacingBelow="small">
+# Open research challenges
+
+**These are open, verifiable leaderboards for problems in quantum information. Each one has a clear scoring rule and an automated verifier, so you can contribute yourself or point a coding agent at it.**
+
+</PageIntro>
+
+<ReducedWidth className="mb-16 md:mb-24">
+
+### [ECDSA Fail](https://www.ecdsa.fail/)
+
+Can you break ECDSA? Submit quantum circuit constructions for attacking elliptic curve signatures that beat the best published baseline on qubit count, Toffoli count, and spacetime cost. Run by Eigen Labs.
+
+### [QEC Challenge](https://unitaryfoundation.github.io/qldpc-challenge/index.html)
+
+A public, automatically verified leaderboard for quantum low-density parity-check (qLDPC) codes. Submit a code, the verifier checks its parameters and locality, and it joins a Pareto frontier of physical qubits, logical qubits, distance, and check weight.
+
+### [Metriq](https://metriq.info/)
+
+Community-run benchmarks for quantum computers. Run the open-source `metriq-gym` suite on any device, upload the results, and compare hardware on a single composite Metriq score.
+
+### [QIQCOP Zoo](https://qiqc-op.com/)
+
+The Quantum Information and Quantum Computation Open Problem Zoo: a tagged catalog of open and solved research problems with a JSON API. Propose new problems or submit progress reports backed by preprints.
+
+### [Clifft Compiler Challenge](https://github.com/unitaryfoundation/clifft-challenge)
+
+Improve the circuit optimizer in [Clifft](/research/clifft/), our exact simulator for near-Clifford circuits. Humans and AI agents submit optimizer changes, a harness scores the dense simulation work they save, and each verified improvement becomes the new baseline.
+
+### [Stabilizer Rank Challenge](https://github.com/unitaryfoundation/stabrank)
+
+Find smaller exact stabilizer decompositions of magic states. Describe your decomposition, verify it in exact arithmetic with the `stabrank` toolkit, and open a pull request to claim a record on the [leaderboard](https://unitaryfoundation.github.io/stabrank/).
+
+</ReducedWidth>
