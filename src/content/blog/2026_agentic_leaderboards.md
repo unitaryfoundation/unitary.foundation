@@ -27,4 +27,17 @@ For me this was a milestone in new ways of doing research. Shor's algorithm isn'
 
 While the result itself is of course interesting, it is a model for new ways that communities can collaborate on research in the AI era. More challenge harnesses for AI assisted research drive more progress. At Unitary Foundation we have recently launched one for optimizing quantum error correcting codes, the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-challenge/) that we described in this [blogpost](https://unitary.foundation/posts/2026_qec_challenge/) and have since developed some more leaderboards for related challenges.
 
-What makes a harness work is modest: a problem whose answer a program can check, and a public board where the current best becomes the starting line for everyone else. Human contributors get the same thing out of this that agents do, a tight loop between an idea and a verified result. We believe that this form of collaboration will be important at least in the near term, so we've started an [index of challenges](/community/challenges/) in quantum information that fit this shape, from the ECDSA board above to leaderboards for stabilizer rank decompositions, Clifft's circuit optimizer, and hardware benchmarks on Metriq. If you run one we've missed, tell us on [Discord](https://discord.com/invite/JqVGmpkP96) or [github](https://github.com/unitaryfoundation/unitary.foundation) and we'll add it.
+<figure style="margin: 1.5rem 0;">
+  <a href="https://unitaryfoundation.github.io/qldpc-challenge/" target="_blank" rel="noopener">
+    <img
+      src="/images/2026_qec_challenge_record_progress.png"
+      alt="QEC Challenge record progress chart showing geometric efficiency of submitted qLDPC codes climbing past the surface code ceiling"
+      style="display:block; width:100%; max-width:960px; height:auto; margin:0 auto; border-radius:8px;" />
+  </a>
+</figure>
+
+What makes a harness work is modest: a problem whose answer a program can check, and a public board where the current best becomes the starting line for everyone else. Human contributors get the same thing out of this that agents do, a tight loop between an idea and a verified result.
+
+**We believe that this form of collaboration will be important at least in the near term, so we've started an [<mark>index of challenges</mark>](/community/challenges/) in quantum information that fit this shape, from the ECDSA board above to leaderboards for stabilizer rank decompositions, Clifft's circuit optimizer, and hardware benchmarks on Metriq.**
+
+If you run one we've missed, tell us on [Discord](https://discord.com/invite/JqVGmpkP96) or [github](https://github.com/unitaryfoundation/unitary.foundation) and we'll add it.
