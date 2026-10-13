@@ -14,6 +14,15 @@ There's been a phase transition since approximately Spring 2026 in quantum infor
 
 In April, [Google showed](https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/) how to reduce the size of the quantum program needed to break practical elliptic curve cryptography by 20X. To disclose this responsibly, they didn't release the explicit new programs, but rather released a zero-knowledge proof that they had sufficiently small programs to match their claims. In May, a decentralized community adopted the code for this zero-knowledge proof checker as a validator for an AI harness, building a leaderboard called [ecdsa.fail](https://www.ecdsa.fail/) for the open source community to improve on the results. The AI-assisted community not only replicated Google's results, but has now developed the Pareto best performance on these algorithms at 68%+ better than Google's.
 
+<figure style="margin: 1.5rem 0;">
+  <a href="https://www.ecdsa.fail/" target="_blank" rel="noopener">
+    <img
+      src="/images/2026_ecdsa_fail_leaderboard.png"
+      alt="The ecdsa.fail leaderboard showing the community frontier 68.6% ahead of Google's classified circuit"
+      style="display:block; width:100%; max-width:960px; height:auto; margin:0 auto; border-radius:8px;" />
+  </a>
+</figure>
+
 For me this was a milestone in new ways of doing research. Shor's algorithm isn't a niche, unexplored problem. It has been a key motivating quantum computing application for over 30 years, so seeing AI models push this frontier is a big deal. 
 
 While the result itself is of course interesting, it is a model for new ways that communities can collaborate on research in the AI era. More challenge harnesses for AI assisted research drive more progress. At Unitary Foundation we have recently launched one for optimizing quantum error correcting codes, the [QEC Challenge](https://unitaryfoundation.github.io/qldpc-challenge/) that we described in this [blogpost](https://unitary.foundation/posts/2026_qec_challenge/) and have since developed some more leaderboards for related challenges.
