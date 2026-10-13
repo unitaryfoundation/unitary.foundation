@@ -1,7 +1,7 @@
 ---
 title: Agentic leaderboards for quantum information research
 author: Will Zeng
-day: 9
+day: 13
 month: 10
 year: 2026
 tags:
