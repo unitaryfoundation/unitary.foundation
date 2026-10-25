@@ -1,0 +1,81 @@
+---
+interface Props {
+  url: string;
+  alt: string;
+  maxWidth?: string;
+}
+
+const { url, alt, maxWidth = '300px' } = Astro.props;
+
+let imageUrl = '';
+
+try {
+  const response = await fetch(url);
+
+  if (response.ok) {
+    const html = await response.text();
+    const ogImage =
+      html.match(/<meta[^>]+(?:property|name)=["']og:image["'][^>]+content=["']([^"']+)["']/i) ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']og:image["']/i);
+
+    if (ogImage) {
+      imageUrl = new URL(ogImage[1], url).href;
+    }
+  }
+} catch (error) {
+  console.error(`Could not retrieve OG image from ${url}`, error);
+}
+---
+
+<a class="website-preview" href={url} target="_blank" rel="noopener noreferrer">
+  {imageUrl ? <img src={imageUrl} alt={alt} /> : <span>{alt} (Preview image unavailable)</span>}
+</a>
+
+<style>
+  .website-preview {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    background: #fff;
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease,
+      border-color 0.25s ease;
+  }
+
+  .website-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.35s ease;
+  }
+
+  .website-preview:hover {
+    transform: translateY(-5px);
+    border-color: #6b7280;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+  }
+
+  .website-preview:hover img {
+    transform: scale(1.03);
+  }
+
+  .website-preview:focus-visible {
+    outline: 2px solid #6b7280;
+    outline-offset: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .website-preview,
+    .website-preview img {
+      transition: none;
+    }
+
+    .website-preview:hover,
+    .website-preview:hover img {
+      transform: none;
+    }
+  }
+</style>
