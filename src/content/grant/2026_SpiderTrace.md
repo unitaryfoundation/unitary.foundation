@@ -7,9 +7,10 @@ country: TW
 tags:
   - error correction
   - zx calculus
+  - machine learning
 ---
 
-To **Hope Getu** for **SpiderTrace**, a Graph Neural Network-based quantum error correction decoder that introduces a new training method using ZX-calculus Pauli fault propagation traces as auxiliary supervision.
+To **Hope Getu** for **SpiderTrace**, a Graph Neural Network-based quantum error correction decoder that explores using ZX-calculus Pauli fault propagation traces as auxiliary supervision during training.
 
 **Project URL:** https://github.com/Hope-Alemayehu/SpiderTrace
 
