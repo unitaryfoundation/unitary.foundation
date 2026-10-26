@@ -12,8 +12,9 @@ import {
 } from '~/components/Ui';
 import GoogleCalendar from '~/components/Ui/GoogleCalendar.astro';
 import Events from '~/components/Pages/Events/Events.astro';
-// import YouTube from '~/components/Pages/Events/YouTube.astro';
+import YouTube from '~/components/Pages/Events/YouTube.astro';
 import FollowCalendarButton from '~/components/Ui/Content/FollowCalendarButton.astro';
+import WebsitePreview from '~/components/Ui/Content/Image/WebsitePreview.astro';
 
 <PageIntro spacingBelow='small'>
 # Unitary Foundation Community Calendar
@@ -60,12 +61,79 @@ The events are hosted on our :social-link-discord[Discord], and are open for all
 </ReducedWidth>
 
 {/* <Events /> */}
-{/* 
+<br /><br />
 <SolidHeading>
 ## Latest Videos
-
 </SolidHeading>
+<ReducedWidth>
+Check out our latest videos from the Unitary Foundation YouTube channel, including recordings of Quantum Wednesday talks and other community events.
+</ReducedWidth>
 <YouTube
   channelId="UCDbDLAzGRTHnhkoMMOX7D1A"
   limit={6}
-/> */}
+/>
+<br /><br />
+<SolidHeading>
+## Event Highlights
+</SolidHeading>
+<ReducedWidth>
+UF holds annual community events, some highlighted below. We hope you'll take part in the next iteration. Join our newsletter to be the first to know when the next event is coming!
+<br />
+</ReducedWidth>
+
+<div class="project-grid">
+
+  <div class="project-column">
+
+    ### unitaryHACK
+    <br />
+    <WebsitePreview
+      url="https://unitaryhack.dev/"
+      alt="unitaryHACK"
+    />
+    <br />
+    <span>Previous editions:</span>
+
+    - [unitaryHACK 2025](https://2025.unitaryhack.dev/)
+    - [unitaryHACK 2024](https://2024.unitaryhack.dev/)
+    - [unitaryHACK 2023](https://2023.unitaryhack.dev/)
+    - [unitaryHACK 2022](https://2022.unitaryhack.dev/)
+    - [unitaryHACK 2021](https://2021.unitaryhack.dev/)
+
+  </div>
+
+  <div class="project-column">
+
+    ### unitaryDESIGN
+    <br />
+    <WebsitePreview
+      url="https://unitary.design/"
+      alt="unitaryDESIGN"
+    />
+
+  </div>
+
+</div>
+
+<style>{`
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .project-column {
+    min-width: 0;
+  }
+
+  .project-column img {
+    width: 100%;
+  }
+
+  @media (max-width: 640px) {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+`}</style>
