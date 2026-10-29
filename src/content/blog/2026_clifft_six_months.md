@@ -1,8 +1,8 @@
 ---
 title: "Clifft, six months in"
 author: Brad Chase
-day: 1
-month: 11
+day: 30
+month: 10
 year: 2026
 tags:
     - simulation
@@ -16,7 +16,7 @@ Six months ago, we [introduced Clifft](https://unitary.foundation/posts/2026_cli
 
 ![Clifft logo](/images/2026_clifft_six_months/clifft_logo_small.png)
 
-Since launch, Clifft has recorded **nearly 35,000 [PyPI downloads](https://pepy.tech/projects/clifft?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=weekly&viewType=line&versions=Total%2C0.*)**, and its [paper](https://arxiv.org/abs/2604.27058) has been cited **[18 times](https://inspirehep.net/literature/3150655)**.
+Since launch, Clifft has recorded **more than 35,000 [PyPI downloads](https://pepy.tech/projects/clifft?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=weekly&viewType=line&versions=Total%2C0.*)**, and its [paper](https://arxiv.org/abs/2604.27058) has been cited **[18 times](https://inspirehep.net/literature/3150655)**.
 
 Clifft itself has become faster, gained richer noise models, and added new execution modes. Alongside that technical progress, we have been developing a way of working: using AI agents to continually integrate advances across the field into a dependable research tool.
 
@@ -28,7 +28,7 @@ The central idea behind Clifft is to avoid paying dense state-vector costs for q
 
 *See [benchmark methodology](https://unitaryfoundation.github.io/clifft/stable/guide/performance/) for execution settings and measurement details.*
 
-Clifft also has experimental [HIP](https://unitaryfoundation.github.io/clifft/stable/development/hip-backend/) and [CUDA](https://unitaryfoundation.github.io/clifft/stable/development/cuda-backend/) GPU backends, with HIP contributions from [Jose Manuel Monsalve Diaz](https://github.com/josemonsalve2) at AMD. GPUs offer substantial compute and memory bandwidth, but Clifft’s active state vector can grow and shrink dynamically within a single circuit. When the active state is tiny, processing many shots independently in parallel is a natural fit. As it grows, GPU threads can cooperate on states held in fast shared memory; when it gets very large, execution shifts to parallel updates in global device memory. Learning how best to adapt GPU execution as a circuit moves between these regimes is part of the work ahead.
+Clifft also has experimental [HIP](https://unitaryfoundation.github.io/clifft/stable/development/hip-backend/) and [CUDA](https://unitaryfoundation.github.io/clifft/stable/development/cuda-backend/) GPU backends, with HIP contributions from [Jose Manuel Monsalve Diaz](https://github.com/josemonsalve2) at [AMD](https://www.amd.com/). GPUs offer substantial compute and memory bandwidth, but Clifft’s active state vector can grow and shrink dynamically within a single circuit. When the active state is tiny, processing many shots independently in parallel is a natural fit. As it grows, GPU threads can cooperate on states held in fast shared memory; when it gets very large, execution shifts to parallel updates in global device memory. Learning how best to adapt GPU execution as a circuit moves between these regimes is part of the work ahead.
 
 To bring simulations closer to real hardware, Clifft now models [leakage and loss noise](https://unitaryfoundation.github.io/clifft/stable/guide/leakage-and-loss/), including state-dependent transitions and their back-action on the remaining quantum state. This makes it possible to study how hardware-specific effects, such as atom loss in neutral-atom architectures, impact fault-tolerant strategies. Recent additions allow leaked or lost qubits to disturb their gate partners and let circuits incorporate leakage and loss checks directly into detectors and feedback. Importantly, these features compose seamlessly with the core near-Clifford simulator, giving you the best of both capabilities in a single tool.
 
