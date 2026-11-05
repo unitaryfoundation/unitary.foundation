@@ -1,0 +1,44 @@
+---
+export interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+---
+
+<div class="custom-grid">
+  {
+    title && (
+      <h2 class="font-manrope normal-case md:ml-0 ml-4 font-bold text-xl md:text-2xl">{title}</h2>
+    )
+  }
+  <slot />
+</div>
+
+<style lang="scss" is:global>
+  .custom-grid {
+    p {
+      @apply mb-2 leading-snug;
+    }
+
+    ol {
+      @apply flex flex-wrap leading-6 gap-x-3 text-lg md:pt-6 md:flex-nowrap relative border-b-4 border-b-black;
+
+      li {
+        @apply px-8 pb-7 relative min-h-[200px] mt-8 border-solid border-l-4 border-b-black border-b border-l-black text-base md:text-base md:flex-1 md:mt-0 lg:text-lg md:mb-0 md:min-h-[unset] md:border-b-0;
+
+        &:first-child {
+          @apply mt-5 md:mt-0;
+        }
+
+        &:after {
+          @apply hidden;
+        }
+      }
+    }
+
+    h3 {
+      @apply font-manrope normal-case font-bold;
+    }
+  }
+</style>
