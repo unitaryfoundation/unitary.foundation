@@ -24,7 +24,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v6
         with:
-          node-version: 22
+          node-version: ">=22.23.4 <23"
           package-manager: pnpm@10.33.2
         env:
           PUBLIC_CLOUDINARY_CLOUD_NAME: ${{ vars.PUBLIC_CLOUDINARY_CLOUD_NAME }}
