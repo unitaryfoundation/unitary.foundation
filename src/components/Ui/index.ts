@@ -3,6 +3,7 @@ export { default as ReducedWidth } from './ReducedWidth.astro';
 export { default as PageIntro } from './Content/PageIntro.astro';
 export { default as AboveTheFold } from './Content/AboveTheFold.astro';
 export { default as NumberPoints } from './Content/NumberPoints.astro';
+export { default as CustomGrid } from './Content/CustomGrid.astro';
 export { default as PreIntroText } from './Content/PreIntroText.astro';
 export { default as IntroText } from './Content/IntroText.astro';
 export { default as HomeSection } from './Content/HomeSection.astro';
