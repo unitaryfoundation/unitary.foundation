@@ -69,11 +69,11 @@ Among larger frameworks, Classiq and NVIDIA CUDA-Q also saw major adoption gains
 
 
 ## 🛠️ [Software](https://unitaryfoundation.github.io/survey-2026/#Software)
-To capture how the quantum software stack is evolving across specialized domains, we structured this year’s software section into six focused subsections, including a brand-new deep dive into hybrid workflows: (5.1.) Software for Applications & Tools, (5.2.) Hardware Design & Control, (5.3.) Hybrid Quantum–Classical Workflows (NEW), (5.4.) Quantum Error Correction, (5.5.) High-Performance Computing Software, (5.6.) Resource Estimation. Across these six areas, a few standout trends show how builders are working today:
+To capture how the quantum software stack is evolving across specialized domains, we structured this year’s software section into [six focused subsections](https://unitaryfoundation.github.io/survey-2026/#Software), including a brand-new deep dive into hybrid workflows.
 - In our new subsection on **hybrid workflows**, over half of respondents (52.9%) reported running hybrid quantum–classical workloads over the past year, including 46.8% pairing QPU execution with classical pre- and post-processing, and 36.8% running iterative QPU–classical loops. Scaling those workloads still hits real-world friction, led by limited QPU access (54.5%), cost (41.8%), and limited GPU/HPC access (37.0%).
 - After sitting flat around ~20% in 2024 (19.8%) and 2025 (20.9%), **resource estimation** usage jumped to 33.4% in 2026. Led by PennyLane (54.4%) and Qualtran (14.2%), developers are using these tools primarily to pinpoint algorithmic bottlenecks (61.8%), benchmark performance (59.6%), and estimate hardware runtimes (57.5%).
 - Roughly a third of respondents use **Quantum Error Correction software** and **HPC software**, while 27.9% use tools for **hardware design and low-level control** (up from 23.5% in 2025).
-- Across every software category, developers rank **quality of results (#1)** and **ease of use (#2)** as their top priorities, while **price/economical cost (51.3%)** reached a five-year high as the #1 barrier to adopting new tools even as poor documentation dropped sharply as a pain point (from 50.6% in 2024 to 29.7% in 2026).
+- Across every software category, developers rank **quality of results (#1)** and **ease of use (#2)** as their top priorities, while **price/economical cost (51.3%)** reached a five-year high as the #1 barrier to adopting new tools even as poor documentation dropped sharply as a pain point (from 50.8% in 2024 to 29.7% in 2026).
 
 
 
