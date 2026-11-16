@@ -8,7 +8,7 @@ tags:
   - survey
   - community
 ---
-<a href="https://unitaryfoundation.github.io/survey-2025/" target="_blank"><img src="/images/2025_qoss_banner.png"></a>
+<a href="https://unitaryfoundation.github.io/survey-2026/" target="_blank"><img src="/images/2026_survey.png"></a>
 
 Unitary Foundation is thrilled to share the results of the [2026 Quantum Open Source Software (QOSS) Survey](https://unitaryfoundation.github.io/survey-2026/), which is now in its **fifth consecutive year**.
 This year saw our biggest turnout yet, drawing **1,878 respondents across 87 countries**, a 32% jump from 2025 (1,420) and more than double our inaugural 2022 cohort (826)!
