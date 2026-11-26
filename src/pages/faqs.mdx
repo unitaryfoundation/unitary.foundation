@@ -6,24 +6,84 @@ contained: true
 
 import { PageIntro, QuestionAnswer } from '~/components/Ui';
 
-<PageIntro onlyTitle>
-  F.A.Q.
+<PageIntro>
+
+ # Microgrant App Prep + FAQs
+
+The Unitary Foundation microgrant program was created to empower researchers, developers, and explorers in the quantum tech open source space. Since 2018, we’ve been backing community members as they build out open source repositories, libraries, and tools to help the ecosystem evolve and grow. 
+
+Each year, we receive hundreds of proposals, and while our advisory committee carefully reviews every single one, our cohort sizes are small—typically around 20 grants per year. To put your best foot forward, we recommend reviewing the guidance on this page before submitting your application. While following these tips does not guarantee funding, it will help you submit a strong proposal and receive valuable feedback from our expert panel.
+
 </PageIntro>
+
+## Application Guidelines and Eligibility Requirements
+
+<QuestionAnswer.Accordion>
+<QuestionAnswer.Question>
+  1. Project Differentiation and Context
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+  _To help us understand where your work fits into the quantum landscape, your proposal must demonstrate a clear awareness of the existing ecosystem._
+- **Landscape Awareness:** Identify existing projects, libraries, or tools that address similar problems or perform comparable functions (including non-quantum software where relevant).
+- **Clear Value Proposition:** Explain how your project differentiates itself—whether through performance, improved accessibility, novel architecture, distinct features, or targeting a specific underserved use case.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+  2. Ecosystem and Broader Impact
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+  _UF microgrants prioritize projects that advance and strengthen the quantum open source ecosystem as a whole._
+- **Demonstrated Demand:** Show evidence of an existing or burgeoning community of users, developers, or researchers who will actively use your tool or build upon your work.
+- **Scope for Research Projects:** Standalone or individual academic research projects are generally outside our microgrant scope unless you clearly articulate how the work will directly enable others in the community to advance their research or develop open-source software.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+  3. Corporate or Commercial Project Dependencies
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+  _If your proposal builds on, extends, or relies on an existing project owned by a commercial entity or company (e.g., PennyLane, Qiskit, Deltakit, etc.):_
+- **Demonstrate Prior Engagement:** Provide evidence of prior interaction with the project maintainers or company (e.g., GitHub discussions, pull requests, issue contributions, or a recommendation from a project maintainer).
+- **Explain Funding Context:** Briefly explain why the managing entity or company cannot fund your work directly, helping our review committee understand where microgrant support creates unique impact.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+  4. Video Submission Guidelines and Requirements
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+  _A short explanatory video is a required component of your application._
+- **Mandatory Submission:** Applications submitted without a video will automatically be marked as incomplete and will not be reviewed.
+- **Language and Subtitles:** Videos must be recorded in English, or include clear English language subtitles if recorded in another language. (Note: If awarded a grant, project leads are expected to participate in advisory check-ins in English, or provide an English interpreter.)
+- **Human-Created Content:** Video submissions must be recorded by human applicants. Fully AI-generated videos are not accepted.
+</QuestionAnswer.Answer>
+
+<QuestionAnswer.Question>
+  5. Use of AI Assistance in Applications
+</QuestionAnswer.Question>
+<QuestionAnswer.Answer>
+  _We value authenticity and clear, direct communication regarding your work._
+- **Deprioritization:** Applications that appear primarily AI-generated may receive lower priority unless applicants disclose how AI tools were used.
+- **Transparency:** If AI tools assisted with drafting or editing, include a short disclosure describing the assistance.
+</QuestionAnswer.Answer>
+</QuestionAnswer.Accordion>
+
+
+
+
+## Frequently Asked Questions (FAQs)
 
 <QuestionAnswer.Accordion>
 <QuestionAnswer.Question>
   Can anyone apply for a grant?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-  Yes - applicants can be any age and from any country. No credentials are
-  required.
+  Almost - applicants can be any age and from any country that is not sanctioned by the US government at the time of award. No credentials are required.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
 What type of project qualifies for consideration?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-We are interested in projects that leverage and support quantum technology to benefit humanity. Projects are not strictly required to be open source or open publication - though we recommend it as a starting point. It is, however, important to provide a rationale in your application for any exceptions (for example, if you think it'd be best for the world to reserve the IP for a company).
+We are interested in projects that leverage and support open-source quantum technology to benefit humanity. Projects are not strictly required to be open source or open publication - though we recommend it as a starting point. It is, however, important to provide a rationale in your application for any exceptions (for example, if you think it'd be best for the world to reserve the IP for a company).
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
@@ -37,20 +97,20 @@ We prefer projects that can be completed within 3-6 months. However, if there is
 Do I need to start my project immediately when accepted?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-No. We prefer for projects to start within six months of acceptance. If you are planning a scheduled start, then let us know in your proposal. If accepted, then we will send the first batch of funds on your scheduled start.
+No. Though we prefer for projects to start within six months of acceptance. If you are planning a scheduled start, then let us know in your proposal. If accepted, then we will send the first batch of funds on your scheduled start.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
 What happens next if I win?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-We'll publish a list of all the winners on [unitary.foundation](https://unitary.foundation/) and you will receive 50% of your grant up front. Payment will come by Paypal or wire transfer. Additionally, you can opt in to receive expanded access to cloud-based quantum hardware from [Rigetti QCS](https://www.rigetti.com/), [Azure Quantum](https://azure.microsoft.com/en-us/services/quantum/#overview) and [IBM Quantum](https://www.ibm.com/quantum-computing/) (read our blog post about the IBM Quantum benefits [here](https://unitary.foundation/posts/ibmq_access.html)).
+We'll publish a list of all the winners on [unitary.foundation](https://unitary.foundation/) and you will receive 50% of your grant up front. Payment will come by bank transfer.
 
-Around the midpoint of your project, we'll check in with you for a progress update before sending the second half of your grant. Finally, we'll do a follow-up phone call or email upon the completion of your project to hear how it went, and we'll ask you to submit a short summary that can be posted online.
+Around the midpoint of your project, we'll check in with you for a progress update before sending the second half of your grant. Finally, we'll do a follow-up phone call or email upon the completion of your project to hear how it went, and we may ask you to submit a short summary that can be posted online or host a Quantum Wednesday session to share your work with the larger community.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
-What happens at the halfway check-in?
+What happens at the midpoint check-in?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
 We'll have a call with you and our advisors where we want to know:
@@ -74,7 +134,7 @@ We expect this to happen sometimes because we fund risky, early stage projects. 
 What are the key dates for applying?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-There are no key dates! Applications are rolling until all grant money has been allocated.
+There are no key dates! Applications are rolling until all grant money has been allocated for the year.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
@@ -83,7 +143,7 @@ What kind of projects are you looking for?
 <QuestionAnswer.Answer>
 Quantum technology is a nascent field, so we're open-minded. Your project can be:
 
-- contributing to an existing open source project
+- contributing to an existing open source project (please see our note above about contributing to company-owned repositories)
 - creating a new framework or tool
 - researching a new algorithm
 - building a quantum hardware prototype
@@ -102,14 +162,14 @@ In some cases, particularly for projects involving hardware, we know that our gr
 Do you fund projects that are contributions to existing open source packages and not just stand alone projects?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-Yes! In many cases, contributing to an existing project/package will help your work have a lot more impact. We have often recommended this approach to applicants.
+Yes! In many cases, contributing to an existing project/package will help your work have even more impact. We have often recommended this approach to applicants. Please see our note above about contributing to company-owned repositories.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
-How will you select the winners?
+How do you select the grantees?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-We're looking for smart people with interesting ideas that could be useful to the world. We pay extra attention to projects that seem like they won't get funded another way.
+We're looking for smart people with interesting ideas that could be useful to the community. We pay extra attention to projects that seem like they won't get funded another way and show great potential for impact.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
@@ -144,7 +204,7 @@ Yes. Multiple people can apply together as a team. Please fill out a single appl
 Can I apply multiple times?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-Yes, you can apply as often as you like. You can win multiple times, and we will consider repeat funding to continue to grow a project to the next level.
+Yes. But please note that if you are rejected and do not incorporate feedback from the committee into your next application, we will not review the new application. You be awarded multiple times, and we will consider repeat funding to continue to grow a project to the next level.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
@@ -158,7 +218,7 @@ Yes! Thank you for being awesome! If you want to contribute in any way, please e
 Are there any strings attached?
 </QuestionAnswer.Question>
 <QuestionAnswer.Answer>
-The money is a gift. It's not an equity investment or loan, and we won't own any of your intellectual property. Our only request is that you think about how to pay it forward to others.
+Outside of the grant obligations themselves (eg. the midpoint check-in), there are no strings! The money is a gift. It's not an equity investment or loan, and we won't own any of your intellectual property. Our only request is that you think about how to pay it forward to others.
 </QuestionAnswer.Answer>
 
 <QuestionAnswer.Question>
